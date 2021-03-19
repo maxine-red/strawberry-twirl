@@ -12,9 +12,13 @@
 - [ ] nayve verry good mod (doesn't add much, so likely yes)
 - [ ] maybe add ambientsounds mod
 
+- [ ] add an in world guide (small), that covers some important topics (like seasons)
+- [ ] replace stick with guide book in bonus chest
+
 ## Configuration
 
 - [x] reduce zinc vein size and maybe also quantiry
+- [ ] reduce copper vein size and maybe also quantiry
 - [x] add all mod crops to serene seasons list
 
 ## Fluid changes
@@ -58,7 +62,7 @@
 
 ## Compatibility
 
-## Mechanic additions
+### Mechanic additions
 - [ ] add rituals for enchanted books to botnia terraplate thingy
 - [ ] add tip that says that water freezes in winter
 - [ ] also add tips about seasons in general
