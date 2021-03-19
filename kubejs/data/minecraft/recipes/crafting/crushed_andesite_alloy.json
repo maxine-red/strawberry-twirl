@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless","ingredients": [
+    {
+      "item": "exnihilosequentia:pebble_andesite"
+    },
+    {
+      "tag": "forge:nuggets/iron_zinc"
+    },
+    {
+      "item": "exnihilosequentia:pebble_andesite"
+    }
+  ],
+  "result": {
+    "item": "kubejs:crushed_andesite_alloy"
+  }
+}

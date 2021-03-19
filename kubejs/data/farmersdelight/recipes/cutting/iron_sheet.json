@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "tool": {
+    "tag": "exnihilosequentia:hammer"
+  },
+  "result": [
+    {
+      "item": "create:iron_sheet",
+      "count": 1
+    }
+  ]
+}

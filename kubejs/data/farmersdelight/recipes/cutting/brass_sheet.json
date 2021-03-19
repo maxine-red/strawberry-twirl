@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/brass"
+    }
+  ],
+  "tool": {
+    "tag": "exnihilosequentia:hammer"
+  },
+  "result": [
+    {
+      "item": "create:brass_sheet",
+      "count": 1
+    }
+  ]
+}

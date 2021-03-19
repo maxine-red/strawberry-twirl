@@ -1,0 +1,59 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 15, 2021 1:59:07 AM
+
+#ceramics:hot_fluids
+
+#ceramics:cool_fluids
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+- create:flowing_milk
+- create:milk
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:plantoil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+- immersiveengineering:creosote
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- immersiveengineering:potion

@@ -1,0 +1,26 @@
+# Generic folders to ignore
+/.mixin.out/
+/saves/
+/mod_rips/
+/crash-reports/
+/logs/
+/mods/
+/kuvejs/exported/
+/patchouli_books/
+/resourcepacks
+
+# File to ignore
+
+BotaniaVars.dat
+usercache.json
+usernamecache.json
+realms_persistence.json
+options.txt
+servers.dat
+whitelist.json
+ops.json
+
+# Client configs
+
+config/*-client.toml
+defaultconfigs/*-client.toml
