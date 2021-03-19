@@ -42,3 +42,4 @@
 
 ## Mechanic additions
 - [ ] add rituals for enchanted books to botnia altar (works!) (on terrplate thingy, with book and ingredients)
+- [ ] add tip that says that water freezes in winter
