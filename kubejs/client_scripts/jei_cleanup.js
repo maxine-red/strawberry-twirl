@@ -18,6 +18,7 @@ var remove_items = [
 	/quark:cobblestone\w*/,
 	/quark:redstone_\w+/,
 	/quark:\w+_rune/,
+	'quark:cobbedstone_vertical_slab',
 	'quark:ancient_tome',
 	'quark:ender_watcher',
 	'quark:iron_rod',
