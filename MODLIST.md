@@ -1,1 +1,30 @@
-## Enigmatica 6 - 0.4.3 Modlist
+## Vanilla with Strawberry - 0.1.0 ModList
+ - abnormals_core-1.16.5-3.1.1
+ - architectury-1.8.131-forge
+ - astralsorcery-1.16.4-1.13.9
+ - AutoRegLib-1.6-47
+ - Bayou-Blues-1.16.5-1.0.3
+ - Better-Badlands-1.16.5-2.0.3
+ - Bookshelf-1.16.5-10.0.1
+ - Botania-1.16.4-414
+ - create-mc1.16.3_v0.3e
+ - curios-forge-1.16.5-4.0.4.0
+ - diet-forge-1.16.5-0.13
+ - Enhanced-Mushrooms-1.16.5-3.0.6
+ - exnihilosequentia-1.16-2.0.2.3
+ - FarmersDelight-1.16.3-0.3.2
+ - FastWorkbench-1.16.4-4.5.0
+ - FruitTrees-1.16.4-2.3.0
+ - jei-1.16.4-7.6.1.71
+ - Kiwi-1.16.5-3.4.2
+ - kubejs-1605.3.6-build.175-forge
+ - Mantle-1.16.5-1.6.79
+ - observerlib-1.16.4-1.5.1
+ - Patchouli-1.16.4-50
+ - Placebo-1.16.4-4.4.1
+ - Quark-r2.4-308
+ - rhino-1.7.13-build.14
+ - SereneSeasons-1.16.5-4.0.1.91-universal
+ - sophisticatedbackpacks-1.16.4-2.2.4.192
+ - theoneprobe-1.16-3.0.7
+ - Tips-1.16.5-4.0.7
