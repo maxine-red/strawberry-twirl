@@ -1,9 +1,12 @@
 # Vanilla with Strawberry - 0.1.0 Mod list
  - abnormals_core-1.16.5-3.1.1
+ - abnormals_delight-1.16.5-1.0.1
+ - AmbientSounds_v3.1.5_mc1.16.5
  - architectury-1.8.131-forge
  - astralsorcery-1.16.4-1.13.9
  - AutoRegLib-1.6-47
  - Bayou-Blues-1.16.5-1.0.3
+ - berry_good-1.16.4-4.0.0
  - Better-Badlands-1.16.5-2.0.3
  - Bookshelf-1.16.5-10.0.1
  - Botania-1.16.4-414
@@ -11,13 +14,14 @@
  - curios-forge-1.16.5-4.0.4.0
  - diet-forge-1.16.5-0.13
  - Enhanced-Mushrooms-1.16.5-3.0.6
+ - environmental-1.16.5-1.0.0
  - exnihilosequentia-1.16-2.0.2.3
  - FarmersDelight-1.16.3-0.3.2
  - FastWorkbench-1.16.4-4.5.0
  - FruitTrees-1.16.4-2.3.0
  - jei-1.16.4-7.6.1.71
  - Kiwi-1.16.5-3.4.2
- - kubejs-1605.3.6-build.175-forge
+ - kubejs-1605.3.6-build.176-forge
  - Mantle-1.16.5-1.6.79
  - observerlib-1.16.4-1.5.1
  - Patchouli-1.16.4-50
