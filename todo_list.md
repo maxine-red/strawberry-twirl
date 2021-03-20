@@ -41,6 +41,8 @@
 - [x] replace ore drop with ore chunks or chunk pieces (and make it fortune acknowledging)
 - [x] add water group, so you have to sippy (also look over diet effects and such)
 - [x] have andesite, granite and diorite drop cobblestone variants instead
+- [ ] add cobblestone to stone (variants) to campfire cooking
+- [ ] require furnace recipe having a smooth stone base
 - [ ] have pies require crust to made
 - [ ] remove honey glazed gooseberries and jam
 - [ ] remove apples from leave sieving (add sticks, silk worms and respective saplings instead)
