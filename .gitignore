@@ -28,4 +28,6 @@ patchouli_data.json
 # Client configs
 
 config/*-client.toml
+config/*-client.json
 defaultconfigs/*-client.toml
+defaultconfigs/*-client.json
