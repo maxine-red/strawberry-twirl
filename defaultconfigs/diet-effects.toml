@@ -38,10 +38,17 @@
     [[effects.attributes]]
         name = "minecraft:generic.movement_speed"
         operation = "multiply_base"
+        amount = 0.5
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_speed"
+        operation = "multiply_total"
         amount = 0.25
     [[effects.status_effects]]
         name = "minecraft:hunger"
         power = 3
+    [[effects.status_effects]]
+        name = "minecraft:haste"
+        power = 2
     [[effects.conditions]]
         groups = ["sugars"]
         match = "all"
