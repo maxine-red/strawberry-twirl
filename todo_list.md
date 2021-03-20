@@ -11,6 +11,7 @@
 - [x] add abnormals delight
 - [x] add berry good mod
 - [x] add ambientsounds mod
+- [ ] remove theoneprobe, when done
 
 - [ ] add an in world guide (small), that covers some important topics (like seasons)
 - [ ] replace stick with guide book in bonus chest
