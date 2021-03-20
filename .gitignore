@@ -22,6 +22,7 @@ options.txt
 servers.dat
 whitelist.json
 ops.json
+patchouli_data.json
 
 # Client configs
 
