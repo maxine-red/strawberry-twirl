@@ -14,9 +14,12 @@ It's supposed to feel like vanilla Minecraft, but also adds new things. It's ver
 ### Included mods
 
 - [Abnormals Core](https://www.curseforge.com/minecraft/mc-mods/abnormals-core)
+- [Abnormals Delight](https://www.curseforge.com/minecraft/mc-mods/abnormals-delight)
+- [AmbientSounds 3](https://www.curseforge.com/minecraft/mc-mods/ambientsounds)
 - [Architectury API (Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-forge)
 - [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 - [Bayou Blues](https://www.curseforge.com/minecraft/mc-mods/bayou-blues)
+- [Berry Good](https://www.curseforge.com/minecraft/mc-mods/berry-good)
 - [Better Badlands](https://www.curseforge.com/minecraft/mc-mods/better-badlands)
 - [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf)
 - [Botania](https://www.curseforge.com/minecraft/mc-mods/botania)
@@ -24,6 +27,7 @@ It's supposed to feel like vanilla Minecraft, but also adds new things. It's ver
 - [Curios API (Forge)](https://www.curseforge.com/minecraft/mc-mods/curios)
 - [Diet (Forge)](https://www.curseforge.com/minecraft/mc-mods/diet)
 - [Enhanced Mushrooms](https://www.curseforge.com/minecraft/mc-mods/enhanced-mushrooms)
+- [Environmental](https://www.curseforge.com/minecraft/mc-mods/environmental)
 - [Ex Nihilo: Sequentia](https://www.curseforge.com/minecraft/mc-mods/ex-nihilo-sequentia)
 - [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 - [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench)
