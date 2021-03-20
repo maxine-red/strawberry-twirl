@@ -5,21 +5,23 @@
 - [ ] remove unussed items
 - [ ] find and remove duplicate items
 - [ ] unify cooking (use cook pot)
-- [ ] work over diet again
+- [x] work over diet again
 
-- [ ] maybe add environmental mod (if so, abnormals delight would be good, to add additional compat between farmer's delight and this)
-- [ ] very maybe neapolitan mod
-- [ ] nayve verry good mod (doesn't add much, so likely yes)
-- [ ] maybe add ambientsounds mod
+- [x] add environmental mod
+- [x] add abnormals delight
+- [x] add berry good mod
+- [x] add ambientsounds mod
 
 - [ ] add an in world guide (small), that covers some important topics (like seasons)
 - [ ] replace stick with guide book in bonus chest
+
 
 ## Configuration
 
 - [x] reduce zinc vein size and maybe also quantiry
 - [ ] reduce copper vein size and maybe also quantiry
 - [x] add all mod crops to serene seasons list
+- [ ] remove quark big cavern thingy in config
 
 ## Fluid changes
 
@@ -59,6 +61,9 @@
 - [ ] add fruittrees fruits as tag entries to where fitting other fruits are used
 - [ ] replace ingots with iron sheets for bucket
 - [ ] look through ingot recipes and see what should be replaced with sheets
+- [ ] remove environmental cherries from environmental cherry leaves
+- [ ] remove cherry item and pull tags over
+- [ ] remove rice and pull and pull tags over
 
 ## Compatibility
 
