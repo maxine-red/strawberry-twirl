@@ -20,12 +20,14 @@ Dir.chdir("#{pwd}/build") do
   manifest.store(:manifestType, "minecraftModpack")
   manifest.store(:manifestVersion, 1)
   manifest.store(:name, settings[:name])
-  manifest.store(:version, settings[:version])
+  version = `git tag`.split($/).map{|v|v.sub(/^v/, '')}.sort_by{|v|Gem::Version.new(v)}.last
+  manifest.store(:version, version)
   manifest.store(:author, settings[:author])
-  modlist = ["# Vanilla with Strawberry - #{settings[:version]} Mod list"]
+  modlist = ["# Vanilla with Strawberry - #{version} Mod list"]
   mod_files = []
   modlist_html = ['<ul>']
   $stdout.puts "Fetching mod data..." if $stdout.tty?
+  mod_list = Dir["#{pwd}/mods/*.jar"].map{|f|File.basename(f)}
   JSON.parse(File.read("#{pwd}/mods.json"), symbolize_names: true)[:ids].each do |mod|
     begin
       mod_data = JSON.parse(URI.parse("https://api.cfwidget.com/#{mod}").read, symbolize_names: true)
@@ -40,7 +42,8 @@ Dir.chdir("#{pwd}/build") do
       retry
     end
     modlist_html << "<li><a href=\"#{mod_data[:urls][:curseforge]}\">#{mod_data[:title]} (by #{mod_data[:members].first[:username]})</li></a>"
-    mod_file = mod_data[:files].select{|f|['release', 'beta'].include?(f[:type])}.sort_by{|f|f[:id]}.last
+    mod_file = mod_data[:files].select{|f|mod_list.include?(f[:name])}.first
+    newest = mod_data[:files].select{|f|f[:type]==mod_file[:type]}.last
     modlist << " - #{mod_file[:name].sub(/\.jar$/, '')}"
     mod_files << {
       projectID: mod,
@@ -58,6 +61,8 @@ Dir.chdir("#{pwd}/build") do
   sources = ['config/', 'defaultconfigs/', 'kubejs/', 'README.md', 'patchouli_books/']
   Dir.mkdir('overrides')
   `cp -r #{sources.map{|s| "#{pwd}/#{s}"}.join(' ')} overrides/`
-  `zip --exclude=MODLIST.md --exclude=.keep -r #{pwd}/artifacts/#{settings[:name].gsub(' ', '_').downcase}-#{settings[:version]}.zip .`
+  #`zip --exclude=MODLIST.md --exclude=.keep -r #{pwd}/artifacts/#{settings[:name].gsub(' ', '_').downcase}-#{version}.zip .`
   $stdout.puts "Mod making done. Corresponding zip file is in artifacts." if $stdout.tty?
+  File.write('MODCHANGES.md', '# Mod changes' + `diff #{pwd}/MODLIST.md MODLIST.md`.split($/).select{|l|l.match(' - ')}.join('').gsub('< ', $/).gsub('>  - ', ' -> '))
+  $stdout.puts "Check MODCHANGES.md for changes to mods and replace MODLIST.md with new one" if $stdout.tty?
 end
