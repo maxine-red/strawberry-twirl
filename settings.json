@@ -1,0 +1,14 @@
+{
+  "minecraft": {
+    "version": "1.16.5",
+    "modLoaders": [
+      {
+        "id": "forge=36.1.0",
+        "primary": true
+      }
+    ]
+  },
+  "name": "Vanilla with Strawberry",
+  "version": "0.1.0",
+  "author": "maxine-red"
+}

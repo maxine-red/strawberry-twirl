@@ -1,4 +1,4 @@
-## Vanilla with Strawberry - 0.1.0 ModList
+# Vanilla with Strawberry - 0.1.0 Mod list
  - abnormals_core-1.16.5-3.1.1
  - architectury-1.8.131-forge
  - astralsorcery-1.16.4-1.13.9

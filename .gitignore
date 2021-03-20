@@ -7,7 +7,9 @@
 /mods/
 /kuvejs/exported/
 /patchouli_books/
-/resourcepacks
+/resourcepacks/
+/build/
+/artifacts/
 
 # File to ignore
 
