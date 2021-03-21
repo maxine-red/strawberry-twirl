@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["minecraft:smooth_stone", "minecraft:polished_granite", "minecraft:polished_diorite", "minecraft:polished_andesite", "create:polished_limestone", "create:polished_weathered_limestone", "create:polished_gabbro", "create:polished_scoria", "create:polished_dark_scoria"]
+}
