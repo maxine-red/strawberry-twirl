@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:diorite_cobblestone"
+    }
+  ],
+  "tool": {
+    "type": "pickaxe"
+  },
+  "result": [
+    {
+      "item": "exnihilosequentia:pebble_diorite",
+      "count": 4
+    }
+  ]
+}

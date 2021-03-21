@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "create:andesite_cobblestone"
+    }
+  ],
+  "tool": {
+    "type": "pickaxe"
+  },
+  "result": [
+    {
+      "item": "exnihilosequentia:pebble_andesite",
+      "count": 4
+    }
+  ]
+}
