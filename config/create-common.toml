@@ -26,7 +26,7 @@
 			enable = true
 			#No comment
 			#Range: > 0
-			clusterSize = 9
+			clusterSize = 18
 
 		[worldgen.v1.weathered_limestone]
 			#No comment
@@ -60,7 +60,7 @@
 			enable = true
 			#No comment
 			#Range: > 0
-			clusterSize = 7
+			clusterSize = 14
 
 		[worldgen.v1.zinc_ore_desert]
 			#No comment
@@ -77,7 +77,7 @@
 			enable = true
 			#No comment
 			#Range: > 0
-			clusterSize = 7
+			clusterSize = 17
 
 		[worldgen.v1.limestone]
 			#No comment
@@ -128,7 +128,7 @@
 			enable = true
 			#No comment
 			#Range: > 0
-			clusterSize = 7
+			clusterSize = 15
 
 		[worldgen.v1.gabbro]
 			#No comment

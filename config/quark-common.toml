@@ -457,7 +457,7 @@
 		"Max Bounces" = 1
 
 [world]
-	"New Stone Types" = true
+	"New Stone Types" = false
 	"Lush Underground Biome" = true
 	"Big Dungeon" = true
 	Speleothems = true
@@ -470,7 +470,7 @@
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = true
+	Crevices = false
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = false
 	"Realistic World Gen" = false
@@ -667,12 +667,12 @@
 			"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Marble" = true
+		"Enable Marble" = false
 		"Enable Myalite" = true
 		"Enable Jasper" = true
 		"Enable Voidstone" = true
 		"Enable Slate" = true
-		"Enable Limestone" = true
+		"Enable Limestone" = false
 
 		[world.new_stone_types.marble]
 
