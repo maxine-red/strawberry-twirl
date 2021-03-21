@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sss",
+    "mOm"
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sweet_berries"
+    },
+    "m": {
+      "item": "farmersdelight:milk_bottle"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:sweet_berry_cheesecake"
+  }
+}

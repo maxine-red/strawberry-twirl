@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cxc",
+    "mxm",
+    " O "
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "m": {
+      "item": "farmersdelight:milk_bottle"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:chocolate_pie"
+  }
+}

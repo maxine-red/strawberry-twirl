@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Ok",
+    "aaa",
+    "xOx"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "k": {
+      "tag": "forge:tools/knives"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:apple_pie"
+  }
+}
