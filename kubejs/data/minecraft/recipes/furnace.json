@@ -10,7 +10,7 @@
       "tag": "forge:cobblestone"
     },
     "x": {
-      "item": "minecraft:smooth_stone"
+      "tag": "forge:polished_stone"
     }
   },
   "result": {
