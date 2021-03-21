@@ -43,7 +43,49 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick"
+          "name": "patchouli:guide_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{'patchouli:book':'patchouli:strawberry_guide'}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots"
         }
       ]
     }
