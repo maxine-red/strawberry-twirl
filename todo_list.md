@@ -67,7 +67,7 @@
 - [ ] add recipe to get grains from cutting wheat, then grind grains to get flour, then use water to make dough out of it and cook it for bread
 - [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
 - [ ] add recipes for aternative stones (quark)
-- [ ] have all create stone variants drop cobblestone instead of itself
+- [ ] have all create/botania stone variants drop cobblestone instead of itself
 - [ ] add marble from diorite to (use tranmutation from botania, with a tranmutaion catalyst)
 - [ ] look through ingot recipes and see what should be replaced with sheets
 - [ ] add recipes to make stone variants, that don't spawn in world (using botania)
