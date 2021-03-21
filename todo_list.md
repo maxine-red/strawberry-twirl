@@ -52,27 +52,32 @@
 - [x] add recipes for salt -> water variant it comes from
 - [x] have pies require crust to made
 - [x] add fruittrees fruits as tag entries to where fitting other fruits are used
+- [x] look through ingot recipes and see what should be replaced with sheets
 - [ ] add slab recombination recipes (best done via code though)
 - [ ] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
 - [ ] add tool variations for missing metals (maybe also for other things, like flint and lapis?)
 - [ ] remove crushed stone variants from jei, creation recipes and used recipes
-- [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling (only vanilla)
+- [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling of all cobble variants
 - [ ] add all polished stone variants to sandpaper crafting (and keep them on stonecutting)
 - [ ] remove quark overlap with other mods (astral sorcery (marble) and create (at least limestone))
 - [ ] deal with ex nihilo crucible heating
 - [ ] remove honey glazed gooseberries and jam
 - [ ] remove apples from leave sieving (add sticks, silk worms and respective saplings instead)
-- [ ] add crushing wheel recipes for hammer recipes
+- [ ] add crushing wheel recipes for all hammer recipes
 - [ ] remove ancient tome from jei
 - [ ] add recipe to get grains from cutting wheat, then grind grains to get flour, then use water to make dough out of it and cook it for bread
 - [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
 - [ ] add recipes for aternative stones (quark)
 - [ ] have all create/botania stone variants drop cobblestone instead of itself
-- [ ] add marble from diorite to (use tranmutation from botania, with a tranmutaion catalyst)
-- [ ] look through ingot recipes and see what should be replaced with sheets
 - [ ] add recipes to make stone variants, that don't spawn in world (using botania)
 - [ ] add manasteel plate (used in places where mana steel gets used like iron ingot, that's replaced by iron plates)
+- [ ] add terra steel plate (used in places where mana steel gets used like iron ingot, that's replaced by iron plates)
+- [ ] add pink steel thing plate (used in places where mana steel gets used like iron ingot, that's replaced by iron plates)
 - [ ] add terraplate rituals for calendar and season detector, using all seasonal runes and an emppty map/light detector
+- [ ] add living rock -> marble botania catalyst recipe
+- [ ] remove coral hammer recipes
+- [ ] remove all ex nihilo composting recipes
+- [ ] remove ex nihilo copper ingot recipe and item from jei
 
 - [ ] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 
@@ -120,5 +125,9 @@ For stone tools, instead of using stone, use flints in place of where usually pl
 
 ### Mechanic additions
 - [ ] add rituals for enchanted books to botnia terraplate thingy
+  - use at least one related rune, related items, mana dust, mana steel (or
+    higher grade for rarer and higher levels), mana pearl (or mana diamond) and a book
+  - [ ] Aqua affinity: aquamarine x2, rune of water, mana dust, mana steel, mana
+    pearl, book, 10000 mana
 - [ ] add tip that says that water freezes in winter
 - [ ] also add tips about seasons in general
