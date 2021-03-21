@@ -1,0 +1,12 @@
+{
+  "type": "exnihilosequentia:fluid_transform",
+  "fluidInTank": {
+    "fluid": "minecraft:water"
+  },
+  "catalyst": {
+    "tag": "minecraft:soul_fire_base_blocks"
+  },
+  "result": {
+    "fluid": "kubejs:soul_water"
+  }
+}

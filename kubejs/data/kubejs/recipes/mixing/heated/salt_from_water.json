@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "exnihilosequentia:sea_water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:salt",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

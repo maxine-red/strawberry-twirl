@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "kubejs:soul_water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:soul_salt",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

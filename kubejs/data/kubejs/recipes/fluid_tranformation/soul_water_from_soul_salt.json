@@ -1,0 +1,12 @@
+{
+  "type": "exnihilosequentia:fluid_transform",
+  "fluidInTank": {
+    "fluid": "minecraft:water"
+  },
+  "catalyst": {
+    "item": "kubejs:soul_salt"
+  },
+  "result": {
+    "fluid": "kubejs:soul_water"
+  }
+}

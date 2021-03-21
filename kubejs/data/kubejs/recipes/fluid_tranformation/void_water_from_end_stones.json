@@ -1,0 +1,12 @@
+{
+  "type": "exnihilosequentia:fluid_transform",
+  "fluidInTank": {
+    "fluid": "minecraft:water"
+  },
+  "catalyst": {
+    "tag": "forge:end_stones"
+  },
+  "result": {
+    "fluid": "kubejs:void_water"
+  }
+}
