@@ -66,4 +66,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'astralsorcery:block_transmutation/iron_starmetal'});
 	event.remove({mod: 'theoneprobe'});
 	event.remove({type: 'exnihilosequentia:compost'});
+	event.remove({id: "exnihilosequentia:hammer/ens_gravel"});
+	event.remove({id: "create:milling/cobblestone"});
+	event.remove({id: "farmersdelight:integration/create/mixing/pie_crust_from_mixing"});
 });
