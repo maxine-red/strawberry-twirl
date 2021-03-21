@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "tool": {
+    "tag": "exnihilosequentia:hammer"
+  },
+  "result": [
+    {
+      "item": "create:lapis_sheet",
+      "count": 1
+    }
+  ]
+}
