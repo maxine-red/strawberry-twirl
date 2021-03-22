@@ -9,13 +9,14 @@
 
 - [x] add berry good mod
 - [x] add ambientsounds mod
-- [ ] remove theoneprobe, when done
+- [ ] remove theoneprobe and appleskin, when done
 
 - [ ] add an in world guide (small), that covers some important topics (like seasons)
 - [x] replace stick with guide book in bonus chest
 - [ ] add note in guide book about rich soil and mushroom interactions (grow mushroom colony)
 - [ ] add also note that you get the colony by shearing it (break block, action click shears off a mushroom instead)
 - [ ] add a note that ham drops from pigs, only when killed with a knife
+- [ ] add note on path from dirt (not requiring grass) and shallow diet, that can be water logged
 
 
 ## Configuration
@@ -60,7 +61,7 @@
 - [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling of all cobble variants
 - [ ] add all polished stone variants to sandpaper crafting (and keep them on stonecutting)
 - [ ] remove quark overlap with other mods (astral sorcery (marble) and create (at least limestone))
-- [ ] deal with ex nihilo crucible heating
+- [ ] remove all ex nihilo crucible heating recipes
 - [ ] remove honey glazed gooseberries and jam
 - [ ] remove apples from leave sieving (add sticks, silk worms and respective saplings instead)
 - [ ] add crushing wheel recipes for all hammer recipes
@@ -98,6 +99,9 @@
 - [ ] replace pumpkin in pumpkin pie with slice
 - [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
 - [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
+- [ ] remove cobbed stone
+- [ ] add a guide book, via custom starter gear
+- [ ] add recipe to make astral sorcery tome
 
 - [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 - remove pebbles
@@ -141,6 +145,18 @@ For stone tools, instead of using stone, use flints in place of where usually pl
 - [ ] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
 - [ ] add diet tags, where they are missing
 - [ ] have soups and stews require salt
+- [ ] add chorus fruit (popped) to campfire cooking and smoking
+- [ ] make apple pie use sweet dough instead of the top crust
+- [ ] use farmers delight dough, for salted dough. Makes not too much sense, but is what we have
+- [ ] make tags for jam making
+	- 2_jam grapefruit
+	- 3_jam pomelo, apple, lime, orange, mandarin, citron, lemon
+	- purple_jam chorus fruit
+	- 2_red_jam red love
+	- 3_red_jam cherries
+	- 5_red_jam sweet berries, melon
+	- jam requires 2 sugar or 1 honey bottle (250ml) -> jar
+	- jelly is 2 per jar
 
 ## Compatibility
 
