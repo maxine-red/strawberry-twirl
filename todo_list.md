@@ -89,7 +89,12 @@
 - jam is not edible
 - [ ] add `fruits` and `sugars` tags to jelly
 - [ ] add jelly cookie? (need to ask pupper for texture then)
+- [ ] use heated mixing for jelly (from jam fluid) also with extra sugar or honey
+- [ ] change honey bottle to sugar recipe to 2 sugar (for better numbers)
+- [ ] add heated mixing recipe for honey to sugar
 - [ ] add forge `fruit_salad_fruits` tag that only includes apple, sweet berry, pumpkin slice, cherry and and redlove fruits (maybe others that fit)
+- [ ] make fruit salad more like original again, but with alternatives, through tags
+- [ ] remove knife from apple pie recipe and don't add it to fruit salad again
 - [ ] replace pumpkin in pumpkin pie with slice
 - [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
 - [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
