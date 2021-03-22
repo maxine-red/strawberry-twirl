@@ -24,6 +24,8 @@ servers.dat
 whitelist.json
 ops.json
 patchouli_data.json
+minecraftinstance.json
+.curseclient
 
 # Client configs
 
