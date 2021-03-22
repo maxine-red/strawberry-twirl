@@ -78,6 +78,19 @@
 - [ ] remove coral hammer recipes
 - [ ] remove all ex nihilo composting recipes
 - [ ] remove ex nihilo copper ingot recipe and item from jei
+- [ ] add recipe to press honey combs, to get honey and wax
+- [ ] add wax as a tallow replacement
+- [ ] add recipe for glass jar
+- [ ] add recipe for jam (jam is made from citrus fruit and sugar)
+- [ ] add jam fluid (same as jam jar, but without the jar, then add filling for jar)
+- [ ] add use labeled jam texture
+- [ ] use glass bottle for filling or in jam recipe
+- [ ] add jelly, which is made from jam + honey (or other ways of thickening)
+- jam is not edible
+- [ ] add `fruits` and `sugars` tags to jelly
+- [ ] add jelly cookie? (need to ask pupper for texture then)
+- [ ] add forge `fruit_salad_fruits` tag that only includes apple, sweet berry, pumpkin slice, cherry and and redlove fruits (maybe others that fit)
+- [ ] replace pumpkin in pumpkin pie with slice
 
 - [ ] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 
