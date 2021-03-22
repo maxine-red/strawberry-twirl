@@ -10,6 +10,7 @@
 - [x] add berry good mod
 - [x] add ambientsounds mod
 - [ ] remove theoneprobe and appleskin, when done (with configs)
+- [ ] update mod lists (mods.json, REAME.md)
 
 - [ ] add an in world guide (small), that covers some important topics (like seasons)
 - [x] replace stick with guide book in bonus chest
