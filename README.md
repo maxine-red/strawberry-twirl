@@ -1,5 +1,7 @@
 # Vanilla with Strawberry
 
+![Vanilla with Strawberry icon by Ulvra](https://github.com/)
+
 ## About the modpack
 
 Vanilla with Strawberry aims to be as vanilla as possible, while also adding new ways of doing things, changing others up and make a fun pack.
