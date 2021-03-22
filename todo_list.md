@@ -148,6 +148,7 @@ For stone tools, instead of using stone, use flints in place of where usually pl
 - [ ] add chorus fruit (popped) to campfire cooking and smoking
 - [ ] make apple pie use sweet dough instead of the top crust
 - [ ] use farmers delight dough, for salted dough. Makes not too much sense, but is what we have
+- [ ] update fruit salad recipe again, to require more differnt frutis
 - [ ] make tags for jam making
 	- 2_jam grapefruit
 	- 3_jam pomelo, apple, lime, orange, mandarin, citron, lemon
