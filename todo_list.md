@@ -55,9 +55,12 @@
 - [x] have pies require crust to made
 - [x] add fruittrees fruits as tag entries to where fitting other fruits are used
 - [x] look through ingot recipes and see what should be replaced with sheets
+- [x] add jam fluid
+- [x] add use labeled jam texture
+- [x] make fruit salad more like original again, but with alternatives, through tags
+- [x] remove knife from apple pie recipe and don't add it to fruit salad again
 - [ ] add slab recombination recipes (best done via code though)
 - [ ] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
-- [ ] add tool variations for missing metals (maybe also for other things, like flint and lapis?)
 - [ ] remove crushed stone variants from jei, creation recipes and used recipes
 - [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling of all cobble variants
 - [ ] add all polished stone variants to sandpaper crafting (and keep them on stonecutting)
@@ -82,21 +85,15 @@
 - [ ] remove ex nihilo copper ingot recipe and item from jei
 - [ ] add recipe to press honey combs, to get honey and wax
 - [ ] add wax as a tallow replacement
-- [ ] add recipe for glass jar
 - [ ] add recipe for jam (jam is made from citrus or apples fruit and sugar)
-- [ ] add jam fluid (same as jam jar, but without the jar, then add filling for jar)
-- [ ] add use labeled jam texture
+- [ ] add filling/emptying recipes for jam
 - [ ] use glass bottle for filling or in jam recipe
 - [ ] add jelly, which is made from jam + honey (or other ways of thickening)
 - jam is not edible
 - [ ] add `fruits` and `sugars` tags to jelly
-- [ ] add jelly cookie? (need to ask pupper for texture then)
 - [ ] use heated mixing for jelly (from jam fluid) also with extra sugar or honey
 - [ ] change honey bottle to sugar recipe to 2 sugar (for better numbers)
 - [ ] add heated mixing recipe for honey to sugar
-- [ ] add forge `fruit_salad_fruits` tag that only includes apple, sweet berry, pumpkin slice, cherry and and redlove fruits (maybe others that fit)
-- [ ] make fruit salad more like original again, but with alternatives, through tags
-- [ ] remove knife from apple pie recipe and don't add it to fruit salad again
 - [ ] replace pumpkin in pumpkin pie with slice
 - [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
 - [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
