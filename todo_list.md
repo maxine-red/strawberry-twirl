@@ -81,7 +81,7 @@
 - [ ] add recipe to press honey combs, to get honey and wax
 - [ ] add wax as a tallow replacement
 - [ ] add recipe for glass jar
-- [ ] add recipe for jam (jam is made from citrus fruit and sugar)
+- [ ] add recipe for jam (jam is made from citrus or apples fruit and sugar)
 - [ ] add jam fluid (same as jam jar, but without the jar, then add filling for jar)
 - [ ] add use labeled jam texture
 - [ ] use glass bottle for filling or in jam recipe
@@ -91,6 +91,8 @@
 - [ ] add jelly cookie? (need to ask pupper for texture then)
 - [ ] add forge `fruit_salad_fruits` tag that only includes apple, sweet berry, pumpkin slice, cherry and and redlove fruits (maybe others that fit)
 - [ ] replace pumpkin in pumpkin pie with slice
+- [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
+- [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
 
 - [ ] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 
