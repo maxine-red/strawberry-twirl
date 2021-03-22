@@ -9,7 +9,7 @@
 
 - [x] add berry good mod
 - [x] add ambientsounds mod
-- [ ] remove theoneprobe and appleskin, when done
+- [ ] remove theoneprobe and appleskin, when done (with configs)
 
 - [ ] add an in world guide (small), that covers some important topics (like seasons)
 - [x] replace stick with guide book in bonus chest
@@ -100,7 +100,7 @@
 - [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
 - [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
 - [ ] remove cobbed stone
-- [ ] add a guide book, via custom starter gear
+- [x] add a guide book, via custom starter gear
 - [ ] add recipe to make astral sorcery tome
 
 - [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
