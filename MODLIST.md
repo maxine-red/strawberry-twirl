@@ -1,4 +1,4 @@
-# Vanilla with Strawberry - 0.1.0 Mod list
+# Strawberry Twirl - 0.1.0 Mod list
  - abnormals_core-1.16.5-3.1.1
  - AmbientSounds_v3.1.5_mc1.16.5
  - architectury-1.8.131-forge

@@ -1,10 +1,10 @@
-# Vanilla with Strawberry
+# Strawberry Twirl
 
-![Vanilla with Strawberry icon by Ulvra](https://github.com/maxine-red/vanilla-with-strawberry/raw/main/project_icon.png)
+![Strawberry Twirl icon by Ulvra](https://github.com/maxine-red/strawberry-twirl/raw/main/project_icon.png)
 
 ## About the modpack
 
-Vanilla with Strawberry aims to be as vanilla as possible, while also adding new ways of doing things, changing others up and make a fun pack.
+Strawberry Twirl aims to be as vanilla as possible, while also adding new ways of doing things, changing others up and make a fun pack.
 It's supposed to feel like vanilla Minecraft, but also adds new things. It's very little about automating and more about creativity.
 
 ## Supported MC versions (Java)

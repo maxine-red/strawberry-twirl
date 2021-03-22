@@ -23,7 +23,7 @@ Dir.chdir("#{pwd}/build") do
   version = `git tag`.split($/).map{|v|v.sub(/^v/, '')}.sort_by{|v|Gem::Version.new(v)}.last
   manifest.store(:version, version)
   manifest.store(:author, settings[:author])
-  modlist = ["# Vanilla with Strawberry - #{version} Mod list"]
+  modlist = ["# #{settings[:name]} - #{version} Mod list"]
   mod_files = []
   modlist_html = ['<ul>']
   $stdout.puts "Fetching mod data..." if $stdout.tty?
