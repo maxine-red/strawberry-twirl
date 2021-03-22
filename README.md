@@ -1,6 +1,6 @@
 # Vanilla with Strawberry
 
-![Vanilla with Strawberry icon by Ulvra](https://github.com/)
+![Vanilla with Strawberry icon by Ulvra](https://github.com/maxine-red/vanilla-with-strawberry/raw/main/project_icon.png)
 
 ## About the modpack
 
