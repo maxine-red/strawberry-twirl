@@ -99,7 +99,8 @@
 - [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
 - [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
 
-- [ ] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
+- [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
+- remove pebbles
 
 ### Ingot replacement for sheets
 
