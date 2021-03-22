@@ -145,9 +145,9 @@ For stone tools, instead of using stone, use flints in place of where usually pl
 
 ### Mechanic additions
 - [ ] add rituals for enchanted books to botnia terraplate thingy
-  - use at least one related rune, related items, mana dust, mana steel (or
-    higher grade for rarer and higher levels), mana pearl (or mana diamond) and a book
+  - use at least one related rune, related items, mana dust, mana steel (or higher grade for rarer and higher levels), mana pearl (or mana diamond), a salt variant and a book
   - [ ] Aqua affinity: aquamarine x2, rune of water, mana dust, mana steel, mana
     pearl, book, 10000 mana
+- [ ] include salt variants more, to have it more constantly used, need ideas
 - [ ] add tip that says that water freezes in winter
 - [ ] also add tips about seasons in general
