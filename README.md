@@ -46,3 +46,7 @@ It's supposed to feel like vanilla Minecraft, but also adds new things. It's ver
 - [The One Probe](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
 - [Tips](https://www.curseforge.com/minecraft/mc-mods/tips)
 
+### Project specific content
+
+- Project icon and salt variant textures are made by [Ulvra](https://www.furaffinity.net/user/ulvra)
+
