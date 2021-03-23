@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "exnihilosequentia:bucket_sea_water"
+    }
+  ],
+  "result": {
+    "item": "create:dough"
+  }
+}

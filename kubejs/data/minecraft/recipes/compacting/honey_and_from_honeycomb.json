@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:wax"
+    },
+    {
+      "fluid": "create:honey",
+      "amount": 125
+    }
+  ]
+}

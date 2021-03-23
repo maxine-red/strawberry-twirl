@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "kubejs:apple_pulp_wet"
+    }
+  ]
+}

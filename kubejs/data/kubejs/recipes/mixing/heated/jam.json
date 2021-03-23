@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:jam_ingredients/2_fruits/jam_yellow"
+    },
+    {
+      "tag": "forge:jam_ingredients/2_fruits/jam_yellow"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:yellow_jam",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

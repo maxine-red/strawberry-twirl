@@ -17,7 +17,7 @@
       "tag": "forge:eggs"
     },
     {
-      "fluidTag": "forge:milk",
+      "fluid": "minecraft:milk",
       "amount": 250
     }
   ],

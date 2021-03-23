@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "fluid": "minecraft:milk",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:sweet_dough",
+      "count": 1
+    }
+  ]
+}

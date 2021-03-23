@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "kubejs:jam_jar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "kubejs:jelly",
+    "count": 2
+  },
+  "cookingtime": 200
+}

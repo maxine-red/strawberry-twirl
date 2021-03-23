@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "kubejs:wheat_grains"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:wheat_flour"
+    },
+    {
+      "item": "create:wheat_flour",
+      "count": 2,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 150
+}

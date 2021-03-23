@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wMw",
+    "ewe"
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:flour"
+    },
+    "e": {
+      "tag": "forge:eggs"
+    },
+    "M": {
+      "item": "farmersdelight:milk_bottle"
+    }
+  },
+  "result": {
+    "item": "kubejs:sweet_dough"
+  }
+}

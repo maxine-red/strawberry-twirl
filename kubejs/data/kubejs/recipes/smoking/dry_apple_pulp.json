@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "kubejs:apple_pulp_wet"
+  },
+  "result": "kubejs:apple_pulp_dry",
+  "experience": 0.35,
+  "cookingtime": 100
+}

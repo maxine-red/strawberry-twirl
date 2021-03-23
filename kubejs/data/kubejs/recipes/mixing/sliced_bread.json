@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:sliced_bread"
+    }
+  ]
+}

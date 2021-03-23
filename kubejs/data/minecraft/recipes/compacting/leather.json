@@ -1,0 +1,35 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    }
+  ],
+  "results": [
+    { "item": "minecraft:leather" }
+  ]
+}

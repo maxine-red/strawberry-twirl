@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:sweet_dough"
+    },
+    {
+      "fluid": "create:honey",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:honey_cookie",
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:jam_jar_red"
+    },
+    {
+      "item": "kubejs:jam_jar_red"
+    },
+    {
+      "item": "kubejs:jam_jar_red"
+    },
+    {
+      "item": "kubejs:jam_jar_red"
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "result": {
+    "item": "kubejs:red_jam_bucket"
+  }
+}

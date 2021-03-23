@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:jam_ingredients/3_fruits/jam_purple"
+    },
+    {
+      "tag": "forge:jam_ingredients/3_fruits/jam_purple"
+    },
+    {
+      "tag": "forge:jam_ingredients/3_fruits/jam_purple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "kubejs:jam_jar_purple"
+  },
+  "cookingtime": 200
+}

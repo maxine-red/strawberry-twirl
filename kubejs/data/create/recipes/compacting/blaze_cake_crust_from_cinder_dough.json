@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:cinder_dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:blaze_cake_base"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:potato_flour"
+    },
+    {
+      "item": "kubejs:potato_flour",
+      "count": 2,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:dough"
+    },
+    {
+      "item": "kubejs:butter"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    }
+  ]
+}

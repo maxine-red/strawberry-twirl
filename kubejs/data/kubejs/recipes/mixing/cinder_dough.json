@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "item": "create:cinder_flour"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "fluid": "minecraft:milk",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:cinder_dough"
+    }
+  ]
+}

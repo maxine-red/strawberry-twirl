@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "kubejs:apple_leather_unprepared"
+  },
+  "result": "minecraft:leather",
+  "experience": 0.35,
+  "cookingtime": 200
+}

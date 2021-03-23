@@ -1,20 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "wMw",
-    "ewe"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "kubejs:sweet_dough" }
   ],
-  "key": {
-    "w": {
-      "item": "create:wheat_flour"
-    },
-    "e": {
-      "tag": "forge:eggs"
-    },
-    "M": {
-      "item": "farmersdelight:milk_bottle"
-    }
-  },
   "result": {
     "item": "farmersdelight:pie_crust"
   }

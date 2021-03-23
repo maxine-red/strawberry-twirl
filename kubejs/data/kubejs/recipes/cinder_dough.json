@@ -1,0 +1,22 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wMw",
+    "ewe"
+  ],
+  "key": {
+    "w": {
+      "item": "create:cinder_flour"
+    },
+    "e": {
+      "tag": "forge:eggs"
+    },
+    "M": {
+      "item": "farmersdelight:milk_bottle"
+    }
+  },
+  "result": {
+    "item": "kubejs:cinder_dough"
+  }
+}

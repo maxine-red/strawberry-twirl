@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:sliced_bread"
+    },
+    {
+      "item": "kubejs:butter"
+    },
+    {
+      "item": "kubejs:jam_jar"
+    }
+  ],
+  "result": {
+    "item": "kubejs:jam_sandwich",
+    "count": 3
+  }
+}

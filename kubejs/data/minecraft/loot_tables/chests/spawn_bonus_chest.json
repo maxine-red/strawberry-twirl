@@ -15,6 +15,15 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "comforts:sleeping_bag_white"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:wooden_pickaxe"
         }
       ]
@@ -35,21 +44,6 @@
             }
           ],
           "name": "minecraft:bread"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "patchouli:guide_book",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{'patchouli:book':'patchouli:strawberry_guide'}"
-            }
-          ]
         }
       ]
     },

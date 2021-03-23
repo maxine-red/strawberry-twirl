@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "kubejs:jam_jar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:jelly",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

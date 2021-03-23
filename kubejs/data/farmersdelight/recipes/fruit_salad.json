@@ -2,22 +2,22 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:jam_ingredients/yellow_jam_ingredients"
+      "tag": "forge:jam_ingredients/3_fruits/jam_yellow"
     },
     {
-      "tag": "forge:jam_ingredients/red_jam_ingredients"
+      "tag": "forge:jam_ingredients/5_fruits/jam_red"
     },
     {
-      "tag": "forge:jam_ingredients/red_jam_ingredients"
+      "tag": "forge:jam_ingredients/5_fruits/jam_red"
     },
     {
-      "tag": "forge:jam_ingredients/red_jam_ingredients"
+      "tag": "forge:jam_ingredients/3_fruits/jam_red"
     },
     {
-      "tag": "forge:jam_ingredients/red_jam_ingredients"
+      "tag": "forge:jam_ingredients/3_fruits/jam_red"
     },
     {
-      "item": "farmersdelight:pumpkin_slice"
+      "tag": "forge:jam_ingredients/2_fruits/jam_yellow"
     },
     {
       "item": "minecraft:bowl"

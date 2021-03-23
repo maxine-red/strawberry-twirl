@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "item": "kubejs:void_salt"
+    }
+  ],
+  "result": {
+    "item": "kubejs:magic_butter"
+  },
+  "cookingtime": 100
+}

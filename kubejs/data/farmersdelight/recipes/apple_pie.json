@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " Ok",
+    " s ",
     "aaa",
     "xOx"
   ],
@@ -12,8 +12,8 @@
     "x": {
       "item": "minecraft:sugar"
     },
-    "k": {
-      "tag": "forge:tools/knives"
+    "s": {
+      "item": "kubejs:sweet_dough"
     },
     "O": {
       "item": "farmersdelight:pie_crust"

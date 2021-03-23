@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "kubejs:sweet_dough"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:pie_crust",
+      "count": 1
+    }
+  ]
+}

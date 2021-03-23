@@ -2,7 +2,14 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "create:bar_of_chocolate"
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "fluid": "minecraft:milk",
+      "amount": 250
     }
   ],
   "results": [

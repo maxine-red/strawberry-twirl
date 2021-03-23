@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "kubejs:salt"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:shepherds_pie"
+  },
+  "cookingtime": 200
+}

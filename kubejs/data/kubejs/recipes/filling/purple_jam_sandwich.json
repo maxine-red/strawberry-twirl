@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "kubejs:sliced_bread"
+    },
+    {
+      "fluid": "kubejs:purple_jam",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:purple_jam_sandwich",
+      "count": 3
+    }
+  ]
+}

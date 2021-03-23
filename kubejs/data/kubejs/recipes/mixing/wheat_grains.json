@@ -1,0 +1,13 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:wheat_grains"
+    }
+  ]
+}

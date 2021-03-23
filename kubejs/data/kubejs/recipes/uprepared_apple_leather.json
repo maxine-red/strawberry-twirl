@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    },
+    {
+      "item": "kubejs:apple_pulp_dry"
+    }
+  ],
+  "result": {
+    "item": "kubejs:apple_leather_unprepared"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    },
+    {
+      "item": "kubejs:salt"
+    }
+  ],
+  "result": {
+    "item": "kubejs:butter"
+  },
+  "cookingtime": 100
+}

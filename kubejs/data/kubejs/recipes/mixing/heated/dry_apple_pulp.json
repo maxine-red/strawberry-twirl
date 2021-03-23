@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:apple_pulp_dry"
+    }
+  ],
+  "heatRequirement": "heated"
+}

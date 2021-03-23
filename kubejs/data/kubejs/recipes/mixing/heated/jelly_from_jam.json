@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "kubejs:yellow_jam",
+      "amount": 250
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:jelly",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

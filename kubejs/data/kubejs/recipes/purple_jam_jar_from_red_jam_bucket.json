@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:purple_jam_bucket"
+    }
+  ],
+  "result": {
+    "item": "kubejs:jam_jar_purple",
+    "count": 4
+  }
+}

@@ -24,7 +24,9 @@ var remove_items = [
 	'quark:iron_rod',
 	'quark:diamond_heart',
 	'astralsorcery:starmetal_ore',
-	'botania:laputa_shard'
+	'botania:laputa_shard',
+	'farmersdelight:wheat_dough',
+	'bayou_blues:gooseberry_jam_cookie'
 ];
 
 onEvent('jei.hide.items', event => {

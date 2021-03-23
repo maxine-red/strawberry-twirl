@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:milk",
+      "amount": 250
+    },
+    {
+      "item": "kubejs:salt"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:butter"
+    }
+  ],
+  "heatRequirement": "heated"
+}
