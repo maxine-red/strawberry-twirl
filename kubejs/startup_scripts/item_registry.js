@@ -10,12 +10,15 @@ var items = [
 	{id: 'cinder_dough', texture: 'kubejs:item/cinder_dough', name: 'Cinder Dough'},
 	{id: 'sweet_dough', texture: 'kubejs:item/wheat_dough', name: 'Sweet Dough'},
 	{id: 'potato_flour', texture: 'kubejs:item/wheat_flour', name: 'Potato Flour'},
-	{id: 'wheat_grain', texture: 'kubejs:item/wheat_grain', name: 'Wheat Grains'},
+	{id: 'wheat_grains', texture: 'kubejs:item/wheat_grain', name: 'Wheat Grains'},
 	{id: 'jam_jar', texture: 'kubejs:item/jam_jar_labelled', name: 'Jar of Jam'},
 	{id: 'jam_jar_purple', texture: 'kubejs:item/jam_jar_purple_labelled_alt', name: 'Jar of Mysterious Jam'},
 	{id: 'jam_jar_red', texture: 'kubejs:item/jam_jar_red_labelled', name: 'Jar of red Jam'},
 	{id: 'butter', texture: 'kubejs:item/butter', name: 'Butter'},
-	{id: 'magic_butter', texture: 'kubejs:item/butter_mystical', name: 'Magic Butter'}
+	{id: 'magic_butter', texture: 'kubejs:item/butter_mystical', name: 'Magic Butter'},
+	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'},
+	{id: 'buttered_bread', texture: 'kubejs:item/toast_buttered', name: 'Buttered Bread'},
+	{id: 'magic_buttered_bread', texture: 'kubejs:item/toast_buttered_mystical', name: 'Magic Buttered bread'}
 ];
 var aefoods = [
 	{id: 'jelly', texture: 'kubejs:item/jelly', hunger: 3, saturation: 0.1666667, name: 'Jelly'},
@@ -34,7 +37,7 @@ events.listen('item.registry', (event) => {
 		event.create(item.id).texture(item.texture).displayName(item.name);
 	});
 	aefoods.forEach(food => {
-		if (food.id == 'purple_jelly') {
+		if (food.id === 'purple_jelly') {
 			event.create(food.id).texture(food.texture).food(f => {
 				f.hunger(food.hunger);
 				f.saturation(food.saturation);
@@ -59,7 +62,7 @@ events.listen('item.registry', (event) => {
 		}
 	});
 	foods.forEach(food => {
-		if (food.id == 'purple_jam_sandwich') {
+		if (food.id === 'purple_jam_sandwich') {
 			event.create(food.id).texture(food.texture).food(f => {
 				f.hunger(food.hunger);
 				f.saturation(food.saturation);

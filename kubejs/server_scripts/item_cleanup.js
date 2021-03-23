@@ -41,6 +41,25 @@ var ex_nihil_hammer = [
 	'diorite',
 	'granite'
 ];
+
+var foods = [
+	'minecraft:mushroom_stew',
+	'botania:mushroom_stew',
+	'minecraft:beetroot_soup',
+	'farmersdelight:integration/create/mixing/tomato_sauce_from_mixing',
+	'minecraft:rabbit_stew_from_brown_mushroom',
+	'minecraft:rabbit_stew_from_red_mushroom',
+	'enhanced_mushrooms:crafting/food/beef_stew',
+	'quark:tweaks/crafting/utility/bent/cookie',
+	'create:splashing/wheat_flour',
+	'farmersdelight:raw_pasta',
+	'quark:tweaks/crafting/utility/bent/bread',
+	'minecraft:bread',
+	'farmersdelight:wheat_dough',
+	'bayou_blues:crafting/gooseberry_jam_cookie',
+	'farmersdelight:cake_from_milk_bottle',
+	'minecraft:cake'
+];
 onEvent('recipes', event => {
 	create_crushing.forEach(item => {
 		event.remove({id: 'create:crushing/' + item});
@@ -63,10 +82,17 @@ onEvent('recipes', event => {
 	ex_nihil_hammer.forEach(item => {
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item});
 	});
+	foods.forEach(item => {
+		event.remove({id: item});
+	});
 	event.remove({id: 'astralsorcery:block_transmutation/iron_starmetal'});
 	event.remove({mod: 'theoneprobe'});
 	event.remove({type: 'exnihilosequentia:compost'});
 	event.remove({id: "exnihilosequentia:hammer/ens_gravel"});
 	event.remove({id: "create:milling/cobblestone"});
 	event.remove({id: "farmersdelight:integration/create/mixing/pie_crust_from_mixing"});
+	event.remove({id: "create:emptying/milk_bucket"});
+	event.remove({id: "create:mixing/tea"});
+	event.remove({id: "create:mixing/chocolate"});
+	event.remove({input: 'farmersdelight:wheat_dough'});
 });
