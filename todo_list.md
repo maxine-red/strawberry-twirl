@@ -59,7 +59,6 @@
 - [x] add use labeled jam texture
 - [x] make fruit salad more like original again, but with alternatives, through tags
 - [x] remove knife from apple pie recipe and don't add it to fruit salad again
-- [ ] add slab recombination recipes (best done via code though)
 - [ ] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
 - [ ] remove crushed stone variants from jei, creation recipes and used recipes
 - [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling of all cobble variants
@@ -107,6 +106,7 @@
 ### Ingot replacement for sheets
 
 For stone tools, instead of using stone, use flints in place of where usually plates are used
+For wooden tools, instead of planks, use slabs
 - [ ] bucket
 - [ ] cooking pot
 - [ ] brackets
@@ -139,15 +139,33 @@ For stone tools, instead of using stone, use flints in place of where usually pl
 
 ### Food related
 
-- [ ] decide with pupper, which beef stew to use
-- [ ] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
+- [x] decide with pupper, which beef stew to use
+- [x] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
 - [ ] add diet tags, where they are missing
-- [ ] have soups and stews require salt
+- [x] have soups and stews require salt
 - [ ] add chorus fruit (popped) to campfire cooking and smoking
-- [ ] make apple pie use sweet dough instead of the top crust
-- [ ] use farmers delight dough, for salted dough. Makes not too much sense, but is what we have
-- [ ] update fruit salad recipe again, to require more differnt frutis
-- [ ] make tags for jam making
+- [x] make apple pie use sweet dough instead of the top crust
+- [x] update fruit salad recipe again, to require more differnt frutis
+- [x] remove wheat to bread recipes
+- [ ] add mxing recipe for sweet berry chees cake
+- [ ] add mixing recipe for stuffed potato
+- [ ] add recipes for buttered bread to jam sandwiches (crafting and filling)
+- [ ] add recipe for gelatin (fluid and item) to jelly mixing and cooking
+- [ ] make tag for gelatin making, that includes sea grass, dried kelp and bone meal
+- [ ] gelatin is cooked or mixed with
+	- [ ] 4 gelatin making items and 2 salt
+	- [ ] 4 gelatin making items + 1 soul salt
+	- [ ] 5 gelatin making items + 1 salt
+- [ ] change milk bottle to forge:milk tag in
+	- [ ] sweet berry cheese cake
+	- [ ] chocolate bar
+	- [ ] sweet dough
+	- [ ] chocolate pie
+	- [ ] cinder dough
+	- [ ] butter (cooking)
+	- [ ] magic butter (cooking)
+	- [ ] hot cocoa (coooking)
+- [x] make tags for jam making
 	- 2_jam grapefruit
 	- 3_jam pomelo, apple, lime, orange, mandarin, citron, lemon
 	- purple_jam chorus fruit
@@ -156,6 +174,7 @@ For stone tools, instead of using stone, use flints in place of where usually pl
 	- 5_red_jam sweet berries, melon
 	- jam requires 2 sugar or 1 honey bottle (250ml) -> jar
 	- jelly is 2 per jar
+- [ ] add a dairy diet tag and add it to everything that includes milk in the recipe, somewhere
 
 ## Compatibility
 

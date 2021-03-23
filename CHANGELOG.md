@@ -2,10 +2,7 @@
 
 ## v0.2.0
 
-- removed FastWorkbench
-- removed TheOneProbe
 - removed Mantle
-- removed Placebo
 - added Chicken Drop Feathers
 - added Comforts
 - added FTB Gui Library
