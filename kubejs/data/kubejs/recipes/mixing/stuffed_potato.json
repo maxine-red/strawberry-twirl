@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_beef"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "fluid": "minecraft:milk",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:potato_stuffing",
+      "amount": 250
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "fluid": "kubejs:beetroot_soup",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:beetroot_soup"
+    }
+  ]
+}

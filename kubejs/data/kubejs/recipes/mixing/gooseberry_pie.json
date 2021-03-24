@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "bayou_blues:gooseberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:gooseberry_pie",
+      "amount": 1000
+    }
+  ]
+}

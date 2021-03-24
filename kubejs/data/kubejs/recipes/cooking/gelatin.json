@@ -1,0 +1,27 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "item": "kubejs:salt"
+    }
+  ],
+  "result": {
+    "item": "kubejs:gelatin"
+  },
+  "cookingtime": 200
+}

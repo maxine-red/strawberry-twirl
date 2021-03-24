@@ -16,9 +16,7 @@ var items = [
 	{id: 'jam_jar_red', texture: 'kubejs:item/jam_jar_red_labelled', name: 'Jar of red Jam'},
 	{id: 'butter', texture: 'kubejs:item/butter', name: 'Butter'},
 	{id: 'magic_butter', texture: 'kubejs:item/butter_mystical', name: 'Magic Butter'},
-	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'},
-	{id: 'buttered_bread', texture: 'kubejs:item/toast_buttered', name: 'Buttered Bread'},
-	{id: 'magic_buttered_bread', texture: 'kubejs:item/toast_buttered_mystical', name: 'Magic Buttered bread'}
+	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'}
 ];
 var aefoods = [
 	{id: 'jelly', texture: 'kubejs:item/jelly', hunger: 3, saturation: 0.1666667, name: 'Jelly'},
@@ -26,10 +24,12 @@ var aefoods = [
 	{id: 'purple_jelly', texture: 'kubejs:item/jelly_purple', hunger: 3, saturation: 0.1666667, name: 'Mysterious Jelly'}
 ];
 var foods = [
-	{id: 'sliced_bread', texture: 'kubejs:item/bread_sliced', hunger: 5, saturation: 1.2, name: 'Sliced bread'},
+	{id: 'sliced_bread', texture: 'kubejs:item/bread_sliced', hunger: 5, saturation: 0.6, name: 'Sliced bread'},
 	{id: 'jam_sandwich', texture: 'kubejs:item/sandwich_jam', hunger: 3, saturation: 0.75, name: 'Jam Sandwich'},
 	{id: 'red_jam_sandwich', texture: 'kubejs:item/sandwich_jam_red', hunger: 3, saturation: 0.75, name: 'Red Jam Sandwich'},
 	{id: 'purple_jam_sandwich', texture: 'kubejs:item/sandwich_jam_purple', hunger: 3, saturation: 0.75, name: 'Mysterious Jam Sandwich'},
+	{id: 'buttered_bread', texture: 'kubejs:item/toast_buttered', hunger: 5, saturation: 0.7, name: 'Buttered Bread Slices'},
+	{id: 'magic_buttered_bread', texture: 'kubejs:item/toast_buttered_mystical', hunger: 5, saturation: 0.7, name: 'Magic Buttered Bread Slices'}
 ];
 
 events.listen('item.registry', (event) => {
@@ -74,6 +74,15 @@ events.listen('item.registry', (event) => {
 				f.effect('minecraft:fire_resistance', 600, 0, 0.6);
 				f.effect('minecraft:invisibility', 200, 0, 0.2);
 				f.effect('minecraft:wither', 60, 0, 0.05);
+			}).tooltip('Strange energy comes from this...').displayName(food.name);
+		}
+		else if (food.id === 'magic_buttered_bread') {
+			event.create(food.id).texture(food.texture).food(f => {
+				f.hunger(food.hunger);
+				f.saturation(food.saturation);
+				f.effect('minecraft:levitation', 120, 0, 0.7);
+				f.effect('minecraft:nausea', 600, 0, 0.4);
+				f.effect('minecraft:fire_resistance', 600, 0, 0.6);
 			}).tooltip('Strange energy comes from this...').displayName(food.name);
 		}
 		else {

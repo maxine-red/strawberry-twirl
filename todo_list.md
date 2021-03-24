@@ -59,6 +59,22 @@
 - [x] add use labeled jam texture
 - [x] make fruit salad more like original again, but with alternatives, through tags
 - [x] remove knife from apple pie recipe and don't add it to fruit salad again
+- [x] add recipe to get grains from cutting wheat, then grind grains to get flour, then use water to make dough out of it and cook it for bread
+- [x] add recipe to press honey combs, to get honey and wax
+- [x] add wax as a tallow replacement
+- [x] add recipe for jam (jam is made from citrus or apples fruit and sugar)
+- [x] use heated mixing for jelly (from jam fluid) also with extra sugar or honey
+- [x] change honey bottle to sugar recipe to 2 sugar (for better numbers)
+- [x] add heated mixing recipe for honey to sugar
+- [x] replace pumpkin in pumpkin pie with slice
+- [x] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
+- [x] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
+- [x] add a guide book, via custom starter gear
+- [ ] add salt to sand sieving
+- [ ] add soul salt to soul sand sieving
+- [ ] add void salt to crushed endstone sieving
+- [ ] talk with pupper about dropping mechanics for salt and flint
+- [ ] remove diamond smithing backpack recipe
 - [ ] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
 - [ ] remove crushed stone variants from jei, creation recipes and used recipes
 - [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling of all cobble variants
@@ -69,102 +85,63 @@
 - [ ] remove apples from leave sieving (add sticks, silk worms and respective saplings instead)
 - [ ] add crushing wheel recipes for all hammer recipes
 - [ ] remove ancient tome from jei
-- [ ] add recipe to get grains from cutting wheat, then grind grains to get flour, then use water to make dough out of it and cook it for bread
 - [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
 - [ ] add recipes for aternative stones (quark)
 - [ ] have all create/botania stone variants drop cobblestone instead of itself
 - [ ] add recipes to make stone variants, that don't spawn in world (using botania)
-- [ ] add manasteel plate (used in places where mana steel gets used like iron ingot, that's replaced by iron plates)
-- [ ] add terra steel plate (used in places where mana steel gets used like iron ingot, that's replaced by iron plates)
-- [ ] add pink steel thing plate (used in places where mana steel gets used like iron ingot, that's replaced by iron plates)
 - [ ] add terraplate rituals for calendar and season detector, using all seasonal runes and an emppty map/light detector
 - [ ] add living rock -> marble botania catalyst recipe
 - [ ] remove coral hammer recipes
 - [ ] remove all ex nihilo composting recipes
 - [ ] remove ex nihilo copper ingot recipe and item from jei
-- [ ] add recipe to press honey combs, to get honey and wax
-- [ ] add wax as a tallow replacement
-- [ ] add recipe for jam (jam is made from citrus or apples fruit and sugar)
-- [ ] add filling/emptying recipes for jam
-- [ ] use glass bottle for filling or in jam recipe
-- [ ] add jelly, which is made from jam + honey (or other ways of thickening)
-- jam is not edible
-- [ ] add `fruits` and `sugars` tags to jelly
-- [ ] use heated mixing for jelly (from jam fluid) also with extra sugar or honey
-- [ ] change honey bottle to sugar recipe to 2 sugar (for better numbers)
-- [ ] add heated mixing recipe for honey to sugar
-- [ ] replace pumpkin in pumpkin pie with slice
-- [ ] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
-- [ ] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
 - [ ] remove cobbed stone
-- [x] add a guide book, via custom starter gear
 - [ ] add recipe to make astral sorcery tome
 
 - [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 - remove pebbles
 
-### Ingot replacement for sheets
-
-For stone tools, instead of using stone, use flints in place of where usually plates are used
-For wooden tools, instead of planks, use slabs
-- [ ] bucket
-- [ ] cooking pot
-- [ ] brackets
-- [ ] armor (helmet, chestplate, leggins, boots)
-- [ ] hopper
-- [ ] stove
-- [ ] pressure plate
-- [ ] shield
-- [ ] shears
-- [ ] compass
-- [ ] door
-- [ ] knife
-- [ ] minecart (and variants like furnace, chest, etc)
-- [ ] sword
-- [ ] axe (but only the corner one)
-- [ ] spectator
-- [ ] flint & steel
-- [ ] smithing table
-- [ ] cauldron
-- [ ] iron plate
-- [ ] trap door
-- [ ] shovel
-- [ ] pickaxe (both ends)
-- [ ] quark framed glass
-- [ ] hoe (sharp end)
-- [ ] clock
-- [ ] hovering hourglass
-- [ ] mana pylon
-- [ ] gaia pylon
-
 ### Food related
 
+- ] ] add honey recipe for jam
 - [x] decide with pupper, which beef stew to use
 - [x] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
-- [ ] add diet tags, where they are missing
+- [x] add diet tags, where they are missing
 - [x] have soups and stews require salt
-- [ ] add chorus fruit (popped) to campfire cooking and smoking
+- [x] add chorus fruit (popped) to campfire cooking and smoking
 - [x] make apple pie use sweet dough instead of the top crust
 - [x] update fruit salad recipe again, to require more differnt frutis
 - [x] remove wheat to bread recipes
-- [ ] add mxing recipe for sweet berry chees cake
-- [ ] add mixing recipe for stuffed potato
-- [ ] add recipes for buttered bread to jam sandwiches (crafting and filling)
-- [ ] add recipe for gelatin (fluid and item) to jelly mixing and cooking
-- [ ] make tag for gelatin making, that includes sea grass, dried kelp and bone meal
-- [ ] gelatin is cooked or mixed with
-	- [ ] 4 gelatin making items and 2 salt
-	- [ ] 4 gelatin making items + 1 soul salt
-	- [ ] 5 gelatin making items + 1 salt
-- [ ] change milk bottle to forge:milk tag in
-	- [ ] sweet berry cheese cake
-	- [ ] chocolate bar
-	- [ ] sweet dough
-	- [ ] chocolate pie
-	- [ ] cinder dough
-	- [ ] butter (cooking)
-	- [ ] magic butter (cooking)
-	- [ ] hot cocoa (coooking)
+- [x] add mxing recipe for sweet berry cheese cake
+- [x] add mixing recipe for stuffed potato
+- [x] add mixing recipe for pumpkin pie
+- [x] add mixing recipe for gooseberry pie
+- [x] add mixing recipe for apple pie
+- [x] add recipes for buttered bread to jam sandwiches (crafting and filling)
+- [x] add recipe for gelatin (fluid and item) to jelly mixing and cooking
+- [x] add stew and soup fluids, with filling, emptying and mixing recipes (mixing requires water)
+	- [x] mushroom stew
+	- [x] tomato sauce
+	- [x] beetroot soup
+	- [x] rabbit stew
+	- [x] vegetable soup
+	- [x] fish stew
+	- [x] pumpkin soup
+	- [x] baked cod stew
+	- [x] chicken soup
+	- [x] dog food
+- [x] make tag for gelatin making, that includes sea grass, dried kelp and bone meal
+- [x] gelatin is cooked or mixed with
+	- [x] 4 gelatin making items and 2 salt
+	- [x] 4 gelatin making items + 1 soul salt
+- [x] change milk bottle to forge:milk tag in
+	- [x] sweet berry cheese cake
+	- [x] chocolate bar
+	- [x] sweet dough
+	- [x] chocolate pie
+	- [x] cinder dough
+	- [x] butter (cooking)
+	- [x] magic butter (cooking)
+	- [x] hot cocoa (coooking)
 - [x] make tags for jam making
 	- 2_jam grapefruit
 	- 3_jam pomelo, apple, lime, orange, mandarin, citron, lemon
@@ -174,15 +151,12 @@ For wooden tools, instead of planks, use slabs
 	- 5_red_jam sweet berries, melon
 	- jam requires 2 sugar or 1 honey bottle (250ml) -> jar
 	- jelly is 2 per jar
-- [ ] add a dairy diet tag and add it to everything that includes milk in the recipe, somewhere
+- [x] add a dairy diet tag and add it to everything that includes milk in the recipe, somewhere
 
 ## Compatibility
 
 ### Mechanic additions
-- [ ] add rituals for enchanted books to botnia terraplate thingy
-  - use at least one related rune, related items, mana dust, mana steel (or higher grade for rarer and higher levels), mana pearl (or mana diamond), a salt variant and a book
-  - [ ] Aqua affinity: aquamarine x2, rune of water, mana dust, mana steel, mana
-    pearl, book, 10000 mana
-- [ ] include salt variants more, to have it more constantly used, need ideas
+- [ ] add rituals for enchanted books to botnia terraplate thingy (recipes are in chests)
+- [x] include salt variants more, to have it more constantly used, need ideas
 - [ ] add tip that says that water freezes in winter
 - [ ] also add tips about seasons in general

@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "fluid": "minecraft:milk",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:sweet_berry_cheesecake",
+      "amount": 1000
+    }
+  ]
+}

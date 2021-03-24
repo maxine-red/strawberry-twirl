@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "tag": "farmersdelight:wolf_prey"
+    },
+    {
+      "tag": "forge:crops/rice"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:dog_food",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

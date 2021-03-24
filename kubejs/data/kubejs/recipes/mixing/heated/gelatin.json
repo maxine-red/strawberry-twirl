@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "tag": "forge:gelatin_base"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:gelatin",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

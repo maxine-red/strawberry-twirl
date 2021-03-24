@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "farmersdelight:milk_bottle"
+      "tag": "forge:milk"
     },
     {
       "item": "minecraft:sugar"
@@ -12,7 +12,6 @@
     }
   ],
   "result": {
-    "item": "create:bar_of_chocolate",
-    "count": 1
+    "item": "create:bar_of_chocolate"
   }
 }

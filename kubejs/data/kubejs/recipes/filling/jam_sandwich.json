@@ -2,7 +2,7 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "kubejs:sliced_bread"
+      "item": "kubejs:buttered_bread"
     },
     {
       "fluid": "kubejs:yellow_jam",

@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["minecraft:cake", "create:bar_of_chocolate", "farmersdelight:pie_crust", "farmersdelight:sweet_berry_cheesecake", "farmersdelight:chocolate_pie", "farmersdelight:cake_slice", "farmersdelight:sweet_berry_cheesecake_slice", "farmersdelight:chocolate_pie_slice", "farmersdelight:stuffed_potato", "farmersdelight:pumpkin_soup", "kubejs:jam_sandwich", "kubejs:red_jam_sandwich", "kubejs:purple_jam_sandwich", "kubejs:buttered_bread", "kubejs:magic_buttered_bread"]
+}

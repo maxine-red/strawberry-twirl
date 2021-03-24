@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "fluid": "kubejs:baked_cod_stew",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:baked_cod_stew"
+    }
+  ]
+}
+}

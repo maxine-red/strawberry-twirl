@@ -10,7 +10,7 @@
       "item": "minecraft:sweet_berries"
     },
     "m": {
-      "item": "farmersdelight:milk_bottle"
+      "tag": "forge:milk"
     },
     "O": {
       "item": "farmersdelight:pie_crust"

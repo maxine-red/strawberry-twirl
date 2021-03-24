@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:raw_fishes"
+    },
+    {
+      "fluid": "kubejs:tomato_sauce",
+      "amount": 250
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:fish_stew",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

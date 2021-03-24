@@ -12,7 +12,7 @@
         operation = "multiply_total"
         amount = 0.1
     [[effects.conditions]]
-        groups = ["proteins", "fruits", "vegetables", "grains"]
+        groups = ["proteins", "fruits", "vegetables", "grains", "dairy"]
         match = "all"
         above = 0.8
         below = 1.0
@@ -30,7 +30,7 @@
         operation = "add"
         amount = 1.0
     [[effects.conditions]]
-        groups = ["proteins", "fruits", "vegetables", "grains"]
+        groups = ["proteins", "fruits", "vegetables", "grains", "dairy"]
         match = "every"
         above = 0.8
         below = 1.0

@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "fluid": "kubejs:rabbit_stew",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:rabbit_stew"
+    }
+  ]
+}
