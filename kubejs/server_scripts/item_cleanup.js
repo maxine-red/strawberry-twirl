@@ -12,7 +12,7 @@ var create_crushing = [
 	'uranium_ore',
 	'tin_ore',
 	'lead_ore',
-	'nickel_ore',
+	'nickel_ore'
 ];
 
 var create_andesite_alloy = [
@@ -60,6 +60,14 @@ var foods = [
 	'farmersdelight:cake_from_milk_bottle',
 	'minecraft:cake'
 ];
+
+var corals = [
+	'tube',
+	'brain',
+	'bubble',
+	'fire',
+	'horn'
+];
 onEvent('recipes', event => {
 	create_crushing.forEach(item => {
 		event.remove({id: 'create:crushing/' + item});
@@ -88,11 +96,23 @@ onEvent('recipes', event => {
 	event.remove({id: 'astralsorcery:block_transmutation/iron_starmetal'});
 	event.remove({mod: 'theoneprobe'});
 	event.remove({type: 'exnihilosequentia:compost'});
+	event.remove({type: 'exnihilosequentia:heat'});
+	event.remove({type: 'exnihilosequentia:crucible'});
 	event.remove({id: "exnihilosequentia:hammer/ens_gravel"});
 	event.remove({id: "create:milling/cobblestone"});
 	event.remove({id: "farmersdelight:integration/create/mixing/pie_crust_from_mixing"});
 	event.remove({id: "create:emptying/milk_bucket"});
 	event.remove({id: "create:mixing/tea"});
 	event.remove({id: "create:mixing/chocolate"});
+	event.remove({id: "exnihilosequentia:ens_crucible_wood"});
+	event.remove({id: "exnihilosequentia:ens_crucible_fired"});
+	event.remove({id: "exnihilosequentia:ens_crucible_unfired"});
+	event.remove({id: "sereneseasons:calendar"});
+	event.remove({id: "sereneseasons:season_sensor"});
 	event.remove({input: 'farmersdelight:wheat_dough'});
+	
+	corals.forEach(item => {
+		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral',});
+		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral_fan',});
+	});
 });

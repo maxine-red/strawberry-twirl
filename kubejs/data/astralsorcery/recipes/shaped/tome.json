@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "ABA",
+    " R "
+  ],
+  "key": {
+    "A": {
+      "item": "astralsorcery:aquamarine"
+    },
+    "B": {
+      "item": "minecraft:writable_book"
+    },
+    "P": {
+      "item": "astralsorcery:parchment"
+    },
+    "R": {
+      "tag": "botania:runes/water"
+    }
+  },
+  "result": {
+    "item": "astralsorcery:tome",
+    "count": 1
+  }
+}

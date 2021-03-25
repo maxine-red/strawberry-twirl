@@ -1,0 +1,36 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 400000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "tag": "botania:runes/envy"
+    },
+    {
+      "item": "minecraft:cobweb"
+    },
+    {
+      "tag": "forge:chests"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "lvl": 1.0,
+          "id": "minecraft:looting"
+        }
+      ]
+    }
+  }
+}

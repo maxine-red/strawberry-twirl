@@ -1,0 +1,42 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 400000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "kubejs:void_salt"
+    },
+    {
+      "tag": "botania:runes/earth"
+    },
+    {
+      "tag": "botania:runes/pride"
+    },
+    {
+      "tag": "botania:runes/wrath"
+    },
+    {
+      "item": "botania:mana_diamond_block"
+    },
+    {
+      "item": "botania:mana_string"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "lvl": 4.0,
+          "id": "minecraft:power"
+        }
+      ]
+    }
+  }
+}

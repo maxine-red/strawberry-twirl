@@ -4,7 +4,7 @@
 
 - [ ] remove unussed items
 - [ ] find and remove duplicate items
-- [ ] unify cooking (use cook pot)
+- [x] unify cooking (use cook pot)
 - [x] work over diet again
 
 - [x] add berry good mod
@@ -70,9 +70,17 @@
 - [x] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
 - [x] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
 - [x] add a guide book, via custom starter gear
+- [x] add season calendar recipe to altar (remove old recipe)
+- [x] add season detector recipe to alter (remove old recipe)
+- [x] remove enchantment core thingy (the one that doesn't use up books) from jei and recipe
+- [z] remove coral hammer recipes
+- [x] remove all ex nihilo composting recipes
+- [x] add recipe to make astral sorcery tome
 - [ ] add salt to sand sieving
 - [ ] add soul salt to soul sand sieving
 - [ ] add void salt to crushed endstone sieving
+- [ ] add aquamarine to sieving recipes
+- [ ] add rock crystal sieving with very low chance to gravel
 - [ ] talk with pupper about dropping mechanics for salt and flint
 - [ ] remove diamond smithing backpack recipe
 - [ ] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
@@ -89,20 +97,16 @@
 - [ ] add recipes for aternative stones (quark)
 - [ ] have all create/botania stone variants drop cobblestone instead of itself
 - [ ] add recipes to make stone variants, that don't spawn in world (using botania)
-- [ ] add terraplate rituals for calendar and season detector, using all seasonal runes and an emppty map/light detector
 - [ ] add living rock -> marble botania catalyst recipe
-- [ ] remove coral hammer recipes
-- [ ] remove all ex nihilo composting recipes
 - [ ] remove ex nihilo copper ingot recipe and item from jei
 - [ ] remove cobbed stone
-- [ ] add recipe to make astral sorcery tome
 
 - [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 - remove pebbles
 
 ### Food related
 
-- ] ] add honey recipe for jam
+- ]x] add honey recipe for jam
 - [x] decide with pupper, which beef stew to use
 - [x] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
 - [x] add diet tags, where they are missing
@@ -156,7 +160,8 @@
 ## Compatibility
 
 ### Mechanic additions
-- [ ] add rituals for enchanted books to botnia terraplate thingy (recipes are in chests)
+- [x] add rituals for enchanted books to botnia terraplate thingy (recipes are in chests)
 - [x] include salt variants more, to have it more constantly used, need ideas
+- [ ] integrate mods (mostly astral, botania and create) more together
 - [ ] add tip that says that water freezes in winter
 - [ ] also add tips about seasons in general

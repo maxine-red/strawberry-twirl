@@ -1,0 +1,45 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 400000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "kubejs:void_salt"
+    },
+    {
+      "tag": "botania:runes/lust"
+    },
+    {
+      "tag": "botania:runes/gluttony"
+    },
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "tag": "botania:runes/sloth"
+    },
+    {
+      "tag": "botania:runes/wrath"
+    },
+    {
+      "tag": "botania:runes/envy"
+    },
+    {
+      "tag": "botania:runes/pride"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "lvl": 1.0,
+          "id": "minecraft:mending"
+        }
+      ]
+    }
+  }
+}

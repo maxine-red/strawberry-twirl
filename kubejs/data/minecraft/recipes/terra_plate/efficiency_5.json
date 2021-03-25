@@ -1,0 +1,42 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 400000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "kubejs:void_salt"
+    },
+    {
+      "tag": "botania:runes/water"
+    },
+    {
+      "tag": "botania:runes/fire"
+    },
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "tag": "botania:runes/sloth"
+    },
+    {
+      "tag": "forge:storage_blocks/terrasteel"
+    },
+    {
+      "item": "minecraft:hopper"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "lvl": 5.0,
+          "id": "minecraft:efficiency"
+        }
+      ]
+    }
+  }
+}

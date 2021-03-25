@@ -1,0 +1,37 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 100,
+  "starlight": 100,
+  "pattern": [
+    "T___T",
+    "__G__",
+    "_MDM_",
+    "__G__",
+    "T___T"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/mana_diamond"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "M": {
+      "tag": "forge:ingots/manasteel"
+    },
+    "T": {
+      "tag": "forge:nuggets/terrasteel"
+    }
+  },
+  "output": [
+    {
+       "item": "botania:natura_pylon"
+    }
+  ],
+  "effects": [
+    "astralsorcery:pillar_sparkle",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:altar_default_sparkle"
+  ]
+}

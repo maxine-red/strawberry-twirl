@@ -1,0 +1,42 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 400000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "tag": "botania:runes/water"
+    },
+    {
+      "tag": "botania:runes/air"
+    },
+    {
+      "tag": "botania:runes/summer"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:magma_block"
+    },
+    {
+      "tag": "forge:gems/prismarine"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "lvl": 2.0,
+          "id": "minecraft:respiration"
+        }
+      ]
+    }
+  }
+}

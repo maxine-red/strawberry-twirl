@@ -1,0 +1,40 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 100,
+  "starlight": 3000,
+  "pattern": [
+    "P___E",
+    "__G__",
+    "_MDM_",
+    "__G__",
+    "E___P"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/mana_diamond"
+    },
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "M": {
+      "tag": "forge:ingots/manasteel"
+    },
+    "P": {
+      "item": "botania:pixie_dust"
+    },
+    "E": {
+      "tag": "forge:ingots/elementium"
+    }
+  },
+  "output": [
+    {
+      "item": "botania:gaia_pylon"
+    }
+  ],
+  "effects": [
+    "astralsorcery:pillar_sparkle",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:altar_default_sparkle"
+  ]
+}

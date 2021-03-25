@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:jam_ingredients/2_fruits/jam_red"
+    },
+    {
+      "tag": "forge:jam_ingredients/2_fruits/jam_red"
+    },
+    {
+      "fluid": "create:honey",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:red_jam",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,36 @@
+{
+  "type": "botania:terra_plate",
+  "mana": 400000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "kubejs:soul_salt"
+    },
+    {
+      "tag": "botania:runes/air"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "tag": "forge:storage_blocks/manasteel"
+    },
+    {
+      "tag": "forge:feathers"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": {
+      "StoredEnchantments": [
+        {
+          "lvl": 2.0,
+          "id": "minecraft:feather_falling"
+        }
+      ]
+    }
+  }
+}

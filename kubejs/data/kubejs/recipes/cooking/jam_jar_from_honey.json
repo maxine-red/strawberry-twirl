@@ -1,0 +1,18 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:jam_ingredients/2_fruits/jam_yellow"
+    },
+    {
+      "tag": "forge:jam_ingredients/2_fruits/jam_yellow"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "kubejs:jam_jar"
+  },
+  "cookingtime": 200
+}

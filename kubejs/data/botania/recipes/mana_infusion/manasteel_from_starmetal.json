@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "tag": "astralsorcery:starmetal"
+  },
+  "output": {
+    "item": "botania:manasteel_ingot"
+  },
+  "mana": 1000
+}

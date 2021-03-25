@@ -1,0 +1,34 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 100,
+  "starlight": 1000,
+  "pattern": [
+    "P___E",
+    "_____",
+    "__D__",
+    "_____",
+    "E___P"
+  ],
+  "key": {
+    "D": {
+      "item": "botania:mana_pylon"
+    },
+    "P": {
+      "item": "botania:pixie_dust"
+    },
+    "E": {
+      "tag": "forge:ingots/elementium"
+    }
+  },
+  "output": [
+    {
+      "item": "botania:gaia_pylon"
+    }
+  ],
+  "effects": [
+    "astralsorcery:pillar_sparkle",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:altar_default_sparkle"
+  ]
+}

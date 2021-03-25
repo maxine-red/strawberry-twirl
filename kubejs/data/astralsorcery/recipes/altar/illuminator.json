@@ -1,0 +1,36 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 0,
+  "duration": 100,
+  "starlight": 800,
+  "pattern": [
+    "_____",
+    "_ABA_",
+    "_CFC_",
+    "_ABA_",
+    "_____"
+  ],
+  "key": {
+    "A": {
+      "item": "astralsorcery:marble_runed"
+    },
+    "B": {
+      "item": "astralsorcery:illumination_powder"
+    },
+    "C": {
+      "item": "astralsorcery:aquamarine"
+    },
+    "F": {
+      "tag": "botania:runes/fire"
+    }
+  },
+  "output": [
+    {
+      "item": "astralsorcery:illuminator",
+      "count": 1
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam"
+  ]
+}

@@ -26,7 +26,9 @@ var remove_items = [
 	'astralsorcery:starmetal_ore',
 	'botania:laputa_shard',
 	'farmersdelight:wheat_dough',
-	'bayou_blues:gooseberry_jam_cookie'
+	'bayou_blues:gooseberry_jam_cookie',
+	'botania:enchanter',
+	/exnihilosequentia:crucible_\w+/
 ];
 
 onEvent('jei.hide.items', event => {
