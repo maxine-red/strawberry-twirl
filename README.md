@@ -48,5 +48,5 @@ It's supposed to feel like vanilla Minecraft, but also adds new things. It's ver
 
 ### Project specific content
 
-- Project icon and salt variant textures are made by [Ulvra](https://www.furaffinity.net/user/ulvra)
+- Project icon and textures (under /kubejs/assets/kubejs/textures) are made by [Ulvra](https://www.furaffinity.net/user/ulvra)
 

@@ -18,7 +18,7 @@
 - [ ] add also note that you get the colony by shearing it (break block, action click shears off a mushroom instead)
 - [ ] add a note that ham drops from pigs, only when killed with a knife
 - [ ] add note on path from dirt (not requiring grass) and shallow diet, that can be water logged
-
+- [ ] look over content, items and achievements and see what needs notes in guide book, what can add a little progress, etc (like hinting at astral and botania)
 
 ## Configuration
 
@@ -76,10 +76,13 @@
 - [z] remove coral hammer recipes
 - [x] remove all ex nihilo composting recipes
 - [x] add recipe to make astral sorcery tome
+- [ ] remove crushed netherrack and crushed endstone
+- [ ] replace crushed netherrack with normal one instead
+- [ ] add enderrack, same uses and all of netherrack (but can also be smelted into end stone again) also replaces crushed end stone
 - [ ] add salt to sand sieving
 - [ ] add soul salt to soul sand sieving
-- [ ] add void salt to crushed endstone sieving
-- [ ] add aquamarine to sieving recipes
+- [ ] add void salt to enderrack sieving
+- [ ] add aquamarine to waterlogged sieving recipes of sand
 - [ ] add rock crystal sieving with very low chance to gravel
 - [ ] talk with pupper about dropping mechanics for salt and flint
 - [ ] remove diamond smithing backpack recipe
@@ -98,6 +101,7 @@
 - [ ] have all create/botania stone variants drop cobblestone instead of itself
 - [ ] add recipes to make stone variants, that don't spawn in world (using botania)
 - [ ] add living rock -> marble botania catalyst recipe
+- [ ] add marble -> sooty marble recipe to smelting and campfire
 - [ ] remove ex nihilo copper ingot recipe and item from jei
 - [ ] remove cobbed stone
 
@@ -106,7 +110,7 @@
 
 ### Food related
 
-- ]x] add honey recipe for jam
+- [x] add honey recipe for jam
 - [x] decide with pupper, which beef stew to use
 - [x] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
 - [x] add diet tags, where they are missing
