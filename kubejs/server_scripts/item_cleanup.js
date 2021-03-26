@@ -1,7 +1,7 @@
 // priority: 0
 
-settings.logAddedRecipes = true
-settings.logRemovedRecipes = true
+//settings.logAddedRecipes = true
+//settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
@@ -72,62 +72,81 @@ var corals = [
 	'fire',
 	'horn'
 ];
+
+var types = [
+	'exnihilosequentia:compost',
+	'exnihilosequentia:heat',
+	'exnihilosequentia:crucible'
+];
+
+var recipes = [
+	 'astralsorcery:block_transmutation/iron_starmetal',
+	 'exnihilosequentia:hammer/ens_gravel',
+	 'create:milling/cobblestone',
+	 'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
+	 'create:emptying/milk_bucket',
+	 'create:mixing/tea',
+	 'create:mixing/chocolate',
+	 'exnihilosequentia:ens_crucible_wood',
+	 'exnihilosequentia:ens_crucible_fired',
+	 'exnihilosequentia:ens_crucible_unfired',
+	 'exnihilosequentia:sieve/ens_apple',
+	 'exnihilosequentia:sieve/ens_golden_apple',
+	 'sereneseasons:calendar',
+	 'sereneseasons:season_sensor',
+	 'sophisticatedbackpacks:netherite_backpack',
+	 'quark:tools/smithing/flamerang_smithing',
+	 'astralsorcery:shaped/black_marble/black_marble_raw',
+	 'astralsorcery:altar/black_marble_raw'
+];
 onEvent('recipes', event => {
 	create_crushing.forEach(item => {
 		event.remove({id: 'create:crushing/' + item});
 		event.remove({id: 'create:milling/' + item});
 	});
-	create_andesite_alloy.forEach(item => {
+	
+  create_andesite_alloy.forEach(item => {
 		event.remove({id: 'create:crafting/materials/' + item});
 		event.remove({id: 'create:mixing/' + item});
 	});
-	polished_stones.forEach(item => {
+	
+  polished_stones.forEach(item => {
 		event.remove({id: 'minecraft:polished_' + item});
 		event.remove({id: 'minecraft:polished_' + item + '_from_' + item + '_stonecutting'});
 	});
-	smooth_stones.forEach(item => {
+	
+  smooth_stones.forEach(item => {
 		event.remove({id: 'minecraft:smooth_' + item});
 		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
 		event.remove({input: 'exnihilosequentia:pebble_' + item});
 	});
-	create_cobble.forEach(item => {
+	
+  create_cobble.forEach(item => {
 		event.remove({id: 'create:' + item + '_cobblestone_from_' + item + '_stonecutting'});
 	});
-	ex_nihil_hammer.forEach(item => {
+	
+  ex_nihil_hammer.forEach(item => {
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item});
 		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
 		event.remove({input: 'exnihilosequentia:pebble_' + item});
 	});
-	foods.forEach(item => {
+	
+  foods.forEach(item => {
 		event.remove({id: item});
 	});
-	event.remove({id: 'astralsorcery:block_transmutation/iron_starmetal'});
-	event.remove({mod: 'theoneprobe'});
-	event.remove({type: 'exnihilosequentia:compost'});
-	event.remove({type: 'exnihilosequentia:heat'});
-	event.remove({type: 'exnihilosequentia:crucible'});
-	event.remove({id: "exnihilosequentia:hammer/ens_gravel"});
-	event.remove({id: "create:milling/cobblestone"});
-	event.remove({id: "farmersdelight:integration/create/mixing/pie_crust_from_mixing"});
-	event.remove({id: "create:emptying/milk_bucket"});
-	event.remove({id: "create:mixing/tea"});
-	event.remove({id: "create:mixing/chocolate"});
-	event.remove({id: "exnihilosequentia:ens_crucible_wood"});
-	event.remove({id: "exnihilosequentia:ens_crucible_fired"});
-	event.remove({id: "exnihilosequentia:ens_crucible_unfired"});
-	event.remove({id: "exnihilosequentia:sieve/ens_apple"});
-	event.remove({id: "exnihilosequentia:sieve/ens_golden_apple"});
-	event.remove({id: "sereneseasons:calendar"});
-	event.remove({id: "sereneseasons:season_sensor"});
-	event.remove({input: 'farmersdelight:wheat_dough'});
-	event.remove({output: 'quark:biotite'});
-	event.remove({id: 'sophisticatedbackpacks:netherite_backpack'});
-	event.remove({id: 'quark:tools/smithing/flamerang_smithing'});
-	event.remove({id: 'astralsorcery:shaped/black_marble/black_marble_raw'});
-	event.remove({id: 'astralsorcery:altar/black_marble_raw'});
+
+  types.forEach(item => {
+    event.remove({type: item});
+  });
 	
-	corals.forEach(item => {
+  corals.forEach(item => {
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral',});
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral_fan',});
 	});
+	
+  recipes.forEach(item => {
+    event.remove({id: item});
+  });
+	event.remove({input: 'farmersdelight:wheat_dough'});
+	event.remove({output: 'quark:biotite'});
 });

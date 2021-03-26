@@ -2,14 +2,14 @@
 
 # Tasks to be done, for pack to be considered complete
 
-- [ ] remove unussed items
+- [ ] remove unused items
 - [ ] find and remove duplicate items
 - [x] unify cooking (use cook pot)
 - [x] work over diet again
 
 - [x] add berry good mod
 - [x] add ambientsounds mod
-- [ ] remove theoneprobe and appleskin, when done (with configs)
+- [x] remove theoneprobe and appleskin, when done (with configs)
 - [ ] update mod lists (mods.json, REAME.md)
 - [ ] redo quark config
 	- [ ] enable chain linking
@@ -164,7 +164,6 @@
 
 - [x] add all mod crops to serene seasons list
 - [x] remove quark big cavern thingy in config
-- [ ] remove non-vanilla stone types worldgen (except marble)
 
 ## Fluid changes
 
@@ -216,44 +215,37 @@
 - [z] remove coral hammer recipes
 - [x] remove all ex nihilo composting recipes
 - [x] add recipe to make astral sorcery tome
+- [x] add aquamarine to waterlogged sieving recipes of sand
+- [x] add rock crystal sieving with very low chance to gravel
+- [x] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
+- [x] remove crushed stone variants from jei, creation recipes and used recipes
+- [x] add marble spawn in world
+- [x] remove all ex nihilo crucible heating recipes
+- [x] remove honey glazed gooseberries and jam
+- [x] remove apples from leave sieving
+- [x] add marble -> sooty marble recipe to smelting and campfire
+- [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
 - [ ] remove botania laser gun
 - [ ] remove laputa stuff
 - [ ] add crushed netherrack and end stone to milling
-- [ ] add enderrack from pupper to drop instead of end stone
-- [ ] add enderrack, same uses and all of netherrack (but can also be smelted into end stone again) also replaces crushed end stone
 - [ ] implement vailla drop behavior for sand/gravel (and keep the other loot tables for pupper pack import)
 - [ ] add salt to sand sieving
 - [ ] add soul salt to soul sand sieving
 - [ ] add void salt to enderrack sieving
-- [x] add aquamarine to waterlogged sieving recipes of sand
-- [x] add rock crystal sieving with very low chance to gravel
-- [ ] talk with pupper about dropping mechanics for salt and flint
 - [ ] remove diamond smithing backpack recipe
-- [x] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
 - [ ] remove pickarang and flamarang items, recipes, etc.
-- [ ] add marble spawn in world and marble cobblestone
 - [ ] change iron plate recipe (quark) to use iron sheet instead of ingots
 - [ ] make starlight infusion recipes for crystals from dyed glass
 - [ ] add salt to redsand loot table
-- [ ] remove crushed stone variants from jei, creation recipes and used recipes
-- [ ] add reverse recipes for stone variant to cobblestone variant to hammer and milling of all cobble variants
+- [ ] add reverse recipes for stone variants (smelting)
 - [ ] add all polished stone variants to sandpaper crafting (and keep them on stonecutting)
-- [ ] remove quark overlap with other mods (astral sorcery (marble) and create (at least limestone))
-- [ ] remove all ex nihilo crucible heating recipes
-- [ ] remove honey glazed gooseberries and jam
-- [ ] remove apples from leave sieving (add sticks, silk worms and respective saplings instead)
+- [ ] add sticks to leave sieving
 - [ ] add crushing wheel recipes for all hammer recipes
-- [ ] remove ancient tome from jei
 - [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
-- [ ] add recipes for aternative stones (quark)
 - [ ] have all create/botania stone variants drop cobblestone instead of itself
 - [ ] add recipes to make stone variants, that don't spawn in world (using botania)
-- [ ] add living rock -> marble botania catalyst recipe
-- [ ] add marble -> sooty marble recipe to smelting and campfire
 - [ ] remove ex nihilo copper ingot recipe and item from jei
 
-- [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
-- remove pebbles
 
 ### Food related
 
