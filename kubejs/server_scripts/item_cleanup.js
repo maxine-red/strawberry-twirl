@@ -57,6 +57,10 @@ var foods = [
 	'minecraft:bread',
 	'farmersdelight:wheat_dough',
 	'bayou_blues:crafting/gooseberry_jam_cookie',
+	'bayou_blues:crafting/honey_glazed_gooseberries',
+	'bayou_blues:crafting/gooseberry_juice',
+	'bayou_blues:crafting/gooseberry_jam',
+	'bayou_blues:crafting/gooseberry_jam_from_juice',
 	'farmersdelight:cake_from_milk_bottle',
 	'minecraft:cake'
 ];
@@ -83,12 +87,16 @@ onEvent('recipes', event => {
 	});
 	smooth_stones.forEach(item => {
 		event.remove({id: 'minecraft:smooth_' + item});
+		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
+		event.remove({input: 'exnihilosequentia:pebble_' + item});
 	});
 	create_cobble.forEach(item => {
 		event.remove({id: 'create:' + item + '_cobblestone_from_' + item + '_stonecutting'});
 	});
 	ex_nihil_hammer.forEach(item => {
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item});
+		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
+		event.remove({input: 'exnihilosequentia:pebble_' + item});
 	});
 	foods.forEach(item => {
 		event.remove({id: item});
@@ -107,9 +115,16 @@ onEvent('recipes', event => {
 	event.remove({id: "exnihilosequentia:ens_crucible_wood"});
 	event.remove({id: "exnihilosequentia:ens_crucible_fired"});
 	event.remove({id: "exnihilosequentia:ens_crucible_unfired"});
+	event.remove({id: "exnihilosequentia:sieve/ens_apple"});
+	event.remove({id: "exnihilosequentia:sieve/ens_golden_apple"});
 	event.remove({id: "sereneseasons:calendar"});
 	event.remove({id: "sereneseasons:season_sensor"});
 	event.remove({input: 'farmersdelight:wheat_dough'});
+	event.remove({output: 'quark:biotite'});
+	event.remove({id: 'sophisticatedbackpacks:netherite_backpack'});
+	event.remove({id: 'quark:tools/smithing/flamerang_smithing'});
+	event.remove({id: 'astralsorcery:shaped/black_marble/black_marble_raw'});
+	event.remove({id: 'astralsorcery:altar/black_marble_raw'});
 	
 	corals.forEach(item => {
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral',});

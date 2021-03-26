@@ -1,13 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless","ingredients": [
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    
     {
-      "item": "exnihilosequentia:pebble_andesite"
+      "item": "create:andesite_cobblestone"
     },
     {
       "tag": "forge:nuggets/iron_zinc"
     },
     {
-      "item": "exnihilosequentia:pebble_andesite"
+      "tag": "forge:nuggets/iron_zinc"
+    },
+    {
+      "tag": "forge:nuggets/iron_zinc"
     }
   ],
   "result": {

@@ -1,0 +1,13 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:stone"
+  },
+  "output": {
+    "item": "minecraft:andesite"
+  },
+  "mana": 200,
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

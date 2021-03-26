@@ -19,20 +19,39 @@ var remove_items = [
 	/quark:redstone_\w+/,
 	/quark:\w+_rune/,
 	'quark:cobbedstone_vertical_slab',
-	'quark:ancient_tome',
 	'quark:ender_watcher',
 	'quark:iron_rod',
 	'quark:diamond_heart',
 	'astralsorcery:starmetal_ore',
-	'botania:laputa_shard',
 	'farmersdelight:wheat_dough',
 	'bayou_blues:gooseberry_jam_cookie',
 	'botania:enchanter',
-	/exnihilosequentia:crucible_\w+/
+	/exnihilosequentia:crucible_\w+/,
+	/exnihilosequentia:pebble_\w+/,
+	'quark:lit_lamp',
+	/curios:\w+/,
+	'bayou_blues:gooseberry_juice',
+	'bayou_blues:gooseberry_jam',
+	'bayou_blues:honey_glazed_gooseberries',
+	'quark:crate',
+	'quark:potato_crate',
+	'quark:carrot_crate',
+	'quark:beetroot_crate'
+];
+
+var remove_nbt_items = [
+	'botania:laputa_shard',
+	'quark:ancient_tome'
 ];
 
 onEvent('jei.hide.items', event => {
 	remove_items.forEach(item => {
 		event.hide(item)
+	});
+});
+
+onEvent('jei.subtypes', event => {
+	remove_nbt_items.forEach(item => {
+		event.useNBT(item);
 	});
 });

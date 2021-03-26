@@ -2,18 +2,22 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "exnihilosequentia:pebble_andesite"
+      "item": "create:andesite_cobblestone"
     },
     {
       "tag": "forge:nuggets/iron_zinc"
     },
     {
-      "item": "exnihilosequentia:pebble_andesite"
+      "tag": "forge:nuggets/iron_zinc"
+    },
+    {
+      "tag": "forge:nuggets/iron_zinc"
     }
   ],
   "results": [
     {
-      "item": "create:andesite_alloy"
+      "item": "create:andesite_alloy",
+      "count": 4
     }
   ],
   "heatRequirement": "heated"

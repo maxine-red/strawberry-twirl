@@ -37,19 +37,19 @@
 [automation]
 	Chute = false
 	"Iron Rod" = false
-	"Weather Sensor" = false
+	"Weather Sensor" = true
 	"Ender Watcher" = false
 	"Endermites Form Shulkers" = false
 	"Chains Connect Blocks" = false
-	"Color Slime" = false
+	"Color Slime" = true
 	"Dispensers Place Blocks" = false
 	"Redstone Circuit" = false
 	"Chain Linkage" = false
 	Gravisand = false
-	"Metal Buttons" = false
+	"Metal Buttons" = true
 	"Obsidian Plate" = false
 	"Pistons Move Tile Entities" = false
-	"Feeding Trough" = false
+	"Feeding Trough" = true
 
 	[automation.dispensers_place_blocks]
 		Blacklist = ["minecraft:water", "minecraft:lava", "minecraft:fire"]
@@ -80,12 +80,12 @@
 	[automation.feeding_trough]
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
 		#Allowed values: (0,1]
-		"Love Chance" = 0.333333333
+		"Love Chance" = 0.3333333333333333
 		#How long, in game ticks, between animals being able to eat from the trough
 		#Allowed values: [1,)
 		Cooldown = 30
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
-		"Max Animals" = 32
+		"Max Animals" = 6
 		Range = 10.0
 
 [building]
@@ -110,7 +110,7 @@
 	"Stained Planks" = true
 	"Wooden Posts" = true
 	"Leaf Carpet" = true
-	"Lit Lamp" = true
+	"Lit Lamp" = false
 	"Vertical Planks" = true
 	Midori = true
 	"Tie Leads To Fences" = true
@@ -155,9 +155,9 @@
 		"Enable Bonded Rabbit Hide" = true
 		"Enable Charcoal Block" = true
 		"Enable Gunpowder Sack" = true
-		"Enable Potato Crate" = true
+		"Enable Potato Crate" = false
 		"Enable Stick Block" = true
-		"Enable Carrot Crate" = true
+		"Enable Carrot Crate" = false
 		"Enable Beetroot Crate" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Chorus Fruit Block" = true
@@ -254,7 +254,7 @@
 		"Underwater Ruin Weight" = 0
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Valid Enchantments" = []
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20
 		"Item Quality" = 2
@@ -475,7 +475,7 @@
 	"Mega Caves" = false
 	"Realistic World Gen" = false
 	Biotite = false
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Brimstone Underground Biome" = true
 	"Cave Crystal Underground Biome" = true
 	"Spiral Spires" = true
