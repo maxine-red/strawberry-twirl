@@ -95,7 +95,7 @@
 	- [x] enable ancient tomes
 	- [x] enable bottled cloud
 	- [x] enable colored runes (add crafting recipe, need magic, end game
-	- [ ] enable pathfinding maps (need to add them manually)
+	- [x] enable pathfinding maps
 	- [x] disable pickarang (enable for pupperpack, with heart of diamond)
 	- [x] enable seed bouch
 	- [x] enable skill pikes
@@ -232,23 +232,26 @@
 - [ ] change dirty glass (block loot table to drop glass shards)
 - [ ] add glass chards (only one) to drop table of glass panes
 - [ ] add crushed netherrack and end stone to milling
-- [ ] implement vailla drop behavior for sand/gravel (and keep the other loot tables for pupper pack import)
-- [ ] add salt to sand sieving
-- [ ] add soul salt to soul sand sieving
-- [ ] add void salt to enderrack sieving
+- [ ] restore gravel drops, and make backup for pupper pack
 - [ ] remove diamond smithing backpack recipe
 - [x] remove pickarang and flamarang items, recipes, etc.
-- [ ] change iron plate recipe (quark) to use iron sheet instead of ingots
-- [ ] make starlight infusion recipes for crystals from dyed glass
-- [ ] add salt to redsand loot table
+- [x] change iron plate recipe (quark) to use iron sheet instead of ingots
+- [x] make starlight infusion recipes for crystals from dyed glass
 - [ ] add reverse recipes for stone variants (smelting)
 - [ ] add all polished stone variants to sandpaper crafting (and keep them on stonecutting)
 - [ ] add sticks to leave sieving
 - [ ] add crushing wheel recipes for all hammer recipes
 - [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
-- [ ] have all create/botania stone variants drop cobblestone instead of itself
-- [ ] add recipes to make stone variants, that don't spawn in world (using botania)
+- [ ] restore vanilla stone dropping mechanics (except ores)
 - [ ] remove ex nihilo copper ingot recipe and item from jei
+- [ ] revamp salt mechanics
+  - mechanics aren't set in stone, look at them tomorrow
+  - [ ] remove them from drops
+  - [ ] remove soul water, use witch water in its place
+  - [ ] boiling sea water gives salt
+  - [ ] boiling witchwater gives soul salt
+  - [ ] reacting witchwater with X creates void essence
+  - [ ] boiling void essence gives void salt
 
 
 ### Food related
