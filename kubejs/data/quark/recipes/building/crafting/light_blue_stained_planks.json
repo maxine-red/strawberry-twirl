@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "tag": "forge:dyes/light_blue"
+    },
+    {
+      "fluid": "astralsorcery:liquid_starlight",
+      "amount": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:light_blue_stained_planks"
+    }
+  ]
+}

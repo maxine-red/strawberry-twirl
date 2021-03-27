@@ -11,148 +11,151 @@
 - [x] add ambientsounds mod
 - [x] remove theoneprobe and appleskin, when done (with configs)
 - [ ] update mod lists (mods.json, REAME.md)
-- [ ] redo quark config
-	- [ ] enable chain linking
-	- [ ] enable connect blocks by chains
-	- [ ] enable chute
-	- [ ] enable color slime
-	- [ ] disable dispensensers placing blocks
-	- [ ] enable ender watcher
-	- [ ] disable endermites from shulkers
-	- [ ] enable feeding trough (less animals
-	- [ ] enable gravisand (could be soure void salt)
-	- [ ] enable iron rod
-	- [ ] enable metal buttons
-	- [ ] enable redstone circuits
-	- [ ] disable obsidian pressure plates
-	- [ ] enable pistons move tile entities
-	- [ ] enable weather sensor
+- [x] redo quark config
+	- [x] enable chain linking
+	- [x] enable connect blocks by chains
+	- [x] enable chute
+	- [x] enable color slime
+	- [x] disable dispensensers placing blocks
+	- [x] enable ender watcher
+	- [x] disable endermites from shulkers
+	- [x] enable feeding trough (less animals)
+	- [x] enable gravisand (could be soure void salt)
+	- [x] enable iron rod
+	- [x] enable metal buttons
+	- [x] enable redstone circuits
+	- [x] disable obsidian pressure plates
+	- [x] enable pistons move tile entities
+	- [x] enable weather sensor
 	
-	- [ ] enable bamboo mats
-	- [ ] enable burning vine tips
-	- [ ] enable cobblestone bricks
-	- [ ] enable compressed blocks (disable potato, carrot and beetroot crates)
-	- [ ] enable duskbound blocks
-	- [ ] enable framed glass
-	- [ ] enable gold bars
-	- [ ] enable hedges
-	- [ ] disable grates
-	- [ ] enable iron plates
-	- [ ] enable item frames
-	- [ ] enable carpets
-	- [ ] disable lit lamp
-	- [ ] enable midori
-	- [ ] enable more brick types
-	- [ ] enable flower pots
-	- [ ] enable more stone variants
-	- [ ] enable nether brick fence gates (test with path under fence mod)
-	- [ ] enable paper decor
-	- [ ] enable quilted wool
-	- [ ] enable rope (change recipe)
-	- [ ] shallow dirt
-	- [ ] enable shingles
-	- [ ] enable soul sandstone
-	- [ ] enable stained planks (change recipe, make more expensive and realistic [add bleach])
-	- [ ] enable stools (make cheaper)
-	- [ ] enable sturdy stone
-	- [ ] enable tallow and candle
-	- [ ] enable thatch
-	- [ ] enable leads to fences
-	- [ ] enable turf
-	- [ ] enable varant bookshelves
-	- [ ] enable varant chests
-	- [ ] enable vertical planks
-	- [ ] enable vertical slabs
-	- [ ] enable wooden posts
+	- [x] enable bamboo mats
+	- [s] enable burning vine tips
+	- [x] enable cobblestone bricks
+	- [x] enable compressed blocks (disable potato, carrot and beetroot crates)
+	- [x] enable duskbound blocks
+	- [x] enable framed glass
+	- [x] enable gold bars
+	- [x] enable hedges
+	- [x] disable grates
+	- [x] enable iron plates (change recipe to use iron sheets)
+	- [x] enable item frames
+	- [x] enable carpets
+	- [x] disable lit lamp
+	- [x] enable midori
+	- [x] enable more brick types
+	- [x] enable flower pots
+	- [x] enable more stone variants
+	- [x] enable nether brick fence gates (test with path under fence mod)
+	- [x] enable paper decor
+	- [x] enable quilted wool
+	- [x] enable rope (change recipe)
+	- [x] enable shallow dirt
+	- [x] enable shingles
+	- [x] enable soul sandstone
+	- [x] enable stained planks (change recipe, make more expensive and realistic [add bleach])
+	- [x] enable stools
+	- [x] enable sturdy stone
+	- [x] enable tallow and candle
+	- [x] enable thatch
+	- [x] enable leads to fences
+	- [x] enable turf
+	- [x] enable varant bookshelves
+	- [x] enable varant ladders
+	- [x] enable varant chests
+	- [x] enable vertical planks
+	- [x] enable vertical slabs
+	- [x] enable wooden posts
 	
-	- [ ] enable auto walk keybind
-	- [ ] enable camera mode
-	- [ ] disable chest searching
-	- [ ] disable greener grass
-	- [ ] enable mount hud
-	- [ ] disable tool tips (for moopack, some for pupperpack)
-	- [ ] disable mouse 4 buttons
-	- [ ] disable usage ticker
-	- [ ] enable variant animal textures
+	- [x] enable auto walk keybind
+	- [x] enable camera mode
+	- [x] disable chest searching
+	- [x] disable greener grass
+	- [x] enable mount hud
+	- [x] disable tool tips (for moopack, some for pupperpack)
+	- [x] disable mouse 4 buttons
+	- [x] disable usage ticker
+	- [x] enable variant animal textures
 	
-	- [ ] enable chest in boats
-	- [ ] disable easy transferring
-	- [ ] disable hotbar changer
-	- [ ] disable inventory sorting
-	- [ ] enable item sharing
-	- [ ] enable right click armor
-	- [ ] disable shulker right click
+	- [x] enable chest in boats
+	- [x] disable easy transferring
+	- [x] disable hotbar changer
+	- [x] disable inventory sorting
+	- [x] enable item sharing
+	- [x] enable right click armor
+	- [x] disable shulker right click
 	
-	- [ ] enable crabs
-	- [ ] disable forgotten (no moopack, but yes pupperpack)
-	- [ ] enable foxhounds
-	- [ ] enable frogs
-	- [ ] disable stoneling (enable for pupper, change loot table, heart of diamond should be craftable)
-	- [ ] disable tortoise (enable for pupperpack)
-	- [ ] disable wraith
+	- [x] enable crabs
+	- [x] disable forgotten (no moopack, but yes pupperpack)
+	- [x] disable foxhounds (enable for pupper)
+	- [x] enable frogs
+	- [x] disable stoneling (enable for pupper, change loot table, heart of diamond should be craftable)
+	- [x] disable tortoise (enable for pupperpack)
+	- [x] disable wraith
 	
-	- [ ] enable ancient tomes
-	- [ ] enable bottled cloud
-	- [ ] enable colored runes (add crafting recipe, need magic, end game
-	- [ ] enable pathfinding maps)
-	- [ ] disable pickarang (enable for pupperpack, with heart of diamond)
-	- [ ] enable seed bouch
-	- [ ] enable skill pikes
-	- [ ] enable slime in a bucket
-	- [ ] enable trowel
+	- [x] enable ancient tomes
+	- [x] enable bottled cloud
+	- [x] enable colored runes (add crafting recipe, need magic, end game
+	- [ ] enable pathfinding maps (need to add them manually)
+	- [x] disable pickarang (enable for pupperpack, with heart of diamond)
+	- [x] enable seed bouch
+	- [x] enable skill pikes
+	- [x] enable slime in a bucket
+	- [x] enable trowel
 	
-	- [ ] enable armed armor stands
-	- [ ] enable automatic recipe unlock
-	- [ ] enable axe leaf harvesting (maybe not in pupper pack)
-	- [ ] enable campfire boost elytra
-	- [ ] enable compasses work everywhere (disable pupperpack)
-	- [ ] enable dirt to path
-	- [ ] enable door opening (disable pupper pack)
-	- [ ] enable dragon scales
-	- [ ] enable emotes
-	- [ ] disable enhanced ladders
-	- [ ] enable glass shards (change crafting, with heat)
-	- [ ] disable hoe harvesting 
-	- [ ] enable improved sleeping
-	- [ ] disable infinity water bucket
-	- [ ] disable lock rotation
-	- [ ] enable note block note sounds
-	- [ ] enable petting puppers!
-	- [ ] enable poison potato use
-	- [ ] enable reacharoundd placing (disable for pupper)
-	- [ ] disable scaffold substituion (enable pupperpack)
-	- [ ] disable sign editing (enable pupper pack)
-	- [ ] enable simple harvesting
-	- [ ] disable snow golem player heads
-	- [ ] enable springy slime
-	- [ ] disable utillity recipes
-	- [ ] disable villagers follow emeralds
+	- [x] enable armed armor stands
+	- [x] enable automatic recipe unlock
+	- [x] enable axe leaf harvesting (maybe not in pupper pack)
+	- [x] enable campfire boost elytra
+	- [x] enable compasses work everywhere (disable pupperpack)
+	- [x] enable dirt to path
+	- [x] enable door opening (disable pupper pack)
+	- [x] enable dragon scales
+	- [x] enable emotes
+	- [x] disable enhanced ladders
+	- [x] enable glass shards (change crafting, with heat)
+	- [x] disable hoe harvesting 
+	- [x] enable improved sleeping
+	- [x] disable infinity water bucket
+	- [x] disable lock rotation
+	- [x] enable note block note sounds
+	- [x] enable petting puppers!
+	- [x] enable poison potato use
+	- [x] enable reacharoundd placing (disable for pupper)
+	- [x] disable scaffold substituion (enable pupperpack)
+	- [x] disable sign editing (enable pupper pack)
+	- [x] enable simple harvesting
+	- [x] disable snow golem player heads
+	- [x] enable springy slime
+	- [x] disable utillity recipes
+	- [x] disable villagers follow emeralds
 	
-	- [ ] disable big stone clusters
-	- [ ] disable biotite
-	- [ ] enable blossom trees (no spawn in moopack, rare spawn in pupper pack, mana conversation to get saplings in both)
-	- [ ] enable cave roots
-	- [ ] enable chorus vegetation
-	- [ ] disable crevices
-	- [ ] enable fairy rings
-	- [ ] disable mega caves (maybe for pupper)
-	- [ ] disable mega dungeons
-	- [ ] disable monster boxes
-	- [ ] enable nether obsidian spikes
-	- [ ] enable new stone types
-	- [ ] enable realistic world types
-	- [ ] enable speleothems
-	- [ ] enable spiral spires
-	- [ ] enable all underground biomes
-	- [ ] enable underground clay
+	- [x] disable big stone clusters
+	- [x] disable biotite
+	- [x] enable blossom trees (no spawn in moopack, rare spawn in pupper pack, mana conversation to get saplings in both)
+	- [x] enable cave roots
+	- [x] enable chorus vegetation
+	- [x] disable crevices
+	- [x] enable fairy rings
+	- [x] disable mega caves (maybe for pupper)
+	- [x] disable mega dungeons
+	- [x] disable monster boxes
+	- [x] enable nether obsidian spikes
+	- [x] enable new stone types
+	- [x] enable realistic world types
+	- [x] enable speleothems
+	- [x] enable spiral spires
+	- [x] enable all underground biomes
+	- [x] enable underground clay
 	
-	- [ ] disable backpacks
-	- [ ] disable magnets
-	- [ ] disable matrix enchanting
-	- [ ] disable pipes
-	- [ ] enable totem of holding
+	- [x] disable backpacks
+	- [x] disable magnets
+	- [x] disable matrix enchanting
+	- [x] disable pipes
+	- [x] enable totem of holding
 
 - [ ] add an in world guide (small), that covers some important topics (like seasons)
+- [ ] add note on runes and crystals to guide book
+- [ ] add note that chainmail is craftable
 - [x] replace stick with guide book in bonus chest
 - [ ] add note in guide book about rich soil and mushroom interactions (grow mushroom colony)
 - [ ] add also note that you get the colony by shearing it (break block, action click shears off a mushroom instead)
@@ -225,15 +228,16 @@
 - [x] remove apples from leave sieving
 - [x] add marble -> sooty marble recipe to smelting and campfire
 - [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
-- [ ] remove botania laser gun
-- [ ] remove laputa stuff
+- [x] add chainmail recipes
+- [ ] change dirty glass (block loot table to drop glass shards)
+- [ ] add glass chards (only one) to drop table of glass panes
 - [ ] add crushed netherrack and end stone to milling
 - [ ] implement vailla drop behavior for sand/gravel (and keep the other loot tables for pupper pack import)
 - [ ] add salt to sand sieving
 - [ ] add soul salt to soul sand sieving
 - [ ] add void salt to enderrack sieving
 - [ ] remove diamond smithing backpack recipe
-- [ ] remove pickarang and flamarang items, recipes, etc.
+- [x] remove pickarang and flamarang items, recipes, etc.
 - [ ] change iron plate recipe (quark) to use iron sheet instead of ingots
 - [ ] make starlight infusion recipes for crystals from dyed glass
 - [ ] add salt to redsand loot table

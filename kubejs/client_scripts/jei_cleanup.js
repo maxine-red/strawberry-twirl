@@ -13,7 +13,7 @@ var remove_items = [
 	'astralsorcery:starmetal_ore',
 	'farmersdelight:wheat_dough',
 	
-  /quark:\w+rang/,
+    /quark:\w+rang/,
 	/quark:\w*biotite\w*/,
 	'quark:lit_lamp',
 	'quark:diamond_heart',
@@ -22,9 +22,9 @@ var remove_items = [
 	'quark:carrot_crate',
 	'quark:beetroot_crate',
 	
-  'botania:enchanter',
+    'botania:enchanter',
 	
-  /exnihilosequentia:crucible_\w+/,
+    /exnihilosequentia:crucible_\w+/,
 	/exnihilosequentia:pebble_\w+/,
 	/curios:\w+/,
 
@@ -34,18 +34,8 @@ var remove_items = [
 	'bayou_blues:honey_glazed_gooseberries'
 ];
 
-var remove_nbt_items = [
-	'botania:laputa_shard'
-];
-
 onEvent('jei.hide.items', event => {
 	remove_items.forEach(item => {
 		event.hide(item)
-	});
-});
-
-onEvent('jei.subtypes', event => {
-	remove_nbt_items.forEach(item => {
-		event.useNBT(item);
 	});
 });

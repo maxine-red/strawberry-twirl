@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:lime_shard"
+    },
+    {
+      "item": "quark:lime_shard"
+    },
+    {
+      "item": "quark:lime_shard"
+    },
+    {
+      "item": "quark:lime_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lime_stained_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

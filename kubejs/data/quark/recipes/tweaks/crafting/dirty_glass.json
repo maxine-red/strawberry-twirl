@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:dirty_shard"
+    },
+    {
+      "item": "quark:dirty_shard"
+    },
+    {
+      "item": "quark:dirty_shard"
+    },
+    {
+      "item": "quark:dirty_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:dirty_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

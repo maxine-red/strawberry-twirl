@@ -2,37 +2,34 @@
   "type": "astralsorcery:altar",
   "altar_type": 0,
   "duration": 100,
-  "starlight": 100,
+  "starlight": 200,
   "pattern": [
     "_____",
-    "_FBF_",
-    "_EAC_",
-    "_FDF_",
+    "_BCB_",
+    "_DAD_",
+    "_BEB_",
     "_____"
   ],
   "key": {
     "A": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:compass"
     },
     "B": {
-      "tag": "botania:runes/water"
+      "item": "minecraft:soul_sand"
     },
     "C": {
-      "tag": "botania:runes/earth"
+      "item": "minecraft:ender_eye"
     },
     "D": {
-      "tag": "botania:runes/fire"
+      "item": "minecraft:rotten_flesh"
     },
     "E": {
-      "tag": "botania:runes/air"
-    },
-    "F": {
-      "tag": "forge:gems/aquamarine"
+      "item": "minecraft:bone"
     }
   },
   "output": [
     {
-      "item": "astralsorcery:altar_attunement",
+      "item": "quark:soul_compass",
       "count": 1
     }
   ],

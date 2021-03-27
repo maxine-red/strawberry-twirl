@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:clear_shard"
+    },
+    {
+      "item": "quark:clear_shard"
+    },
+    {
+      "item": "quark:clear_shard"
+    },
+    {
+      "item": "quark:clear_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:yellow_shard"
+    },
+    {
+      "item": "quark:yellow_shard"
+    },
+    {
+      "item": "quark:yellow_shard"
+    },
+    {
+      "item": "quark:yellow_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:yellow_stained_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

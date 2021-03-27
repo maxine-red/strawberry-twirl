@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_stained_glass"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:brown_shard",
+      "count": 4
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "tag": "quark:shards"
+    },
+    {
+      "item": "kubejs:wax"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:dirty_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

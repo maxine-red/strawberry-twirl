@@ -50,10 +50,8 @@ var foods = [
 	'minecraft:rabbit_stew_from_brown_mushroom',
 	'minecraft:rabbit_stew_from_red_mushroom',
 	'enhanced_mushrooms:crafting/food/beef_stew',
-	'quark:tweaks/crafting/utility/bent/cookie',
 	'create:splashing/wheat_flour',
 	'farmersdelight:raw_pasta',
-	'quark:tweaks/crafting/utility/bent/bread',
 	'minecraft:bread',
 	'farmersdelight:wheat_dough',
 	'bayou_blues:crafting/gooseberry_jam_cookie',
@@ -99,6 +97,16 @@ var recipes = [
 	 'astralsorcery:shaped/black_marble/black_marble_raw',
 	 'astralsorcery:altar/black_marble_raw'
 ];
+
+var vanilla_saplings = [
+	['oak', 'spruce'],
+	['spruce', 'birch'],
+	['birch', 'jungle'],
+	['jungle', 'acacia'],
+	['acacia', 'dark_oak'],
+	['dark_oak', 'oak']
+];
+
 onEvent('recipes', event => {
 	create_crushing.forEach(item => {
 		event.remove({id: 'create:crushing/' + item});
@@ -147,6 +155,11 @@ onEvent('recipes', event => {
   recipes.forEach(item => {
     event.remove({id: item});
   });
-	event.remove({input: 'farmersdelight:wheat_dough'});
-	event.remove({output: 'quark:biotite'});
+  
+  vanilla_saplings.forEach(saplings => {
+	  event.remove({id: 'botania:mana_infusion/' + saplings[0] + '_sapling_to_' + saplings[1] + '_sapling'});
+  });
+  
+  event.remove({input: 'farmersdelight:wheat_dough'});
+  event.remove({output: 'quark:biotite'});
 });

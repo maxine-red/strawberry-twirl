@@ -1,0 +1,36 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "quark:brown_rune"
+  },
+  "mana": 22500,
+  "ingredients": [
+    {
+      "item": "quark:green_crystal"
+    },
+    {
+      "item": "quark:green_crystal"
+    },
+    {
+      "item": "quark:red_crystal"
+    },
+    {
+      "item": "quark:red_crystal"
+    },
+    {
+      "tag": "forge:gems/dragonstone"
+    },
+    {
+      "item": "astralsorcery:resonating_gem"
+    },
+    {
+      "tag": "botania:runes/lust"
+    },
+    {
+      "tag": "botania:runes/pride"
+    },
+    {
+      "tag": "botania:runes/envy"
+    }
+  ]
+}

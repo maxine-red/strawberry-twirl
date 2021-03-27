@@ -1,0 +1,13 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:spruce_sapling"
+  },
+  "output": {
+    "item": "quark:blue_blossom_sapling"
+  },
+  "mana": 120,
+  "catalyst": {
+    "name": "botania:alchemy_catalyst"
+  }
+}

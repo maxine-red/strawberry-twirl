@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:brown_shard"
+    },
+    {
+      "item": "quark:brown_shard"
+    },
+    {
+      "item": "quark:brown_shard"
+    },
+    {
+      "item": "quark:brown_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:brown_stained_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

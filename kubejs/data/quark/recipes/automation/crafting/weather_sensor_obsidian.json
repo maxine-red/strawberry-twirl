@@ -1,0 +1,41 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 0,
+  "duration": 100,
+  "starlight": 200,
+  "pattern": [
+    "_____",
+    "_FBF_",
+    "_EAC_",
+    "_FDF_",
+    "_____"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:daylight_detector"
+    },
+    "B": {
+      "tag": "botania:runes/water"
+    },
+    "C": {
+      "tag": "botania:runes/earth"
+    },
+    "D": {
+      "tag": "botania:runes/fire"
+    },
+    "E": {
+      "tag": "botania:runes/air"
+    },
+    "F": {
+      "tag": "forge:gems/aquamarine"
+    }
+  },
+  "output": [
+    {
+      "item": "quark:weather_sensor"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam"
+  ]
+}

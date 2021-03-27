@@ -1,0 +1,20 @@
+{
+  "type": "astralsorcery:block_transmutation",
+  "input": [
+    {
+      "block": "minecraft:light_blue_stained_glass",
+      "display": {
+        "item": "minecraft:light_blue_stained_glass",
+        "count": 1
+      }
+    }
+  ],
+  "output": {
+    "block": "quark:blue_crystal"
+  },
+  "display": {
+    "item": "quark:blue_crystal",
+    "count": 1
+  },
+  "starlight": 1200.0
+}

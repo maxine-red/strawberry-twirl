@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:orange_shard"
+    },
+    {
+      "item": "quark:orange_shard"
+    },
+    {
+      "item": "quark:orange_shard"
+    },
+    {
+      "item": "quark:orange_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:orange_stained_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}

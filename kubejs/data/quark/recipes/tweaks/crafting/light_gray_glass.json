@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "quark:light_gray_shard"
+    },
+    {
+      "item": "quark:light_gray_shard"
+    },
+    {
+      "item": "quark:light_gray_shard"
+    },
+    {
+      "item": "quark:light_gray_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:light_gray_stained_glass"
+    }
+  ],
+  "heatRequirement": "heated"
+}
