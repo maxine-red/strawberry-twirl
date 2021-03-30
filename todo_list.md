@@ -4,6 +4,7 @@
 
 - [ ] remove unused items
 - [ ] find and remove duplicate items
+- [ ] make an automatic release script, like I have for companion mod
 - [x] unify cooking (use cook pot)
 - [x] work over diet again
 
@@ -244,6 +245,7 @@
 - [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
 - [ ] restore vanilla stone dropping mechanics (except ores)
 - [ ] remove ex nihilo copper ingot recipe and item from jei
+- [ ] add crafting recipes for music discs
 - [ ] revamp salt mechanics
   - mechanics aren't set in stone, look at them tomorrow
   - [ ] remove them from drops
