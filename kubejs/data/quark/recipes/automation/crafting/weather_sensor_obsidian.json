@@ -15,19 +15,19 @@
       "item": "minecraft:daylight_detector"
     },
     "B": {
-      "tag": "botania:runes/water"
+      "item": "ars_nouveau:ritual_cloudshaping"
     },
     "C": {
-      "tag": "botania:runes/earth"
+      "item": "ars_nouveau:glyph_lightning"
     },
     "D": {
-      "tag": "botania:runes/fire"
+      "item": "ars_nouveau:glyph_light"
     },
     "E": {
-      "tag": "botania:runes/air"
+      "item": "ars_nouveau:mythical_clay"
     },
     "F": {
-      "tag": "forge:gems/aquamarine"
+      "tag": "forge:gems/mana"
     }
   },
   "output": [

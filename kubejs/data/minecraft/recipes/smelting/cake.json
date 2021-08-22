@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "kubejs:sweet_dough"
-  },
-  "result": "minecraft:cake",
-  "experience": 0.35,
-  "cookingtime": 200
-}

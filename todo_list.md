@@ -1,319 +1,103 @@
 # TODO
 
+# Notes
+
+- some mods might rely on the forge:tools tag, need to check when playing
+
 # Tasks to be done, for pack to be considered complete
 
 - [ ] remove unused items
 - [ ] find and remove duplicate items
 - [ ] make an automatic release script, like I have for companion mod
-- [x] unify cooking (use cook pot)
-- [x] work over diet again
-
-- [x] add berry good mod
-- [x] add ambientsounds mod
-- [x] remove theoneprobe and appleskin, when done (with configs)
 - [ ] update mod lists (mods.json, REAME.md)
-- [x] redo quark config
-	- [x] enable chain linking
-	- [x] enable connect blocks by chains
-	- [x] enable chute
-	- [x] enable color slime
-	- [x] disable dispensensers placing blocks
-	- [x] enable ender watcher
-	- [x] disable endermites from shulkers
-	- [x] enable feeding trough (less animals)
-	- [x] enable gravisand (could be soure void salt)
-	- [x] enable iron rod
-	- [x] enable metal buttons
-	- [x] enable redstone circuits
-	- [x] disable obsidian pressure plates
-	- [x] enable pistons move tile entities
-	- [x] enable weather sensor
+
+- [ ] add tips for several things
+	- [ ] astral sorcery is included
+	- [ ] immersive engineering is included
+	- [ ] ars noveau is included
+	- [ ] the one probe note being craftable
+	- [ ] about seasons (being a thing)
+	- [ ] for green house
+	- [ ] chainmail is craftable
+	- [ ] crystals are craftable
+	- [ ] rich soil grows mushroom colonies
+	- [ ] mushroom colonies can be taken, by shearing (otherwise drop mushrooms)
+	- [ ] ham drops from pigs, when killed with knife
+	- [ ] path from dirt and also waterloggable path
+	- [ ] charcoal's bloom thingy requires a brick block at the bottom tools
+	- [ ] there are no shovels, use mattocks instead
+	- [ ] normal tools are removed, use tinker tools
+	- [ ] add more tips to content that isn't obvious
+    - [ ] some trees don't produce enough resin, to be harvestable
+    - [ ] chestnut saplings require a 2x2
 	
-	- [x] enable bamboo mats
-	- [s] enable burning vine tips
-	- [x] enable cobblestone bricks
-	- [x] enable compressed blocks (disable potato, carrot and beetroot crates)
-	- [x] enable duskbound blocks
-	- [x] enable framed glass
-	- [x] enable gold bars
-	- [x] enable hedges
-	- [x] disable grates
-	- [x] enable iron plates (change recipe to use iron sheets)
-	- [x] enable item frames
-	- [x] enable carpets
-	- [x] disable lit lamp
-	- [x] enable midori
-	- [x] enable more brick types
-	- [x] enable flower pots
-	- [x] enable more stone variants
-	- [x] enable nether brick fence gates (test with path under fence mod)
-	- [x] enable paper decor
-	- [x] enable quilted wool
-	- [x] enable rope (change recipe)
-	- [x] enable shallow dirt
-	- [x] enable shingles
-	- [x] enable soul sandstone
-	- [x] enable stained planks (change recipe, make more expensive and realistic [add bleach])
-	- [x] enable stools
-	- [x] enable sturdy stone
-	- [x] enable tallow and candle
-	- [x] enable thatch
-	- [x] enable leads to fences
-	- [x] enable turf
-	- [x] enable varant bookshelves
-	- [x] enable varant ladders
-	- [x] enable varant chests
-	- [x] enable vertical planks
-	- [x] enable vertical slabs
-	- [x] enable wooden posts
-	
-	- [x] enable auto walk keybind
-	- [x] enable camera mode
-	- [x] disable chest searching
-	- [x] disable greener grass
-	- [x] enable mount hud
-	- [x] disable tool tips (for moopack, some for pupperpack)
-	- [x] disable mouse 4 buttons
-	- [x] disable usage ticker
-	- [x] enable variant animal textures
-	
-	- [x] enable chest in boats
-	- [x] disable easy transferring
-	- [x] disable hotbar changer
-	- [x] disable inventory sorting
-	- [x] enable item sharing
-	- [x] enable right click armor
-	- [x] disable shulker right click
-	
-	- [x] enable crabs
-	- [x] disable forgotten (no moopack, but yes pupperpack)
-	- [x] disable foxhounds (enable for pupper)
-	- [x] enable frogs
-	- [x] disable stoneling (enable for pupper, change loot table, heart of diamond should be craftable)
-	- [x] disable tortoise (enable for pupperpack)
-	- [x] disable wraith
-	
-	- [x] enable ancient tomes
-	- [x] enable bottled cloud
-	- [x] enable colored runes (add crafting recipe, need magic, end game
-	- [x] enable pathfinding maps
-	- [x] disable pickarang (enable for pupperpack, with heart of diamond)
-	- [x] enable seed bouch
-	- [x] enable skill pikes
-	- [x] enable slime in a bucket
-	- [x] enable trowel
-	
-	- [x] enable armed armor stands
-	- [x] enable automatic recipe unlock
-	- [x] enable axe leaf harvesting (maybe not in pupper pack)
-	- [x] enable campfire boost elytra
-	- [x] enable compasses work everywhere (disable pupperpack)
-	- [x] enable dirt to path
-	- [x] enable door opening (disable pupper pack)
-	- [x] enable dragon scales
-	- [x] enable emotes
-	- [x] disable enhanced ladders
-	- [x] enable glass shards (change crafting, with heat)
-	- [x] disable hoe harvesting 
-	- [x] enable improved sleeping
-	- [x] disable infinity water bucket
-	- [x] disable lock rotation
-	- [x] enable note block note sounds
-	- [x] enable petting puppers!
-	- [x] enable poison potato use
-	- [x] enable reacharoundd placing (disable for pupper)
-	- [x] disable scaffold substituion (enable pupperpack)
-	- [x] disable sign editing (enable pupper pack)
-	- [x] enable simple harvesting
-	- [x] disable snow golem player heads
-	- [x] enable springy slime
-	- [x] disable utillity recipes
-	- [x] disable villagers follow emeralds
-	
-	- [x] disable big stone clusters
-	- [x] disable biotite
-	- [x] enable blossom trees (no spawn in moopack, rare spawn in pupper pack, mana conversation to get saplings in both)
-	- [x] enable cave roots
-	- [x] enable chorus vegetation
-	- [x] disable crevices
-	- [x] enable fairy rings
-	- [x] disable mega caves (maybe for pupper)
-	- [x] disable mega dungeons
-	- [x] disable monster boxes
-	- [x] enable nether obsidian spikes
-	- [x] enable new stone types
-	- [x] enable realistic world types
-	- [x] enable speleothems
-	- [x] enable spiral spires
-	- [x] enable all underground biomes
-	- [x] enable underground clay
-	
-	- [x] disable backpacks
-	- [x] disable magnets
-	- [x] disable matrix enchanting
-	- [x] disable pipes
-	- [x] enable totem of holding
+# Recipes
 
-- [ ] add an in world guide (small), that covers some important topics (like seasons)
-- [ ] add note on runes and crystals to guide book
-- [ ] add note that chainmail is craftable
-- [x] replace stick with guide book in bonus chest
-- [ ] add note in guide book about rich soil and mushroom interactions (grow mushroom colony)
-- [ ] add also note that you get the colony by shearing it (break block, action click shears off a mushroom instead)
-- [ ] add a note that ham drops from pigs, only when killed with a knife
-- [ ] add note on path from dirt (not requiring grass) and shallow diet, that can be water logged
-- [ ] look over content, items and achievements and see what needs notes in guide book, what can add a little progress, etc (like hinting at astral and botania)
+## Thermal
+- [ ] remove integral components and upgrades (except exp one and filter one)
 
-## Configuration
+## Immersive/Thermal
+- [ ] change recipe for distillation to create heavy oil and light oil and bitumen instead
+- [ ] add recipe for heavy oil into cured rubber (maybe look at latex)
+- [ ] add recipe to distill heavy oil into lubricant, sulfurized diesel and gasoline and tar
+- [ ] add recipe to coal into heavy oil and tar
+- [ ] add recipe for bitumen to heavy oil
+- [ ] add recipe for distillation of light oil to refined fuel and gasoline
+- [ ] add refiend fuel as a fuel for portable generators
+- [ ] add recipe to make rich slag and alias slag together
+- [ ] change sawdust block recipe to use tag for sawdust
+- [ ] alias coal coke and coke together (don't forget charcoal's coke)
+- [ ] add distillation of resin into tree oil and rosin
+- [ ] add tree oil to fuel list for diesel generator
 
-- [x] add all mod crops to serene seasons list
-- [x] remove quark big cavern thingy in config
+## Create/Thermal
+- [ ] add filling/emptying recipes for sap and syrup
+- [ ] add recipe for syrup to sugar boiling
+- [ ] add recipes to make things with sugar, also with honey and syrup (partially, depends on how many there are)
 
-## Fluid changes
+## Create/Immersive
+- [ ] unify alloying recipes with kiln (only low temp recipes)
 
-- [x] add soul water, made like sea water, but with soul sand
-- [x] add void water, made like sea water, but with end sand/end stone
+## Create/Tinker
+- [ ] add molten metal recipes to create mixing (super heated)
+- [ ] allow alloying in heated basin
+- [ ] add melting recipes for nuggets, ingots and blocks (foundry, where not exists and basin)
 
-## Item/Block changes
+## Tinker
+- [ ] add more fuels to fuel table of foundry (like bitumen and tar)
 
-- [x] remove apples from oak leave loot table
-- [x] remove hammer recipes for diorite, andesite and granite
-- [x] change gravel loot table, so that it always drops itself, and flint additionally
-- [x] add crushed andesite-iron mix itom, that is smelted into andesite alloy (needs blasting)
-- [x] add recipe (hammer, mill, crushing wheel) for andesite pellets
-- [x] add recipe to make andesite mix with pebbble and iron nuggets (two pebble, one iron nuggest, make one mix)
-- [x] remove crafting recipes for andesite alloy and re-add them with heat requirements
-- [x] replace ore drop with ore chunks or chunk pieces (and make it fortune acknowledging)
-- [x] add water group, so you have to sippy (also look over diet effects and such)
-- [x] have andesite, granite and diorite drop cobblestone variants instead
-- [x] add cobblestone to stone (variants) to campfire cooking
-- [x] add cobblestone to stone (variants) to baking (kiln)
-- [x] add cobblestone (variants) to gravel to hammering
-- [x] require furnace recipe having a smooth stone base
-- [x] add recipe for dirt, with sand, 4x bone meal and 4 straw (or other plant matter)
-- [x] all cobblestone should be hammered into gravel
-- [x] add soul salt and void salt, gathered from sand types in nether/end (void salt comes from endstone instead)
-- [x] add salt to sand drop table, same as gravel mechanic
-- [x] add recipes for salt -> water variant it comes from
-- [x] have pies require crust to made
-- [x] add fruittrees fruits as tag entries to where fitting other fruits are used
-- [x] look through ingot recipes and see what should be replaced with sheets
-- [x] add jam fluid
-- [x] add use labeled jam texture
-- [x] make fruit salad more like original again, but with alternatives, through tags
-- [x] remove knife from apple pie recipe and don't add it to fruit salad again
-- [x] add recipe to get grains from cutting wheat, then grind grains to get flour, then use water to make dough out of it and cook it for bread
-- [x] add recipe to press honey combs, to get honey and wax
-- [x] add wax as a tallow replacement
-- [x] add recipe for jam (jam is made from citrus or apples fruit and sugar)
-- [x] use heated mixing for jelly (from jam fluid) also with extra sugar or honey
-- [x] change honey bottle to sugar recipe to 2 sugar (for better numbers)
-- [x] add heated mixing recipe for honey to sugar
-- [x] replace pumpkin in pumpkin pie with slice
-- [x] add red jam and jelly variant (made from sweetberries or cherries/redlove fruit (then with sugar))
-- [x] add purple jam and jelly variant (made from chorus fruit and has some nasty side effects, chance based)
-- [x] add a guide book, via custom starter gear
-- [x] add season calendar recipe to altar (remove old recipe)
-- [x] add season detector recipe to alter (remove old recipe)
-- [x] remove enchantment core thingy (the one that doesn't use up books) from jei and recipe
-- [z] remove coral hammer recipes
-- [x] remove all ex nihilo composting recipes
-- [x] add recipe to make astral sorcery tome
-- [x] add aquamarine to waterlogged sieving recipes of sand
-- [x] add rock crystal sieving with very low chance to gravel
-- [x] remove pebbles and pebble recipes, where pebbles are used, use cobblestone instead
-- [x] remove crushed stone variants from jei, creation recipes and used recipes
-- [x] add marble spawn in world
-- [x] remove all ex nihilo crucible heating recipes
-- [x] remove honey glazed gooseberries and jam
-- [x] remove apples from leave sieving
-- [x] add marble -> sooty marble recipe to smelting and campfire
-- [x] decide if keep pebbles and not create other stone types in world, or create other stone types in world (from create only) and remove pebbles
-- [x] add chainmail recipes
-- [ ] change dirty glass (block loot table to drop glass shards)
-- [ ] add glass chards (only one) to drop table of glass panes
-- [ ] add crushed netherrack and end stone to milling
-- [ ] restore gravel drops, and make backup for pupper pack
-- [ ] remove diamond smithing backpack recipe
-- [x] remove pickarang and flamarang items, recipes, etc.
-- [x] change iron plate recipe (quark) to use iron sheet instead of ingots
-- [x] make starlight infusion recipes for crystals from dyed glass
-- [ ] add reverse recipes for stone variants (smelting)
-- [ ] add all polished stone variants to sandpaper crafting (and keep them on stonecutting)
-- [ ] add sticks to leave sieving
-- [ ] add crushing wheel recipes for all hammer recipes
-- [ ] remove mossy variants from stone cutting and rather add them by crafting with a vine/grass
-- [ ] restore vanilla stone dropping mechanics (except ores)
-- [ ] remove ex nihilo copper ingot recipe and item from jei
-- [ ] add crafting recipes for music discs
-- [ ] revamp salt mechanics
-  - mechanics aren't set in stone, look at them tomorrow
-  - [ ] remove them from drops
-  - [ ] remove soul water, use witch water in its place
-  - [ ] boiling sea water gives salt
-  - [ ] boiling witchwater gives soul salt
-  - [ ] reacting witchwater with X creates void essence
-  - [ ] boiling void essence gives void salt
+## Misc
+- [ ] remove broken recipes from charcoal and abnormals delight
+- [ ] remove crafting recipes for nuggets/ingots/blocks of metal
+- [ ] add nuggets/ingots/blocks of metal recipes for casting
+- [x] remove recipes for pickaxes, axes swords, etc so tinker needs to be used
+- [x] remove netherrite crafting recipe
+- [ ] remove wheat to bread cooking recipe
+- [x] add different weather sensor recipe
+- [ ] make slimy dirt variants craftable
+- [ ] change sweet roll recipe to use sweet bun first (sweet bun needs to be added and is baked from sweet dough)
+- [ ] add recipes for soul salt and void salt making (could enchant them or mix salt with special other ingredients)
+- [ ] make pie crust recipe (also blaze cake) from base materials
+- [ ] mixer can make sweet dough and cinder dough, that then needs to be stamped
+- [ ] unify cakes/pies
+- [ ] check if there can be different recipes for same materials, but different heating (making not superheated less efficient)
 
+- [ ] add recipe to make starmetal recipe
+- [ ] remove duplicate ingot/nuggets and decide (with pupper) which ones stay
 
-### Food related
+- [ ] maybe add recipe to make soul salt from salt and cinnabar dust (check with pupper) Could also use sulfur dust and cinnabar makes void salt?
 
-- [x] add honey recipe for jam
-- [x] decide with pupper, which beef stew to use
-- [x] remove crafting table stew/soup recipes and add them to cooking pot (if not already there)
-- [x] add diet tags, where they are missing
-- [x] have soups and stews require salt
-- [x] add chorus fruit (popped) to campfire cooking and smoking
-- [x] make apple pie use sweet dough instead of the top crust
-- [x] update fruit salad recipe again, to require more differnt frutis
-- [x] remove wheat to bread recipes
-- [x] add mxing recipe for sweet berry cheese cake
-- [x] add mixing recipe for stuffed potato
-- [x] add mixing recipe for pumpkin pie
-- [x] add mixing recipe for gooseberry pie
-- [x] add mixing recipe for apple pie
-- [x] add recipes for buttered bread to jam sandwiches (crafting and filling)
-- [x] add recipe for gelatin (fluid and item) to jelly mixing and cooking
-- [x] add stew and soup fluids, with filling, emptying and mixing recipes (mixing requires water)
-	- [x] mushroom stew
-	- [x] tomato sauce
-	- [x] beetroot soup
-	- [x] rabbit stew
-	- [x] vegetable soup
-	- [x] fish stew
-	- [x] pumpkin soup
-	- [x] baked cod stew
-	- [x] chicken soup
-	- [x] dog food
-- [x] make tag for gelatin making, that includes sea grass, dried kelp and bone meal
-- [x] gelatin is cooked or mixed with
-	- [x] 4 gelatin making items and 2 salt
-	- [x] 4 gelatin making items + 1 soul salt
-- [x] change milk bottle to forge:milk tag in
-	- [x] sweet berry cheese cake
-	- [x] chocolate bar
-	- [x] sweet dough
-	- [x] chocolate pie
-	- [x] cinder dough
-	- [x] butter (cooking)
-	- [x] magic butter (cooking)
-	- [x] hot cocoa (coooking)
-- [x] make tags for jam making
-	- 2_jam grapefruit
-	- 3_jam pomelo, apple, lime, orange, mandarin, citron, lemon
-	- purple_jam chorus fruit
-	- 2_red_jam red love
-	- 3_red_jam cherries
-	- 5_red_jam sweet berries, melon
-	- jam requires 2 sugar or 1 honey bottle (250ml) -> jar
-	- jelly is 2 per jar
-- [x] add a dairy diet tag and add it to everything that includes milk in the recipe, somewhere
+- [ ] alias chocolate bars together and unify recipes
+- [ ] have one bar of chocolate be made by stamping (create one) and the other being cooked (neapolitan one)
+- [ ] add recipe to melt chocolate in basin and also tinker
 
-## Compatibility
+- [ ] add more use for gears (could be in immersive and create) but also talk to pupper about it
 
-### Mechanic additions
-- [x] add rituals for enchanted books to botnia terraplate thingy (recipes are in chests)
-- [x] include salt variants more, to have it more constantly used, need ideas
-- [ ] integrate mods (mostly astral, botania and create) more together
-- [ ] add tip that says that water freezes in winter
-- [ ] also add tips about seasons in general
+# Worldgen
+- [ ] remove duplicate ores, decide which ones stay
+
+# JEI/Recipes
+
+# Tinker
+- [ ] maybe add more materials from other mods (talk to pupper)
+- [ ] talk to pupper about adding missing melting/alloying recipes to tinker

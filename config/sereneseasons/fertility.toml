@@ -2,8 +2,6 @@
 [general]
 	#Whether crops are affected by seasons.
 	seasonal_crops = true
-	#Whether unlisted seeds are fertile every season. False means they're fertile every season except Winter
-	ignore_unlisted_crops = false
 	#How crops behave when out of season.
 	#0 = Grow slowly
 	#1 = Can't grow
@@ -15,18 +13,4 @@
 	underground_fertility_level = 48
 	#Whether to include tooltips on crops listing which seasons they're fertile in. Note: This only applies to listed crops.
 	crop_tooltips = true
-
-[seasonal_fertility]
-	#Crops growable in Spring
-	#(List either the seed item for the crop, or the crop block itself)
-	spring_crops = ["minecraft:oak_sapling", "minecraft:birch_sapling", "minecraft:spruce_sapling", "minecraft:dark_oak_sapling", "minecraft:red_mushroom", "naturesaura:aura_mushroom", "minecraft:brown_mushroom", "minecraft:nether_wart", "minecraft:crimson_fungus", "minecraft:warped_fungus", "minecraft:crimson_nylium", "minecraft:warped_nylium", "minecraft:twisting_vines", "minecraft:twisting_vines_plant", "minecraft:weeping_vines", "minecraft:weeping_vines_plant", "minecraft:seagrass", "minecraft:sea_pickle", "minecraft:grass_block", "minecraft:grass", "minecraft:fern", "minecraft:bamboo", "minecraft:bamboo_sapling", "minecraft:carrot", "minecraft:potato", "farmersdelight:tomato_seeds", "farmersdelight:cabbage_seeds", "farmersdelight:rice", "farmersdelight:rice_panicle", "fruittrees:cherry_leaves", "fruittrees:redlove_leaves", "fruittrees:mandarin_leaves"]
-	#Crops growable in Winter
-	#(List either the seed item for the crop, or the crop block itself)
-	winter_crops = ["minecraft:spruce_sapling", "minecraft:red_mushroom", "naturesaura:aura_mushroom", "minecraft:brown_mushroom", "minecraft:nether_wart", "minecraft:crimson_fungus", "minecraft:warped_fungus", "minecraft:crimson_nylium", "minecraft:warped_nylium", "minecraft:twisting_vines", "minecraft:twisting_vines_plant", "minecraft:weeping_vines", "minecraft:weeping_vines_plant", "minecraft:seagrass", "minecraft:sea_pickle", "minecraft:sweet_berries"]
-	#Crops growable in Summer
-	#(List either the seed item for the crop, or the crop block itself)
-	summer_crops = ["minecraft:oak_sapling", "minecraft:birch_sapling", "minecraft:jungle_sapling", "minecraft:acacia_sapling", "minecraft:dark_oak_sapling", "minecraft:red_mushroom", "naturesaura:aura_mushroom", "minecraft:brown_mushroom", "minecraft:nether_wart", "minecraft:crimson_fungus", "minecraft:warped_fungus", "minecraft:crimson_nylium", "minecraft:warped_nylium", "minecraft:twisting_vines", "minecraft:twisting_vines_plant", "minecraft:weeping_vines", "minecraft:weeping_vines_plant", "minecraft:seagrass", "minecraft:sea_pickle", "minecraft:grass_block", "minecraft:grass", "minecraft:fern", "minecraft:bamboo", "minecraft:bamboo_sapling", "minecraft:cactus", "minecraft:sugar_cane", "minecraft:cocoa", "minecraft:wheat_seeds", "minecraft:melon_seeds", "minecraft:cocoa_beans", "farmersdelight:tomato_seeds", "farmersdelight:rice", "farmersdelight:rice_panicle", "farmersdelight:onion", "fruittrees:cherry_leaves", "fruittrees:redlove_leaves", "fruittrees:mandarin_leaves", "fruittrees:lime_leaves", "fruittrees:citron_leaves", "fruittrees:pomelo_leaves", "fruittrees:orange_leaves", "fruittrees:lemon_leaves", "fruittrees:grapefruit_leaves", "fruittrees:apple_leaves"]
-	#Crops growable in Autumn
-	#(List either the seed item for the crop, or the crop block itself)
-	autumn_crops = ["minecraft:oak_sapling", "minecraft:birch_sapling", "minecraft:spruce_sapling", "minecraft:dark_oak_sapling", "minecraft:red_mushroom", "naturesaura:aura_mushroom", "minecraft:brown_mushroom", "minecraft:nether_wart", "minecraft:crimson_fungus", "minecraft:warped_fungus", "minecraft:crimson_nylium", "minecraft:warped_nylium", "minecraft:twisting_vines", "minecraft:twisting_vines_plant", "minecraft:weeping_vines", "minecraft:weeping_vines_plant", "minecraft:seagrass", "minecraft:sea_pickle", "minecraft:sweet_berries", "minecraft:grass_block", "minecraft:grass", "minecraft:fern", "minecraft:wheat_seeds", "minecraft:pumpkin_seeds", "minecraft:beetroot_seeds", "minecraft:carrot", "farmersdelight:onion", "fruittrees:grapefruit_leaves", "fruittrees:apple_leaves"]
 

@@ -12,16 +12,16 @@
   ],
   "key": {
     "A": {
-      "tag": "botania:runes/spring"
+      "item": "ars_nouveau:glyph_grow"
     },
     "B": {
-      "tag": "botania:runes/summer"
+      "item": "ars_nouveau:glyph_ignite"
     },
     "C": {
-      "tag": "botania:runes/autumn"
+      "item": "ars_nouveau:glyph_harvest"
     },
     "D": {
-      "tag": "botania:runes/winter"
+      "item": "ars_nouveau:glyph_freeze"
     },
     "E": {
       "item": "astralsorcery:aquamarine"
@@ -33,7 +33,7 @@
       "tag": "astralsorcery:starmetal"
     },
     "H": {
-      "tag": "forge:dusts/mana"
+      "tag": "forge:gems/mana"
     }
   },
   "recipe_class": "astralsorcery:constellation_upgrade",

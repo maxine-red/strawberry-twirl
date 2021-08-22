@@ -5,7 +5,114 @@
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
-var create_crushing = [
+var sophisticated_upgrades = [
+	'sophisticatedbackpacks:magnet_upgrade',
+	'sophisticatedbackpacks:advanced_magnet_upgrade',
+	'sophisticatedbackpacks:advanced_magnet_upgrade_from_basic',
+	'sophisticatedbackpacks:feeding_upgrade',
+	'sophisticatedbackpacks:compacting_upgrade',
+	'sophisticatedbackpacks:advanced_compacting_upgrade',
+	'sophisticatedbackpacks:void_upgrade',
+	'sophisticatedbackpacks:advanced_void_upgrade',
+	'sophisticatedbackpacks:inception_upgrade',
+	'sophisticatedbackpacks:smelting_upgrade',
+	'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
+	'sophisticatedbackpacks:auto_smelting_upgrade',
+	'sophisticatedbackpacks:crafting_upgrade',
+	'sophisticatedbackpacks:stonecutter_upgrade',
+	'sophisticatedbackpacks:stack_upgrade_tier_1',
+	'sophisticatedbackpacks:stack_upgrade_tier_2',
+	'sophisticatedbackpacks:stack_upgrade_tier_3',
+	'sophisticatedbackpacks:stack_upgrade_tier_4',
+	'sophisticatedbackpacks:tool_swapper_upgrade',
+	'sereneseasons:calendar',
+	'sereneseasons:season_sensor',
+	'sophisticatedbackpacks:tank_upgrade',
+];
+
+var foods = [
+	'minecraft:bread',
+	'farmersdelight:wheat_dough',
+	'minecraft:mushroom_stew',
+	'minecraft:beetroot_soup',
+	'farmersdelight:integration/create/mixing/tomato_sauce_from_mixing',
+	'minecraft:rabbit_stew_from_brown_mushroom',
+	'minecraft:rabbit_stew_from_red_mushroom',
+	'create:splashing/wheat_flour',
+	'farmersdelight:raw_pasta',
+	'bayou_blues:crafting/gooseberry_jam_cookie',
+	'bayou_blues:crafting/honey_glazed_gooseberries',
+	'bayou_blues:crafting/gooseberry_juice',
+	'bayou_blues:crafting/gooseberry_jam',
+	'bayou_blues:crafting/gooseberry_jam_from_juice',
+	'farmersdelight:cake_from_milk_bottle',
+	'minecraft:netherite_ingot'
+];
+
+var recipes = [
+	 'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
+	 'astralsorcery:shaped/black_marble/black_marble_raw',
+	 'astralsorcery:altar/black_marble_raw',
+	/minecraft:\w+_(shovel|axe|pickaxe|sword)/,
+	/astralsorcery:altar\/crystal_(shovel|axe|pickaxe|sword)/,
+	/immersiveengineering:crafting\/(shovel|axe|pickaxe|sword)_steel/,
+    // broken recipes
+    'abnormals_delight:environmental/cooking/squid_ink_risotto',
+    'minecraft:cyan_glazed_terracotta'
+];
+
+var outputs = [
+];
+
+var create_andesite_alloy = [
+	'andesite_alloy',
+	'andesite_alloy_from_zinc'
+];
+
+
+var quark_glass_shards = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow"];
+var corundum_colors = ["red", "yellow", "green", "blue", "indigo", "violet", "white", "black"];
+
+
+onEvent('recipes', event => {
+	sophisticated_upgrades.forEach(item => {
+		event.remove({id: item});
+	});
+	
+	foods.forEach(item => {
+		event.remove({id: item});
+	});
+	
+	recipes.forEach(recipe => {
+        console.info("Remove recipe: " + recipe);
+		event.remove({id: recipe});
+	});
+	
+	outputs.forEach(item => {
+		event.remove({output: item});
+	});
+	
+	create_andesite_alloy.forEach(item => {
+		event.remove({id: 'create:crafting/materials/' + item});
+		event.remove({id: 'create:mixing/' + item});
+	});
+	
+	quark_glass_shards.forEach(color => {
+		let output = "minecraft:" + color + "_stained_glass";
+		let input = "quark:" + color + "_shard";
+		event.recipes.createMixing(output, [input, input, input, input]).heated();
+		event.recipes.createMilling("4x " + input, output);
+		event.recipes.createMixing("quark:" + color + "_stained_planks", ["#minecraft:planks", "#forge:dyes/" + color, Fluid.of("astralsorcery:liquid_starlight", 50)]);
+		event.remove({id: "quark:tweaks/crafting/" + color + "_glass"});
+		event.remove({id: "quark:building/crafting/" + color + "_stained_planks"});
+	});
+	  
+	corundum_colors.forEach(color => {
+        event.remove({id: "quark:world/crafting/waxed_" + color + "_crystal"});
+		event.shapeless("quark:waxed_" + color + "_crystal", ["quark:" + color + "_crystal", "kubejs:wax"]);
+	});
+});
+/*var create_crushing = [
 	'platinum_ore',
 	'silver_ore',
 	'aluminum_ore',
@@ -13,11 +120,6 @@ var create_crushing = [
 	'tin_ore',
 	'lead_ore',
 	'nickel_ore'
-];
-
-var create_andesite_alloy = [
-	'andesite_alloy',
-	'andesite_alloy_from_zinc'
 ];
 
 var create_cobble = [
@@ -42,27 +144,6 @@ var ex_nihil_hammer = [
 	'granite'
 ];
 
-var foods = [
-	'minecraft:mushroom_stew',
-	'botania:mushroom_stew',
-	'minecraft:beetroot_soup',
-	'farmersdelight:integration/create/mixing/tomato_sauce_from_mixing',
-	'minecraft:rabbit_stew_from_brown_mushroom',
-	'minecraft:rabbit_stew_from_red_mushroom',
-	'enhanced_mushrooms:crafting/food/beef_stew',
-	'create:splashing/wheat_flour',
-	'farmersdelight:raw_pasta',
-	'minecraft:bread',
-	'farmersdelight:wheat_dough',
-	'bayou_blues:crafting/gooseberry_jam_cookie',
-	'bayou_blues:crafting/honey_glazed_gooseberries',
-	'bayou_blues:crafting/gooseberry_juice',
-	'bayou_blues:crafting/gooseberry_jam',
-	'bayou_blues:crafting/gooseberry_jam_from_juice',
-	'farmersdelight:cake_from_milk_bottle',
-	'minecraft:cake'
-];
-
 var corals = [
 	'tube',
 	'brain',
@@ -85,37 +166,13 @@ var recipes = [
 	 'create:emptying/milk_bucket',
 	 'create:mixing/tea',
 	 'create:mixing/chocolate',
-	 'exnihilosequentia:ens_crucible_wood',
-	 'exnihilosequentia:ens_crucible_fired',
-	 'exnihilosequentia:ens_crucible_unfired',
-	 'exnihilosequentia:sieve/ens_apple',
-	 'exnihilosequentia:sieve/ens_golden_apple',
-	 'sereneseasons:calendar',
-	 'sereneseasons:season_sensor',
-	 'sophisticatedbackpacks:netherite_backpack',
 	 'quark:tools/smithing/flamerang_smithing',
-	 'astralsorcery:shaped/black_marble/black_marble_raw',
-	 'astralsorcery:altar/black_marble_raw'
-];
-
-var vanilla_saplings = [
-	['oak', 'spruce'],
-	['spruce', 'birch'],
-	['birch', 'jungle'],
-	['jungle', 'acacia'],
-	['acacia', 'dark_oak'],
-	['dark_oak', 'oak']
 ];
 
 onEvent('recipes', event => {
 	create_crushing.forEach(item => {
 		event.remove({id: 'create:crushing/' + item});
 		event.remove({id: 'create:milling/' + item});
-	});
-	
-  create_andesite_alloy.forEach(item => {
-		event.remove({id: 'create:crafting/materials/' + item});
-		event.remove({id: 'create:mixing/' + item});
 	});
 	
   polished_stones.forEach(item => {
@@ -138,10 +195,6 @@ onEvent('recipes', event => {
 		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
 		event.remove({input: 'exnihilosequentia:pebble_' + item});
 	});
-	
-  foods.forEach(item => {
-		event.remove({id: item});
-	});
 
   types.forEach(item => {
     event.remove({type: item});
@@ -151,10 +204,6 @@ onEvent('recipes', event => {
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral',});
 		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral_fan',});
 	});
-	
-  recipes.forEach(item => {
-    event.remove({id: item});
-  });
   
   vanilla_saplings.forEach(saplings => {
 	  event.remove({id: 'botania:mana_infusion/' + saplings[0] + '_sapling_to_' + saplings[1] + '_sapling'});
@@ -162,4 +211,4 @@ onEvent('recipes', event => {
   
   event.remove({input: 'farmersdelight:wheat_dough'});
   event.remove({output: 'quark:biotite'});
-});
+});*/

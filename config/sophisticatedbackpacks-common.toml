@@ -2,9 +2,9 @@
 #Common Settings
 [common]
 	#Turns on/off loot added to various vanilla chest loot tables
-	chestLootEnabled = false
+	chestLootEnabled = true
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["void_upgrade:false", "upgrade_base:false", "filter_upgrade:false", "magnet_upgrade:false", "advanced_pickup_upgrade:false", "everlasting_upgrade:false", "advanced_restock_upgrade:false", "advanced_magnet_upgrade:false", "refill_upgrade:false", "deposit_upgrade:false", "iron_backpack:false", "diamond_backpack:false", "gold_backpack:false", "crafting_upgrade:false", "advanced_deposit_upgrade:false", "auto_smelting_upgrade:false", "advanced_void_upgrade:false", "restock_upgrade:false", "advanced_compacting_upgrade:false", "backpack:true", "smelting_upgrade:false", "feeding_upgrade:false", "compacting_upgrade:false", "advanced_filter_upgrade:false", "inception_upgrade:false", "pickup_upgrade:false"]
+	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_magnet_upgrade:true", "advanced_tool_swapper_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "inception_upgrade:true", "crafting_upgrade:true", "tank_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "smelting_upgrade:true", "upgrade_base:true", "filter_upgrade:true", "magnet_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "stonecutter_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "tool_swapper_upgrade:true", "feeding_upgrade:true", "netherite_backpack:true", "stack_upgrade_tier_4:true"]
 
 	#Advanced Filter Upgrade Settings
 	[common.advancedFilterUpgrade]
@@ -52,7 +52,7 @@
 		upgradeSlotCount = 5
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 27
 
 	#Filter Upgrade Settings
 	[common.filterUpgrade]
@@ -90,6 +90,12 @@
 		#Range: 1 ~ 6
 		slotsInRow = 3
 
+	#Tool Swapper Upgrade Settings
+	[common.toolSwapperUpgrade]
+		#Number of tool filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
+
 	#Inception Upgrade Settings
 	[common.inceptionUpgrade]
 		#Allows / Disallows backpack upgrades to work with inventories of Backpacks in the Backpack with Inception Upgrade
@@ -122,7 +128,7 @@
 		upgradeSlotCount = 7
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 120
+		inventorySlotCount = 27
 
 	#Deposit Upgrade Settings
 	[common.depositUpgrade]
@@ -167,7 +173,7 @@
 	[common.leatherBackpack]
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 0
+		upgradeSlotCount = 1
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 27
@@ -179,7 +185,7 @@
 		upgradeSlotCount = 3
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 81
+		inventorySlotCount = 27
 
 	#Iron Backpack Settings
 	[common.ironBackpack]
@@ -188,7 +194,7 @@
 		upgradeSlotCount = 2
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 27
 
 	#Feeding Upgrade Settings
 	[common.feedingUpgrade]
@@ -220,6 +226,18 @@
 		#Range: 0.25 ~ 4.0
 		fuelEfficiencyMultiplier = 1.0
 
+	#Tank Upgrade Settings
+	[common.tankUpgrade]
+		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to tank capacity. Value lower than 1 makes stack multiplier affect the capacity less, higher makes it affect the capacity more. 0 turns off stack multiplier affecting tank capacity
+		#Range: 0.0 ~ 5.0
+		stackMultiplierRatio = 1.0
+		#Capacity in mB the tank upgrade will have per row of backpack slots
+		#Range: 500 ~ 20000
+		capacityPerSlotRow = 2000
+		#Cooldown between fill/drain actions done on fluid containers in tank slots. Only fills/drains one bucket worth to/from container after this cooldown and then waits again.
+		#Range: 1 ~ 100
+		autoFillDrainContainerCooldown = 20
+
 	#Advanced Pickup Upgrade Settings
 	[common.advancedPickupUpgrade]
 		#Number of Advanced Pickup Upgrade's filter slots
@@ -247,10 +265,14 @@
 		buffWithPotionEffects = true
 		#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
 		entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
+		#List of music discs that are not supposed to be played by entities
+		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
 		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
 		buffHealth = true
 		#Turns on/off equiping the entity that wears backpack with armor. What armor material and how enchanted is scaled based on backpack tier the mob wears.
 		equipWithArmor = true
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
+		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
+		playJukebox = true
 

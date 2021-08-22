@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "fluid": "exnihilosequentia:sea_water",
+      "fluid": "minecraft:water",
       "amount": 1000
     }
   ],
