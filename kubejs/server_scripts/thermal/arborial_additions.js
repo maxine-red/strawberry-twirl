@@ -17,7 +17,6 @@
 */
 
 var arobor_fertilizers = [
-    {mod: 'charcoal_pit', item: 'fertilizer', output: 2.0},
     {mod: 'create', item: 'tree_fertilizer', output: 4.0}
 ];
 var arbor_outputs = [
@@ -172,24 +171,6 @@ var arbor_outputs = [
         result: {
             fluid: 'thermal:resin',
             amount: 25
-        }
-    },
-    {
-        trunk: 'minecraft:jungle_log',
-        mod: 'charcoal_pit',
-        leaves: ['banana'],
-        result: {
-            fluid: 'thermal:latex',
-            amount: 50
-        }
-    },
-    {
-        trunk: 'minecraft:jungle_log',
-        mod: 'charcoal_pit',
-        leaves: ['coconut'],
-        result: {
-            fluid: 'thermal:latex',
-            amount: 50
         }
     }
 ];

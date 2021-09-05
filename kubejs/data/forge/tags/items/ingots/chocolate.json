@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["create:bar_of_chocolate", "neapolitan:chocolate_bar", "charcoal_pit:chocolate"]
+  "values": ["create:bar_of_chocolate", "neapolitan:chocolate_bar"]
 }

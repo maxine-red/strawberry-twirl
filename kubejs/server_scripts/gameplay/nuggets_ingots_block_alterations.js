@@ -28,7 +28,7 @@
 };
 
 var surplus_metals = {
-    copper: ['tconstruct', 'thermal', 'charcoal_pit', 'immersiveengineering'],
+    copper: ['tconstruct', 'thermal', 'immersiveengineering'],
     lead: ['immersiveengineering'],
     silver: ['immersiveengineering'],
     nickel: ['immersiveengineering'],
@@ -83,7 +83,6 @@ onEvent('recipes', event => {
             }
         });
     }
-    event.remove({id: 'charcoal_pit:copper_block'});
     event.remove({id: 'tconstruct:common/materials/netherite_ingot_from_nuggets'});
     event.remove({id: 'tconstruct:common/materials/netherite_nugget_from_ingot'});*/
 });

@@ -85,7 +85,6 @@ var recipes = [
     'minecraft:nether_brick',
     /minecraft:\w+_glazed_terracotta/,
     'minecraft:terracotta',
-    /charcoal_pit:cooking_recipes\/bread\w*/,
     'autumnity:sugar_from_sap_bottle',
     'neapolitan:chocolate/chocolate_block',
     'neapolitan:chocolate/chocolate_bar',

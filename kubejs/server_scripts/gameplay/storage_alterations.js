@@ -98,13 +98,13 @@ onEvent('recipes', event => {
      */
     function remove_smelting_generic(material, tag_type) {
         get_tag_content(`#forge:${tag_type}${material}`).forEach(ingot => {
-            ['minecraft:crafting_shaped', 'minecraft:crafting_shapeless', 'minecraft:smelting', 'minecraft:blasting', 'immersiveengineering:arc_furnace', 'charcoal_pit:orekiln', 'immersiveengineering:alloy', 'charcoal_pit:orekiln'].forEach(type => {
+            ['minecraft:crafting_shaped', 'minecraft:crafting_shapeless', 'minecraft:smelting', 'minecraft:blasting', 'immersiveengineering:arc_furnace', 'immersiveengineering:alloy'].forEach(type => {
                 if (type !== 'immersiveengineering:arc_furnace' && material !== 'steel') {
                     event.remove({type: type, output: ingot});
                 }
             });
         });
-        ['minecraft:crafting_shaped', 'minecraft:crafting_shapeless', 'minecraft:smelting', 'minecraft:blasting', 'immersiveengineering:arc_furnace', 'charcoal_pit:orekiln', 'immersiveengineering:alloy', 'charcoal_pit:orekiln'].forEach(type => {
+        ['minecraft:crafting_shaped', 'minecraft:crafting_shapeless', 'minecraft:smelting', 'minecraft:blasting', 'immersiveengineering:arc_furnace', 'immersiveengineering:alloy'].forEach(type => {
             event.remove({type: type, output: `#forge:${tag_type}${material}`});
         });
     }
@@ -165,18 +165,6 @@ onEvent('recipes', event => {
         event.recipes.immersiveengineeringSawmill(base, block, dust);
     }
     
-    function alloy_kiln_recipe(result, count, ingredients) {
-        ingredients = ingredients.map(ingredient => {
-            return get_ingredient_alloy_kiln(ingredient.material, ingredient.count);
-        });
-        return {
-            type: 'charcoal_pit:orekiln',
-            ingredients: ingredients,
-            result: result,
-            amount: count
-        }
-    }
-    
     /**
      * Helper function to determine ingredient. Not alal ingredients are ingots
      */
@@ -195,30 +183,6 @@ onEvent('recipes', event => {
         }
         else if (!tag_empty(`#forge:${material}`)) {
             return Ingredient.of(`#forge:${material}`, count);
-        }
-        else {
-            console.error(`Can't find material: ${material}`);
-        }
-    }
-    
-    /**
-     * Helper function to determine ingredient. Not alal ingredients are ingots
-     */
-    function get_ingredient_alloy_kiln(material, count) {
-        if (!tag_empty(`#forge:ingots/${material}`)) {
-            return {tag: `forge:ingots/${material}`, count: count};
-        }
-        else if (!tag_empty(`#forge:gems/${material}`)) {
-            return {tag: `forge:gems/${material}`, count: count};
-        }
-        else if (!tag_empty(`#forge:dusts/${material}`)) {
-            return {tag: `forge:dusts/${material}`, count: count};
-        }
-        else if (!tag_empty(`#forge:slimeball/${material}`)) {
-            return {tag: `forge:slimeball/${material}`, count: count};
-        }
-        else if (!tag_empty(`#forge:${material}`)) {
-            return {tag: `forge:${material}`, count: count};
         }
         else {
             console.error(`Can't find material: ${material}`);
@@ -299,7 +263,6 @@ onEvent('recipes', event => {
             if (ingredients.length < 3) {
                 event.recipes.immersiveengineeringAlloy(result, ingredients[0], ingredients[1]);
             }
-            event.custom(alloy_kiln_recipe(`#forge:ingots/${metal.material}`, metal.alloy.result, metal.alloy.ingredients));
         }
         event.recipes.immersiveengineeringArcFurnace(result, ingredients.shift(), ingredients);
     }
