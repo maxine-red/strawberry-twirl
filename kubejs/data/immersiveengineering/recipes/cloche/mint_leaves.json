@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "neapolitan:mint_leaves"
+    }
+  ],
+  "input": {
+    "item": "neapolitan:mint_sprout"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 560,
+  "render": {
+    "type": "crop",
+    "block": "neapolitan:mint"
+  }
+}

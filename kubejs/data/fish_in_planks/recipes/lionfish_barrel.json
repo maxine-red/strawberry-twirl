@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "upgrade_aquatic:lionfish"
+    }
+  },
+  "result": {
+    "item": "fish_in_planks:lionfish_barrel",
+    "count": 1
+  }
+}

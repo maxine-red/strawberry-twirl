@@ -13,7 +13,7 @@
       "item": "minecraft:furnace"
     },
     "I": {
-      "item": "create:iron_sheet"
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

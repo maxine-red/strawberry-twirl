@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:glowing_pillar_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:glowing_pillar_seed"
+  },
+  "soil": [
+    {
+      "item": "betterendforge:amber_moss"
+    }
+  ],
+  "time": 620,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:glowing_pillar_seed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "astralsorcery:liquid_starlight",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:void_salt",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "superheated"
+}

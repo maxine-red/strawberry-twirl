@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "forge:latex",
+    "amount": 144
+  },
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "result": "thermal:rubber",
+  "cooling_time": 60
+}

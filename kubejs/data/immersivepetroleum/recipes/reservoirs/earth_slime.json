@@ -1,0 +1,19 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "tconstruct:earth_slime",
+  "fluidminimum": 5000000,
+  "fluidcapacity": 10000000,
+  "fluidtrace": 0,
+  "weight": 15,
+  "dimension": {
+    "whitelist": [
+      "minecraft:overworld"
+    ],
+    "blacklist": []
+  },
+  "biome": {
+    "whitelist": [],
+    "blacklist": []
+  },
+  "name": "Slime Chamber (earth)"
+}

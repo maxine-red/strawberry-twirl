@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:blossom_berry",
+      "count": 2
+    },
+    {
+      "item": "betterendforge:blossom_berry_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:blossom_berry_seed"
+  },
+  "soil": {
+    "item": "betterendforge:pink_moss"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:blossom_berry_seed"
+  }
+}

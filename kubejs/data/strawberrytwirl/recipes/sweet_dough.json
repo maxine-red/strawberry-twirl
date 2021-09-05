@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wMw",
+    "ese"
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:flour"
+    },
+    "e": {
+      "tag": "forge:eggs"
+    },
+    "M": {
+      "tag": "forge:milk"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "kubejs:sweet_dough",
+    "count": 2
+  }
+}

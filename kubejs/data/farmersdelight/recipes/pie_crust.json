@@ -1,9 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    { "item": "kubejs:sweet_dough" }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
   ],
+  "key": {
+    "a": {
+      "item": "kubejs:sweet_dough"
+    }
+  },
   "result": {
-    "item": "farmersdelight:pie_crust"
+    "item": "farmersdelight:pie_crust",
+    "count": 8
   }
 }

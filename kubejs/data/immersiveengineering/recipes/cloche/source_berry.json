@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "ars_nouveau:mana_berry",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "ars_nouveau:mana_berry"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 560,
+  "render": {
+    "type": "crop",
+    "block": "ars_nouveau:mana_berry_bush"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:slag"
+    },
+    {
+      "tag": "forge:dusts/cinnabar"
+    }
+  ],
+  "result": {
+    "item": "thermal:rich_slag"
+  }
+}

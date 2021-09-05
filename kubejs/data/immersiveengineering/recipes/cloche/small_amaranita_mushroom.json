@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:small_amaranita_mushroom"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:small_amaranita_mushroom"
+  },
+  "soil": [
+    {
+      "item": "betterendforge:sangnum"
+    }
+  ],
+  "time": 620,
+  "render": {
+    "type": "generic",
+    "block": "betterendforge:small_amaranita_mushroom"
+  }
+}

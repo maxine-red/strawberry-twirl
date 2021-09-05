@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "thermal:coffee",
+      "count": 2
+    },
+    {
+      "item": "thermal:coffee_seeds"
+    }
+  ],
+  "input": {
+    "item": "thermal:coffee_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 560,
+  "render": {
+    "type": "crop",
+    "block": "thermal:coffee"
+  }
+}

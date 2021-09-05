@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexsmobs"
+    }
+  ],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "alexsmobs:blobfish"
+    }
+  },
+  "result": {
+    "item": "fish_in_planks:blobfish_barrel",
+    "count": 1
+  }
+}

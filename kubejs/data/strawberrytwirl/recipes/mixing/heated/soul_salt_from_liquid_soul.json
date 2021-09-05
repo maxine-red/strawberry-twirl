@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "tconstruct:liquid_soul",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:soul_salt",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

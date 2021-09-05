@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "forge:chocolate",
+    "amount": 250
+  },
+  "temperature": 36,
+  "output": "tconstruct:chocolate"
+}

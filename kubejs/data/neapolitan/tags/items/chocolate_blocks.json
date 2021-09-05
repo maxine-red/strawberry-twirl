@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "neapolitan:chocolate_block",
+    "neapolitan:chocolate_bricks",
+    "neapolitan:chocolate_brick_stairs",
+    "neapolitan:chiseled_chocolate_bricks",
+    "neapolitan:chocolate_tiles",
+    "neapolitan:chocolate_tile_stairs",
+    "neapolitan:chocolate_brick_wall",
+    "neapolitan:chocolate_tile_wall"
+  ]
+}

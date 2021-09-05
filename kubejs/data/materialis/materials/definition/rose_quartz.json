@@ -1,0 +1,11 @@
+{
+  "condition": {
+    "modid": "create",
+    "type": "forge:mod_loaded"
+  },
+  "craftable": true,
+  "tier": 1,
+  "sortOrder": 7,
+  "textColor": "#FF8C80",
+  "hidden": false
+}

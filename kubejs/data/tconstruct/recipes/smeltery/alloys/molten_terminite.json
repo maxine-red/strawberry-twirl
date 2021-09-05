@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "tconstruct:molten_terminite_base",
+      "amount": 144
+    },
+    {
+      "tag": "tconstruct:molten_ender",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_terminite",
+    "amount": 144
+  },
+  "temperature": 720
+}

@@ -1,3 +1,21 @@
+/**
+ * Copyright 2021 Maxine Red 
+ * This file is part of Strawberry Twirl.
+ *
+ * Foobar is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Foobar is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 var remove_items = [
 	'sophisticatedbackpacks:magnet_upgrade',
 	'sophisticatedbackpacks:advanced_magnet_upgrade',
@@ -21,8 +39,8 @@ var remove_items = [
 	
 	'farmersdelight:wheat_dough',
 	
-	/(minecraft|astralsorcery):\w+_(shovel|axe|pickaxe|sword)/,
-	/immersiveengineering:(shovel|axe|pickaxe|sword)_steel/,
+	/(minecraft|astralsorcery):\w+_(shovel|axe|pickaxe|sword|hoe)/,
+	/immersiveengineering:(shovel|axe|pickaxe|sword|hoe)_steel/,
 	
     /quark:\w+rang/,
 	/quark:\w*biotite\w*/,
@@ -34,13 +52,14 @@ var remove_items = [
 	'quark:beetroot_crate',
 	'ars_nouveau:arcane_road',
 	/curios:\w+/,
-	/theoneprobe:\w+_helmet_\w+/,
-	/theoneprobe:\w*probe/
-
-	//'bayou_blues:gooseberry_jam_cookie',
-	//'bayou_blues:gooseberry_juice',
-	//'bayou_blues:gooseberry_jam',
-	//'bayou_blues:honey_glazed_gooseberries'
+	/theoneprobe:\w+_helmet_probe/,
+	'theoneprobe:probe',
+	'theoneprobe:creativeprobe',
+    /thermal:upgrade_augment_\d/,
+    /thermal:rf_coil\w*_augment/,
+    /thermal:fluid_tank\w*_augment/,
+    'thermal:area_radius_augment',
+    'thermal:ender_bucket'
 ];
 
 
@@ -48,4 +67,8 @@ onEvent('jei.hide.items', event => {
 	remove_items.forEach(item => {
 		event.hide(item);
 	});
+});
+
+onEvent('jei.hide.fluids', event => {
+	event.hide('thermal:ender');
 });

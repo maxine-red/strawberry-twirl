@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/chocolate"
+  },
+  "result": {
+    "fluid": "create:chocolate",
+    "amount": 1000
+  },
+  "temperature": 36,
+  "time": 40
+}

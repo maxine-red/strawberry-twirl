@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "tag": "forge:storage_blocks/chocolate"
+  },
+  "value": 4,
+  "needed": 1,
+  "material": "tconstruct:chocolate",
+  "leftover": {
+    "tag": "forge:ingots/chocolate"
+  }
+}

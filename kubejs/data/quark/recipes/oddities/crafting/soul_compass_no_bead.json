@@ -35,5 +35,23 @@
   ],
   "effects": [
     "astralsorcery:built_in_effect_discovery_central_beam"
+  ],
+  "conditions": [
+    {
+        "type": "forge:and",
+        "values": [
+          {
+            "type": "quark:flag",
+            "flag": "soul_compass"
+          },
+          {
+            "type": "forge:not",
+            "value": {
+              "type": "quark:flag",
+              "flag": "wraith"
+            }
+          }
+      ]
+    }
   ]
 }

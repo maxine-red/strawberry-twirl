@@ -176,12 +176,12 @@
 		"Enable Nether Wart Sack" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Blaze Lantern" = true
-		"Enable Bamboo Block" = true
+		"Enable Bamboo Block" = false
 		"Enable Berry Sack" = true
 		#Allowed values: [0,)
 		"Bamboo Bundle Fuel Time" = 500
 		"Enable Golden Apple Crate" = true
-		"Enable Sugar Cane Block" = true
+		"Enable Sugar Cane Block" = false
 		"Enable Bonded Leather" = true
 		#Allowed values: [0,)
 		"Blaze Lantern Fuel Time" = 24000
@@ -490,7 +490,7 @@
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
-	"Big Dungeon" = false
+	"Big Dungeon" = true
 	Speleothems = true
 	"Elder Prismarine Underground Biome" = true
 	"Blossom Trees" = true
@@ -501,9 +501,9 @@
 	"Slime Underground Biome" = true
 	"Fairy Rings" = true
 	"Chorus Vegetation" = true
-	Crevices = false
+	Crevices = true
 	"Nether Obsidian Spikes" = true
-	"Mega Caves" = false
+	"Mega Caves" = true
 	"Realistic World Gen" = true
 	Biotite = false
 	"Big Stone Clusters" = false
@@ -514,12 +514,12 @@
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
 	Deepslate = true
-	"Monster Box" = false
+	"Monster Box" = true
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
 		#This can be higher than 100% if you want multiple per chunk, , 0 is 0%
-		"Chance Per Chunk" = 0.8
+		"Chance Per Chunk" = 0.2
 		"Min Mob Count" = 5
 		"Min Y" = 5
 		"Max Y" = 30
@@ -1656,10 +1656,10 @@
 	Frogs = true
 	Crabs = true
 	Stonelings = false
-	Foxhound = false
-	Forgotten = false
-	Wraith = false
-	Toretoise = false
+	Foxhound = true
+	Forgotten = true
+	Wraith = true
+	Toretoise = true
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
@@ -1719,7 +1719,7 @@
 
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
-		"Tame Chance" = 0.05
+		"Tame Chance" = 0.25
 
 		[mobs.foxhound.lesser_spawn_config]
 			#Allowed values: (0,)

@@ -1,4 +1,9 @@
 {
 	"tips.tip.mushroom_evil": "Mushrooms are eeevil!",
-	"tips.tip.pet_pupper": "Pet your puppers! ^-^"
+	"tips.tip.pet_pupper": "Pet your puppers! ^-^",
+  "tips.tip.astral_sorcery": "To get into Astral sorcery, craft yourself an astral tome!",
+  "tips.tip.immersive_engineering": "Try combining a lever with a book!",
+  "tips.tip.ars_nouveau": "Try combining a source gem with a book!",
+  "tips.tip.the_one_probe": "You can change settings for 'the one probe', look up it's note.",
+  "tips.tip.serene_seasons": "Crops only grow in certain seasons. Watch your surroundings, or craft a calendar."
 }

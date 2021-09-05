@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:chorus_mushroom_raw",
+      "count": 2
+    },
+    {
+      "item": "betterendforge:chorus_mushroom_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:chorus_mushroom_seed"
+  },
+  "soil": {
+    "item": "betterendforge:chorus_nylium"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:chorus_mushroom_seed"
+  }
+}

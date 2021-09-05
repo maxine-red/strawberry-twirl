@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:minecart"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_iron",
+    "amount": 720
+  },
+  "temperature": 800,
+  "time": 134
+}

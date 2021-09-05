@@ -1,0 +1,23 @@
+{
+  "type": "immersivepetroleum:coker",
+  "result": {
+    "item": "thermal:tar",
+    "count": 4
+  },
+  "resultfluid": {
+    "tag": "forge:heavy_oil",
+    "amount": 30
+  },
+  "input": {
+    "count": 2,
+    "base_ingredient": {
+      "item": "minecraft:coal"
+    }
+  },
+  "inputfluid": {
+    "tag": "minecraft:water",
+    "amount": 125
+  },
+  "time": 50,
+  "energy": 2048
+}

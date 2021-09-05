@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "thermal:latex",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:rubber"
+    }
+  ]
+}

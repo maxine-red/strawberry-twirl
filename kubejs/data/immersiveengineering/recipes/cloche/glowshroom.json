@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "quark:glowshroom"
+    }
+  ],
+  "input": {
+    "item": "quark:glowshroom"
+  },
+  "soil": [
+    {
+      "item": "minecraft:podzol"
+    },
+    {
+      "item": "minecraft:mycelium"
+    }
+  ],
+  "time": 480,
+  "render": {
+    "type": "generic",
+    "block": "quark:glowshroom"
+  }
+}

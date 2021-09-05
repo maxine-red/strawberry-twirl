@@ -2,23 +2,7 @@
   "type": "create:compacting",
   "ingredients": [
     {
-      "tag": "forge:flour"
-    },
-    {
-      "tag": "forge:flour"
-    },
-    {
-      "tag": "forge:flour"
-    },
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "item": "minecraft:egg"
-    },
-    {
-      "fluid": "minecraft:milk",
-      "amount": 250
+      "item": "kubejs:sweet_dough"
     }
   ],
   "results": [

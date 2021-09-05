@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "environmental:mud"
+    }
+  ],
+  "results": [
+    {
+      "item": "environmental:mud_ball",
+      "count": 4
+    }
+  ]
+}

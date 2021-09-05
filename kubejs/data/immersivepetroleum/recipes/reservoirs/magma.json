@@ -1,0 +1,19 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "tconstruct:magma",
+  "fluidminimum": 2500000,
+  "fluidcapacity": 15000000,
+  "fluidtrace": 0,
+  "weight": 15,
+  "dimension": {
+    "whitelist": [
+      "minecraft:nether"
+    ],
+    "blacklist": []
+  },
+  "biome": {
+    "whitelist": [],
+    "blacklist": []
+  },
+  "name": "Slimy Magma Chamber"
+}

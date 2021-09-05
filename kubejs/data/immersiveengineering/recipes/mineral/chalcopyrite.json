@@ -1,0 +1,26 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.35,
+      "output": {
+        "item": "minecraft:iron_ore"
+      }
+    },
+    {
+      "chance": 0.35,
+      "output": {
+        "item": "create:copper_ore"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "thermal:sulfur_ore"
+      }
+    }
+  ],
+  "dimensions": [ "minecraft:overworld" ],
+  "weight": 20,
+  "fail_chance":0.05
+}

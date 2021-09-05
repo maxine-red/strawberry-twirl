@@ -1,0 +1,25 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "byproducts": [
+    {
+      "item": "minecraft:slime_ball",
+      "chance": "0.2"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "tconstruct:molten_ender",
+      "amount": 1
+    },
+    {
+      "fluid": "tconstruct:earth_slime",
+      "amount": 50
+    }
+  ],
+  "input": {
+    "tag": "tconstruct:ender_slime",
+    "amount": 100
+  },
+  "time": 4,
+  "energy": 256
+}

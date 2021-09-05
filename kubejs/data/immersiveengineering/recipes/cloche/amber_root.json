@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:amber_root_raw",
+      "count": 2
+    },
+    {
+      "item": "betterendforge:amber_root_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:amber_root_seed"
+  },
+  "soil": {
+    "item": "betterendforge:amber_moss"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:amber_root_seed"
+  }
+}

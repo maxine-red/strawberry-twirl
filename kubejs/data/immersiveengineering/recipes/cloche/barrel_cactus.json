@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "atmospheric:barrel_cactus"
+    }
+  ],
+  "input": {
+    "item": "atmospheric:barrel_cactus"
+  },
+  "soil": {
+    "tag": "forge:sand"
+  },
+  "time":560,
+  "render":
+  {
+    "type": "crop",
+    "block": "atmospheric:barrel_cactus"
+  }
+}

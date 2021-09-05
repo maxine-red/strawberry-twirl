@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:blue_vine_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:blue_vine_seed"
+  },
+  "soil": [
+    {
+      "item": "betterendforge:end_mycelium"
+    }
+  ],
+  "time": 620,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:blue_vine_seed"
+  }
+}

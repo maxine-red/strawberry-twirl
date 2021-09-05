@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.6,
+      "output": {
+        "item": "minecraft:end_stone"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item": "quark:basalt"
+      }
+    },
+    {
+      "chance": 0.2,
+      "output": {
+        "item":"quark:myalite"
+      }
+    }
+  ],
+  "dimensions": [ "minecraft:the_end" ],
+  "weight": 22,
+  "fail_chance": 0.14,
+  "sample_background": "minecraft:end_stone"
+}

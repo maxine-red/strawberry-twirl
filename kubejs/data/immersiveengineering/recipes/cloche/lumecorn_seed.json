@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:lumecorn_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:lumecorn_seed"
+  },
+  "soil": [
+    {
+      "item": "betterendforge:end_moss"
+    }
+  ],
+  "time": 620,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:lumecorn_seed"
+  }
+}

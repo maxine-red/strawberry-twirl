@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:bolux_mushroom"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:bolux_mushroom"
+  },
+  "soil": [
+    {
+      "item": "betterendforge:rutiscus"
+    }
+  ],
+  "time": 620,
+  "render": {
+    "type": "generic",
+    "block": "betterendforge:bolux_mushroom"
+  }
+}

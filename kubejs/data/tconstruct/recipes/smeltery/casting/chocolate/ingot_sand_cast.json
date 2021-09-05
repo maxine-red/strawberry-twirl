@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "forge:chocolate",
+    "amount": 250
+  },
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "result": "neapolitan:chocolate_bar",
+  "cooling_time": 30
+}

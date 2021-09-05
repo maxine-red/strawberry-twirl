@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.4,
+      "output": {
+        "item": "thermal:nickel_ore"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item": "tconstruct:cobalt_ore"
+      }
+    },
+    {
+      "chance": 0.3,
+      "output": {
+        "item":"thermal:sulfur_ore"
+      }
+    }
+  ],
+  "dimensions": [ "minecraft:the_nether" ],
+  "weight": 22,
+  "fail_chance": 0.14,
+  "sample_background": "minecraft:netherrack"
+}

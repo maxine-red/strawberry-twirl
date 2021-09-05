@@ -1,0 +1,19 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "thermal:heavy_oil",
+  "fluidminimum": 2500000,
+  "fluidcapacity": 15000000,
+  "fluidtrace": 0,
+  "weight": 10,
+  "dimension": {
+    "whitelist": [
+      "minecraft:nether"
+    ],
+    "blacklist": []
+  },
+  "biome": {
+    "whitelist": [],
+    "blacklist": []
+  },
+  "name": "Processed Oil Chamber"
+}

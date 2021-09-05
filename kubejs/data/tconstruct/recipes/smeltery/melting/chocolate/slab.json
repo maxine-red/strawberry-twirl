@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "neapolitan:chocolate_slab"
+  },
+  "result": {
+    "fluid": "create:chocolate",
+    "amount": 500
+  },
+  "temperature": 36,
+  "time": 40
+}

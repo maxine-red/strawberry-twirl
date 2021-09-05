@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "tconstruct:molten_copper",
+      "amount": 432
+    },
+    {
+      "tag": "tconstruct:molten_silver",
+      "amount": 144
+    },
+    {
+      "tag": "tconstruct:molten_redstone",
+      "amount": 576
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_signalum",
+    "amount": 576
+  },
+  "temperature": 1220
+}

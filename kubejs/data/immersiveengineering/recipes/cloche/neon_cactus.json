@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:neon_cactus"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:neon_cactus"
+  },
+  "soil": {
+    "item": "betterendforge:endstone_dust"
+  },
+  "time":690,
+  "render":
+  {
+    "type": "stacking",
+    "block": "betterendforge:neon_cactus"
+  }
+}

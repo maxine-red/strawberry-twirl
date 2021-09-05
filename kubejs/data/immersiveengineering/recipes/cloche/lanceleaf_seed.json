@@ -1,0 +1,21 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:lanceleaf_seed"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:lanceleaf_seed"
+  },
+  "soil": [
+    {
+      "item": "betterendforge:amber_moss"
+    }
+  ],
+  "time": 620,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:lanceleaf_seed"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "fish_in_planks:pike_barrel"
+    }
+  ],
+  "result": {
+    "item": "upgrade_aquatic:pike",
+    "count": 9
+  }
+}

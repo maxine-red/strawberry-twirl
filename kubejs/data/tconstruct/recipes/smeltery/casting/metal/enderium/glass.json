@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "thermal:obsidian_glass"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:molten_enderium",
+    "amount": 72
+  },
+  "result": "thermal:enderium_glass",
+  "cooling_time": 494
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "fluid": {
+    "tag": "tconstruct:molten_glowstone",
+    "amount": 250
+  },
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gem"
+  },
+  "cast_consumed": true,
+  "result": "minecraft:glowstone_dust",
+  "cooling_time": 40
+}

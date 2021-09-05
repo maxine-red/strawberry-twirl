@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "environmental:mud_ball",
+      "count": 4
+    }
+  ],
+  "results": [
+    {
+      "item": "environmental:mud"
+    }
+  ]
+}

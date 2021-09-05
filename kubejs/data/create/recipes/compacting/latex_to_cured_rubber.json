@@ -1,0 +1,15 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluid": "thermal:latex",
+      "amount": 144
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:cured_rubber"
+    }
+  ],
+  "heatRequirement": "heated"
+}

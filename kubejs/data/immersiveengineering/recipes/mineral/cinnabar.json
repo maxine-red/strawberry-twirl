@@ -1,0 +1,26 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance":0.6,
+      "output": {
+        "item": "minecraft:redstone_ore"
+      }
+    },
+    {
+      "chance":0.4,
+      "output":{
+        "item": "thermal:sulfur_ore"
+      }
+    },
+    {
+      "chance":0.3,
+      "output":{
+        "item": "thermal:cinnabar_ore"
+      }
+    }
+  ],
+  "dimensions": [ "minecraft:overworld" ],
+  "weight": 15,
+  "fail_chance": 0.1
+}

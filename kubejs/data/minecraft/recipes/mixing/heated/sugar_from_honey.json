@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "create:honey",
+      "amount": 125
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "heatRequirement": "heated"
+}

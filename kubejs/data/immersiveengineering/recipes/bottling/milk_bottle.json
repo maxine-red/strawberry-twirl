@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "result": {
+    "item": "farmersdelight:milk_bottle"
+  },
+  "input": {
+    "item":"minecraft:glass_bottle"
+  },
+  "fluid": {
+    "tag":"forge:milk",
+    "amount": 250
+  }
+}

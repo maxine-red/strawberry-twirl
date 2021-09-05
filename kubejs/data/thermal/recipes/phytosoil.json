@@ -1,0 +1,41 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "thermal:phytogro"
+    },
+    {
+      "item": "thermal:phytogro"
+    },
+    {
+      "item": "thermal:phytogro"
+    },
+    {
+      "item": "thermal:phytogro"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:phytosoil"
+    }
+  ]
+}

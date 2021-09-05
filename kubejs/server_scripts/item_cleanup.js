@@ -1,3 +1,21 @@
+/**
+ * Copyright 2021 Maxine Red 
+ * This file is part of Strawberry Twirl.
+ *
+ * Foobar is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Foobar is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
 // priority: 0
 
 //settings.logAddedRecipes = true
@@ -53,12 +71,38 @@ var recipes = [
 	 'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
 	 'astralsorcery:shaped/black_marble/black_marble_raw',
 	 'astralsorcery:altar/black_marble_raw',
-	/minecraft:\w+_(shovel|axe|pickaxe|sword)/,
-	/astralsorcery:altar\/crystal_(shovel|axe|pickaxe|sword)/,
-	/immersiveengineering:crafting\/(shovel|axe|pickaxe|sword)_steel/,
-    // broken recipes
+	/minecraft:\w+_(shovel|axe|pickaxe|sword|hoe)/,
+	/astralsorcery:altar\/crystal_(shovel|axe|pickaxe|sword|hoe)/,
+	/immersiveengineering:crafting\/(shovel|axe|pickaxe|sword|hoe)_steel/,
     'abnormals_delight:environmental/cooking/squid_ink_risotto',
-    'minecraft:cyan_glazed_terracotta'
+    /thermal:augments\/upgrade_augment_\d/,
+    /thermal:augments\/rf_coil\w*_augment/,
+    /thermal:augments\/fluid_tank\w*_augment/,
+    'thermal:augments/area_radius_augment',
+    'minecraft:rabbit_stew_from_red_mushroom.json',
+    /minecraft:(gold|iron)_ingot/,
+    'minecraft:brick',
+    'minecraft:nether_brick',
+    /minecraft:\w+_glazed_terracotta/,
+    'minecraft:terracotta',
+    /charcoal_pit:cooking_recipes\/bread\w*/,
+    'autumnity:sugar_from_sap_bottle',
+    'neapolitan:chocolate/chocolate_block',
+    'neapolitan:chocolate/chocolate_bar',
+    'neapolitan:chocolate/chocolate_bar_from_chocolate_block',
+    'create:bar_of_chocolate',
+    /thermal:lumium\w*rail/,
+    /farmersdelight:integration\/immersiveengineering\/squeezer\/\w+_seeds/,
+    /immersiveengineering:squeezer\/\w+_seeds/,
+    /create:mixing\/\w*brass\w*/,
+    'waystones:warp_dust',
+    'immersiveengineering:crusher/coke',
+    'immersiveengineering:crusher/glowstone',
+    'immersiveengineering:crusher/coke_block',
+    'create:crushing/glowstone',
+    'thermal:rubber_3',
+    'betterendforge:amber_gem',
+    /minecraft:coal_from_\w+/
 ];
 
 var outputs = [
@@ -78,13 +122,14 @@ onEvent('recipes', event => {
 	sophisticated_upgrades.forEach(item => {
 		event.remove({id: item});
 	});
+    
+    //event.remove({type: "minecraft:crafting_shapeless", id: /\w+:\w+_nugget\W*/});
 	
 	foods.forEach(item => {
 		event.remove({id: item});
 	});
 	
 	recipes.forEach(recipe => {
-        console.info("Remove recipe: " + recipe);
 		event.remove({id: recipe});
 	});
 	
@@ -112,103 +157,3 @@ onEvent('recipes', event => {
 		event.shapeless("quark:waxed_" + color + "_crystal", ["quark:" + color + "_crystal", "kubejs:wax"]);
 	});
 });
-/*var create_crushing = [
-	'platinum_ore',
-	'silver_ore',
-	'aluminum_ore',
-	'uranium_ore',
-	'tin_ore',
-	'lead_ore',
-	'nickel_ore'
-];
-
-var create_cobble = [
-	'granite',
-	'andesite',
-	'diorite'
-];
-
-var polished_stones = [
-	'granite',
-	'diorite',
-	'granite'
-];
-
-var smooth_stones = [
-	'stone'
-];
-
-var ex_nihil_hammer = [
-	'andesite',
-	'diorite',
-	'granite'
-];
-
-var corals = [
-	'tube',
-	'brain',
-	'bubble',
-	'fire',
-	'horn'
-];
-
-var types = [
-	'exnihilosequentia:compost',
-	'exnihilosequentia:heat',
-	'exnihilosequentia:crucible'
-];
-
-var recipes = [
-	 'astralsorcery:block_transmutation/iron_starmetal',
-	 'exnihilosequentia:hammer/ens_gravel',
-	 'create:milling/cobblestone',
-	 'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
-	 'create:emptying/milk_bucket',
-	 'create:mixing/tea',
-	 'create:mixing/chocolate',
-	 'quark:tools/smithing/flamerang_smithing',
-];
-
-onEvent('recipes', event => {
-	create_crushing.forEach(item => {
-		event.remove({id: 'create:crushing/' + item});
-		event.remove({id: 'create:milling/' + item});
-	});
-	
-  polished_stones.forEach(item => {
-		event.remove({id: 'minecraft:polished_' + item});
-		event.remove({id: 'minecraft:polished_' + item + '_from_' + item + '_stonecutting'});
-	});
-	
-  smooth_stones.forEach(item => {
-		event.remove({id: 'minecraft:smooth_' + item});
-		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
-		event.remove({input: 'exnihilosequentia:pebble_' + item});
-	});
-	
-  create_cobble.forEach(item => {
-		event.remove({id: 'create:' + item + '_cobblestone_from_' + item + '_stonecutting'});
-	});
-	
-  ex_nihil_hammer.forEach(item => {
-		event.remove({id: 'exnihilosequentia:hammer/ens_' + item});
-		event.remove({id: 'exnihilosequentia:sieve/ens_pebble_' + item});
-		event.remove({input: 'exnihilosequentia:pebble_' + item});
-	});
-
-  types.forEach(item => {
-    event.remove({type: item});
-  });
-	
-  corals.forEach(item => {
-		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral',});
-		event.remove({id: 'exnihilosequentia:hammer/ens_' + item + '_coral_fan',});
-	});
-  
-  vanilla_saplings.forEach(saplings => {
-	  event.remove({id: 'botania:mana_infusion/' + saplings[0] + '_sapling_to_' + saplings[1] + '_sapling'});
-  });
-  
-  event.remove({input: 'farmersdelight:wheat_dough'});
-  event.remove({output: 'quark:biotite'});
-});*/

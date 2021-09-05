@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "thermal:lumium_activator_rail"
+    },
+    {
+      "item": "thermal:lumium_detector_rail"
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_lumium",
+    "amount": 72
+  },
+  "temperature": 1325,
+  "time": 70,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_iron",
+      "amount": 144
+    }
+  ]
+}

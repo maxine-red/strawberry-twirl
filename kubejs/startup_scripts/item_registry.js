@@ -1,4 +1,22 @@
-var items = [
+/**
+ * Copyright 2021 Maxine Red 
+ * This file is part of Strawberry Twirl.
+ *
+ * Foobar is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Foobar is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
+*/
+
+let items = [
 	{id: 'crushed_andesite_alloy', texture: 'create:item/crushed_quicksilver_ore', name: 'Crushed Andesite Alloy'},
 	{id: 'salt', texture: 'kubejs:item/salt', name: 'Salt'},
 	{id: 'soul_salt', texture: 'kubejs:item/salt_soul', name: 'Soul Salt'},
@@ -18,12 +36,12 @@ var items = [
 	{id: 'magic_butter', texture: 'kubejs:item/butter_mystical', name: 'Magic Butter'},
 	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'}
 ];
-var aefoods = [
+let aefoods = [
 	{id: 'jelly', texture: 'kubejs:item/jelly', hunger: 3, saturation: 0.1666667, name: 'Jelly'},
 	{id: 'red_jelly', texture: 'kubejs:item/jelly_red', hunger: 3, saturation: 0.1666667, name: 'Red Jelly'},
 	{id: 'purple_jelly', texture: 'kubejs:item/jelly_purple', hunger: 3, saturation: 0.1666667, name: 'Mysterious Jelly'}
 ];
-var foods = [
+let foods = [
 	{id: 'sliced_bread', texture: 'kubejs:item/bread_sliced', hunger: 5, saturation: 0.6, name: 'Sliced bread'},
 	{id: 'jam_sandwich', texture: 'kubejs:item/sandwich_jam', hunger: 3, saturation: 0.75, name: 'Jam Sandwich'},
 	{id: 'red_jam_sandwich', texture: 'kubejs:item/sandwich_jam_red', hunger: 3, saturation: 0.75, name: 'Red Jam Sandwich'},
@@ -31,25 +49,26 @@ var foods = [
 	{id: 'buttered_bread', texture: 'kubejs:item/toast_buttered', hunger: 5, saturation: 0.7, name: 'Buttered Bread Slices'},
 	{id: 'magic_buttered_bread', texture: 'kubejs:item/toast_buttered_mystical', hunger: 5, saturation: 0.7, name: 'Magic Buttered Bread Slices'}
 ];
-
+let blooms = [ 'cobalt', 'uranium', 'thallasium' ];
 events.listen('item.registry', (event) => {
 	items.forEach(item => {
-		event.create(item.id).texture(item.texture).displayName(item.name);
+        if (item.id === 'wax') {
+            event.create(item.id).texture(item.texture).displayName(item.name).burnTime(200);
+        }
+        else {
+            event.create(item.id).texture(item.texture).displayName(item.name);
+        }
 	});
 	aefoods.forEach(food => {
 		if (food.id === 'purple_jelly') {
 			event.create(food.id).texture(food.texture).food(f => {
 				f.hunger(food.hunger);
 				f.saturation(food.saturation);
-				f.effect('minecraft:levitation', 60, 0, 0.7);
-				f.effect('minecraft:blindness', 60, 0, 0.3);
-				f.effect('minecraft:regenration', 60, 0, 0.1);
-				f.effect('minecraft:nausea', 600, 0, 0.4);
-				f.effect('minecraft:strength', 600, 0, 0.6);
-				f.effect('minecraft:weakness', 600, 0, 0.2);
-				f.effect('minecraft:bad_omen', 200, 0, 0.3);
+				f.effect('ars_nouveau:mana_regen', 100, 0, 1.0);
+				f.effect('minecraft:nausea', 100, 0, 1.0);
+				f.effect('minecraft:blindness', 50, 0, 0.1);
 				f.effect('minecraft:glowing', 200, 0, 1.0);
-				f.effect('minecraft:hero_of_the_village', 60, 0, 0.01);
+				f.effect('minecraft:regeneration', 200, 0, 1.0);
 				f.alwaysEdible();
 			}).tooltip('Strange energy comes from this...').displayName(food.name);
 		}
@@ -66,23 +85,28 @@ events.listen('item.registry', (event) => {
 			event.create(food.id).texture(food.texture).food(f => {
 				f.hunger(food.hunger);
 				f.saturation(food.saturation);
-				f.effect('minecraft:levitation', 120, 0, 0.7);
-				f.effect('minecraft:nausea', 600, 0, 0.4);
-				f.effect('minecraft:strength', 1200, 0, 0.6);
-				f.effect('minecraft:weakness', 1200, 0, 0.2);
-				f.effect('minecraft:glowing', 1200, 0, 1.0);
-				f.effect('minecraft:fire_resistance', 600, 0, 0.6);
-				f.effect('minecraft:invisibility', 200, 0, 0.2);
-				f.effect('minecraft:wither', 60, 0, 0.05);
+				f.effect('ars_nouveau:mana_regen', 200, 0, 1.0);
+				f.effect('minecraft:weakness', 300, 0, 0.1);
+				f.effect('minecraft:mining_fatigue', 300, 2, 0.1);
+				f.effect('minecraft:nausea', 100, 0, 1.0);
+				f.effect('minecraft:resistance', 600, 1, 1.0);
+				f.effect('minecraft:invisibility', 300, 0, 1.0);
+				f.effect('minecraft:fire_resistance', 600, 0, 1.0);
+				f.effect('minecraft:blindness', 50, 0, 0.1);
+				f.effect('minecraft:glowing', 600, 0, 1.0);
+				f.effect('minecraft:regeneration', 600, 1, 1.0);
 			}).tooltip('Strange energy comes from this...').displayName(food.name);
 		}
 		else if (food.id === 'magic_buttered_bread') {
 			event.create(food.id).texture(food.texture).food(f => {
 				f.hunger(food.hunger);
 				f.saturation(food.saturation);
-				f.effect('minecraft:levitation', 120, 0, 0.7);
-				f.effect('minecraft:nausea', 600, 0, 0.4);
-				f.effect('minecraft:fire_resistance', 600, 0, 0.6);
+				f.effect('minecraft:weakness', 100, 0, 0.1);
+				f.effect('minecraft:mining_fatigue', 100, 2, 0.1);
+				f.effect('minecraft:nausea', 150, 0, 1.0);
+				f.effect('minecraft:resistance', 400, 1, 1.0);
+				f.effect('minecraft:invisibility', 300, 0, 1.0);
+				f.effect('minecraft:fire_resistance', 400, 0, 1.0);
 			}).tooltip('Strange energy comes from this...').displayName(food.name);
 		}
 		else {

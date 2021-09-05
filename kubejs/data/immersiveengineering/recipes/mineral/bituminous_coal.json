@@ -1,0 +1,26 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.74,
+      "output": {
+        "item":"minecraft:coal_ore"
+      }
+    },
+    {
+      "chance": 0.24,
+      "output": {
+        "item": "thermal:sulfur_ore"
+      }
+    },
+    {
+      "chance": 0.02,
+      "output": {
+        "item": "thermal:bitumen_block"
+      }
+    }
+  ],
+  "dimensions": [ "minecraft:overworld" ],
+  "weight":25,
+  "fail_chance":0.05
+}

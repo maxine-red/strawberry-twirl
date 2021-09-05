@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "thermal:sap",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "thermal:syrup",
+      "amount": 250
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enviromental"
+    }
+  ],
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "enviromental:koi"
+    }
+  },
+  "result": {
+    "item": "fish_in_planks:koi_barrel",
+    "count": 1
+  }
+}

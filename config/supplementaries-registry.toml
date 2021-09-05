@@ -1,0 +1,83 @@
+
+#Here are configs that need reloading to take effect
+[initialization]
+
+	[initialization.general]
+		#Enable Creative Tab
+		creative_tab = false
+		#Enables custom Configured config screen
+		custom_configured_screen = true
+		#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
+		dispensers = true
+		#Creates a creative tab full of filled jars
+		jar_tab = false
+
+	[initialization.entities]
+		firefly = false
+
+	[initialization.blocks]
+		clock_block = false
+		speaker_block = false
+		sack = true
+		#WIP
+		laser_block = false
+		bellows = false
+		hanging_sign = true
+		bomb = false
+		#WIP
+		amethyst_arrow = false
+		cage = false
+		stone_tile = false
+		blaze_rod = false
+		bamboo_spikes = true
+		hourglass = true
+		raked_gravel = false
+		jar = false
+		stick = true
+		rope_arrow = false
+		checker_block = false
+		wattle_and_daub = false
+		stone_lamp = false
+		cog_block = false
+		crank = false
+		copper_lantern = true
+		pancake = false
+		statue = false
+		iron_gate = true
+		piston_launcher = false
+		bamboo_spikes_tipped = true
+		netherite_trapdoor = true
+		fodder = false
+		globe = true
+		sconce = true
+		candelabra = true
+		timber_frame = true
+		safe = false
+		sconce_lever = false
+		present = false
+		sign_post = true
+		pedestal = false
+		blackboard = false
+		netherite_door = true
+		candle_holder = true
+		rope = false
+		flags = true
+		notice_board = false
+		redstone_illuminator = false
+		crimson_lantern = true
+		lock_block = true
+		flax = false
+		planter = false
+		wind_vane = true
+		item_shelf = false
+		turn_table = false
+		faucet = false
+		daub = false
+		gold_trapdoor = true
+		magma_cream_block = false
+		goblet = false
+		sconce_green = false
+		flute = false
+		pulley_block = false
+		gold_door = true
+

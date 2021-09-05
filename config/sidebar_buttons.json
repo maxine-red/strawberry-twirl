@@ -1,8 +1,8 @@
 {
-	"ftbguilibrary": {
-		"toggle.gamemode": false,
-		"toggle.rain": false,
-		"toggle.day": false,
-		"toggle.night": false
+	"ftblibrary": {
+		"toggle.gamemode": true,
+		"toggle.rain": true,
+		"toggle.day": true,
+		"toggle.night": true
 	}
 }

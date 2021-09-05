@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wtw",
+    "trt",
+    "wtw"
+  ],
+  "key": {
+    "t": {
+      "tag": "forge:nuggets/tin"
+    },
+    "r": {
+      "tag": "forge:gears/lapis"
+    },
+    "w": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "thermal:item_filter_augment"
+  },
+  "conditions": [
+    {
+      "flag": "filter_augments",
+      "type": "thermal:flag"
+    }
+  ]
+}

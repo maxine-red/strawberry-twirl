@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "tconstruct:molten_lead",
+      "amount": 432
+    },
+    {
+      "tag": "tconstruct:molten_diamond",
+      "amount": 144
+    },
+    {
+      "tag": "tconstruct:molten_ender",
+      "amount": 500
+    }
+  ],
+  "result": {
+    "fluid": "kubejs:molten_enderium",
+    "amount": 288
+  },
+  "temperature": 1450
+}

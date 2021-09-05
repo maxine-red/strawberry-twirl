@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " GGG ",
+    "GLVLG",
+    "G   G",
+    "G   G",
+    "G   C",
+    "TCECT",
+    "TTSTT"
+  ],
+  "key": {
+    "T": {
+      "tag": "forge:treated_wood"
+    },
+    "G": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "E": {
+      "tag": "forge:gears/enderium"
+    },
+    "V": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "L": {
+      "tag": "forge:nuggets/lumium"
+    },
+    "S": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:cloche"
+  }
+}

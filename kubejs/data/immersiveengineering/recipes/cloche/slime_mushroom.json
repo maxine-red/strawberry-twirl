@@ -1,0 +1,19 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "input": {
+    "item": "thermal:slime_mushroom_spores"
+  },
+  "soil": {
+    "item": "thermal:phytosoil"
+  },
+  "time": 1600,
+  "render": {
+    "type": "crop",
+    "block": "thermal:slime_mushroom"
+  }
+}

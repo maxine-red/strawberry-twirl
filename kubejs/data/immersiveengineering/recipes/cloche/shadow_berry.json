@@ -1,0 +1,23 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "item": "betterendforge:shadow_berry_raw",
+      "count": 2
+    },
+    {
+      "item": "betterendforge:shadow_berry"
+    }
+  ],
+  "input": {
+    "item": "betterendforge:shadow_berry"
+  },
+  "soil": {
+    "item": "betterendforge:shadow_grass"
+  },
+  "time": 800,
+  "render": {
+    "type": "crop",
+    "block": "betterendforge:shadow_berry"
+  }
+}

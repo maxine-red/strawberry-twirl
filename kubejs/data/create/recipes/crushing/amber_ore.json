@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "betterendforge:amber_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "betterendforge:raw_amber",
+      "count": 2
+    },
+    {
+      "item": "betterendforge:raw_amber",
+      "count": 4,
+      "chance": 0.5
+    },
+    {
+      "item": "betterendforge:endstone_dust",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350
+}

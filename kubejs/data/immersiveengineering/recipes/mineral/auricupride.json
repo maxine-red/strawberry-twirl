@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:mineral_mix",
+  "ores": [
+    {
+      "chance": 0.75,
+      "output": {
+        "item": "create:copper_ore"
+      }
+    },
+    {
+      "chance": 0.25,
+      "output": {
+        "item": "minecraft:gold_ore"
+      }
+    }
+  ],
+  "dimensions": [ "minecraft:overworld" ],
+  "weight": 30,
+  "fail_chance": 0.1
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:blast_furnace"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_steel",
+    "amount": 720
+  },
+  "temperature": 950,
+  "time": 65
+}
