@@ -4,8 +4,16 @@
 
 ## About the modpack
 
-Strawberry Twirl aims to be as vanilla as possible, while also adding new ways of doing things, changing others up and make a fun pack.
-It's supposed to feel like vanilla Minecraft, but also adds new things. It's very little about automating and more about creativity.
+Strawberry Twirl aims to be a fun vanilla++ pack. The focus is on fun mechanics, magic and creativity.
+Of course, it also has automation, though there aren't going to be any quests. The experience is supposed to be more about making things pretty, rather than efficient.
+See it more leaning towards vanilla Minecraft, in that way. Cross compapbility
+is added, to allow automation of tasks, but it is very much **not** the focus of
+this pack.
+
+Mods are also left alone, so the only progression is within mods. You are also
+not forced to progress into one mod or another. Though, some things require
+getting into multiple mods. Then it's kept to entry level (for the other mod)
+though.
 
 ## Supported MC versions (Java)
 
