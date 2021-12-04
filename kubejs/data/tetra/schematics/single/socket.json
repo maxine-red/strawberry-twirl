@@ -3,59 +3,19 @@
     "outcomes": [
         {
             "material": {
-                "item": "minecraft:nether_star"
+                "item": "druidcraft:tempered_fiery_glass"
             },
-            "experienceCost": 30,
+            "experienceCost": 1,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/nether_star"
+            "moduleVariant": "single_socket/tempered_fiery_glass"
         },
         {
             "material": {
-                "item": "byg:ametrine_gems"
+                "item": "druidcraft:brightstone"
             },
-            "experienceCost": 10,
+            "experienceCost": 3,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/ametrine"
-        },
-        {
-            "material": {
-                "item": "wyrmroost:blue_geode"
-            },
-            "experienceCost": 2,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/blue_geode"
-        },
-        {
-            "material": {
-                "item": "wyrmroost:red_geode"
-            },
-            "experienceCost": 5,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/red_geode"
-        },
-        {
-            "material": {
-                "item": "wyrmroost:purple_geode"
-            },
-            "experienceCost": 10,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/purple_geode"
-        },
-        {
-            "material": {
-                "item": "betterendforge:crystal_shards"
-            },
-            "experienceCost": 5,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/aurora_crystal"
-        },
-        {
-            "material": {
-                "item": "betterendforge:eternal_crystal"
-            },
-            "experienceCost": 20,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/eternal_crystal"
+            "moduleVariant": "single_socket/brightstone"
         }
     ]
 }

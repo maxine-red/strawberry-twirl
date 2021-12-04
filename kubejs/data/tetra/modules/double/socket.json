@@ -2,156 +2,45 @@
     "replace": false,
     "variants": [
         {
-            "key": "double_socket/nether_star",
-            "category": "misc",
-            "integrity": -1,
-            "tools": {
-                "axe": [1, 0],
-                "pickaxe": [1, 0],
-                "hoe": [1, 0]
-            },
-            "glyph": {
-                "tint": "e8e2fe",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "e8e2fe"
-            }]
-        },
-        {
-            "key": "double_socket/ametrine",
+            "key": "double_socket/tempered_fiery_glass",
             "category": "gem",
-            "durability": 1024,
+            "durability": 17,
             "durabilityMultiplier": 1,
-            "integrity": -1,
-            "attributes": {
-                "generic.armor": 2,
-                "generic.armor_toughness": 2
-            },
+            "integrity": -2,
             "glyph": {
-                "tint": "d399d1",
+                "tint": "c76234",
                 "textureX": 80,
                 "textureY": 16
             },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "d399d1"
-            }]
-        },
-        {
-            "key": "double_socket/blue_geode",
-            "category": "gem",
-            "durability": 512,
-            "durabilityMultiplier": 0.8,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.1
-            },
-            "tools": {
-                "axe": [0, 2],
-                "shovel": [0, 2],
-                "pickaxe": [0, 2],
-                "hoe": [0, 2],
-                "cut": [0, 2]
-            },
-            "glyph": {
-                "tint": "225589",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "225589"
-            }]
-        },
-        {
-            "key": "double_socket/red_geode",
-            "category": "gem",
-            "durability": 640,
-            "durabilityMultiplier": 0.8,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.2
-            },
-            "tools": {
-                "axe": [0, 3],
-                "shovel": [0, 3],
-                "pickaxe": [0, 3],
-                "hoe": [0, 3],
-                "cut": [0, 3]
-            },
-            "glyph": {
-                "tint": "8d2e2f",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "8d2e2f"
-            }]
-        },
-        {
-            "key": "double_socket/purple_geode",
-            "category": "gem",
-            "durability": 768,
-            "durabilityMultiplier": 0.8,
-            "integrity": -1,
-            "attributes": {
-                "**generic.attack_damage": 0.3
-            },
-            "tools": {
-                "axe": [0, 5],
-                "shovel": [0, 5],
-                "pickaxe": [0, 5],
-                "hoe": [0, 5],
-                "cut": [0, 5]
-            },
-            "glyph": {
-                "tint": "9b0dbf",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "9b0dbf"
-            }]
-        },
-        {
-            "key": "double_socket/aurora_crystal",
-            "category": "gem",
-            "integrity": -1,
-            "glyph": {
-                "tint": "862ec0",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "862ec0"
-            }],
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "c76234"
+                }
+            ],
             "effects": {
-                "intuit": 1
+                "counterweight": 2
             }
         },
         {
-            "key": "double_socket/eternal_crystal",
+            "key": "double_socket/brightstone",
             "category": "gem",
-            "durability": 512,
-            "durabilityMultiplier": 0.8,
+            "durability": 49,
+            "durabilityMultiplier": 1,
             "integrity": -1,
             "glyph": {
-                "tint": "00fbf8",
+                "tint": "f2d46f",
                 "textureX": 80,
                 "textureY": 16
             },
-            "models": [{
-                "location": "tetra:items/module/double/binding/socket/default",
-                "tint": "00fbf8"
-            }],
+            "models": [
+                {
+                    "location": "tetra:items/module/double/binding/socket/default",
+                    "tint": "f2d46f"
+                }
+            ],
             "effects": {
-                "intuit": 3
+                "stun": 3
             }
         }
     ]

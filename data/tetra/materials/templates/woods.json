@@ -1,0 +1,26 @@
+{
+    "key": "",
+    "category": "wood",
+    "primary": "3",
+    "secondary": "1.7",
+    "tertiary": "6",
+    "durability": "69",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "78",
+    "toolLevel": "1",
+    "toolEfficiency": "2",
+    "tints": {
+        "glyph": "",
+        "texture": ""
+    },
+    "textures": [
+        "crude",
+        "wooden"
+    ],
+    "material": {
+    },
+    "requiredTools": {
+        "axe": 1
+    }
+}

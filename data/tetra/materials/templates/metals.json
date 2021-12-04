@@ -1,5 +1,5 @@
 {
-    "key": "blazing_steel",
+    "key": "",
     "category": "metal",
     "primary": "6",
     "secondary": "4",
@@ -11,21 +11,16 @@
     "toolLevel": "7",
     "toolEfficiency": "6.7",
     "tints": {
-        "glyph": "dbaa16",
-        "texture": "dbaa16"
+        "glyph": "",
+        "texture": ""
     },
     "textures": [
         "metal",
         "default"
     ],
     "material": {
-        "item": "druidcraft:blazing_steel"
     },
     "requiredTools": {
         "hammer": 3
-    },
-    "effects": {
-        "stun": 2,
-        "mana_repair": 1
     }
 }

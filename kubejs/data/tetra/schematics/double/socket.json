@@ -3,59 +3,19 @@
     "outcomes": [
         {
             "material": {
-                "item": "minecraft:nether_star"
+                "item": "druidcraft:tempered_fiery_glass"
             },
-            "experienceCost": 30,
+            "experienceCost": 1,
             "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/nether_star"
+            "moduleVariant": "double_socket/tempered_fiery_glass"
         },
         {
             "material": {
-                "item": "byg:ametrine_gems"
+                "item": "druidcraft:brightstone"
             },
-            "experienceCost": 10,
+            "experienceCost": 3,
             "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/ametrine"
-        },
-        {
-            "material": {
-                "item": "wyrmroost:blue_geode"
-            },
-            "experienceCost": 2,
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/blue_geode"
-        },
-        {
-            "material": {
-                "item": "wyrmroost:red_geode"
-            },
-            "experienceCost": 5,
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/red_geode"
-        },
-        {
-            "material": {
-                "item": "wyrmroost:purple_geode"
-            },
-            "experienceCost": 10,
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/purple_geode"
-        },
-        {
-            "material": {
-                "item": "betterendforge:crystal_shards"
-            },
-            "experienceCost": 5,
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/aurora_crystal"
-        },
-        {
-            "material": {
-                "item": "betterendforge:eternal_crystal"
-            },
-            "experienceCost": 20,
-            "moduleKey": "double/socket",
-            "moduleVariant": "double_socket/eternal_crystal"
+            "moduleVariant": "double_socket/brightstone"
         }
     ]
 }
