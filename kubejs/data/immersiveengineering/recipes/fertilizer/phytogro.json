@@ -1,7 +1,0 @@
-{
-  "type": "immersiveengineering:fertilizer",
-  "growthModifier": 2.5,
-  "input": {
-    "item": "thermal:phytogro"
-  }
-}

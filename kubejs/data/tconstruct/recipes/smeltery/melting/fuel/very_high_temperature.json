@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:melting_fuel",
-  "fluid": {
-    "tag": "tconstruct:very_high_temperature_fuel",
-    "amount": 50
-  },
-  "duration": 100,
-  "temperature": 1500
-}

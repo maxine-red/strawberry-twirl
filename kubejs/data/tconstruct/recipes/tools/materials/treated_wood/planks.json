@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material",
-  "ingredient": {
-    "tag": "forge:treated_wood"
-  },
-  "value": 1,
-  "needed": 1,
-  "material": "tconstruct:treated_wood"
-}

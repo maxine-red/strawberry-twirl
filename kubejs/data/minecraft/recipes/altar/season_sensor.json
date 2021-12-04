@@ -12,16 +12,16 @@
   ],
   "key": {
     "A": {
-      "item": "ars_nouveau:glyph_grow"
+      "tag": "botania:runes/spring"
     },
     "B": {
-      "item": "ars_nouveau:glyph_ignite"
+      "tag": "botania:runes/summer"
     },
     "C": {
-      "item": "ars_nouveau:glyph_harvest"
+      "tag": "botania:runes/autumn"
     },
     "D": {
-      "item": "ars_nouveau:glyph_freeze"
+      "tag": "botania:runes/winter"
     },
     "E": {
       "item": "astralsorcery:aquamarine"

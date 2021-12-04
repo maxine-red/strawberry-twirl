@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:heavy_oil",
-    "#forge:light_oil",
-    "#forge:ethanol",
-    "#forge:lubricant"
-  ]
-}

@@ -1,12 +1,22 @@
-To refresh this file, delete it and run /reload command again! Last updated: Mar 15, 2021 1:59:07 AM
+To refresh this file, delete it and run /reload command again! Last updated: Nov 28, 2021 1:34:14 AM
 
-#ceramics:hot_fluids
+#forge:gasoline
+- immersivepetroleum:gasoline
 
-#ceramics:cool_fluids
+#forge:lubricant
+- immersivepetroleum:lubricant
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#forge:crude_oil
+- immersivepetroleum:oil
 
 #minecraft:water
 - minecraft:water
 - minecraft:flowing_water
+- undergarden:virulent_mix_source
+- undergarden:virulent_mix_flowing
 - create:flowing_honey
 - create:honey
 - create:flowing_chocolate
@@ -18,8 +28,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:milk
 - minecraft:milk?
 - minecraft:flowing_milk?
-- create:flowing_milk
-- create:milk
 
 #forge:herbicide
 - immersiveengineering:herbicide
@@ -27,6 +35,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:tea
 - create:flowing_tea
 - create:tea
+
+#forge:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
 
 #forge:plantoil
 - immersiveengineering:plantoil
@@ -41,6 +53,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:chocolate
 - create:flowing_chocolate
 - create:chocolate
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
 
 #forge:honey
 - create:flowing_honey
@@ -57,3 +73,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #forge:potion
 - immersiveengineering:potion
+
+#forge:napalm
+- immersivepetroleum:napalm
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol

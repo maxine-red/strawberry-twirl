@@ -1,0 +1,27 @@
+{
+    "key": "chitin",
+    "category": "scale",
+    "primary": "5",
+    "secondary": "0.3",
+    "tertiary": "0.7",
+    "durability": "143",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "70",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "076f8c",
+        "texture": "076f8c"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "druidcraft:chitin"
+    },
+    "requiredTools": {
+        "cut": 2
+    }
+}

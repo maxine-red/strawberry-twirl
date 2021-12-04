@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#thermal:rockwool",
     "#quark:quilted_wools"
   ]
 }

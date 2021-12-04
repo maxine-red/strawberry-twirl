@@ -1,0 +1,13 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": "druidcraft:blazing_steel",
+	"tier": 1,
+	"items": [
+		"forge:dusts/fiery",
+		"forge:ingots/manasteel",
+    "druidcraft:heart_of_blaze"
+	],
+	"patterns": [
+		"mana-and-artifice:square"
+	]
+}

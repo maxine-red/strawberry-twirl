@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:gems/fiery"
+    }
+  ],
+  "results": [
+    {
+      "item": "druidcraft:crushed_fiery_glass"
+    }
+  ],
+  "processingTime": 150
+}

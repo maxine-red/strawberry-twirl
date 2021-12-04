@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "single_socket/tempered_fiery_glass",
+            "category": "gem",
+            "durability": 17,
+            "durabilityMultiplier": 1,
+            "integrity": -2,
+            "effects": {
+                "counterweight": 2
+            },
+            "glyph": {
+                "tint": "c76234",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/single/binding/socket/default",
+                "tint": "c76234"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries" :[],
+  "result": {
+    "item": "mana-and-artifice:vinteum_dust",
+    "count": 2
+  },
+  "input": {
+    "tag": "forge:ores/vinteum"
+  },
+  "energy": 2400
+}

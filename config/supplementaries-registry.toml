@@ -36,6 +36,7 @@
 		stick = true
 		rope_arrow = false
 		checker_block = false
+		slingshot = true
 		wattle_and_daub = false
 		stone_lamp = false
 		cog_block = false
@@ -44,24 +45,28 @@
 		pancake = false
 		statue = false
 		iron_gate = true
-		piston_launcher = false
 		bamboo_spikes_tipped = true
 		netherite_trapdoor = true
 		fodder = false
+		end_stone_lamp = true
 		globe = true
 		sconce = true
 		candelabra = true
 		timber_frame = true
+		spring_launcher = true
 		safe = false
 		sconce_lever = false
+		#WIP
 		present = false
 		sign_post = true
 		pedestal = false
 		blackboard = false
 		netherite_door = true
 		candle_holder = true
+		flag = true
+		flint_block = true
+		candy = true
 		rope = false
-		flags = true
 		notice_board = false
 		redstone_illuminator = false
 		crimson_lantern = true
@@ -73,11 +78,15 @@
 		turn_table = false
 		faucet = false
 		daub = false
+		blackstone_lamp = true
 		gold_trapdoor = true
+		feather_block = true
 		magma_cream_block = false
+		deepslate_lamp = true
 		goblet = false
 		sconce_green = false
 		flute = false
 		pulley_block = false
 		gold_door = true
+		shulker_shell = true
 

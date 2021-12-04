@@ -22,25 +22,22 @@ var remove_items = [
 	'sophisticatedbackpacks:feeding_upgrade',
 	'sophisticatedbackpacks:compacting_upgrade',
 	'sophisticatedbackpacks:advanced_compacting_upgrade',
-	'sophisticatedbackpacks:void_upgrade',
+	//'sophisticatedbackpacks:void_upgrade',
 	'sophisticatedbackpacks:advanced_void_upgrade',
 	'sophisticatedbackpacks:inception_upgrade',
 	'sophisticatedbackpacks:smelting_upgrade',
 	'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
 	'sophisticatedbackpacks:auto_smelting_upgrade',
-	'sophisticatedbackpacks:crafting_upgrade',
-	'sophisticatedbackpacks:stonecutter_upgrade',
-	'sophisticatedbackpacks:stack_upgrade_tier_1',
-	'sophisticatedbackpacks:stack_upgrade_tier_2',
+	//'sophisticatedbackpacks:crafting_upgrade',
+	//'sophisticatedbackpacks:stonecutter_upgrade',
+	//'sophisticatedbackpacks:stack_upgrade_tier_1',
+	//'sophisticatedbackpacks:stack_upgrade_tier_2',
 	'sophisticatedbackpacks:stack_upgrade_tier_3',
 	'sophisticatedbackpacks:stack_upgrade_tier_4',
 	'sophisticatedbackpacks:tool_swapper_upgrade',
-	'sophisticatedbackpacks:tank_upgrade',
+	//'sophisticatedbackpacks:tank_upgrade',
 	
 	'farmersdelight:wheat_dough',
-	
-	/(minecraft|astralsorcery):\w+_(shovel|axe|pickaxe|sword|hoe)/,
-	/immersiveengineering:(shovel|axe|pickaxe|sword|hoe)_steel/,
 	
     /quark:\w+rang/,
 	/quark:\w*biotite\w*/,
@@ -55,11 +52,14 @@ var remove_items = [
 	/theoneprobe:\w+_helmet_probe/,
 	'theoneprobe:probe',
 	'theoneprobe:creativeprobe',
-    /thermal:upgrade_augment_\d/,
-    /thermal:rf_coil\w*_augment/,
-    /thermal:fluid_tank\w*_augment/,
-    'thermal:area_radius_augment',
-    'thermal:ender_bucket'
+    'create:crushed_brass',
+    
+    // Druicraft unfinished items
+    'druidcraft:debug',
+    'druidcraft:hellkiln',
+    'druidcraft:hellkiln_igniter',
+    'druidcraft:nether_fiery_glass_ore',
+    'druidcraft:brightstone_ore'
 ];
 
 
@@ -67,8 +67,4 @@ onEvent('jei.hide.items', event => {
 	remove_items.forEach(item => {
 		event.hide(item);
 	});
-});
-
-onEvent('jei.hide.fluids', event => {
-	event.hide('thermal:ender');
 });

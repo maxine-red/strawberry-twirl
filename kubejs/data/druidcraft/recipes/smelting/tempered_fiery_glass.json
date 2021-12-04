@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:gems/fiery"
+  },
+  "result": "druidcraft:tempered_fiery_glass",
+  "experience": 0.35,
+  "cookingtime": 200
+}

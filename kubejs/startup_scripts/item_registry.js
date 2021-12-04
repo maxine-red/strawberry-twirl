@@ -49,7 +49,6 @@ let foods = [
 	{id: 'buttered_bread', texture: 'kubejs:item/toast_buttered', hunger: 5, saturation: 0.7, name: 'Buttered Bread Slices'},
 	{id: 'magic_buttered_bread', texture: 'kubejs:item/toast_buttered_mystical', hunger: 5, saturation: 0.7, name: 'Magic Buttered Bread Slices'}
 ];
-let blooms = [ 'cobalt', 'uranium', 'thallasium' ];
 events.listen('item.registry', (event) => {
 	items.forEach(item => {
         if (item.id === 'wax') {

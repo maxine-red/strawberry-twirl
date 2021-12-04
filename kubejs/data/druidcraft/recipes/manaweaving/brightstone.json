@@ -1,0 +1,13 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": "druidcraft:brightstone",
+	"tier": 1,
+	"items": [
+		"forge:dusts/fiery",
+		"druidcraft:soulfire",
+		"druidcraft:heart_of_blaze"
+	],
+	"patterns": [
+		"mana-and-artifice:triangle"
+	]
+}

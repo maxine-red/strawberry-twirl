@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:melting_fuel",
-  "fluid": {
-    "tag": "tconstruct:medium_low_temperature_fuel",
-    "amount": 50
-  },
-  "duration": 100,
-  "temperature": 650
-}

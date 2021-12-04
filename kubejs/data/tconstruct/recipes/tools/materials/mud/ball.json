@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material",
-  "ingredient": {
-    "item": "environmental:mud_ball"
-  },
-  "value": 1,
-  "needed": 1,
-  "material": "tconstruct:mud"
-}

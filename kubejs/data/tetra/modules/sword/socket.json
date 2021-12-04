@@ -1,0 +1,42 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "sword_socket/tempered_fiery_glass",
+            "category": "gem",
+            "durability": 17,
+            "durabilityMultiplier": 1,
+            "integrity": -2,
+            "effects": {
+                "counterweight": 2
+            },
+            "glyph": {
+                "tint": "c76234",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "c76234"
+            }]
+        },{
+            "key": "sword_socket/brightstone",
+            "category": "gem",
+            "durability": 49,
+            "durabilityMultiplier": 1,
+            "integrity": -1,
+            "effects": {
+                "stun": 3
+            },
+            "glyph": {
+                "tint": "f2d46f",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/sword/guard/socket/default",
+                "tint": "f2d46f"
+            }]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/vinteum"
+    }
+  ],
+  "results": [
+    {
+      "item": "mana-and-artifice:vinteum_dust",
+      "count": 2
+    }
+  ],
+  "processingTime": 350
+}

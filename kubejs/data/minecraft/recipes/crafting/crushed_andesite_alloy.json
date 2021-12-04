@@ -16,6 +16,7 @@
     }
   ],
   "result": {
-    "item": "kubejs:crushed_andesite_alloy"
+    "item": "kubejs:crushed_andesite_alloy",
+    "count": 4
   }
 }

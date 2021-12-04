@@ -1,14 +1,14 @@
 {
   "type": "astralsorcery:altar",
-  "altar_type": 0,
-  "duration": 100,
+  "altar_type": 1,
+  "duration": 120,
   "starlight": 800,
   "pattern": [
-    "_____",
+    "R___I",
     "_ABA_",
     "_CFC_",
     "_ABA_",
-    "_____"
+    "E___W"
   ],
   "key": {
     "A": {
@@ -22,6 +22,18 @@
     },
     "F": {
       "item": "ars_nouveau:glyph_light"
+    },
+    "R": {
+      "tag": "botania:runes/fire"
+    },
+    "E": {
+      "tag": "botania:runes/earth"
+    },
+    "I": {
+      "tag": "botania:runes/air"
+    },
+    "W": {
+      "tag": "botania:runes/water"
     }
   },
   "output": [

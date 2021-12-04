@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ores/vinteum"
+    }
+  ],
+  "results": [
+  {
+    "item": "mana-and-artifice:vinteum_dust"
+  }
+  ],
+  "processingTime": 150
+}

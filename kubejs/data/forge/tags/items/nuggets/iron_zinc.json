@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["#forge:nuggets/iron", "#forge:nuggets/zinc"]
+  "values": ["minecraft:iron_nugget", "create:zinc_nugget"]
 }

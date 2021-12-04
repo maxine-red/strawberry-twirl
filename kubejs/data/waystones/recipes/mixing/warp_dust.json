@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/ender"
+    },
+    {
+      "tag": "forge:dusts/vinteum"
+    },
+    {
+      "tag": "forge:dusts/fey"
+    },
+    {
+      "tag": "forge:dusts/starmetal"
+    }
+  ],
+  "results": [
+    {
+      "item": "waystones:warp_dust",
+      "count": 4
+    }
+  ]
+}

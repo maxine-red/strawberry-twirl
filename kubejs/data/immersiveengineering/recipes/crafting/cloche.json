@@ -2,8 +2,8 @@
   "type": "create:mechanical_crafting",
   "pattern": [
     " GGG ",
-    "GLVLG",
-    "G   G",
+    "GPVUG",
+    "GA WG",
     "G   G",
     "G   C",
     "TCECT",
@@ -20,16 +20,25 @@
       "item": "immersiveengineering:component_steel"
     },
     "E": {
-      "tag": "forge:gears/enderium"
+      "item": "astralsorcery:illumination_powder"
     },
     "V": {
       "item": "immersiveengineering:electron_tube"
     },
-    "L": {
-      "tag": "forge:nuggets/lumium"
+    "P": {
+      "tag": "botania:runes/spring"
+    },
+    "U": {
+      "tag": "botania:runes/summer"
+    },
+    "A": {
+      "tag": "botania:runes/autumn"
+    },
+    "W": {
+      "tag": "botania:runes/winter"
     },
     "S": {
-      "item": "thermal:redstone_servo"
+      "item": "create:precision_mechanism"
     }
   },
   "result": {

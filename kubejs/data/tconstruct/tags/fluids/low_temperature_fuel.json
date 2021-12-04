@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:creosote",
-    "#forge:crude_oil",
-    "#forge:tree_oil",
-    "#forge:plantoil"
-  ]
-}

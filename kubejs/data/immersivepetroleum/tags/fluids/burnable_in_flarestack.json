@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:heavy_oil",
-    "#forge:light_oil",
-    "#forge:refined_fuel",
-    "#forge:tree_oil"
-  ]
-}

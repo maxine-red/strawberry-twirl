@@ -30,81 +30,64 @@ var sophisticated_upgrades = [
 	'sophisticatedbackpacks:feeding_upgrade',
 	'sophisticatedbackpacks:compacting_upgrade',
 	'sophisticatedbackpacks:advanced_compacting_upgrade',
-	'sophisticatedbackpacks:void_upgrade',
-	'sophisticatedbackpacks:advanced_void_upgrade',
+	//'sophisticatedbackpacks:void_upgrade',
+	//'sophisticatedbackpacks:advanced_void_upgrade',
 	'sophisticatedbackpacks:inception_upgrade',
 	'sophisticatedbackpacks:smelting_upgrade',
 	'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
 	'sophisticatedbackpacks:auto_smelting_upgrade',
-	'sophisticatedbackpacks:crafting_upgrade',
+	//'sophisticatedbackpacks:crafting_upgrade',
 	'sophisticatedbackpacks:stonecutter_upgrade',
-	'sophisticatedbackpacks:stack_upgrade_tier_1',
-	'sophisticatedbackpacks:stack_upgrade_tier_2',
+	//'sophisticatedbackpacks:stack_upgrade_tier_1',
+	//'sophisticatedbackpacks:stack_upgrade_tier_2',
 	'sophisticatedbackpacks:stack_upgrade_tier_3',
 	'sophisticatedbackpacks:stack_upgrade_tier_4',
 	'sophisticatedbackpacks:tool_swapper_upgrade',
 	'sereneseasons:calendar',
 	'sereneseasons:season_sensor',
-	'sophisticatedbackpacks:tank_upgrade',
+	//'sophisticatedbackpacks:tank_upgrade'
 ];
 
 var foods = [
 	'minecraft:bread',
 	'farmersdelight:wheat_dough',
 	'minecraft:mushroom_stew',
+	'botania:mushroom_stew',
 	'minecraft:beetroot_soup',
 	'farmersdelight:integration/create/mixing/tomato_sauce_from_mixing',
 	'minecraft:rabbit_stew_from_brown_mushroom',
 	'minecraft:rabbit_stew_from_red_mushroom',
 	'create:splashing/wheat_flour',
+	'farmersdelight:raw_pasta_from_water',
+	'farmersdelight:raw_pasta_from_eggs',
 	'farmersdelight:raw_pasta',
 	'bayou_blues:crafting/gooseberry_jam_cookie',
 	'bayou_blues:crafting/honey_glazed_gooseberries',
 	'bayou_blues:crafting/gooseberry_juice',
 	'bayou_blues:crafting/gooseberry_jam',
 	'bayou_blues:crafting/gooseberry_jam_from_juice',
-	'farmersdelight:cake_from_milk_bottle',
-	'minecraft:netherite_ingot'
+	'farmersdelight:cake_from_milk_bottle'
 ];
 
 var recipes = [
-	 'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
-	 'astralsorcery:shaped/black_marble/black_marble_raw',
-	 'astralsorcery:altar/black_marble_raw',
-	/minecraft:\w+_(shovel|axe|pickaxe|sword|hoe)/,
-	/astralsorcery:altar\/crystal_(shovel|axe|pickaxe|sword|hoe)/,
-	/immersiveengineering:crafting\/(shovel|axe|pickaxe|sword|hoe)_steel/,
+	'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
+	'astralsorcery:shaped/black_marble/black_marble_raw',
+	'astralsorcery:altar/black_marble_raw',
     'abnormals_delight:environmental/cooking/squid_ink_risotto',
-    /thermal:augments\/upgrade_augment_\d/,
-    /thermal:augments\/rf_coil\w*_augment/,
-    /thermal:augments\/fluid_tank\w*_augment/,
-    'thermal:augments/area_radius_augment',
-    'minecraft:rabbit_stew_from_red_mushroom.json',
-    /minecraft:(gold|iron)_ingot/,
-    'minecraft:brick',
-    'minecraft:nether_brick',
-    /minecraft:\w+_glazed_terracotta/,
-    'minecraft:terracotta',
     'autumnity:sugar_from_sap_bottle',
-    'neapolitan:chocolate/chocolate_block',
     'neapolitan:chocolate/chocolate_bar',
-    'neapolitan:chocolate/chocolate_bar_from_chocolate_block',
     'create:bar_of_chocolate',
-    /thermal:lumium\w*rail/,
-    /farmersdelight:integration\/immersiveengineering\/squeezer\/\w+_seeds/,
-    /immersiveengineering:squeezer\/\w+_seeds/,
-    /create:mixing\/\w*brass\w*/,
-    'waystones:warp_dust',
-    'immersiveengineering:crusher/coke',
-    'immersiveengineering:crusher/glowstone',
-    'immersiveengineering:crusher/coke_block',
-    'create:crushing/glowstone',
-    'thermal:rubber_3',
-    'betterendforge:amber_gem',
-    /minecraft:coal_from_\w+/
+    /create:(blasting|smelting)\/\w*brass\w*/,
+    'create:mixing/crushed_brass',
+    'create:crushing/brass_block',
+    'mana-and-artifice:vinteum_dust_blast_furnace',
+    'mana-and-artifice:vinteum_dust',
 ];
 
-var outputs = [
+var mana_tags = [
+    '#mana-and-artifice:sandstonecutter_resettable_arcane_sandstones',
+    '#mana-and-artifice:sandstonecutter_resettable_chimerite_arcane_sandstones',
+    '#mana-and-artifice:sandstonecutter_resettable_vinteum_arcane_sandstones',
 ];
 
 var create_andesite_alloy = [
@@ -121,8 +104,6 @@ onEvent('recipes', event => {
 	sophisticated_upgrades.forEach(item => {
 		event.remove({id: item});
 	});
-    
-    //event.remove({type: "minecraft:crafting_shapeless", id: /\w+:\w+_nugget\W*/});
 	
 	foods.forEach(item => {
 		event.remove({id: item});
@@ -132,8 +113,8 @@ onEvent('recipes', event => {
 		event.remove({id: recipe});
 	});
 	
-	outputs.forEach(item => {
-		event.remove({output: item});
+	mana_tags.forEach(item => {
+		event.remove({input: item});
 	});
 	
 	create_andesite_alloy.forEach(item => {

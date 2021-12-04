@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "item": "druidcraft:crushed_fiery_glass",
+    "count": 1
+  },
+  "input": {
+    "tag": "forge:gems/fiery"
+  },
+  "energy":1600
+}

@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:casting_basin",
-  "fluid": {
-    "tag": "tconstruct:molten_redstone",
-    "amount": 1296
-  },
-  "result": "minecraft:redstone_block",
-  "cooling_time": 170
-}

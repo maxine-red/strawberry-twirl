@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/ender"
+    },
+    {
+      "tag": "forge:dusts/vinteum"
+    },
+    {
+      "tag": "forge:dusts/fey"
+    },
+    {
+      "tag": "forge:dusts/starmetal"
+    }
+  ],
+  "result": {
+    "item": "waystones:warp_dust",
+    "count": 4
+  }
+}

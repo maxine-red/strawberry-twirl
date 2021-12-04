@@ -4,7 +4,7 @@
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_magnet_upgrade:true", "advanced_tool_swapper_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "inception_upgrade:true", "crafting_upgrade:true", "tank_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "smelting_upgrade:true", "upgrade_base:true", "filter_upgrade:true", "magnet_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "stonecutter_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "tool_swapper_upgrade:true", "feeding_upgrade:true", "netherite_backpack:true", "stack_upgrade_tier_4:true"]
+	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_restock_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "crafting_upgrade:true", "tank_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_1:true", "upgrade_base:true", "filter_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "backpack:true", "netherite_backpack:true", "compacting_upgrade:false", "advanced_tool_swapper_upgrade:false", "smelting_upgrade:false", "magnet_upgrade:false", "advanced_magnet_upgrade:false", "stonecutter_upgrade:false", "tool_swapper_upgrade:false", "feeding_upgrade:false", "inception_upgrade:false", "auto_smelting_upgrade:false", "stack_upgrade_tier_4:false", "stack_upgrade_tier_3:false", "advanced_compacting_upgrade:false"]
 
 	#Advanced Filter Upgrade Settings
 	[common.advancedFilterUpgrade]
@@ -49,10 +49,10 @@
 	[common.diamondBackpack]
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 3
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 54
 
 	#Filter Upgrade Settings
 	[common.filterUpgrade]
@@ -125,10 +125,10 @@
 	[common.netheriteBackpack]
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 7
+		upgradeSlotCount = 4
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 54
 
 	#Deposit Upgrade Settings
 	[common.depositUpgrade]
@@ -173,7 +173,7 @@
 	[common.leatherBackpack]
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 1
+		upgradeSlotCount = 0
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 27
@@ -182,7 +182,7 @@
 	[common.goldBackpack]
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 3
+		upgradeSlotCount = 2
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 27
@@ -191,7 +191,7 @@
 	[common.ironBackpack]
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
-		upgradeSlotCount = 2
+		upgradeSlotCount = 1
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
 		inventorySlotCount = 27
@@ -233,7 +233,7 @@
 		stackMultiplierRatio = 1.0
 		#Capacity in mB the tank upgrade will have per row of backpack slots
 		#Range: 500 ~ 20000
-		capacityPerSlotRow = 2000
+		capacityPerSlotRow = 8000
 		#Cooldown between fill/drain actions done on fluid containers in tank slots. Only fills/drains one bucket worth to/from container after this cooldown and then waits again.
 		#Range: 1 ~ 100
 		autoFillDrainContainerCooldown = 20

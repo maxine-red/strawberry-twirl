@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "fluid": "tconstruct:liquid_soul",
+      "fluid": "undergarden:virulent_mix_source",
       "amount": 250
     }
   ],
