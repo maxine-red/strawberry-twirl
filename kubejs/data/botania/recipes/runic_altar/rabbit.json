@@ -1,0 +1,30 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "minecraft:rabbit"
+  },
+  "mana": 9200,
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "tag": "botania:runes/earth"
+    },
+    {
+      "item": "botania:quartz_blaze"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  ]
+}

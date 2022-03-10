@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries" :[],
+  "result": {
+    "item": "feywild:fey_dust"
+  },
+  "input": {
+    "item": "feywild:lesser_fey_gem"
+  },
+  "energy": 2400
+}

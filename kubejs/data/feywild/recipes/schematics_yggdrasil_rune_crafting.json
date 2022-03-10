@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    "aaa",
+    "xOx"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "x": {
+      "item": "minecraft:sugar"
+    },
+    "s": {
+      "item": "kubejs:sweet_dough"
+    },
+    "O": {
+      "item": "farmersdelight:pie_crust"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:apple_pie"
+  }
+}

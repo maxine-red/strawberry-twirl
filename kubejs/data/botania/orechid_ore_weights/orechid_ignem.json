@@ -1,0 +1,34 @@
+{
+  "values": [
+    {
+      "type": "block",
+      "block": "minecraft:nether_quartz_ore",
+      "weight": 19600
+    },
+    {
+      "type": "block",
+      "block": "minecraft:nether_gold_ore",
+      "weight": 3635
+    },
+    {
+      "type": "block",
+      "block": "minecraft:ancient_debris",
+      "weight": 148
+    },
+    {
+      "type": "block",
+      "block": "occultism:iesnium_ore",
+      "weight": 437
+    },
+    {
+      "type": "block",
+      "block": "wyrmroost:red_geode_ore",
+      "weight": 2569
+    },
+    {
+      "type": "block",
+      "block": "tconstruct:cobalt_ore",
+      "weight": 697
+    }
+  ]
+}

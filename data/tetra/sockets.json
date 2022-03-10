@@ -1,4 +1,0 @@
-[
-  { "key": "tempered_fiery_glass", "name": "Tempered Fiery Glass", "durability": 17, "integrity": -2, "effects": {"counterweight": 2}, "color": "c76234", "item": "druidcraft:tempered_fiery_glass"},
-  { "key": "brightstone", "name": "Brightstone", "durability": 49, "integrity": -1, "effects": {"stun": 3}, "color": "f2d46f", "item": "druidcraft:brightstone", "experienceCost": 3}
-]

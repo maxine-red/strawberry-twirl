@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:quartz",
+      "count": 2
+    },
+    {
+      "item": "minecraft:quartz",
+      "count": 4,
+      "chance": 0.5
+    },
+    {
+      "item": "immersiveengineering:dust_sulfur",
+      "chance": 0.25
+    },
+    {
+      "item": "minecraft:netherrack",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350
+}

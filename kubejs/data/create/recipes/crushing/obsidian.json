@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:obsidian"
+    }
+  ],
+  "results": [
+    {
+      "item": "occultism:obsidian_dust"
+    }
+  ],
+  "processingTime": 500
+}

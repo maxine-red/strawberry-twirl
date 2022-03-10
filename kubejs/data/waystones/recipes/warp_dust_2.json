@@ -1,0 +1,12 @@
+{
+   "type": "botania:mana_infusion",
+  "input": [
+    {
+      "tag": "forge:dusts/ender"
+    }
+  ],
+  "output": {
+    "item": "waystones:warp_dust",
+  },
+  "mana": 100
+}

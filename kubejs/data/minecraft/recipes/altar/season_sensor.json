@@ -4,11 +4,11 @@
   "duration": 600,
   "starlight": 600,
   "pattern": [
-    "AG_GB",
+    "AI_IB",
     "GHEHG",
     "_EFE_",
     "GHEHG",
-    "CG_GD"
+    "CI_ID"
   ],
   "key": {
     "A": {
@@ -31,6 +31,9 @@
     },
     "G": {
       "tag": "astralsorcery:starmetal"
+    },
+    "I": {
+      "item": "naturesaura:gold_powder"
     },
     "H": {
       "tag": "forge:gems/mana"

@@ -154,7 +154,7 @@
 		#Range: > -1
 		yield = 38400
 		#List of dimensions that can't contain minerals. Default: The End.
-		dimBlacklist = ["minecraft:the_end"]
+		dimBlacklist = []
 		#The Flux per tick the Excavator will consume to dig
 		#Range: > 1
 		consumption = 4096

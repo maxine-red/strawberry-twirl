@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "forge:ores/coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:coal",
+      "count": 2
+    },
+    {
+      "item": "minecraft:coal",
+      "count": 2,
+      "chance": 0.5
+    },
+    {
+      "item": "immersiveengineering:dust_sulfur",
+      "chance": 0.15
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 300
+}

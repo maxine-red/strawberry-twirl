@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/copper"
+    },
+    {
+      "tag": "forge:dusts/nickel"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:dust_constantan",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "astralsorcery:aquamarine_sand_ore"
+    }
+  ],
+  "results": [
+  {
+    "item": "astralsorcery:aquamarine",
+    "count": 8
+  },
+  {
+    "item": "astralsorcery:aquamarine",
+    "count": 6,
+    "chance": 0.25
+  },
+  {
+    "item": "create:limesand",
+    "chance": 0.125
+  }
+  ],
+  "processingTime": 350
+}

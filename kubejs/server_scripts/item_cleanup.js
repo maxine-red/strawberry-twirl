@@ -82,6 +82,12 @@ var recipes = [
     'create:crushing/brass_block',
     'mana-and-artifice:vinteum_dust_blast_furnace',
     'mana-and-artifice:vinteum_dust',
+    'feywild:schematics_yggdrasil_rune_crafting',
+    /feywild:runes\/\w+heim_rune/,
+    /feywild:runes\/\w+gard_rune/,
+    'feywild:runes/nidavellir_rune',
+    'feywild:smelting/fey_dust',
+    'druidcraft:knife'
 ];
 
 var mana_tags = [

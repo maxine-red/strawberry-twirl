@@ -1,21 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "bsb",
-    "sgs",
-    "bsb"
-  ],
-  "key": {
-    "b": {
-      "item": "minecraft:bone_meal"
-    },
-    "s": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "farmersdelight:straw"
     },
-    "g": {
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "farmersdelight:straw"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
       "item": "minecraft:sand"
     }
-  },
+  ],
   "result": {
     "item": "minecraft:dirt"
   }

@@ -59,7 +59,8 @@ var remove_items = [
     'druidcraft:hellkiln',
     'druidcraft:hellkiln_igniter',
     'druidcraft:nether_fiery_glass_ore',
-    'druidcraft:brightstone_ore'
+    'druidcraft:brightstone_ore',
+    'druidcraft:knife'
 ];
 
 

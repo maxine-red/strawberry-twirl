@@ -6,6 +6,7 @@
 /logs/
 /mods/
 /mods
+/optional_mods/
 /kuvejs/exported/
 /patchouli_books/
 /resourcepacks/
@@ -22,6 +23,7 @@ usernamecache.json
 realms_persistence.json
 options.txt
 servers.dat
+servers.dat_old
 whitelist.json
 ops.json
 patchouli_data.json

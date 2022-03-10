@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluidTag": "forge:lubricant",
+      "amount": 1000
+    },
+    {
+      "tag": "forge:dusts/fiery"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "minecraft:lava",
+      "amount": 50
+    }
+  ],
+  "heatRequirement": "heated"
+}

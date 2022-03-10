@@ -1,0 +1,10 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "feywild:lesser_fey_gem"
+  },
+  "result": {
+   "item": "feywild:fey_dust"
+  },
+  "crushing_time": 200
+}

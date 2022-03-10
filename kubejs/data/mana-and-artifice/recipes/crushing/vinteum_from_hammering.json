@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "tag": "forge:dusts/vinteum"
+  },
+  "input": {
+    "tag": "forge:ores/vinteum"
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:crusher","secondaries":[{"chance":0.2,"output":{"tag":"forge:dusts/fiery"},"conditions":[{"value":{"tag":"forge:dusts/fiery","type":"forge:tag_empty"},"type":"forge:not"}]}],"result":{"count":9,"base_ingredient":{"item":"druidcraft:fiery_glass"}},"input":{"tag":"forge:ores/fiery"},"energy":6000}

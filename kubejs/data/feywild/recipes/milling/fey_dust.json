@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "feywild:lesser_fey_gem"
+    }
+  ],
+  "results": [
+  {
+    "item": "feywild:fey_dust"
+  }
+  ],
+  "processingTime": 150
+}

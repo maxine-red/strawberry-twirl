@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "waystones:bound_scroll",
+    "count": 3
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GEG",
+    "PPP"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:nuggets/gold"
+    },
+    "E": {
+      "item": "waystones:warp_dust"
+    },
+    "P": {
+      "item": "astralsorcery:parchment"
+    }
+  }
+}

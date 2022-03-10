@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "result": {
+    "item": "feywild:fey_dust"
+  },
+  "input": {
+    "item": "feywild:lesser_fey_gem"
+  }
+}

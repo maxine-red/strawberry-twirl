@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "fluidTag": "forge:creosote",
+      "amount": 1000
+    },
+    {
+      "tag": "forge:charcoal"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersivepetroleum:petcoke"
+    }
+  ],
+  "heatRequirement": "heated"
+}

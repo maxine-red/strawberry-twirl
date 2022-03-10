@@ -6,7 +6,7 @@
 - [x] add crock pot mod
 - [x] add mana & artifice mod
 - [x] replace tinker with tetra
-- [ ] remove appleskin, when done
+- [x] remove appleskin, when done
 - [x] remove pain in the glass
 - [x] go through list of mods open in firefox tabs
 - [x] think about replacing ambient sounds with dynamic surroundings (dynamic also ads visuals and reverb)
@@ -21,18 +21,18 @@
 - [x] look through existing tags and recipes and see which one shall stay and which one shouldn't
 - [x] look over recipe removal and JEI hiding code, to see what should stay and what shouldn'table
 - [ ] add a small guide (just barebones to go over the changes, most players won't expect)
-- [ ] change backpack tiers to have only more upgrade slots, one per tier (starting at 1)
-- [ ] diamond gets double space (netherrite inherits this)
+- [x] change backpack tiers to have only more upgrade slots, one per tier (starting at 1)
+- [x] diamond gets double space (netherrite inherits this)
 
 - [ ] make an automatic release script, like I have for companion mod
 - [ ] update mod lists (mods.json, REAME.md)
 
-- [ ] add tips for several things
-	- [x] astral sorcery is included
-	- [x] immersive engineering is included
-	- [x] ars noveau is included
-	- [x] the one probe note being craftable
-	- [x] about seasons (being a thing)
+- [ ] add tips for several things / add to guide
+	- [ ] astral sorcery is included
+	- [ ] immersive engineering is included
+	- [ ] ars noveau is included
+	- [ ] the one probe note being craftable
+	- [ ] about seasons (being a thing)
 	- [ ] chainmail is craftable
 	- [ ] crystals are craftable
 	- [ ] rich soil grows mushroom colonies
@@ -50,7 +50,7 @@
     - [ ] bricks can be thrown (keep away from glass)
     - [ ] to make bottle o' enchanting, use a bottle on an enchanting table (this hurts!)
     - [ ] go to undergarden, by building a nether portal out of stone bricks and activate with a catalyst
-    - [ ] good night sleep can be reached with a bed, crafted with a hope muchsroom and a despair mushroom (both can be found in nether)
+    - [ ] bottle o' enchanting can be made by using an empty bottle on an enchanting table (hurts)
 	
 # Recipes
 
@@ -81,50 +81,56 @@
     - [x] rockroot (material)
     - [x] darkwood
     - [x] elder
+
+## Nature's Aura
+- [x] add ways to turn rotten meat into other meats for mob calling
+    - [x] beef
+    - [x] mutton
+    - [x] porkchop
+    - [x] chicken
+    - [x] rabbit
     
 ## Mana & Artifice
-- [ ] remove vintium smelting, blasting recipes
-- [ ] add vinteum milling recipe and hammer (both output 1)
-- [ ] add output crushing (wheel/crusher) (output 2)
+- [x] remove vintium smelting, blasting recipes
+- [x] add crushing recipes instead
 
 ## Feywild
-- [ ] remove fey dust smelting/blsting recipe
-- [ ] add lesser feygem to fey dust milling, crushing recipes
+- [x] remove fey dust smelting/blsting recipe
+- [x] add lesser feygem to fey dust milling, crushing recipes
+
 ## Atral sorcery
-- [ ] add crushing recipe for aquamarine (same as redstone)
+- [x] add crushing recipe for aquamarine (same as redstone)
 
 ## Mystical world
-- [ ] add crushing (immersive) recipes for ore -> dust for ore doubling
-    - [ ] copper
-    - [ ] silver
-    - [ ] tinker
-    - [ ] quicksilver
-    - [ ] lead
- - [ ] add crushing recipes for amethyst (like diamond)
+- [x] add crushing (immersive) recipes for ore -> dust for ore doubling
+    - [x] copper
+    - [x] silver
+    - [x] tin
+    - [x] quicksilver
+    - [x] lead
+ - [x] add crushing recipes for amethyst (like diamond)
     
 ## Immersive, Environmental & Druidcraft
-- [ ] unify wood cutting
-- [ ] only immersive should have extra output for wood cutting
-- [ ] add mixing recipes for dust blends of allowys
+- [x] add mixing recipes for dust blends of allowys
+    - [x] electrum
+    - [x] constantan
+
+## waystones
+- [ ] add recipes for warp dusts and warp stones
 
 ## Immersive
 - [x] add fertilizers to garden gloche
-- [ ] find new crops
-- [ ] add crops to garden gloche
-- [ ] add lava, magma to nether
-- [ ] check depostits that could be adde
-- [ ] add more mineral deposits, for other mod's ores (like cobalt)
-- [ ] find all ores that need crushing recipes
-- [ ] add crushing recipes
-    - [ ] ender pearl
-    - [ ] stardust
-    - [ ] lapis
-    - [ ] amber ore
-    - [ ] ender ore
-    - [ ] aurora crystals
-- [ ] add script that adds all wood types to sawmill (only vanilla currently)
-- [ ] add graphite dust crushing to mill and crushing wheel
-- [ ] all reserviors should have 0 traces, so when empty, then empty
+- [x] find all ores that need crushing recipes
+- [x] add crushing recipes
+    - [x] ender pearl
+    - [x] stardust
+    - [x] lapis
+    - [x] amber ore
+    - [x] ender ore
+    - [x] aurora crystals
+- [x] add script that adds all wood types to sawmill (only vanilla currently)
+- [x] add graphite dust crushing to mill and crushing wheel
+- [x] all reserviors should have 0 traces, so when empty, then empty
 
 ## Create
 - [ ] add heating to the following mixing recipes
@@ -136,188 +142,21 @@
     - [ ] gooseberry cookies
     - [ ] source berry roll
 - [ ] mixer can make sweet dough and cinder dough, that then needs to be stamped
-- [ ] find recipes for dust -> gem/ingot
-- [ ] add stamping recipes for
-- [ ] find recipes for gem/ingot -> dust
-- [ ] add milling recies for ingot/gem to dusts
-- [ ] add zinc dust
-- [ ] add mixing recipes for
-    - [ ] bronze blend (use dusts instead of crushed ore)
-    - [ ] electrum blend
-    - [ ] invar blend
-    - [ ] constantan blend
- - [ ] find missing crop recipes
-- [ ] add milling recipe for
-    - [ ] barley
-    - [ ] corn
-    - [ ] rice
-- [ ] remove smelting recipes for crushed ores
-- [ ] find missing crushed ore
-- [ ] remove crushed brass (replace with brass grit/blend)
+- [z] remove smelting recipes for crushed ores
+- [ ] add sourdough mixing recipe
 
-## Tetra
-- [ ] look what materials there are to add
-- [ ] add socket gems
-    - [ ] mana diamond
-    - [ ] dragonstone
-    - [ ] mana quatz
-    - [ ] chimerite
-    - [ ] greater mote of magic
-    - [ ] mote of magic
-    - [ ] awuamarine
-    - [ ] resonating aquamarine
-    - [ ] greater fey gem
-    - [ ] spirit attuned gem
-    - [ ] Afrit essence
-    - [ ] necrum
-    - [ ] eternal crystals
-    - [ ] crystal shards
-    - [ ] smaragdant crystal shards
-    - [ ] sylph shards
-    - [ ] wixie shards
-    - [ ] drygmy shard
-    - [ ] source gem
-    - [ ] polished rosequatz
-- [ ] add materials
-    - [ ] manaweave cloth
-    - [ ] red string
-    - [ ] corporea
-    - [ ] living rock
-    - [ ] drake backplate
-    - [ ] blue geode
-    - [ ] red geode
-    - [ ] purple geode
-    - [ ] platinum
-    - [ ] grongle
-    - [ ] wigglewood
-    - [ ] smogstem
-    - [ ] forgotten
-    - [ ] regalium
-    - [ ] utherium
-    - [ ] froststeel
-    - [ ] cloggrum
-    - [ ] tremblecrust
-    - [ ] shiverstone
-    - [ ] depthrock
-    - [ ] charred planks
-    - [ ] quicksilver
-    - [ ] star metal
-    - [ ] rock crystals
-    - [ ] marble
-    - [ ] sooty marble
-    - [ ] vinteum ingot
-    - [ ] purified vinteum ingot
-    - [ ] infused thread
-    - [ ] infused silk
-    - [ ] runic silk
-    - [ ] witherbone
-    - [ ] ironbark
-    - [ ] arcane stone
-    - [ ] vinteum stone
-    - [ ] chimerite stone
-    - [ ] ancient runestone
-    - [ ] iesnium
-    - [ ] otherstone
-    - [ ] delusion stone
-    - [ ] positite
-    - [ ] negatite
-    - [ ] zitrite
-    - [ ] rainbow
-    - [ ] dead planks
-    - [ ] dream planks
-    - [ ] white planks
-    - [ ] blood planks
-    - [ ] silk fiber (better end)
-    - [ ] aeternium
-    - [ ] terminite
-    - [ ] thallasium
-    - [ ] violecite
-    - [ ] flavolite
-    - [ ] end lotis
-    - [ ] dragon bone
-    - [ ] mossy glowshroom
-    - [ ] umbrella
-    - [ ] lubernia
-    - [ ] lacugrove
-    - [ ] helix tree
-    - [ ] temaea
-    - [ ] pthoadendron
-    - [ ] jellyshroom
-    - [ ] arcane stone
-    - [ ] archwood
-    - [ ] magebloom
-    - [ ] blaze fiber
-    - [ ] end fiber
-    - [ ] wilden horn
-    - [ ] wilden spike
-    - [ ] wilden wing
-    - [ ] aluminium
-    - [ ] uranium
-    - [ ] constantan
-    - [ ] andesite alloy
-    - [ ] zinc
-    - [ ] brass
-    - [ ] dolomite
-    - [ ] weathered limestone
-    - [ ] limestone (use tag)
-    - [ ] sulfuric rock
-    - [ ] scoria
-    - [ ] dark scoria
-    - [ ] gabbro
-    - [ ] chromatic compound
-    - [ ] shadow steel
-    - [ ] refined radiance
-    - [ ] deepslate
-    - [ ] jasper
-    - [ ] slate
-    - [ ] voidstone
-    - [ ] myalite
-    - [ ] snail shell piece
-    - [ ] thrasher tooth
-    - [ ] cypress
-    - [ ] rosewood
-    - [ ] morado
-    - [ ] yucca
-    - [ ] kousa
-    - [ ] aspen
-    - [ ] grimwood
-    - [ ] bamboo
-    - [ ] willow
-    - [ ] cherry
-    - [ ] wisteria
-    - [ ] maple
-    - [ ] jacaranda
-    - [ ] poise
-    - [ ] redbud
-    - [ ] driftwood
-    - [ ] river planks
-
-## Crock pot
-- [ ] look through ingredients and see which ones are missing stuff
-
-## Quark
-- [ ] look through quark and see what storage block overlap there is
-- [ ] add storage blocks to relevant tags
-- [ ] add recipes to make storage blocks from quark (mostly with cutting, likely)
+# mana and artifice
+- [ ] add recipes to make magical flowers (like soaking them in botania mana)
 
 ## Serene seasons
-- [ ] look through crops and see which ones need seasons added
+- [ ] ad seasons to crops that mis them
 - [ ] add seasons for (I can remove specific tag entries with kubejs)
 
-## Diet
-- [ ] look through edibles and see where tags are missing
-- [ ] add proper tags to
-
-## Goblin trader
-- [ ] make dragon heads obtainable
-
-## Botania
-- [ ] make some books available through rituals
-- [ ] make dragon head available through rituals
-
 ## Misc
-- [ ] unify ice cubes and tea together (update recipes to use tags)
-- [ ] update recipes that use leaves, to make tea, to use actual tea leaves (tag)
+- [ ] make stick chewable
+- [ ] add bees wax to buzzier bee candle base tag
+- [x] add slabs to blocks recipes (just two slabs over each other)
+- [x] update recipes that use leaves, to make tea, to use actual tea leaves (tag)
 - [ ] sweet bun has 2 hunger haunches and 2.5 saturation
 - [x] change recipes to use crafters, make more expensive and use the precision thing from create
     - [x] garden cloche
@@ -368,19 +207,39 @@
 - [X] alias chocolate bars together and unify recipes
 - [X] have one bar of chocolate be made by stamping (create one) and the other being cooked (neapolitan one)
 - [x] add recipe to melt chocolate in basin and also tinker
+- [ ] change netherite tank size to 256B
+- [ ] allow plantinum as an alternative (ore/ingot) for magic metals (starmetal, manasteel, vinteum ingots)
+- [ ] use mana glass (panws) for tank creation (or mana glass for create tanks)
+- [ ] add starlight infusion from managem to sapphire (or diamond to sapphire)
+- [ ] add mixing recipe to use lava and creosote to make charcoal (only immersive mixer)
+    - also make it craftable by hand
 
-- [ ] tag together strawberries from thermal and neapolican
-- [ ] add recipe from charcoal to charcoal block and stonecutter recipes to get from one variant to another
+# Changes when played
+
+## Crock pot
+- [ ] look through ingredients and see which ones are missing stuff
+
+## Crockpot, Serene Seasons & Diet
+- [ ] add ingredients, edibles and crops to categories while playing (only very obvious right now)
+
+## Quark
+- [ ] look through quark and see what storage block overlap there is
+- [ ] add storage blocks to relevant tags
+- [ ] add recipes to make storage blocks from quark (mostly with cutting, likely)
+
+## immersive
+- [ ] add missing crops to garden cloche
+
+# serene seasons
+- [ ] add seasons to crops that miss them or change seasons for crops that feel wrongly placed
+
+## Diet
+- [ ] add tags to foodstuffs that miss them
 
 # Worldgen
-- [ ] remove duplicate ores, decide which ones stay
+- [x] remove duplicate ores, decide which ones stay
     - ores that stay
     - [ ] mystical world copper
-    - [ ] occultism silver
+    - [ ] mystical world silver
     - [ ] mystical world lead
-
-# JEI/Recipes
-
-# Tinker
-- [x] maybe add more materials from other mods (talk to pupper)
-- [x] talk to pupper about adding missing melting/alloying recipes to tinker
+- [ ] make duplicate ores not spawn in world

@@ -1,0 +1,30 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "minecraft:chicken"
+  },
+  "mana": 9200,
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "tag": "botania:runes/winter"
+    },
+    {
+      "item": "botania:quartz_sunny"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ]
+}

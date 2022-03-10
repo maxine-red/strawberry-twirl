@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "minecraft:beef"
+  },
+  "mana": 7200,
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "tag": "botania:runes/spring"
+    },
+    {
+      "item": "botania:quartz_mana"
+    },
+    {
+      "item": "minecraft:grass"
+    }
+  ]
+}

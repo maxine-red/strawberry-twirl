@@ -1,0 +1,13 @@
+{
+  "type": "botania:mana_infusion",
+  "input": [
+    {
+      "tag": "forge:dusts/vinteum"
+    }
+  ],
+  "output": {
+    "item": "botania:mana_powder",
+    "count": 2
+  },
+  "mana": 500
+}

@@ -1,0 +1,27 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "minecraft:mutton"
+  },
+  "mana": 7200,
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "tag": "botania:runes/autumn"
+    },
+    {
+      "item": "botania:quartz_lavender"
+    },
+    {
+      "tag": "minecraft:wool"
+    }
+  ]
+}

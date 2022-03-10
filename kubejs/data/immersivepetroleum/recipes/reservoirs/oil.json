@@ -1,0 +1,17 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "pneumaticcraft:oil",
+  "fluidminimum": 2500000,
+  "fluidcapacity": 15000000,
+  "fluidtrace": 0,
+  "weight": 40,
+  "dimension": {
+    "whitelist": ["minecraft:overworld"],
+    "blacklist": []
+  },
+  "biome": {
+    "whitelist": ["minecraft:desert", "minecraft:desert_hills", "minecraft:desert_lakes", "minecraft:oceon", "minecraft:cold_oceon", "minecraft:deep_cold_oceon", "minecraft:deep_frozen_oceon", "minecraft:deep_lukewarm_oceon", "minecraft:deep_oceon", "minecraft:deep_warm_oceon", "minecraft:frozen_oceon", "minecraft:lukewarm_oceon", "minecraft:warmoceon"],
+    "blacklist": []
+  },
+  "name": "oil"
+}
