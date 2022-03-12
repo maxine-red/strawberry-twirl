@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/platinum"
+    "item": "wyrmroost:platinum_ore"
   },
-  "weight": 150,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/platinum"
-      }
-    }
-  ]
+  "weight": 956
 }

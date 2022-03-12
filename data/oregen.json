@@ -1,0 +1,665 @@
+[
+  {
+    "block": "undergarden:coal_ore",
+    "weight": 67415,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:coal_ore",
+    "weight": 67415,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "betterendforge:ender_ore",
+    "weight": 34357,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mana-and-artifice:vinteum_ore",
+    "weight": 33469,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:iron_ore",
+    "weight": 29371,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:iron_ore",
+    "weight": 29371,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:nether_quartz_ore",
+    "weight": 19600,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "immersiveengineering:ore_aluminum",
+    "weight": 13762,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:cloggrum_ore",
+    "weight": 13542,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "betterendforge:amber_ore",
+    "weight": 13422,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mysticalworld:uncanny_gravel",
+    "weight": 9554,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:gravel",
+    "weight": 9554,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:dirt",
+    "weight": 9543,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:coarse_dirt",
+    "weight": 9543,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:sand",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:red_sand",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "atmospheric:arid_sand",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:soul_sand",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "mysticalworld:uncanny_sand",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "atmospheric:arid_sandstone",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:sandstone",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:red_sandstone",
+    "weight": 9456,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "mysticalworld:tin_ore",
+    "weight": 8251,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:redstone_ore",
+    "weight": 7654,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mysticalworld:copper_ore",
+    "weight": 5567,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:froststeel_ore",
+    "weight": 4458,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mysticalworld:silver_ore",
+    "weight": 4315,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mysticalworld:lead_ore",
+    "weight": 4093,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:nether_gold_ore",
+    "weight": 3635,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "wyrmroost:purple_geode_ore",
+    "weight": 3374,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "druidcraft:fiery_glass_ore",
+    "weight": 3210,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "astralsorcery:aquamarine_sand_ore",
+    "weight": 2937,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "astralsorcery:starmetal_ore",
+    "weight": 2937,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:gold_ore",
+    "weight": 2647,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:gold_ore",
+    "weight": 2647,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "wyrmroost:red_geode_ore",
+    "weight": 2569,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "immersiveengineering:ore_nickel",
+    "weight": 2275,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mysticalworld:quicksilver_ore",
+    "weight": 2113,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "mysticalworld:sapphire_ore",
+    "weight": 1307,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "wyrmroost:blue_geode_ore",
+    "weight": 1243,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:emerald_ore",
+    "weight": 1239,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "ars_nouveau:arcane_ore",
+    "weight": 1121,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:lapis_ore",
+    "weight": 1079,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "betterendforge:sulphuric_rock",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:natural_scoria",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:grass_block",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:dolomite",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:weathered_limestone_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:weathered_limestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:limestone_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:limestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:andesite_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:diorite_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:granite_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:gabbro",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:gabbro_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:scoria",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:scoria_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:deepslate",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:cobbled_deepslate",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:marble",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:limestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:jasper",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "betterendforge:violecite",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "betterendforge:flavolite",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:myalite",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:basalt",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:end_stone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:brimstone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:permafrost",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:slate",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:netherrack",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:basalt",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:blackstone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:dolomite_cobblestone",
+    "weight": 1000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "druidcraft:rockroot_ore",
+    "weight": 957,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "wyrmroost:platinum_ore",
+    "weight": 956,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "druidcraft:amber_ore",
+    "weight": 902,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:diamond_ore",
+    "weight": 883,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:diamond_ore",
+    "weight": 883,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "create:zinc_ore",
+    "weight": 838,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "tconstruct:cobalt_ore",
+    "weight": 697,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "betterendforge:thallasium_ore",
+    "weight": 697,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "druidcraft:moonstone_ore",
+    "weight": 457,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "occultism:iesnium_ore",
+    "weight": 437,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "immersiveengineering:ore_uranium",
+    "weight": 230,
+    "category": [
+      "orechid_ores",
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:otherside_utherium_ore",
+    "weight": 223,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:utherium_ore",
+    "weight": 223,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "minecraft:ancient_debris",
+    "weight": 148,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "undergarden:regalium_ore",
+    "weight": 36,
+    "category": [
+      "miner-ores"
+    ]
+  },
+  {
+    "block": "astralsorcery:rock_crystal_ore",
+    "weight": 29,
+    "category": [
+      "orechid_ores"
+    ]
+  }
+]

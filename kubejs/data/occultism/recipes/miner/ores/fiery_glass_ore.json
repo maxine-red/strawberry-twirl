@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
+  },
+  "result": {
+    "item": "druidcraft:fiery_glass_ore"
+  },
+  "weight": 3210
+}

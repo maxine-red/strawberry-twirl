@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/tin"
+    "item": "mysticalworld:tin_ore"
   },
-  "weight": 602,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/tin"
-      }
-    }
-  ]
+  "weight": 8251
 }

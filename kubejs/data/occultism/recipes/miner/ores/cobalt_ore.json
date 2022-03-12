@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/cobalt"
+    "item": "tconstruct:cobalt_ore"
   },
-  "weight": 163,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/cobalt"
-      }
-    }
-  ]
+  "weight": 697
 }

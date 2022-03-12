@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/zinc"
+    "item": "create:zinc_ore"
   },
-  "weight": 186,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/zinc"
-      }
-    }
-  ]
+  "weight": 838
 }

@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/basic_resources"
+  },
+  "result": {
+    "item": "create:weathered_limestone_cobblestone"
+  },
+  "weight": 1000
+}

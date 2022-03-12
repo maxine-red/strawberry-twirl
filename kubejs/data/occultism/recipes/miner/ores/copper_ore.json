@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/copper"
+    "item": "mysticalworld:copper_ore"
   },
-  "weight": 584,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/copper"
-      }
-    }
-  ]
+  "weight": 5567
 }

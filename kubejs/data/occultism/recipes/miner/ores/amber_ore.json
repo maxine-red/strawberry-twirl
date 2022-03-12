@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/amber"
+    "item": "druidcraft:amber_ore"
   },
-  "weight": 184,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/amber"
-      }
-    }
-  ]
+  "weight": 902
 }

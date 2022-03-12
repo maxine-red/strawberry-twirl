@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/lead"
+    "item": "mysticalworld:lead_ore"
   },
-  "weight": 500,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/lead"
-      }
-    }
-  ]
+  "weight": 4093
 }

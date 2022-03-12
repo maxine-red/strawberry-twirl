@@ -4,16 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:ores/silver"
+    "item": "mysticalworld:silver_ore"
   },
-  "weight": 381,
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:tag_empty",
-        "tag": "forge:ores/silver"
-      }
-    }
-  ]
+  "weight": 4315
 }

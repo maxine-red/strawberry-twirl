@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/ores"
+  },
+  "result": {
+    "item": "wyrmroost:purple_geode_ore"
+  },
+  "weight": 3374
+}

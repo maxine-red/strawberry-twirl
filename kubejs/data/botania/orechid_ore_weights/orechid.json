@@ -7,23 +7,23 @@
     },
     {
       "type": "block",
+      "block": "mana-and-artifice:vinteum_ore",
+      "weight": 33469
+    },
+    {
+      "type": "block",
       "block": "minecraft:iron_ore",
       "weight": 29371
     },
     {
       "type": "block",
-      "block": "minecraft:gold_ore",
-      "weight": 2647
+      "block": "immersiveengineering:ore_aluminum",
+      "weight": 13762
     },
     {
       "type": "block",
-      "block": "minecraft:lapis_ore",
-      "weight": 1079
-    },
-    {
-      "type": "block",
-      "block": "minecraft:diamond_ore",
-      "weight": 883
+      "block": "mysticalworld:tin_ore",
+      "weight": 8251
     },
     {
       "type": "block",
@@ -32,8 +32,23 @@
     },
     {
       "type": "block",
-      "block": "minecraft:emerald_ore",
-      "weight": 1239
+      "block": "mysticalworld:copper_ore",
+      "weight": 5567
+    },
+    {
+      "type": "block",
+      "block": "mysticalworld:silver_ore",
+      "weight": 4315
+    },
+    {
+      "type": "block",
+      "block": "mysticalworld:lead_ore",
+      "weight": 4093
+    },
+    {
+      "type": "block",
+      "block": "druidcraft:fiery_glass_ore",
+      "weight": 3210
     },
     {
       "type": "block",
@@ -42,138 +57,83 @@
     },
     {
       "type": "block",
-      "block": "astralsorcery:rock_crystal_ore",
-      "weight": 29
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/aluminum",
-      "weight": 13762
+      "block": "minecraft:gold_ore",
+      "weight": 2647
     },
     {
       "type": "block",
-      "tag": "mysticalworld:copper_ore",
-      "weight": 5567
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/galena",
-      "weight": 4096
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/lead",
-      "weight": 4093
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/nickel",
+      "block": "immersiveengineering:ore_nickel",
       "weight": 2275
     },
     {
-      "type": "tag",
-      "tag": "forge:ores/platinum",
+      "type": "block",
+      "block": "mysticalworld:quicksilver_ore",
+      "weight": 2113
+    },
+    {
+      "type": "block",
+      "block": "mysticalworld:sapphire_ore",
+      "weight": 1307
+    },
+    {
+      "type": "block",
+      "block": "wyrmroost:blue_geode_ore",
+      "weight": 1243
+    },
+    {
+      "type": "block",
+      "block": "minecraft:emerald_ore",
+      "weight": 1239
+    },
+    {
+      "type": "block",
+      "block": "ars_nouveau:arcane_ore",
+      "weight": 1121
+    },
+    {
+      "type": "block",
+      "block": "minecraft:lapis_ore",
+      "weight": 1079
+    },
+    {
+      "type": "block",
+      "block": "druidcraft:rockroot_ore",
+      "weight": 957
+    },
+    {
+      "type": "block",
+      "block": "wyrmroost:platinum_ore",
       "weight": 956
     },
     {
-      "type": "tag",
-      "tag": "forge:ores/silver",
-      "weight": 4315
+      "type": "block",
+      "block": "druidcraft:amber_ore",
+      "weight": 902
     },
     {
-      "type": "tag",
-      "tag": "forge:ores/tin",
-      "weight": 8251
+      "type": "block",
+      "block": "minecraft:diamond_ore",
+      "weight": 883
     },
     {
-      "type": "tag",
-      "tag": "forge:ores/uranium",
-      "weight": 230
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/zinc",
+      "type": "block",
+      "block": "create:zinc_ore",
       "weight": 838
     },
     {
       "type": "block",
-      "tag": "druidcraft:amber_ore",
-      "weight": 902
+      "block": "druidcraft:moonstone_ore",
+      "weight": 457
     },
     {
-      "type": "tag",
-      "tag": "forge:ores/amethyst",
-      "weight": 1307
+      "type": "block",
+      "block": "immersiveengineering:ore_uranium",
+      "weight": 230
     },
     {
-      "type": "tag",
-      "tag": "forge:ores/malachite",
-      "weight": 160
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/yellorite",
-      "weight": 3520
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/teslatite",
-      "weight": 4312
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/dark",
-      "weight": 1350
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/apatite",
-      "weight": 250
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/inferium",
-      "weight": 10000
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/prosperity",
-      "weight": 7420
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/olivine",
-      "weight": 1100
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/sulfur",
-      "weight": 1105
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/sulphur",
-      "weight": 1105
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/niter",
-      "weight": 1105
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/adamantium",
-      "weight": 1469
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/bismuth",
-      "weight": 2407
-    },
-    {
-      "type": "tag",
-      "tag": "forge:ores/cinnabar",
-      "weight": 2585
+      "type": "block",
+      "block": "astralsorcery:rock_crystal_ore",
+      "weight": 29
     }
   ]
 }

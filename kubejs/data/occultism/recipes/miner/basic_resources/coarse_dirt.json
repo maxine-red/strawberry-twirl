@@ -1,0 +1,10 @@
+{
+  "type": "occultism:miner",
+  "ingredient": {
+    "tag": "occultism:miners/basic_resources"
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt"
+  },
+  "weight": 9543
+}
