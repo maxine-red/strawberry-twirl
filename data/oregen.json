@@ -10,7 +10,6 @@
     "block": "minecraft:coal_ore",
     "weight": 67415,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -40,7 +39,6 @@
     "block": "minecraft:iron_ore",
     "weight": 29371,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -55,7 +53,6 @@
     "block": "immersiveengineering:ore_aluminum",
     "weight": 13762,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -161,7 +158,6 @@
     "block": "mysticalworld:tin_ore",
     "weight": 8251,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -169,7 +165,6 @@
     "block": "minecraft:redstone_ore",
     "weight": 7654,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -177,7 +172,6 @@
     "block": "mysticalworld:copper_ore",
     "weight": 5567,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -192,7 +186,6 @@
     "block": "mysticalworld:silver_ore",
     "weight": 4315,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -200,7 +193,6 @@
     "block": "mysticalworld:lead_ore",
     "weight": 4093,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -252,7 +244,6 @@
     "block": "minecraft:gold_ore",
     "weight": 2647,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -267,7 +258,6 @@
     "block": "immersiveengineering:ore_nickel",
     "weight": 2275,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -283,7 +273,6 @@
     "block": "mysticalworld:sapphire_ore",
     "weight": 1307,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -299,7 +288,6 @@
     "block": "minecraft:emerald_ore",
     "weight": 1239,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -315,19 +303,11 @@
     "block": "minecraft:lapis_ore",
     "weight": 1079,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
   {
     "block": "betterendforge:sulphuric_rock",
-    "weight": 10000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:limestone",
     "weight": 10000,
     "category": [
       "miner-basic_resources"
@@ -495,13 +475,6 @@
     ]
   },
   {
-    "block": "quark:basalt",
-    "weight": 10000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
     "block": "minecraft:end_stone",
     "weight": 10000,
     "category": [
@@ -577,7 +550,6 @@
     "block": "druidcraft:amber_ore",
     "weight": 902,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -592,7 +564,6 @@
     "block": "minecraft:diamond_ore",
     "weight": 883,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -600,7 +571,6 @@
     "block": "create:zinc_ore",
     "weight": 838,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },
@@ -630,7 +600,6 @@
     "block": "immersiveengineering:ore_uranium",
     "weight": 230,
     "category": [
-      "orechid_ores",
       "miner-ores"
     ]
   },

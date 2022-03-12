@@ -4,7 +4,7 @@
     "tag": "occultism:miners/basic_resources"
   },
   "result": {
-    "item": "minecraft:granite"
+    "item": "quark:limestone"
   },
   "weight": 10000
 }
