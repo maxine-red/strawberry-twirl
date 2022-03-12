@@ -194,7 +194,7 @@
 # Worldgen
 - [x] remove duplicate ores, decide which ones stay
     - ores that stay
-    - [ ] mystical world copper
-    - [ ] mystical world silver
-    - [ ] mystical world lead
-- [ ] make duplicate ores not spawn in world
+    - [x] mystical world copper
+    - [x] mystical world silver
+    - [x] mystical world lead
+- [x] make duplicate ores not spawn in world

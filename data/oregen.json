@@ -321,224 +321,238 @@
   },
   {
     "block": "betterendforge:sulphuric_rock",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:natural_scoria",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "minecraft:grass_block",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:dolomite",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:weathered_limestone_cobblestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:weathered_limestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:limestone_cobblestone",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "create:limestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:andesite_cobblestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:diorite_cobblestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:granite_cobblestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:gabbro",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:gabbro_cobblestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:scoria",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "create:scoria_cobblestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "quark:deepslate",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "quark:cobbled_deepslate",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "quark:marble",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "quark:limestone",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "quark:jasper",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "betterendforge:violecite",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "betterendforge:flavolite",
-    "weight": 1000,
-    "category": [
-      "miner-basic_resources"
-    ]
-  },
-  {
-    "block": "quark:myalite",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "quark:basalt",
-    "weight": 1000,
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:natural_scoria",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:grass_block",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:dolomite",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:weathered_limestone_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:weathered_limestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:limestone_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:limestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:andesite_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:diorite_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:granite_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:gabbro",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:gabbro_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:scoria",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "create:scoria_cobblestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:deepslate",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:cobbled_deepslate",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:marble",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:limestone",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:jasper",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "betterendforge:violecite",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "betterendforge:flavolite",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:myalite",
+    "weight": 10000,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "quark:basalt",
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "minecraft:end_stone",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "quark:brimstone",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "quark:permafrost",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "quark:slate",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "minecraft:netherrack",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "minecraft:basalt",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "minecraft:blackstone",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
   },
   {
     "block": "create:dolomite_cobblestone",
-    "weight": 1000,
+    "weight": 10000,
     "category": [
       "miner-basic_resources"
     ]
@@ -609,13 +623,6 @@
     "weight": 457,
     "category": [
       "orechid_ores",
-      "miner-ores"
-    ]
-  },
-  {
-    "block": "occultism:iesnium_ore",
-    "weight": 437,
-    "category": [
       "miner-ores"
     ]
   },

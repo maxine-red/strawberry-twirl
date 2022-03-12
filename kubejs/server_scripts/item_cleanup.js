@@ -92,7 +92,10 @@ var recipes = [
     'minecraft:beehive',
     'waystones:warp_dust_2',
     'create:crushing/platinum_ore',
-    'create:milling/platinum_ore'
+    'create:milling/platinum_ore',
+    'occultism:miner/ores/ore_aluminum',
+    'occultism:miner/ores/ore_nickel',
+    'occultism:miner/ores/ore_uranium'
 ];
 
 var mana_tags = [

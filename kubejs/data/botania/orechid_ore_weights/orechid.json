@@ -2,48 +2,8 @@
   "values": [
     {
       "type": "block",
-      "block": "minecraft:coal_ore",
-      "weight": 67415
-    },
-    {
-      "type": "block",
       "block": "mana-and-artifice:vinteum_ore",
       "weight": 33469
-    },
-    {
-      "type": "block",
-      "block": "minecraft:iron_ore",
-      "weight": 29371
-    },
-    {
-      "type": "block",
-      "block": "immersiveengineering:ore_aluminum",
-      "weight": 13762
-    },
-    {
-      "type": "block",
-      "block": "mysticalworld:tin_ore",
-      "weight": 8251
-    },
-    {
-      "type": "block",
-      "block": "minecraft:redstone_ore",
-      "weight": 7654
-    },
-    {
-      "type": "block",
-      "block": "mysticalworld:copper_ore",
-      "weight": 5567
-    },
-    {
-      "type": "block",
-      "block": "mysticalworld:silver_ore",
-      "weight": 4315
-    },
-    {
-      "type": "block",
-      "block": "mysticalworld:lead_ore",
-      "weight": 4093
     },
     {
       "type": "block",
@@ -57,23 +17,8 @@
     },
     {
       "type": "block",
-      "block": "minecraft:gold_ore",
-      "weight": 2647
-    },
-    {
-      "type": "block",
-      "block": "immersiveengineering:ore_nickel",
-      "weight": 2275
-    },
-    {
-      "type": "block",
       "block": "mysticalworld:quicksilver_ore",
       "weight": 2113
-    },
-    {
-      "type": "block",
-      "block": "mysticalworld:sapphire_ore",
-      "weight": 1307
     },
     {
       "type": "block",
@@ -82,18 +27,8 @@
     },
     {
       "type": "block",
-      "block": "minecraft:emerald_ore",
-      "weight": 1239
-    },
-    {
-      "type": "block",
       "block": "ars_nouveau:arcane_ore",
       "weight": 1121
-    },
-    {
-      "type": "block",
-      "block": "minecraft:lapis_ore",
-      "weight": 1079
     },
     {
       "type": "block",
@@ -107,28 +42,8 @@
     },
     {
       "type": "block",
-      "block": "druidcraft:amber_ore",
-      "weight": 902
-    },
-    {
-      "type": "block",
-      "block": "minecraft:diamond_ore",
-      "weight": 883
-    },
-    {
-      "type": "block",
-      "block": "create:zinc_ore",
-      "weight": 838
-    },
-    {
-      "type": "block",
       "block": "druidcraft:moonstone_ore",
       "weight": 457
-    },
-    {
-      "type": "block",
-      "block": "immersiveengineering:ore_uranium",
-      "weight": 230
     },
     {
       "type": "block",
