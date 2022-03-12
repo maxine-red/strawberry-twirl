@@ -1,12 +1,12 @@
 {
-   "type": "botania:mana_infusion",
+  "type": "botania:mana_infusion",
   "input": [
     {
-      "tag": "forge:dusts/fey"
+      "tag": "waystones:warp_dust_base"
     }
   ],
   "output": {
-    "item": "waystones:warp_dust",
+    "item": "waystones:warp_dust"
   },
   "mana": 100
 }

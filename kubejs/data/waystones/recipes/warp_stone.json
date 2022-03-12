@@ -1,0 +1,29 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 0,
+  "duration": 40,
+  "starlight": 100,
+  "pattern": [
+    "_____",
+    "_W_W_",
+    "__E__",
+    "_W_W_",
+    "_____"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "W": {
+      "item": "waystones:warp_dust"
+    }
+  },
+  "output": [
+    {
+      "item": "waystones:warp_stone"
+    }
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_discovery_central_beam"
+  ]
+}

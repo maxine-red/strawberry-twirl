@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": [
+    {
+      "item": "betterendforge:ender_block"
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_ender",
+    "amount": 1000
+  },
+  "temperature": 477,
+  "time": 49
+}

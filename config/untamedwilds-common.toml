@@ -135,6 +135,12 @@
 	#Critters further than this value from any Player will despawn into their Burrow (only if they have a Burrow assigned).
 	#Range: > 0
 	critterSpawnRange = 40
+	#Controls whether to add Bison and their associated items.
+	bison = true
+	#Controls whether to add Whale Sharks and their associated items.
+	whale_shark = true
+	#Controls whether to add Triggerfish and their associated items.
+	triggerfish = true
 
 [modcompat]
 	#Controls whether to check for Serene Seasons for compatibility (Mobs will only breed during specific seasons).

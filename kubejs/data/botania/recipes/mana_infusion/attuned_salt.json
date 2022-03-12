@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "kubejs:salt"
+  },
+  "output": {
+    "item": "kubejs:attuned_salt"
+  },
+  "mana": 100
+}

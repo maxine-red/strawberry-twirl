@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [  	    
+    "mana-and-artifice:decoration/redstone_arcane_sandstone_chiseled",
+    "mana-and-artifice:decoration/redstone_arcane_sandstone_corner",
+    "mana-and-artifice:decoration/redstone_arcane_sandstone_pillar",
+    "mana-and-artifice:decoration/redstone_arcane_sandstone_quad",
+    "mana-and-artifice:decoration/redstone_arcane_sandstone_straight",
+    "mana-and-artifice:decoration/redstone_arcane_sandstone_t"
+  ]
+}

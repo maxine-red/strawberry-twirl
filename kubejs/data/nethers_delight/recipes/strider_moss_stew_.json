@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_fungus"
+    },
+	{
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:crimson_roots"
+    },
+	{
+      "item": "minecraft:warped_roots"
+    },
+    {
+      "item": "nethers_delight:ground_strider"
+    },
+    {
+      "item": "minecraft:mushroom_stew"
+    }
+  ],
+  "result": {
+    "item": "nethers_delight:strider_moss_stew"
+  }
+}

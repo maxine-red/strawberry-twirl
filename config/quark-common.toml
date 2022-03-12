@@ -224,6 +224,9 @@
 	[building.variant_bookshelves]
 		"Change Names" = true
 
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
 [management]
 	"Chests In Boats" = true
 	"Inventory Sorting" = false
@@ -258,6 +261,7 @@
 	Camera = true
 	Trowel = true
 	Abacus = true
+	"Endermosh Music Disc" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -343,6 +347,12 @@
 		"Netherite Durability" = 1040
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
 		"Never Use Heart Of Diamond" = false
+
+	[tools.endermosh_music_disc]
+		"Play Endermosh During Enderdragon Fight" = false
+		"Add To End City Loot" = true
+		"Loot Weight" = 5
+		"Loot Quality" = 1
 
 [tweaks]
 	"Armed Armor Stands" = true
@@ -869,6 +879,7 @@
 			"Is Blacklist" = false
 
 	[world.blossom_trees]
+		"Drop Leaf Particles" = true
 
 		[world.blossom_trees.orange]
 			Rarity = 100
@@ -1663,6 +1674,12 @@
 
 	[mobs.toretoise]
 		"Max Y Level" = 32
+		#The number of ticks from mining a tortoise until feeding it could cause it to regrow.
+		"Cooldown Ticks" = 1200
+		#The items that can be fed to toretoises to make them regrow ores.
+		Foods = ["quark:root_item", "minecraft:cactus"]
+		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, or 0 to disable.
+		"Regrow Chance" = 3
 
 		[mobs.toretoise.spawn_config]
 			#Allowed values: (0,)
@@ -1893,6 +1910,7 @@
 		"Enable Shiny Rabbit" = true
 		"Enable L G B T Bees" = true
 		"Enable Cow" = true
+		"Enable Shiny Dolphin" = true
 
 	[client.improved_tooltips]
 		"Shulker Box Require Shift" = false
@@ -1936,6 +1954,7 @@
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
 		"Dark Souls Mode" = true
+		#Totem will always spawn if the player killer is himself.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
@@ -2001,6 +2020,7 @@
 		"Extra Chance Per Looting" = 0.5
 		#Set this to true to allow the backpacks to be unequipped even with items in them
 		"Super Op Mode" = false
+		"Items In Backpack Tick" = true
 
 	[oddities.crate]
 		"Max Items" = 640
@@ -2020,6 +2040,8 @@
 	"Overlay Shader" = false
 	"Custom Underground Biome" = false
 	"Game Nerfs" = false
+	"Microcrafting Helper" = false
+	Pallet = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0

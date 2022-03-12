@@ -1,0 +1,15 @@
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "tag": "waystones:warp_dust_base"
+    },
+    "output": {
+        "item": "waystones:warp_dust"
+    },
+    "aura_type": "naturesaura:overworld",
+    "catalyst": {
+        "item": "naturesaura:conversion_catalyst"
+    },
+    "aura": 100,
+    "time": 20
+}

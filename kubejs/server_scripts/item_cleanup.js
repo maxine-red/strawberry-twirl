@@ -87,7 +87,12 @@ var recipes = [
     /feywild:runes\/\w+gard_rune/,
     'feywild:runes/nidavellir_rune',
     'feywild:smelting/fey_dust',
-    'druidcraft:knife'
+    'druidcraft:knife',
+    'farmersdelightintegrations:example',
+    'minecraft:beehive',
+    'waystones:warp_dust_2',
+    'create:crushing/platinum_ore',
+    'create:milling/platinum_ore'
 ];
 
 var mana_tags = [

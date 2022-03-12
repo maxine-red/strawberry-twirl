@@ -278,6 +278,29 @@
 		#List of biome types to spawn.
 		biomes = "wet,swamp,river,beach,"
 
+	#Clam spawn config.
+	[mob_spawns.Clam_spawn]
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 2
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 1
+		#List of biome types to spawn.
+		biomes = "ocean,river,beach,swamp,wet,"
+		#the chance of a clam spawning as an ender clam [0 to disable ender clams]
+		#Range: > 0
+		enderChance = 31
+		#the upper value of initial age for a clam
+		#Range: > 0
+		initialAge = 2300
+		#the max age for a clam
+		#Range: > 0
+		maxAge = 5100
+
 #Hat Configuration
 [hat_config]
 	#Spawn frequency (1 in X chances per tick while spawn conditions are met, -1 for not at all)

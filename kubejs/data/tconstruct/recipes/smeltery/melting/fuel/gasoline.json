@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "tag": "forge:gasoline",
+    "amount": 50
+  },
+  "duration": 150,
+  "temperature": 1200
+}

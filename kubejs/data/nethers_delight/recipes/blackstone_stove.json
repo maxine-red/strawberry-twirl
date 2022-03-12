@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "B B",
+    "BCB"
+  ],
+  "key": {
+	"N": {
+      "item": "minecraft:nether_brick"
+    },
+    "B": {
+      "item": "minecraft:polished_blackstone_bricks"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "item": "nethers_delight:blackstone_stove"
+  }
+}

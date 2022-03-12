@@ -34,7 +34,8 @@ let items = [
 	{id: 'jam_jar_red', texture: 'kubejs:item/jam_jar_red_labelled', name: 'Jar of red Jam'},
 	{id: 'butter', texture: 'kubejs:item/butter', name: 'Butter'},
 	{id: 'magic_butter', texture: 'kubejs:item/butter_mystical', name: 'Magic Butter'},
-	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'}
+	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'},
+	{id: 'attuned_salt', texture: 'kubejs:item/attuned_salt', name: 'Attuned Salt'}
 ];
 let aefoods = [
 	{id: 'jelly', texture: 'kubejs:item/jelly', hunger: 3, saturation: 0.1666667, name: 'Jelly'},

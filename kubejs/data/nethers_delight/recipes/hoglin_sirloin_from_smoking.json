@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "nethers_delight:hoglin_loin"
+  },
+  "result": "nethers_delight:hoglin_sirloin",
+  "experience": 0.35,
+  "cookingtime": 100
+}

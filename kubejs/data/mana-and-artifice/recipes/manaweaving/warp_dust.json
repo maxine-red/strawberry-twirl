@@ -1,0 +1,14 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": "waystones:warp_dust",
+	"tier": 0,
+	"quantity": 1,		
+	"items": [
+		"waystones:warp_dust_base"
+	],
+	"patterns": [
+		"mana-and-artifice:slash",
+		"mana-and-artifice:slash",
+		"mana-and-artifice:slash"
+	]
+}

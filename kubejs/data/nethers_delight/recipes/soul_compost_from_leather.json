@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_soil"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+	{
+      "item": "minecraft:bone_meal"
+    },
+	{
+      "item": "minecraft:bone_meal"
+    },
+	{
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "nethers_delight:soul_compost"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:book"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:sky_slime",
+    "amount": 250
+  },
+  "result": "tconstruct:tinkers_gadgetry",
+  "cooling_time": 65
+}

@@ -1,0 +1,24 @@
+{
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "waystones:warp_stone"
+  },
+  "mana": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "waystones:warp_dust"
+    },
+    {
+      "item": "waystones:warp_dust"
+    },
+    {
+      "item": "waystones:warp_dust"
+    },
+    {
+      "item": "waystones:warp_dust"
+    }
+  ]
+}

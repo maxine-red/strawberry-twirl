@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "pneumaticcraft:plastic_bricks"
+  },
+  "result": {
+    "fluid": "pneumaticcraft:plastic",
+    "amount": 1000
+  },
+  "temperature": 100,
+  "time": 48
+}

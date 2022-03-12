@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "pneumaticcraft:plastic",
+    "amount": 1000
+  },
+  "result": "pneumaticcraft:plastic",
+  "cooling_time": 127
+}

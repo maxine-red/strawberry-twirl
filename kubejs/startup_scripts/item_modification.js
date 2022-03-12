@@ -20,13 +20,4 @@ onEvent('item.modification', event => {
     event.modify('immersiveengineering:dust_sulfur', item => {
         item.burnTime = 800
     });
-    event.modify('mana-and-artifice:purified_vinteum_coated_iron', item => {
-        item.name = 'Purified Vinteum Coated Platinum';
-    });
-    event.modify('mana-and-artifice:vinteum_coated_iron', item => {
-        item.name = 'Vinteum Coated Platinum';
-    });
-    event.modify('minecraft:stick', item => {
-        item.alwaysEdible(true);
-    });
 });

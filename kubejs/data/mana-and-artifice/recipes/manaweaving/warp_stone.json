@@ -1,0 +1,21 @@
+{
+	"type": "mana-and-artifice:manaweaving-recipe",
+	"output": "waystones:warp_stone",
+	"tier": 2,
+	"quantity": 1,		
+	"items": [
+    "minecraft:emerald",
+		"waystones:warp_dust",
+		"waystones:warp_dust",
+		"waystones:warp_dust",
+		"waystones:warp_dust"
+	],
+	"patterns": [
+		"mana-and-artifice:manaweave_patterns/circle",
+		"mana-and-artifice:manaweave_patterns/knot2",
+		"mana-and-artifice:manaweave_patterns/knot4",
+		"mana-and-artifice:manaweave_patterns/knot3",
+		"mana-and-artifice:manaweave_patterns/knot",
+		"mana-and-artifice:manaweave_patterns/circle"
+	]
+}

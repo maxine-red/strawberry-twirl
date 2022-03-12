@@ -59,6 +59,8 @@ var wood_types = [
     {type: 'undergarden:wigglewood', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'undergarden:grongle', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'astralsorcery:infused_wood', stairs: true, log: true, wood: ''},
+    {type: 'naturesaura:ancient', stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'},
+    {type: 'nethers_exoticism:ramboutan', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_wood'}
 ]
 
 var special_wood_types = [

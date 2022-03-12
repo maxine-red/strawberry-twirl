@@ -26,6 +26,7 @@
 
 - [ ] make an automatic release script, like I have for companion mod
 - [ ] update mod lists (mods.json, REAME.md)
+- [ ] add JEI notes (via script) about all tinker fuels /kubejs/data/tconstuct/smeltery/melting/fuel
 
 - [ ] add tips for several things / add to guide
 	- [ ] astral sorcery is included
@@ -51,6 +52,9 @@
     - [ ] to make bottle o' enchanting, use a bottle on an enchanting table (this hurts!)
     - [ ] go to undergarden, by building a nether portal out of stone bricks and activate with a catalyst
     - [ ] bottle o' enchanting can be made by using an empty bottle on an enchanting table (hurts)
+    - [ ] beds can have bed sheats (banners)
+    - [ ] add a catergory about how to get into mods (just how to obtain their guide books)
+    - [ ] add explanation on how to get psi book or give it from start (in akashic tome for example)
 	
 # Recipes
 
@@ -131,6 +135,7 @@
 - [x] add script that adds all wood types to sawmill (only vanilla currently)
 - [x] add graphite dust crushing to mill and crushing wheel
 - [x] all reserviors should have 0 traces, so when empty, then empty
+- [ ] add rambutan and ancient wood to sawmill
 
 ## Create
 - [ ] add heating to the following mixing recipes

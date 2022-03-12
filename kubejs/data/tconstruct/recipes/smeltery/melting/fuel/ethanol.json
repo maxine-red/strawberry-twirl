@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "tag": "forge:ethanol",
+    "amount": 50
+  },
+  "duration": 100,
+  "temperature": 1200
+}

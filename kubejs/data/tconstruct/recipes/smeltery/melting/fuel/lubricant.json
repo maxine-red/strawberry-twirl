@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:melting_fuel",
+  "fluid": {
+    "tag": "forge:lubricant",
+    "amount": 50
+  },
+  "duration": 50,
+  "temperature": 800
+}
