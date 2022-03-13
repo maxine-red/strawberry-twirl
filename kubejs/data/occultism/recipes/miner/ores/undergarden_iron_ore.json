@@ -4,7 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "item": "minecraft:diamond_ore"
+    "item": "undergarden:iron_ore"
   },
-  "weight": 883
+  "weight": 2937
 }

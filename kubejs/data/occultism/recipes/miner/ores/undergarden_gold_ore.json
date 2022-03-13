@@ -4,7 +4,7 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "item": "minecraft:coal_ore"
+    "item": "undergarden:gold_ore"
   },
-  "weight": 67415
+  "weight": 2647
 }

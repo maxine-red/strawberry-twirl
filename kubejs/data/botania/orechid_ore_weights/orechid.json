@@ -43,12 +43,7 @@
     {
       "type": "block",
       "block": "druidcraft:moonstone_ore",
-      "weight": 457
-    },
-    {
-      "type": "block",
-      "block": "astralsorcery:rock_crystal_ore",
-      "weight": 29
+      "weight": 612
     }
   ]
 }

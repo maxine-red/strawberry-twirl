@@ -1,7 +1,7 @@
 [
   {
     "block": "undergarden:coal_ore",
-    "weight": 67415,
+    "weight": 6741,
     "category": [
       "miner-ores"
     ]
@@ -15,7 +15,7 @@
   },
   {
     "block": "betterendforge:ender_ore",
-    "weight": 34357,
+    "weight": 3435,
     "category": [
       "miner-ores"
     ]
@@ -30,7 +30,7 @@
   },
   {
     "block": "undergarden:iron_ore",
-    "weight": 29371,
+    "weight": 2937,
     "category": [
       "miner-ores"
     ]
@@ -73,6 +73,13 @@
   {
     "block": "mysticalworld:uncanny_gravel",
     "weight": 9554,
+    "category": [
+      "miner-basic_resources"
+    ]
+  },
+  {
+    "block": "minecraft:clay",
+    "weight": 9578,
     "category": [
       "miner-basic_resources"
     ]
@@ -590,7 +597,7 @@
   },
   {
     "block": "druidcraft:moonstone_ore",
-    "weight": 457,
+    "weight": 612,
     "category": [
       "orechid_ores",
       "miner-ores"
@@ -598,44 +605,37 @@
   },
   {
     "block": "immersiveengineering:ore_uranium",
-    "weight": 230,
+    "weight": 754,
     "category": [
       "miner-ores"
     ]
   },
   {
     "block": "undergarden:otherside_utherium_ore",
-    "weight": 223,
+    "weight": 677,
     "category": [
       "miner-ores"
     ]
   },
   {
     "block": "undergarden:utherium_ore",
-    "weight": 223,
+    "weight": 654,
     "category": [
       "miner-ores"
     ]
   },
   {
     "block": "minecraft:ancient_debris",
-    "weight": 148,
+    "weight": 545,
     "category": [
       "miner-ores"
     ]
   },
   {
     "block": "undergarden:regalium_ore",
-    "weight": 36,
+    "weight": 501,
     "category": [
       "miner-ores"
-    ]
-  },
-  {
-    "block": "astralsorcery:rock_crystal_ore",
-    "weight": 29,
-    "category": [
-      "orechid_ores"
     ]
   }
 ]
