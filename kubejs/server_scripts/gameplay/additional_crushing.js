@@ -25,7 +25,8 @@ var dusts = [
     {input: 'forge:netherrack', output: 'create:cinder_flour', amount: 1, exclude: 'create'},
     {input: 'forge:end_stones', output: 'occultism:crushed_end_stone', amount: 2, exclude: 'occultism'},
     {input: 'forge:gems/ender', output: 'betterendforge:ender_dust', amount: 1},
-    {input: 'forge:ender_pearls', output: 'betterendforge:ender_dust', amount: 1}
+    {input: 'forge:ender_pearls', output: 'betterendforge:ender_dust', amount: 1},
+    {input: 'forge:gems/moon_crystal', output: 'the_afterlight:crushed_moon_crystal_dust', amount: 6}
 ];
 
 function crushingSpiritRecipe(input, output, amount) {

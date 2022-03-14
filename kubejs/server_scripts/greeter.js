@@ -17,7 +17,7 @@
 */
 
 events.listen('player.logged_in', function (event) {
-	event.player.tell('Hi! ^-^')
+	event.player.tell('Hi! ^-^');
 });
 
 // Listen to player login event
@@ -27,8 +27,8 @@ onEvent('player.logged_in', event => {
     // Add the stage
     event.player.stages.add('starting_items')
     // Give some items to player
-    event.player.give('minecraft:stone_sword')
-    event.player.give(Item.of('minecraft:stone_pickaxe', "{Damage: 10}"))
-    event.player.give('30x minecraft:apple')
+    event.player.give('antiqueatlas:empty_antique_atlas')
+    event.player.give(Item.of('akashictome:tome', '{"akashictome:is_morphing":1b,"akashictome:data":{theoneprobe:{id:"theoneprobe:probenote",Count:1b,tag:{display:{Name:\'{"text":"The One Probe Read Me"}\'}}}}}'))
+    event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:strawberry_guide",display:{Name:\'{"text":"Strawberry Guide Book"}\'}}'))
   }
 })

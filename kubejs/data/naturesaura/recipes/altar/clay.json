@@ -1,0 +1,15 @@
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "tag": "forge:sand"
+    },
+    "output": {
+        "item": "minecraft:clay"
+    },
+    "aura_type": "naturesaura:overworld",
+    "catalyst": {
+        "item": "naturesaura:conversion_catalyst"
+    },
+    "aura": 1200,
+    "time": 20
+}

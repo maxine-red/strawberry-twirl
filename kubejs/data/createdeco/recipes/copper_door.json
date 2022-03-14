@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mm",
+    "mm",
+    "mm"
+  ],
+  "key": {
+    "m": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "result": {
+    "item": "createdeco:copper_door"
+  }
+}

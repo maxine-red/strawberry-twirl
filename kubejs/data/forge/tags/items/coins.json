@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["#forge:coins/zinc", "#forge:coins/copper", "#forge:coins/brass", "#forge:coins/iron", "#forge:coins/gold", "#forge:coins/netherite"]
+}

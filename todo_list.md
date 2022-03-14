@@ -17,44 +17,46 @@
 
 # Tasks to be done, for pack to be considered complete
 
-- [ ] add akashic tome with pack guide and an antique atlas to first login loot
+- [x] add akashic tome with pack guide and an antique atlas to first login loot
 - [x] look through existing tags and recipes and see which one shall stay and which one shouldn't
 - [x] look over recipe removal and JEI hiding code, to see what should stay and what shouldn'table
-- [ ] add a small guide (just barebones to go over the changes, most players won't expect)
+- [x] add a small guide (just barebones to go over the changes, most players won't expect)
 - [x] change backpack tiers to have only more upgrade slots, one per tier (starting at 1)
 - [x] diamond gets double space (netherrite inherits this)
 
 - [ ] make an automatic release script, like I have for companion mod
 - [ ] update mod lists (mods.json, REAME.md)
-- [ ] add JEI notes (via script) about all tinker fuels /kubejs/data/tconstuct/smeltery/melting/fuel
+- [x] add JEI notes (via script) about all tinker fuels /kubejs/data/tconstuct/smeltery/melting/fuel
 
 - [ ] add tips for several things / add to guide
-	- [ ] astral sorcery is included
-	- [ ] immersive engineering is included
-	- [ ] ars noveau is included
-	- [ ] the one probe note being craftable
-	- [ ] about seasons (being a thing)
-	- [ ] chainmail is craftable
-	- [ ] crystals are craftable
-	- [ ] rich soil grows mushroom colonies
-	- [ ] mushroom colonies can be taken, by shearing (otherwise drop mushrooms)
-	- [ ] ham drops from pigs, when killed with knife
-	- [ ] path from dirt and also waterloggable path
-	- [ ] add more tips to content that isn't obvious
-    - [ ] don't try to make honey bottles in the immersive engineering bottler
-    - [ ] you can get different metal blocks variants on the stone cutter
-    - [ ] you can sleep in a hammock, to pass the day
-    - [ ] sleeping bags are good for travels, they pass the night, without setting your spawn point
-    - [ ] when a liquid reservior is empty, it is empty (no trace amounts)
-    - [ ] flags go on placed down sticks
-    - [ ] you can hang up flower pots
-    - [ ] bricks can be thrown (keep away from glass)
-    - [ ] to make bottle o' enchanting, use a bottle on an enchanting table (this hurts!)
-    - [ ] go to undergarden, by building a nether portal out of stone bricks and activate with a catalyst
-    - [ ] bottle o' enchanting can be made by using an empty bottle on an enchanting table (hurts)
-    - [ ] beds can have bed sheats (banners)
-    - [ ] add a catergory about how to get into mods (just how to obtain their guide books)
-    - [ ] add explanation on how to get psi book or give it from start (in akashic tome for example)
+	- [x] astral sorcery is included
+	- [x] immersive engineering is included
+	- [x] ars noveau is included
+	- [x] the one probe note being craftable
+	- [x] about seasons (being a thing)
+	- [x] chainmail is craftable
+	- [x] crystals are craftable
+	- [x] rich soil grows mushroom colonies
+	- [x] mushroom colonies can be taken, by shearing (otherwise drop mushrooms)
+	- [x] ham drops from pigs, when killed with knife
+	- [x] path from dirt and also waterloggable path
+    - [x] don't try to make honey bottles in the immersive engineering bottler!
+    - [ ] you can get different metal blocks variants on the stone cutter (WIP)
+    - [x] you can sleep in a hammock, to pass the day
+    - [x] sleeping bags are good for travels, they pass the night, without setting your spawn point
+    - [x] when a liquid reservior is empty, it is empty (no trace amounts)
+    - [x] flags go on placed down sticks
+    - [x] you can hang up flower pots
+    - [x] bricks can be thrown (keep away from glass)
+    - [x] to make bottle o' enchanting, use a bottle on an enchanting table (this hurts!)
+    - [x] go to undergarden, by building a nether portal out of stone bricks and activate with a catalyst
+    - [x] beds can have bed sheats (banners)
+    - [x] add a catergory about how to get into mods (just how to obtain their guide books)
+    - [x] add explanation on how to get psi book or give it from start (in akashic tome for example)
+    - [x] creepers don't mess up environment
+    - [x] fire doesn't spread
+    - [x] information about dimensions
+    - [x] inform about wall jump
 	
 # Recipes
 
@@ -139,20 +141,19 @@
 
 ## Create
 - [z] remove smelting recipes for crushed ores
-- [ ] add sourdough mixing recipe
+- [x] add sourdough mixing recipe
 
 
 ## Serene seasons
-- [ ] add seasons to crops that mis them
+- [x] add seasons to crops that mis them
 
 ## Misc
-- [ ] add bees wax to buzzier bee candle base tag
+- [x] add recipes to make coins
+- [x] add bees wax to buzzier bee candle base tag
 - [x] add slabs to blocks recipes (just two slabs over each other)
 - [x] update recipes that use leaves, to make tea, to use actual tea leaves (tag)
 - [x] change recipes to use crafters, make more expensive and use the precision thing from create
     - [x] garden cloche
-- [ ] alias gelatines together (pack and better end)
-- [ ] alias betterend sulfur with sulfur dust
 - [x] change potion effects on purple jelly, magic butter bred, and mysterious sandwich (also maybe make it from chorus fruit again?), only vanilla potion effects work. Also would be good to give them a reason to be amde (like giving fire resistance for 30 seconds), but also negatives (not insignificant chance for 10 seconds wither)
 - [x] remove broken recipes from charcoal and abnormals delight
 - [x] remove crafting recipes for nuggets/ingots/blocks of metal (requires deciding what type of nuggets/ingots to keep)
@@ -166,8 +167,7 @@
 - [X] alias chocolate bars together and unify recipes
 - [X] have one bar of chocolate be made by stamping (create one) and the other being cooked (neapolitan one)
 - [x] add recipe to melt chocolate in basin and also tinker
-- [ ] change netherite tank size to 256B
-- [ ] use mana glass (panws) for tank creation (or mana glass for create tanks)
+- [x] change netherite tank size to 256B
 
 # Changes when played
 

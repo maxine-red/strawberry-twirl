@@ -19,17 +19,19 @@
 var gems = [ 
     { gem: 'sapphire', count: 1, secondary: 'minecraft:cobblestone'},
     { gem: 'mana', count: 1, secondary: 'minecraft:cobblestone'},
-    { gem: 'negatite', count: 1, secondary: 'minecraft:cobblestone'},
-    { gem: 'positite', count: 1, secondary: 'good_nights_sleep:delusion_cobblestone'},
     { gem: 'geodes/blue', count: 1, secondary: 'minecraft:cobblestone'},
     { gem: 'geodes/red', count: 1, secondary: 'minecraft:netherrack'},
     { gem: 'geodes/purple', count: 1, secondary: 'betterendforge:endstone_dust'},
-    { gem: 'candy', count: 2, secondary: 'good_nights_sleep:delusion_cobblestone'},
-    { gem: 'necrum', count: 2, secondary: 'minecraft:cobblestone'},
     { gem: 'amber/overworld', count: 1, secondary: 'minecraft:cobblestone'},
     { gem: 'moonstone', count: 1, secondary: 'minecraft:cobblestone'},
     { gem: 'rockroot', count: 2, secondary: 'minecraft:cobblestone'},
-    { gem: 'ender', count: 4, secondary: 'betterendforge:endstone_dust'}
+    { gem: 'eclipse', count: 1},
+    { gem: 'soul', count: 1},
+    { gem: 'moon_crystal', count: 1},
+    { gem: 'pearl_shards', count: 1},
+    { gem: 'verdant', count: 1},
+    { gem: 'aqua', count: 1},
+    { gem: 'bloodstone', count: 1}
 ];
 
 function starlightInfusionRecipe(ore, gemstone) {
@@ -51,7 +53,12 @@ onEvent('recipes', event => {
         let ore = `#forge:ores/${gem.gem}`;
         let gemstone = `#forge:gems/${gem.gem}`;
         event.recipes.immersiveengineering.crusher(Item.of(gemstone, 2 * gem.count), ore);
-        event.recipes.create.crushing([Item.of(gemstone, 2 * gem.count), Item.of(gemstone, gem.count).withChance(0.25), Item.of(gem.secondary).withChance(0.125)], ore);
+        if (gem.secondary) {
+            event.recipes.create.crushing([Item.of(gemstone, 2 * gem.count), Item.of(gemstone, gem.count).withChance(0.25), Item.of(gem.secondary).withChance(0.125)], ore);
+        }
+        else {
+            event.recipes.create.crushing([Item.of(gemstone, 2 * gem.count), Item.of(gemstone, gem.count).withChance(0.25)], ore);
+        }
         event.custom(starlightInfusionRecipe(ore, Item.of(gemstone, 5 * gem.count)));
     });
 });

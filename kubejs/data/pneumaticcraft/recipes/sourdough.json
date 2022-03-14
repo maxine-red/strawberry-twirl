@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:yeast_culture_bucket"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:sourdough",
+    "count": 8
+  }
+}

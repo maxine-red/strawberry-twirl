@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "pneumaticcraft:yeast_culture",
+      "amount": 250
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:sourdough",
+      "count": 8
+    }
+  ]
+}

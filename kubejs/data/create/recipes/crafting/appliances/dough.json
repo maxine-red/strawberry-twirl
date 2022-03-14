@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:flour"
+      "tag": "forge:dusts/flour"
     },
     {
       "item": "minecraft:water_bucket"

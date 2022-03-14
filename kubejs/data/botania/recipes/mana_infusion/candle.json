@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "quark:white_candle"
+  },
+  "output": {
+    "item": "occultism:candle_white"
+  },
+  "mana": 400
+}

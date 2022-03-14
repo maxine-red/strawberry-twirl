@@ -13,5 +13,5 @@ expertTankCapacity = 64000
 #How much fluid should the ultimate tank be able to hold (in millibuckets)?
 #Requires a world reload
 #Allowed Range: 1000 ~ 256000  Default: 128000
-ultimateTankCapacity = 128000
+ultimateTankCapacity = 256000
 

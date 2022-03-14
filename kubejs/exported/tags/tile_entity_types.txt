@@ -1,4 +1,15 @@
-To refresh this file, delete it and run /reload command again! Last updated: Nov 28, 2021 1:34:14 AM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 14, 2022 9:18:37 AM
+
+#tconstruct:crafting_station_blacklist
+- tconstruct:crafting_station
+- tconstruct:tinker_station
+- tconstruct:part_builder
+- tconstruct:part_chest
+- tconstruct:modifier_chest
+- tconstruct:cast_chest
+- tconstruct:basin
+- tconstruct:table
+- tconstruct:smeltery
 
 #forge:relocation_not_supported
 - immersiveengineering:balloon

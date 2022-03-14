@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Nov 28, 2021 1:34:14 AM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 14, 2022 9:18:37 AM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow
@@ -25,6 +25,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:horses
 - minecraft:horse
 
+#tconstruct:rare_mobs
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+
 #botania:cocoon/common
 - minecraft:pig
 - minecraft:cow
@@ -46,6 +52,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #botania:cocoon/rare_aquatic
 - minecraft:dolphin
 
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
 #botania:cocoon/rare
 - minecraft:horse
 - minecraft:donkey
@@ -58,6 +70,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:panda
 - minecraft:turtle
 - quark:frog?
+
+#tconstruct:piggybackpack_blacklist
 
 #botania:shaded_mesa_blacklist
 - minecraft:ender_dragon
@@ -77,6 +91,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #kobolds:enchanter
 - kobolds:kobold_enchanter
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic
+
+#forge:llamas
+- minecraft:llama
+- minecraft:trader_llama
 
 #farmersdelight:dog_food_users
 - minecraft:wolf
@@ -110,6 +131,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:trident
 - minecraft:dragon_fireball
 - minecraft:wither_skull
+- environmental:mud_ball
+- environmental:duck_egg
+- atmospheric:passionfruit_seed
 - supplementaries:rope_arrow
 - supplementaries:amethyst_arrow
 - supplementaries:brick_projectile
@@ -118,14 +142,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - undergarden:goo_ball
 - undergarden:slingshot_ammo
 - undergarden:minion_projectile
-- environmental:mud_ball
-- environmental:duck_egg
-- atmospheric:passionfruit_seed
 
 #minecraft:beehive_inhabitors
 - minecraft:bee
 
 #environmental:unaffected_by_serenity
+
+#forge:creepers
+- minecraft:creeper
 
 #minecraft:skeletons
 - minecraft:skeleton
@@ -138,13 +162,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #minecraft:arrows
 - minecraft:arrow
 - minecraft:spectral_arrow
-- wyrmroost:geode_tipped_arrow
+- neapolitan:bananarrow
 - supplementaries:rope_arrow
 - supplementaries:amethyst_arrow
-- neapolitan:bananarrow
+- wyrmroost:geode_tipped_arrow
 
 #forge:sheep
 - minecraft:sheep
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
 
 #forge:zombies
 - minecraft:zombie
@@ -165,7 +194,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:squid
 
 #endergetic:not_balloon_attachable
-- upgrade_aquatic:flare
 - endergetic:boof_block
 - endergetic:poise_cluster
 - endergetic:puff_bug
@@ -179,6 +207,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:ghast
 - minecraft:wither
 - minecraft:ender_dragon
+- upgrade_aquatic:flare
 
 #neapolitan:milkable
 - environmental:yak
@@ -186,8 +215,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:mooshroom
 
 #kobolds:trader
-- kobolds:kobold
 - kobolds:kobold_pirate
+- kobolds:kobold
 
 #forge:spiders
 - minecraft:spider
@@ -208,6 +237,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #occultism:wild_hunt
 - occultism:wild_hunt_skeleton
 - occultism:wild_hunt_wither_skeleton
+
+#neapolitan:scares_chimpanzees
+- minecraft:firework_rocket
+- minecraft:lightning_bolt
+- minecraft:small_fireball
+- minecraft:fireball
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- minecraft:evoker_fangs
+- minecraft:tnt
 
 #forge:cows
 - minecraft:cow
@@ -230,6 +269,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:mule
 - minecraft:llama
 
+#neapolitan:chimpanzee_dart_targets
+- endergetic:bolloom_fruit?
+- endergetic:bolloom_balloon?
+
 #minecraft:raiders
 - minecraft:evoker
 - minecraft:pillager
@@ -244,6 +287,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 #forge:villagers
 - minecraft:villager
 
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
 #ars_nouveau:disintegration_whitelist
 
 #supplementaries:eats_fodder
@@ -253,6 +299,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - minecraft:chicken
 - autumnity:snail?
 - alexsmobs:raccoon?
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
 
 #supplementaries:flute_pet
 - minecraft:horse
@@ -338,7 +391,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 
 #untamedwilds:cage_trap_blacklist
 
-#passablefoliage:block
+#syp:llamas
+- minecraft:llama
+- minecraft:trader_llama
 
 #kobolds:engineer
 - kobolds:kobold_engineer
@@ -390,7 +445,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Nov
 - alexsmobs:tasmanian_devil?
 - alexsmobs:enderiophage?
 - alexsmobs:platypus?
+- alexsmobs:toucan?
 - alexsmobs:crow?
+- alexsmobs:seagull?
 - alexsmobs:mimicube?
 - iceandfire:pixie?
 - alexsmobs:fly?
