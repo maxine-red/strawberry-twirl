@@ -1,0 +1,19 @@
+{
+  "name": "Immersive Engineering",
+  "icon": "immersiveengineering:manual",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A world of engineering. That what's awaits you with Immersive Engineering.$(br2)Big machines for big tasks.$(br)Craft the book to get started."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "immersiveengineering:crafting/manual"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(l)$(4)Warning:$() Don't try to fill honey bottles with the bottling machine!$(br)There is a bug, that will crash your game."
+    }
+  ]
+}

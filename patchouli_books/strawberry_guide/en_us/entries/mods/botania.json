@@ -1,0 +1,18 @@
+{
+  "name": "Botania",
+  "icon": "botania:lexicon",
+  "advancement": "botania:main/root",
+  "turnin": "botania:main/lexicon_use",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Become a bontanist. This mod is about flowers and how to craft them and use them.$(br2)It's a bit of a technical mod, disguised as a magic mod, but very fun on it's own!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "botania:lexicon",
+      "text": "Open it to become a botanist!"
+    }
+  ]
+}

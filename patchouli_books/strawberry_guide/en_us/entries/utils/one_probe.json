@@ -1,0 +1,16 @@
+{
+  "name": "The one Probe",
+  "icon": "theoneprobe:probenote",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Seen that box up there, which tells you what you are looking at?$(br2)You can also change it's position, size and looks.$(br)You need a $(item)probe note$() for that, which you can find in your $(item)Akashic Tome$() or make.$(br2)Just use it while sneaking."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "theoneprobe:probenote",
+      "title": "Probe Note"
+    }
+  ]
+}

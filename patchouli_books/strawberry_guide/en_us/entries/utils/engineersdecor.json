@@ -1,0 +1,15 @@
+{
+  "name": "Engineer's Decor",
+  "icon": "patchouli:guide_book{'patchouli:book':'engineersdecor:engineersdecor_manual'}",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Engineer's decor adds a lot of functional and decorative blocks, with a more engineering theme to it.$(br)Have fun and make sure to craft the $(item)guide book$() of this mod, as it contains information about all the varying blocks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "engineersdecor:independent/engineersdecor_manual_recipe"
+    }
+  ]
+}

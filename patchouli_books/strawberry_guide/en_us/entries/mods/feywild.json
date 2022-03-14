@@ -1,0 +1,11 @@
+{
+  "name": "Feywild",
+  "icon": "patchouli:guide_book{'patchouli:book':'feywild:feywild_lexicon'}",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fey's are a source of magic. They also changd your worlds and added in new biomes, structures and creatures!$(br2)Explore the world, to find libraries, where you can find the $(item)guide book$() for this mod.$(br)You can also find other mod's books in there!"
+    }
+  ]
+}

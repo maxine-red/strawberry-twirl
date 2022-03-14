@@ -1,0 +1,11 @@
+{
+  "name": "Wall Jump",
+  "icon": "minecraft:feather",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Wall Jump is a mobility mod, that let's you climb higher places!$(br2)Press $(k:walljump.key.walljump) against a wall, to cling to it.$(br)Press $(k:forward) too, to climb ledges."
+    }
+  ]
+}

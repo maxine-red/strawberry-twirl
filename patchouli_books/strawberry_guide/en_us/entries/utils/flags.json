@@ -1,0 +1,15 @@
+{
+  "name": "Flags",
+  "icon": "supplementaries:flag_pink",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Flags are like sideways banners. They go onto placed down sticks and show you are here and proud!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "supplementaries:flags/flag_white"
+    }
+  ]
+}

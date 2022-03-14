@@ -1,0 +1,26 @@
+{
+  "name": "Tinker's Construct",
+  "icon": "tconstruct:materials_and_you",
+  "turnin": "tconstruct:tools/materials_and_you",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Getting bored with your tools?$(br2)Tinker's Construct helps you here!$(br)It adds customizable tools and armor and other things.$(br)Best study the $(item)guide book$() for more info."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tconstruct:common/materials_and_you",
+      "title": "Materials and you"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "It's worth noticing, that there are several guides for this mod. $(item)Materials and you$() will get you into one part and you make other books that guide you further.$(br2)There are also gadgets though, that have their own guide. Look it up!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tconstruct:common/encyclopedia",
+      "title": "Encyclopedia of Tinkering"
+    }
+  ]
+}

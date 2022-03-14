@@ -1,0 +1,16 @@
+{
+  "name": "Supplementaries",
+  "icon": "patchouli:guide_book{'patchouli:book':'supplementaries:supplementaries_guide'}",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Supplementaries comes with a lot of added content.$(br)The best way to see, what all is added and how it works, is by studying the $(item)guide book$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "supplementaries:patchouli_book",
+      "recipe2": "supplementaries:jar"
+    }
+  ]
+}

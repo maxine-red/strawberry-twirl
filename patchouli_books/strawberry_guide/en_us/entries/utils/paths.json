@@ -1,0 +1,11 @@
+{
+  "name": "Paths",
+  "icon": "minecraft:grass_path",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Paths can be made, by using a shovel on plain old dirt!$(br2)If you use a hoe on paths, you can make shallow dirt!$(br)This block is water loggable and makes for great garden additions."
+    }
+  ]
+}

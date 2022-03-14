@@ -1,0 +1,16 @@
+{
+  "name": "Antique Atlas",
+  "icon": "antiqueatlas:antique_atlas",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You might have already seen, that there is no minimap?$(br) For that you have an antique Atlas!$(br2)Carry it with you, so you can see your surroundings.$(br2)It's a more immersive minimap, that also supports markers and more."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "antiqueatlas:empty_atlas",
+      "title": "Lost your atlas?"
+    }
+  ]
+}

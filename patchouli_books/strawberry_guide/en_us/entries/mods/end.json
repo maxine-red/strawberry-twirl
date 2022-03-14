@@ -1,0 +1,39 @@
+{
+  "name": "The End",
+  "icon": "minecraft:ender_eye",
+  "category": "patchouli:mods",
+  "advancement": "minecraft:nether/obtain_blaze_rod",
+  "turnin": "minecraft:story/enter_the_end",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You've got blaze rods! Grind it into powder.$(br)You need it to make eyes of ender!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:ender_eye",
+      "title": "The eye of ender",
+      "text": "It spies for an entrance to the end of everything.$(br2)Equip it, then use it."
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "minecraft:story/follow_ender_eye",
+      "text": "You've found a stronghold!$(br2)These are not like your vanilla strongholds tthough.$(br)Here, they are huge. Try to find the portal and make sure, that you brought $(l)a lot$() of eyes of ender."
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "minecraft:story/follow_ender_eye",
+      "text": "Once you assembled the portal, prepare yourself for a big fight!$(br2) You will only be able to leave, again, once you defeated the dragon!"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "minecraft:story/enter_the_end",
+      "text": "Welcome to the end!$(br2)Please defeat the dragon now, so we can continue.$(br2)After you accomplished that, you see a teleporter appear.$(br)Grab an ender pearl and start exploring the end!"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "minecraft:end/enter_end_gateway",
+      "text": "Don't be surprised! The end got a huge content upgrade. Feel free to explore all the new biomes and plant life, of the end."
+    }
+  ]
+}

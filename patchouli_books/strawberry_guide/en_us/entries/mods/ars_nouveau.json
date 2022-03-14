@@ -1,0 +1,15 @@
+{
+  "name": "Ars Nouveau",
+  "icon": "ars_nouveau:worn_notebook",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ars Nouveau is a magic mod, that gives you spells and decoration blocks. Craft the $(item)guide book$(), to find out more."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "ars_nouveau:worn_notebook"
+    }
+  ]
+}

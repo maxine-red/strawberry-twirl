@@ -1,0 +1,15 @@
+{
+  "name": "Eidolon",
+  "icon": "eidolon:codex",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Eidolon is about ancient, dark magic, you can use for your own purposes.$(br2)Tip: You can get prayers from giving your book to clerics or witches."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "eidolon:codex"
+    }
+  ]
+}

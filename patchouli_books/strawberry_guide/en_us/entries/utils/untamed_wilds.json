@@ -1,0 +1,15 @@
+{
+  "name": "Untamed Wilds",
+  "icon": "patchouli:guide_book{'patchouli:book':'untamedwilds:encyclopaedia_of_life'}",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Untamed Wilds adds a lot of life, to the minecraft world.$(br2)The $(item)guide book$() will tell you more."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "patchouli:enciclopedia_of_life"
+    }
+  ]
+}

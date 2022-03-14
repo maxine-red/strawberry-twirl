@@ -1,0 +1,25 @@
+{
+  "name": "Akashic tome",
+  "icon": "akashictome:tome",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Finding to carry all those guides tedious?$(br)Then the $(item)akashic tome$() is for you!$(br2)You got one at your first login and it can store any other book you like, even enchanted ones!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use it, to read the book you like. It also works in crafting recipes and other actions.$(br2)Punch it into empty air, to make it return into it's normal form.$(br2)TO add books, just craft it with another book."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "akashictome:tome",
+      "title": "Akashic tome",
+      "text": "In case you lost your copy"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If you want to remove a book, select it, then sneak and press $(thing)$(k:drop)$(), to pop it out."
+    }
+  ]
+}

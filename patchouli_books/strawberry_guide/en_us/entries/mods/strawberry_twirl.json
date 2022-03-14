@@ -1,0 +1,12 @@
+{
+  "name": "Strawberry Twirl",
+  "icon": "neapolitan:strawberries",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "strawberrytwirl:guide_book",
+      "title": "Lost your guide book?"
+    }
+  ]
+}

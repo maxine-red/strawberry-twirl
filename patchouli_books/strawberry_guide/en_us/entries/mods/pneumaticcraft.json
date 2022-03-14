@@ -1,0 +1,27 @@
+{
+  "name": "Pneumaticcraft",
+  "icon": "patchouli:guide_book{'patchouli:book':'pneumaticcraft:book'}",
+  "turnin": "pneumaticcraft:root",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pneumaticcraft: Represurized, is a mod about air pressure and using it in contraptions, to make your life eaiser.$(br2)It's very fun to play around with, but needs a little bit of preparation to get into.$(br2) First gather some iron and TNT."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "text": "Compress iron, by dropping it and then explode some TNT!$(br2)This will destroy some iron!"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "pneumaticcraft:root",
+      "text": "Now that you have compressed iron, you can craft your pneumatic $(item)guide book$().$(br2)Refer to it for more information about pneumatic contraptions."
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "pneumaticcraft:root",
+      "recipe": "pneumaticcraft:patchouli_book_crafting"
+    }
+  ]
+}

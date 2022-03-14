@@ -1,0 +1,15 @@
+{
+  "name": "Going back",
+  "icon": "recall:item_recall",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Lost inside of a cave, and no clue how to get out?$(br2)With a recall amulet, you can go back to your spawn point easily."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "recall:item_recall"
+    }
+  ]
+}

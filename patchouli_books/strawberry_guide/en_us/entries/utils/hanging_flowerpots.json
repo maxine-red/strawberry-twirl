@@ -1,0 +1,11 @@
+{
+  "name": "Hanging flower pots",
+  "icon": "minecraft:flower_pot",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You can hang up flower pots!$(br2)Just place them under a block.$(br)Try it out!"
+    }
+  ]
+}

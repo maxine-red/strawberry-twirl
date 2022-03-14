@@ -1,0 +1,39 @@
+{
+  "name": "The Nether",
+  "icon": "minecraft:crimson_fungus",
+  "category": "patchouli:mods",
+  "advancement": "minecraft:story/form_obsidian",
+  "turnin": "minecraft:story/enter_the_nether",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Congratulations!$(br2)You picked up your ticket into the nether!$(br)Now, all you have to do, is assemble the portal."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "text": "Activate by lighting it on fire",
+      "multiblock": {
+        "mapping": {
+          "B": "minecraft:obsidian",
+          "0": "minecraft:obsidian"
+        },
+        "pattern": [
+          ["_BBB_"],
+          ["B   B"],
+          ["B   B"],
+          ["B   B"],
+          ["_B0B_"]
+        ]
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Light one of the bottom obdisian blocks on fire (top side), with a flint & steel or flint and bronze.$(br2)Other, magical means, of making fire wor too."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:flint_and_steel",
+      "recipe2": "tconstruct:tools/building/flint_and_bronze"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Pets",
+  "icon": "minecraft:bone",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You can pet your pet pups!$(br2)Just right click on them, with an empty hand, to give them those well deserved pets!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "If your tamed pet loses all health, fear not!$(br)Make a $(item)bandage$() from 'save your pet' and you can revive them!$(br2)Don't take too long though, eventually they will bleed out.$(br)This will take at least one minecraft day though."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Pet bandages",
+      "recipe": "syp:pet_bandage",
+      "text": "These work on all tamed vanilla animals, not only dogs."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Golden pet bandages",
+      "recipe": "syp:golden_pet_bandage",
+      "text": "These work on all tamed vanilla animals, not only dogs.$(br2)Also heal more."
+    }
+  ]
+}

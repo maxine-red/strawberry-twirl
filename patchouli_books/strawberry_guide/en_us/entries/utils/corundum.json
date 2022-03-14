@@ -1,0 +1,11 @@
+{
+  "name": "Corundums",
+  "icon": "quark:violet_crystal",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Corundums are pretty and can be crafted, by transmuting glass, with starlight."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Brick Throw!",
+  "icon": "minecraft:brick",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Bricks can be thrown!$(br2)This can be a lot of fun. Just make sure to not hit glass, or other creatures."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Farmer's Delight",
+  "icon": "farmersdelight:stove",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Farmer's Delight adds a lot of additional food items and also it's own mechanics.$(br2)One of them, is that pigs (and other mobs) have extra drops, when you kill them with knives!$(br2)Knives can also be used on grass, to get straw."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "farmersdelight:ham",
+      "text": "Drops from pigs, when they are killed with knives."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can also create compost, that turns into rich soil, over time.$(br)Rich soil can be tilled, to form rich farmland, that $(l)cannot be trampled!$()"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "farmersdelight:rich_soil_farmland",
+      "text": "Farmland, that cannot be trampled!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Rich soil can also be used to grow mushroom colonies.$(br2)These can then be cut with shears, to get them as they are, or harvested for 5 $(item)mushrooms($()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "farmersdelight:red_mushroom_colony",
+      "text": "Mushroom Colony"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "minecraft:story/enter_the_nether",
+      "text": "The nether offers its own delighted additions. You can make rich soul soil, to grow fungus colonies."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "minecraft:story/enter_the_nether",
+      "item": "nethers_delight:crimson_fungus_colony_item",
+      "text": "Fungus Colony"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "minecraft:story/enter_the_nether",
+      "text": "There are also more dangerous crops though. The $(thing)Propelplant$() explodes on harvest!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "minecraft:story/enter_the_nether",
+      "item": "nethers_delight:propelplant_berry_stem",
+      "text": "Explosive flowers"
+    }
+  ]
+}

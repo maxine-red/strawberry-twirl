@@ -1,0 +1,11 @@
+{
+  "name": "Friendly creepers",
+  "icon": "minecraft:creeper_head",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "BWell, they still blow up and hurt you! But they don't hurt the environment.$(br2)Creepers still do entity damage, but no block damage.$(br)Also they drop flowers on explosions."
+    }
+  ]
+}

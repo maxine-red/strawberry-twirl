@@ -1,0 +1,11 @@
+{
+  "name": "Create",
+  "icon": "create:cogwheel",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Create is a mod, that lets you automate a lot of things, in a rather immersive way.$(br2)To learn more, look into JEI.$(br)You will find its blocks there. Try W, when hovering over an item to 'ponder' it."
+    }
+  ]
+}

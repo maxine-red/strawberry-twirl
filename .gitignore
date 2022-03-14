@@ -7,13 +7,13 @@
 /mods/
 /mods
 /optional_mods/
-/kuvejs/exported/
-/patchouli_books/
+/kubejs/exported/
 /resourcepacks/
 /build/
 /artifacts/
 /config/jei/
 /config/cherishedworlds
+/tconplanner
 
 # File to ignore
 

@@ -1,0 +1,15 @@
+{
+  "name": "Occultism",
+  "icon": "occultism:dictionary_of_spirits",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Occultism is about the occult, and have demons help you with your tasks."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "occultism:crafting/dictionary_of_spirits"
+    }
+  ]
+}

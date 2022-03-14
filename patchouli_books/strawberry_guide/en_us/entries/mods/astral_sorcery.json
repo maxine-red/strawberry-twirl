@@ -1,0 +1,15 @@
+{
+  "name": "Astral Sorcery",
+  "icon": "astralsorcery:tome",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Astral Sorcery is a mod about collecting star light, to do wondrous things.$(br2)Craft the tome and explore it."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "astralsorcery:shaped/tome"
+    }
+  ]
+}

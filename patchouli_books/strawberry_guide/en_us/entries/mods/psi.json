@@ -1,0 +1,36 @@
+{
+  "name": "Psi",
+  "icon": "patchouli:guide_book{'patchouli:book':'psi:encyclopaedia_psionica'}",
+  "turnin": "psi:main/encyclopaedia_psionica",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Psi is all about magc spell programming. It requires a little bit of a guide to get into, so let's get started.$(br2)Start by crafting an $(item)Iron Rod Frame$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "psi:cad_assembly_iron"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "psi:main/root",
+      "text": "Now let's make that rod into a $(item)Focusing Rod$()!$(br2)For that you need a $(item)Rod Constructor$().$(br2)Place it down, put your $(item)Iron Rod Frame$() in and craft a $(item)Focusing Rod$()"
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "psi:main/root",
+      "recipe": "psi:assembler"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "psi:main/root",
+      "text": "The last step, is to take a $(item)book$(), throw it onto the ground and use your $(item)Focusing Rod$() on it!"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "psi:main/encyclopaedia_psionica",
+      "text": "Study your $(item)Enciclopedia Psionica$() from now on."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "More overlays",
+  "icon": "minecraft:torch",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Overlays shows you where mobs might spawn, by a simple press of $(k:moreoverlays.lightoverlay.desc).$(br2)There are more immersive ways, with create."
+    }
+  ]
+}

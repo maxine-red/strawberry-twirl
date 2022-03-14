@@ -1,0 +1,17 @@
+{
+  "name": "Tombstones",
+  "icon": "tombstone:grave_key",
+  "category": "patchouli:mods",
+  "advancement": "tombstone:adventure/first_grave",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Oh no! You just died!$(br)As you saw already, your items are save though!$(br2)The Tombstone mod allows for your items to stay save, but be careful about falling into void, and let you retrieve them.$(br2)Additionally, it offers fast retrieval."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tombstone:enchanted_grave_key",
+      "title": "Key enchanting"
+    }
+  ]
+}

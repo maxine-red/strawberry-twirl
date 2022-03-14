@@ -1,0 +1,24 @@
+{
+  "name": "Comforts",
+  "icon": "comforts:sleeping_bag_pink",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Comforts adds ways to sleep comfortably.$(br2)Be it in a sleeping bag, to pass the night in the wild, or in a hammock, to pass the day."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:sleeping_bag_white"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hammocks need to be hung up. Make a hammock, then rope and nails, find two trees and span the hammock up between them.$(br2)There need to be 4 blocks, in a straight line, between those trees."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "comforts:hammock_white",
+      "recipe2": "comforts:rope_and_nail"
+    }
+  ]
+}

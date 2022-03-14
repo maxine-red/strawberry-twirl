@@ -1,0 +1,11 @@
+{
+  "name": "Safe burning",
+  "icon": "minecraft:flint_and_steel",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your buildings won't burn down, not even when struck by lightning!$(br2)Fire doesn't spread, but goes out eventually.$(br)This protects your wood buildings."
+    }
+  ]
+}

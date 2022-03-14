@@ -1,0 +1,11 @@
+{
+  "name": "Bottled experience",
+  "icon": "minecraft:experience_bottle",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "By using an empty bottle on an enchanting table, you can store some of your experience in it.$(br2)This hurts and can kill you!$(br2)Use with caution. There are better ways to store excess experience."
+    }
+  ]
+}

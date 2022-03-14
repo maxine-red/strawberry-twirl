@@ -1,0 +1,21 @@
+{
+  "name": "Chainmail",
+  "icon": "minecraft:chainmail_chestplate",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Chainmail is actually craftable and rather cheap. It only requires iron nuggets!$(br2)But it also provides less protection."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mana-and-artifice:chainmail_helmet",
+      "recipe2": "mana-and-artifice:chainmail_chestplate"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mana-and-artifice:chainmail_leggings",
+      "recipe2": "mana-and-artifice:chainmail_boots"
+    }
+  ]
+}

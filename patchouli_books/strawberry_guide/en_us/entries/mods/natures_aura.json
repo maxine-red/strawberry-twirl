@@ -1,0 +1,16 @@
+{
+  "name": "Nature's Aura",
+  "icon": "patchouli:guide_book{'patchouli:book':'naturesaura:book'}",
+  "turnin": "naturesauda:get_book",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Nature's Aura is a mod about the aura that surrounds you and how to utilize it for your needs.$(br2)Craft the $(item)guide book$(), to find out more!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "naturesaura:book"
+    }
+  ]
+}

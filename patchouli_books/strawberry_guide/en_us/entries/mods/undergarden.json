@@ -1,0 +1,40 @@
+{
+  "name": "The Undergarden",
+  "icon": "undergarden:deepturf_block",
+  "category": "patchouli:mods",
+  "turnin": "undergarden:undergarden/enter_undergarden",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A strange and exotic place. Between the overworld and the nether.$(br2)The Undergarden is a place of adventure and danger. You want to prepare a little, before entering this realm."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "undergarden:catalyst",
+      "title": "Start with a catalyst"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "undergarden:undergarden/catalyst",
+      "text": "With the catalyst in your hand now, you need to build a portal.$(br)Use the catalust on that portal, to enter the realm of the Undergarden."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "advancement": "undergarden:undergarden/catalyst",
+      "text": "Activate with your catalyst",
+      "multiblock": {
+        "mapping": {
+          "B": "minecraft:stone_bricks",
+          "0": "minecraft:stone_bricks"
+        },
+        "pattern": [
+          ["_BBB_"],
+          ["B   B"],
+          ["B   B"],
+          ["B   B"],
+          ["_B0B_"]
+        ]
+      }
+    }
+  ]
+}

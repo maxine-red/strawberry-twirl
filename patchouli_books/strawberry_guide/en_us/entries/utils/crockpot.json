@@ -1,0 +1,15 @@
+{
+  "name": "Crockpot",
+  "icon": "patchouli:guide_book{'patchouli:book':'crockpot:book'}",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Crockpot is a mod, inspired by Don't Starve cooking and adds a fun way of making really good meals!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "crockpot:crafting/book"
+    }
+  ]
+}

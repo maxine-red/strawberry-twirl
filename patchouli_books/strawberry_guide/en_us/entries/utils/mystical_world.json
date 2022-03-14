@@ -1,0 +1,16 @@
+{
+  "name": "Mystical World",
+  "icon": "mysticalworld:encyclopedia",
+  "advancement": "mysticalworld:aubergine",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Mystical World adds a lot of things to the world, from ores, over cooking recipes, to entities. The $(item)guide book$() provides you with even more information."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "mysticalworld:encyclopedia"
+    }
+  ]
+}

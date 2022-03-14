@@ -1,0 +1,11 @@
+{
+  "name": "Bed Sheets",
+  "icon": "minecraft:pink_bed",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You can combine any banner with a bed, in a crafting grid, to apply that banner pattern onto said bed.$(br)No more boring beds!"
+    }
+  ]
+}

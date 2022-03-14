@@ -1,0 +1,11 @@
+{
+  "name": "The Overworld",
+  "icon": "minecraft:grass_block",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome to the overworld. A relatively peaceful place, until it turns night time.$(br2)Feel free to explore the many places. Some are more magical than others."
+    }
+  ]
+}

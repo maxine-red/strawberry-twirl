@@ -1,0 +1,60 @@
+{
+  "name": "Mana & Artifice",
+  "icon": "mana-and-artifice:guide_book",
+  "advancement": "mana-and-artifice:mine_vinteum",
+  "turnin": "mana-and-artifice:codex_trade",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "You just found vinteum ore! Crush it up, to get the dust and start your journey into one of the more complex magic mods, in this pack!$(br2)Lots of rituals, spells and faction wars await you."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "mana-and-artifice:mine_vinteum",
+      "item": "mana-and-artifice:vinteum_ore"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "mana-and-artifice:mine_vinteum",
+      "text": "Now crush it! Smelting doesn't work in this mod pack, but you've got hammers and many other tools instead."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "mana-and-artifice:mine_vinteum",
+      "item": "mana-and-artifice:vinteum_dust"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "mana-and-artifice:smelt_vinteum",
+      "text": "Combine that dust with an iron ingot, to progress.$(br2)Small steps for great results!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "mana-and-artifice:smelt_vinteum",
+      "recipe": "mana-and-artifice:vinteum_coated_iron"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "mana-and-artifice:vinteum_coated_iron",
+      "text": "Now smelt it up!$(br2)Promised, there aren't many more steps."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "mana-and-artifice:vinteum_bar",
+      "advancement": "mana-and-artifice:vinteum_coated_iron",
+      "item": "mana-and-artifice:vinteum_coated_iron"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "mana-and-artifice:vinteum_bar",
+      "text": "Now that you have some vinteum, go exploring!$(br)You can find $(thing)Runeforges$() in villages and $(thing)Spellmongers$().$(br2)Spellmongers are villagers, that have a runeforge as their work staion."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "mana-and-artifice:vinteum_bar",
+      "item": "mana-and-artifice:guide_book",
+      "text": "Buy a $(item)Codex Arcana$() from a $(thing)Spellmonger$()."
+    }
+  ]
+}
