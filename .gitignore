@@ -30,6 +30,8 @@ ops.json
 patchouli_data.json
 minecraftinstance.json
 .curseclient
+options.txt
+/config/*.bak
 
 # Client configs
 
