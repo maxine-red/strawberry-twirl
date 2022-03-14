@@ -7,6 +7,8 @@
 	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "jukebox_upgrade:true", "everlasting_upgrade:true", "advanced_restock_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "crafting_upgrade:true", "tank_upgrade:true", "pickup_upgrade:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_1:true", "upgrade_base:true", "filter_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "backpack:true", "netherite_backpack:true", "compacting_upgrade:false", "advanced_tool_swapper_upgrade:false", "smelting_upgrade:false", "magnet_upgrade:false", "advanced_magnet_upgrade:false", "stonecutter_upgrade:false", "tool_swapper_upgrade:false", "feeding_upgrade:false", "inception_upgrade:false", "auto_smelting_upgrade:false", "stack_upgrade_tier_4:false", "stack_upgrade_tier_3:false", "advanced_compacting_upgrade:false", "auto_smoking_upgrade:true", "auto_blasting_upgrade:true", "battery_upgrade:true", "smoking_upgrade:true", "blasting_upgrade:true", "advanced_feeding_upgrade:true", "xp_pump_upgrade:true", "advanced_pump_upgrade:true", "pump_upgrade:true"]
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = []
+	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
+	itemFluidHandlerEnabled = true
 
 	#Advanced Filter Upgrade Settings
 	[common.advancedFilterUpgrade]

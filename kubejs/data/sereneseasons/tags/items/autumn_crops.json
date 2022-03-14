@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
 	"minecraft:oak_sapling",
 	"minecraft:birch_sapling",
@@ -26,6 +26,7 @@
   "neapolitan:vanilla_pods",
   "crockpot:pepper_seeds",
   "farmersdelight:tomato_seeds",
+  "farmersdelight:onion",
   "mysticalworld:aubergine_seeds",
   "crockpot:corn_seeds",
   "immersiveengineering:seed",

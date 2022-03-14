@@ -171,7 +171,7 @@
 
 # Changes when played
 
- - [ ] add sleeping bag to login loot
+- [x] add sleeping bag to login loot
 ## Crock pot
 - [ ] look through ingredients and see which ones are missing stuff
 

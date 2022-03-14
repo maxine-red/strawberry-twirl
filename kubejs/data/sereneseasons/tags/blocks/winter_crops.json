@@ -11,10 +11,10 @@
 	"minecraft:weeping_vines",
 	"minecraft:seagrass",
 	"minecraft:sea_pickle",
-  "minecraft:sweet_berries",
-  "ars_nouveau:mana_berry",
-  "immersiveengineering:seed",
+  "minecraft:sweet_berry_bush",
+  "ars_nouveau:mana_berry_bush",
+  "immersiveengineering:hemp",
   "abundance:lavender",
-  "occultism:datura_seeds"
+  "occultism:datura"
   ]
 }
