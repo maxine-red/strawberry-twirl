@@ -172,6 +172,13 @@
 # Changes when played
 
 - [x] add sleeping bag to login loot
+- [ ] add sliced fish to cod 'n' chips and fish 'n' chips recipes
+- [ ] fix dirt recipe (broken)
+- [ ] add seasons to
+    - [ ] elderberries (summer, autumn, winter)
+    - [ ] mulberries (spring, summer)
+    - [ ] yucca (summer)
+    - [ ] banana (summer)
 ## Crock pot
 - [ ] look through ingredients and see which ones are missing stuff
 

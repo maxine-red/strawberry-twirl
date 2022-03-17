@@ -12,6 +12,7 @@
 	"minecraft:seagrass",
 	"minecraft:sea_pickle",
 	"minecraft:sweet_berry_bush",
+  "berry_good:sweet_berry_bush_pips",
 	"minecraft:grass_block",
 	"minecraft:grass",
 	"minecraft:fern",
@@ -28,6 +29,9 @@
   "crockpot:asparaguses",
   "immersiveengineering:hemp",
   "druidcraft:hemp_crop",
-  "neapolitan:mint"
+  "neapolitan:mint",
+  "crockpot:unknown_crops",
+  "supplementaries:flax",
+  "farmersdelight:cabbages"
   ]
 }

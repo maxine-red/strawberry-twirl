@@ -1,0 +1,15 @@
+{
+  "name": "Player Experience",
+  "icon": "minecraft:netherite_sword",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Shicked, that you only have 3 hearts?$(br2)This pack includes PlayerEx, a mod, that let's you level up yourself and become stronger.$(br2)You collect experience as normal and the heighest level your reach, plus some extra math, determines your PlayerEx level."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You can then spend your skill points!$(br2)Click on the scroll, in your inventory.$(br)There you can make yourself stronger!"
+    }
+  ]
+}

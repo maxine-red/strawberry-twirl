@@ -26,7 +26,7 @@
 	"minecraft:melon_seeds",
 	"minecraft:cocoa_beans",
   "druidcraft:blueberries",
-  "autumnity:foul_berries",
+  "autumnity:foul_berry_pips",
   "atmospheric:barrel_cactus",
   "ars_nouveau:mana_bloom_crop",
   "neapolitan:strawberry_pips",
@@ -41,6 +41,12 @@
   "druidcraft:hemp_seeds",
   "atmospheric:aloe_kernels",
   "neapolitan:adzuki_beans",
-  "neapolitan:mint_sprout"
+  "neapolitan:mint_sprout",
+  "nethers_delight:crimson_fungus_colony_item",
+  "nethers_delight:warped_fungus_colony_item",
+  "crockpot:unknown_seeds",
+  "supplementaries:flax_seeds",
+  "farmersdelight:cabbage_seeds",
+  "farmersdelight:rice"
   ]
 }

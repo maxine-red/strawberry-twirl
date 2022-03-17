@@ -1,0 +1,15 @@
+{
+  "name": "Stonelings",
+  "icon": "quark:diamond_heart",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Little friends, you can tame with diamond hearts!$(br2)They appear deep underground and scream, when you get too close. Be careful.$(br2)Recipe is on the side."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "quark:diamond_heart"
+    }
+  ]
+}

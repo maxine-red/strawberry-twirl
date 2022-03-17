@@ -1,15 +1,25 @@
 {
   "name": "Serene Seasons",
-  "icon": "sereneseasons:season_sensor",
+  "icon": "sereneseasons:calendar",
   "category": "patchouli:mods",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Crops don't always grow!$(br2)There are seasons and they change.#(br)Your surroundings change too, which tells you what season you are in.$(br2)Consult JEI to see, what seasons a crop grows in."
+      "text": "Crops don't always grow!$(br2)There are seasons and they change.$(br)Your surroundings change too, which tells you what season you are in.$(br2)Consult JEI to see, what seasons a crop grows in."
     },
     {
       "type": "patchouli:text",
-      "text": "You can always grow a crop, inside of a green house. Just have a glass block over them, and they will grow in any season.$(br2)otherwise they just won't grow, until they are in season again.$(br2)$(l)Tip:$() You always start in early spring. So you can track seasons, by knowing that each season is 8 days long."
+      "text": "You can always grow a crop, inside of a green house. Just have a glass block over them, and they will grow in any season.$(br2)otherwise they just won't grow, until they are in season again.$(br2)Your calendar shows you your current season.$(br)On the following pages, you see how it's made."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sereneseasons:calendar",
+      "text": "Shows your the current season."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "sereneseasons:season_sensor",
+      "text": "Detects a certain season!"
     }
   ]
 }

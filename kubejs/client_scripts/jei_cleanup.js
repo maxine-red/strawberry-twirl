@@ -39,10 +39,9 @@ var remove_items = [
 	
 	'farmersdelight:wheat_dough',
 	
-    /quark:\w+rang/,
-	/quark:\w*biotite\w*/,
+    /quark:\w*biotite\w*/,
 	'quark:lit_lamp',
-	'quark:diamond_heart',
+	//'quark:diamond_heart',
 	'quark:crate',
 	'quark:potato_crate',
 	'quark:carrot_crate',

@@ -11,7 +11,7 @@
 	"minecraft:brown_mushroom",
 	"minecraft:seagrass",
 	"minecraft:sea_pickle",
-	"minecraft:sweet_berries",
+  "berry_good:sweet_berry_pips",
 	"minecraft:grass_block",
 	"minecraft:grass",
 	"minecraft:fern",
@@ -22,7 +22,7 @@
   "farmersdelight:brown_mushroom_colony",
   "farmersdelight:red_mushroom_colony",
   "druidcraft:blueberries",
-  "autumnity:foul_berries",
+  "autumnity:foul_berry_pips",
   "neapolitan:vanilla_pods",
   "crockpot:pepper_seeds",
   "farmersdelight:tomato_seeds",
@@ -32,6 +32,8 @@
   "immersiveengineering:seed",
   "druidcraft:hemp_seeds",
   "abundance:lavender",
-  "neapolitan:adzuki_beans"
+  "neapolitan:adzuki_beans",
+  "crockpot:unknown_seeds",
+  "farmersdelight:rice"
   ]
 }

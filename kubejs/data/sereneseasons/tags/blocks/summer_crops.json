@@ -28,6 +28,7 @@
   "druidcraft:blueberry_bush",
   "autumnity:foul_berry_bush",
   "autumnity:tall_foul_berry_bush",
+  "autumnity:foul_berry_bush_pips",
   "atmospheric:barrel_cactus",
   "ars_nouveau:mana_bloom_crop",
   "neapolitan:strawberry_bush",
@@ -43,6 +44,14 @@
   "druidcraft:hemp_crop",
   "atmospheric:aloe_vera",
   "neapolitan:adzuki_soil",
-  "neapolitan:mint"
+  "neapolitan:adzuki_sprouts",
+  "neapolitan:mint",
+  "nethers_delight:crimson_fungus_colony",
+  "nethers_delight:warped_fungus_colony",
+  "crockpot:unknown_crops",
+  "supplementaries:flax",
+  "farmersdelight:cabbages",
+  "farmersdelight:rice_crop",
+  "farmersdelight:rice_upper_crop"
   ]
 }

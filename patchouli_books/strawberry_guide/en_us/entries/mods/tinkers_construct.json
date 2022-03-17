@@ -1,7 +1,7 @@
 {
   "name": "Tinker's Construct",
   "icon": "tconstruct:materials_and_you",
-  "turnin": "tconstruct:tools/materials_and_you",
+  "turnin": "tconstruct:foundry/encyclopedia",
   "category": "patchouli:mods",
   "pages": [
     {
@@ -11,7 +11,8 @@
     {
       "type": "patchouli:crafting",
       "recipe": "tconstruct:common/materials_and_you",
-      "title": "Materials and you"
+      "recipe2": "tconstruct:common/tinkers_gadgetry",
+      "title": "First Tinker books"
     },
     {
       "type": "patchouli:text",
@@ -19,8 +20,25 @@
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "tconstruct:common/encyclopedia",
-      "title": "Encyclopedia of Tinkering"
+      "advancement": "tconstruct:tools/materials_and_you",
+      "recipe": "tconstruct:common/puny_smelting",
+      "recipe2": "tconstruct:smeltery/seared/grout_multiple"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "tconstruct:smeltery/puny_smelting",
+      "text": "To get to mighty smelting, cast some seared stone over a fresh book."
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "tconstruct:smeltery/mighty_smelting",
+      "recipe": "tconstruct:common/fantastic_foundry",
+      "recipe2": "tconstruct:smeltery/scorched/nether_grout"
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "tconstruct:foundry/fantastic_foundry",
+      "recipe": "tconstruct:common/encyclopedia"
     }
   ]
 }

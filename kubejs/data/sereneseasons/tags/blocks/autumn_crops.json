@@ -12,6 +12,7 @@
 	"minecraft:seagrass",
 	"minecraft:sea_pickle",
 	"minecraft:sweet_berry_bush",
+  "berry_good:sweet_berry_bush_pips",
 	"minecraft:grass_block",
 	"minecraft:grass",
 	"minecraft:fern",
@@ -23,6 +24,7 @@
   "farmersdelight:red_mushroom_colony",
   "druidcraft:blueberry_bush",
   "autumnity:foul_berry_bush",
+  "autumnity:foul_berry_bush_pips",
   "autumnity:tall_foul_berry_bush",
   "neapolitan:vanilla_vine",
   "neapolitan:vanilla_vine_plant",
@@ -34,6 +36,10 @@
   "immersiveengineering:hemp",
   "druidcraft:hemp_crop",
   "abundance:lavender",
-  "neapolitan:adzuki_soil"
+  "neapolitan:adzuki_soil",
+  "neapolitan:adzuki_sprouts",
+  "crockpot:unknown_crops",
+  "farmersdelight:rice_crop",
+  "farmersdelight:rice_upper_crop"
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SDS",
+    "SSS"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/mana_diamond"
+    },
+    "S": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "quark:diamond_heart"
+  }
+} 

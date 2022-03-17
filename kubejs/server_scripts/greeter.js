@@ -31,5 +31,6 @@ onEvent('player.logged_in', event => {
     event.player.give(Item.of('akashictome:tome', '{"akashictome:is_morphing":1b,"akashictome:data":{theoneprobe:{id:"theoneprobe:probenote",Count:1b,tag:{display:{Name:\'{"text":"The One Probe Read Me"}\'}}}}}'))
     event.player.give(Item.of('patchouli:guide_book', '{"patchouli:book":"patchouli:strawberry_guide",display:{Name:\'{"text":"Strawberry Guide Book"}\'}}'))
     event.player.give('comforts:sleeping_bag_pink');
+    event.player.give('sereneseasons:calendar');
   }
 })

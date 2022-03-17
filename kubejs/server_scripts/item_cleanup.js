@@ -43,8 +43,6 @@ var sophisticated_upgrades = [
 	'sophisticatedbackpacks:stack_upgrade_tier_3',
 	'sophisticatedbackpacks:stack_upgrade_tier_4',
 	'sophisticatedbackpacks:tool_swapper_upgrade',
-	'sereneseasons:calendar',
-	'sereneseasons:season_sensor',
 	//'sophisticatedbackpacks:tank_upgrade'
 ];
 

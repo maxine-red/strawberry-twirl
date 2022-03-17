@@ -61,7 +61,10 @@ var wood_types = [
     {type: 'astralsorcery:infused_wood', stairs: true, log: true, wood: ''},
     {type: 'naturesaura:ancient', stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'},
     {type: 'nethers_exoticism:ramboutan', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_wood'},
-    {type: 'the_afterlight:moonlight', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'}
+    {type: 'the_afterlight:moonlight', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'},
+    {type: 'tconstruct:greenheart', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
+    {type: 'tconstruct:skyroot', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
+    {type: 'tconstruct:bloodshroom', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'}
 ]
 
 var special_wood_types = [
