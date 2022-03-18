@@ -52,6 +52,9 @@
   "supplementaries:flax",
   "farmersdelight:cabbages",
   "farmersdelight:rice_crop",
-  "farmersdelight:rice_upper_crop"
+  "farmersdelight:rice_upper_crop",
+  "bayou_blues:cypress_branch",
+  "druidcraft:elder_fruit",
+  "upgrade_aquatic:mulberry_vine"
   ]
 }

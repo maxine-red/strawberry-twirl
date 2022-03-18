@@ -13,7 +13,7 @@
     ],
     "key": {
         "D": {
-            "item": "botania:dragonstone_block"
+            "tag": "forge:storage_blocks/gold"
         },
         "M": {
             "tag": "botania:runes/mana"

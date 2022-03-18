@@ -2,13 +2,13 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "forge:flour"
+      "tag": "forge:dusts/flour"
+    },
+    {
+      "tag": "forge:dusts/flour"
     },
     {
       "item": "minecraft:sugar"
-    },
-    {
-      "tag": "forge:flour"
     },
     {
       "item": "minecraft:egg"
@@ -24,7 +24,7 @@
   "results": [
     {
       "item": "kubejs:sweet_dough",
-      "count": 1
+      "count": 2
     }
   ]
 }

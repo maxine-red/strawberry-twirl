@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:chips"
+    },
+    {
+      "item": "kubejs:salt"
+    },
+    {
+      "tag": "forge:cooked_fishes/cod"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:cod_n_chips"
+  }
+}

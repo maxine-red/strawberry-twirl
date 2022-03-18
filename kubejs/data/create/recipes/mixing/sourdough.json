@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "fluid": "pneumaticcraft:yeast_culture",
-      "amount": 250
+      "amount": 1000
     },
     {
       "item": "minecraft:egg"

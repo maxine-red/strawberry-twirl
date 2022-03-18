@@ -16,27 +16,7 @@
  * along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-var remove_items = [
-	'sophisticatedbackpacks:magnet_upgrade',
-	'sophisticatedbackpacks:advanced_magnet_upgrade',
-	'sophisticatedbackpacks:feeding_upgrade',
-	'sophisticatedbackpacks:compacting_upgrade',
-	'sophisticatedbackpacks:advanced_compacting_upgrade',
-	//'sophisticatedbackpacks:void_upgrade',
-	'sophisticatedbackpacks:advanced_void_upgrade',
-	'sophisticatedbackpacks:inception_upgrade',
-	'sophisticatedbackpacks:smelting_upgrade',
-	'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
-	'sophisticatedbackpacks:auto_smelting_upgrade',
-	//'sophisticatedbackpacks:crafting_upgrade',
-	//'sophisticatedbackpacks:stonecutter_upgrade',
-	//'sophisticatedbackpacks:stack_upgrade_tier_1',
-	//'sophisticatedbackpacks:stack_upgrade_tier_2',
-	'sophisticatedbackpacks:stack_upgrade_tier_3',
-	'sophisticatedbackpacks:stack_upgrade_tier_4',
-	'sophisticatedbackpacks:tool_swapper_upgrade',
-	//'sophisticatedbackpacks:tank_upgrade',
-	
+var remove_items = [	
 	'farmersdelight:wheat_dough',
 	
     /quark:\w*biotite\w*/,

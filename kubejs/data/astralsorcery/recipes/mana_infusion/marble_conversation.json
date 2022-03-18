@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "quark:marble"
+  },
+  "output": {
+    "item": "astralsorcery:marble_raw"
+  },
+  "mana": 35
+}

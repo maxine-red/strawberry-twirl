@@ -1,0 +1,34 @@
+{
+    "type": "sophisticatedbackpacks:backpack_upgrade",
+    "conditions": [
+        {
+            "itemRegistryName": "diamond_backpack",
+            "type": "sophisticatedbackpacks:item_enabled"
+        }
+    ],
+    "pattern": [
+        "UDG",
+        "DBD",
+        "MDM"
+    ],
+    "key": {
+        "D": {
+            "tag": "forge:ingots/netherite"
+        },
+        "M": {
+            "tag": "botania:runes/mana"
+        },
+        "G": {
+            "tag": "botania:runes/greed"
+        },
+        "U": {
+            "tag": "botania:runes/gluttony"
+        },
+        "B": {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+        }
+    },
+    "result": {
+        "item": "sophisticatedbackpacks:netherite_backpack"
+    }
+}

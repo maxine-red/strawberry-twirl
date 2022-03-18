@@ -20,31 +20,8 @@
 
 //settings.logAddedRecipes = true
 //settings.logRemovedRecipes = true
-settings.logSkippedRecipes = false
-settings.logErroringRecipes = true
-
-var sophisticated_upgrades = [
-	'sophisticatedbackpacks:magnet_upgrade',
-	'sophisticatedbackpacks:advanced_magnet_upgrade',
-	'sophisticatedbackpacks:advanced_magnet_upgrade_from_basic',
-	'sophisticatedbackpacks:feeding_upgrade',
-	'sophisticatedbackpacks:compacting_upgrade',
-	'sophisticatedbackpacks:advanced_compacting_upgrade',
-	//'sophisticatedbackpacks:void_upgrade',
-	//'sophisticatedbackpacks:advanced_void_upgrade',
-	'sophisticatedbackpacks:inception_upgrade',
-	'sophisticatedbackpacks:smelting_upgrade',
-	'sophisticatedbackpacks:advanced_tool_swapper_upgrade',
-	'sophisticatedbackpacks:auto_smelting_upgrade',
-	//'sophisticatedbackpacks:crafting_upgrade',
-	'sophisticatedbackpacks:stonecutter_upgrade',
-	//'sophisticatedbackpacks:stack_upgrade_tier_1',
-	//'sophisticatedbackpacks:stack_upgrade_tier_2',
-	'sophisticatedbackpacks:stack_upgrade_tier_3',
-	'sophisticatedbackpacks:stack_upgrade_tier_4',
-	'sophisticatedbackpacks:tool_swapper_upgrade',
-	//'sophisticatedbackpacks:tank_upgrade'
-];
+settings.logSkippedRecipes = false;
+settings.logErroringRecipes = true;
 
 var foods = [
 	'minecraft:bread',
@@ -59,11 +36,6 @@ var foods = [
 	'farmersdelight:raw_pasta_from_water',
 	'farmersdelight:raw_pasta_from_eggs',
 	'farmersdelight:raw_pasta',
-	'bayou_blues:crafting/gooseberry_jam_cookie',
-	'bayou_blues:crafting/honey_glazed_gooseberries',
-	'bayou_blues:crafting/gooseberry_juice',
-	'bayou_blues:crafting/gooseberry_jam',
-	'bayou_blues:crafting/gooseberry_jam_from_juice',
 	'farmersdelight:cake_from_milk_bottle'
 ];
 
@@ -71,10 +43,9 @@ var recipes = [
 	'farmersdelight:integration/create/mixing/pie_crust_from_mixing',
 	'astralsorcery:shaped/black_marble/black_marble_raw',
 	'astralsorcery:altar/black_marble_raw',
-    'abnormals_delight:environmental/cooking/squid_ink_risotto',
-    'autumnity:sugar_from_sap_bottle',
-    'neapolitan:chocolate/chocolate_bar',
+    'minecraft:sugar_from_honey_bottle',
     'create:bar_of_chocolate',
+    'minecraft:honey_block',
     /create:(blasting|smelting)\/\w*brass\w*/,
     'create:mixing/crushed_brass',
     'create:crushing/brass_block',
@@ -93,13 +64,9 @@ var recipes = [
     'create:milling/platinum_ore',
     'occultism:miner/ores/ore_aluminum',
     'occultism:miner/ores/ore_nickel',
-    'occultism:miner/ores/ore_uranium'
-];
-
-var mana_tags = [
-    '#mana-and-artifice:sandstonecutter_resettable_arcane_sandstones',
-    '#mana-and-artifice:sandstonecutter_resettable_chimerite_arcane_sandstones',
-    '#mana-and-artifice:sandstonecutter_resettable_vinteum_arcane_sandstones',
+    'occultism:miner/ores/ore_uranium',
+    'create:dough_by_mixing',
+    'create:mixing/dough_by_mixing'
 ];
 
 var create_andesite_alloy = [
@@ -113,9 +80,6 @@ var corundum_colors = ["red", "yellow", "green", "blue", "indigo", "violet", "wh
 
 
 onEvent('recipes', event => {
-	sophisticated_upgrades.forEach(item => {
-		event.remove({id: item});
-	});
 	
 	foods.forEach(item => {
 		event.remove({id: item});
@@ -123,10 +87,6 @@ onEvent('recipes', event => {
 	
 	recipes.forEach(recipe => {
 		event.remove({id: recipe});
-	});
-	
-	mana_tags.forEach(item => {
-		event.remove({input: item});
 	});
 	
 	create_andesite_alloy.forEach(item => {

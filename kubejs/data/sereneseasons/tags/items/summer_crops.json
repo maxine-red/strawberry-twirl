@@ -47,6 +47,13 @@
   "crockpot:unknown_seeds",
   "supplementaries:flax_seeds",
   "farmersdelight:cabbage_seeds",
-  "farmersdelight:rice"
+  "farmersdelight:rice",
+  "upgrade_aquatic:mulberry",
+  "bayou_blues:gooseberries",
+  "atmospheric:yucca_fruit",
+  "atmospheric:yucca_branch",
+  "bayou_blues:cypress_branch",
+  "druidcraft:elderflower",
+  "druidcraft:elderberries"
   ]
 }

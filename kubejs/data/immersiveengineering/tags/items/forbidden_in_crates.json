@@ -1,0 +1,4 @@
+{
+  "replace": false,
+  "values": ["#forge:shulker_boxes", "#supplementaries:extra_storage", "#sophisticatedbackpacks:backpacks", "engineersdecor:labeled_crate"]
+}

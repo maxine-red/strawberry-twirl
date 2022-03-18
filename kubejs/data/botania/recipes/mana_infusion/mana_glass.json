@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "tag": "forge:glass"
+  },
+  "output": {
+    "item": "botania:mana_glass"
+  },
+  "mana": 150
+}

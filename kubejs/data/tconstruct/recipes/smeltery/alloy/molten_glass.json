@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "astralsorcery:liquid_starlight",
+      "amount": 50
+    },
+    {
+      "name": "minecraft:lava",
+      "amount": 100
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:molten_glass",
+    "amount": 100
+  },
+  "temperature": 800
+}
