@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:scorched_stone_fluid",
+  "temperature": 773,
+  "thermalResistance": 100,
+  "transformCold": {
+    "block": "tconstruct:scorched_stone"
+  },
+  "heatCapacity": 10000
+}

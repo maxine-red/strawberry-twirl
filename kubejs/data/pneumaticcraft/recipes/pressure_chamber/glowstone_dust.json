@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:storage_blocks/glowstone"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "minecraft:glowstone_dust",
+      "count": 4
+    }
+  ]
+}

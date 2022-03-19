@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:seared_stone_fluid",
+  "temperature": 673,
+  "thermalResistance": 100,
+  "transformCold": {
+    "block": "tconstruct:seared_stone"
+  },
+  "heatCapacity": 10000
+}

@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:bones"
+    }
+  ],
+  "pressure": 1.5,
+  "results": [
+    {
+      "item": "minecraft:bone_meal",
+      "count": 6
+    }
+  ]
+}

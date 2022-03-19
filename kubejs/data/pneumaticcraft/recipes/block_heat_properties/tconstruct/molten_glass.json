@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:molten_glass_fluid",
+  "temperature": 1023,
+  "thermalResistance": 100,
+  "transformCold": {
+    "block": "minecraft:glass"
+  },
+  "heatCapacity": 10000
+}

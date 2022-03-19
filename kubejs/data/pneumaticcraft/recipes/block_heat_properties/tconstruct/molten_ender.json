@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:molten_ender_fluid",
+  "temperature": 750,
+  "thermalResistance": 100,
+  "transformCold": {
+    "block": "betterendforge:ender_block"
+  },
+  "heatCapacity": 10000
+}

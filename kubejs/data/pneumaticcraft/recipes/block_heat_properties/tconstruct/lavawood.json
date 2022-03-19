@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:lavawood",
+  "temperature": 1300,
+  "thermalResistance": 600,
+  "transformCold": {
+    "block": "mysticalworld:charred_planks"
+  },
+  "heatCapacity": 40000
+}

@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "druidcraft:fiery_glass_block",
+  "temperature": 721,
+  "thermalResistance": 20,
+  "transformCold": {
+    "block": "minecraft:orange_stained_glass"
+  },
+  "heatCapacity": 400000
+}

@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:magma_fluid",
+  "temperature": 1300,
+  "thermalResistance": 100,
+  "transformCold": {
+    "block": "minecraft:magma_block"
+  },
+  "heatCapacity": 10000
+}

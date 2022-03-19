@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:blood_fluid",
+  "temperature": 309,
+  "thermalResistance": 500,
+  "transformCold": {
+    "block": "tconstruct:blood_congealed_slime"
+  },
+  "heatCapacity": 5000
+}

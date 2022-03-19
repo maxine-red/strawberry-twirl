@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "astralsorcery:liquid_starlight",
+  "temperature": 137,
+  "thermalResistance": 100,
+  "transformHot": {
+    "block": "minecraft:air"
+  },
+  "heatCapacity": 10000
+}

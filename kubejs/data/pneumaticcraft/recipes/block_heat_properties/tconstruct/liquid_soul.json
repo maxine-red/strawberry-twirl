@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:liquid_soul_fluid",
+  "temperature": 673,
+  "thermalResistance": 100,
+  "transformCold": {
+    "block": "tconstruct:soul_glass"
+  },
+  "heatCapacity": 10000
+}

@@ -1,0 +1,6 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "druidcraft:fiery_torch",
+  "temperature": 1900,
+  "thermalResistance": 100000
+}

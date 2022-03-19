@@ -1,0 +1,9 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "tconstruct:blazing_blood_fluid",
+  "temperature": 1773,
+  "heatCapacity": 13500,
+  "transformCold": {
+    "block": "botania:blaze_block"
+  }
+}

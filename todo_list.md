@@ -172,13 +172,35 @@
 # Changes when played
 
 - [x] add sleeping bag to login loot
-- [ ] add sliced fish to cod 'n' chips and fish 'n' chips recipes
-- [ ] fix dirt recipe (broken)
-- [ ] add seasons to
-    - [ ] elderberries (summer, autumn, winter)
-    - [ ] mulberries (spring, summer)
-    - [ ] yucca (summer)
-    - [ ] banana (summer)
+- [x] add sliced fish to cod 'n' chips and fish 'n' chips recipes
+- [x] fix dirt recipe (broken)
+- [x] add seasons to
+    - [x] elderberries (summer, autumn, winter)
+    - [x] mulberries (spring, summer)
+    - [x] yucca (summer)
+- [x] make botania managlass use forge:glass
+- [x] make glass alloy in tinker (liquid starlight + magma)
+- [x] clean up sophisticated backpack upgrades
+- [x] add quark marble to astral marble (maybe botania?)
+- [x] add cocoa powder recipe to milling
+- [x] remove create dough mixing recipe
+- [x] change sourdough mising recipe to require a bucket of yeast
+- [x] add stuff from forge:flour to forge:dusts/flour and update sweet dough recipe
+- [x] update cookie recipes in chest to use sweet dough instead
+- [x] repair gooseberry recipes (in chest)
+- [x] change pie recipes (chest) to resmble more pumpkin pie
+- [x] change panckake (autumnity and spplimentary) to use forge:dusts/flour
+- [x] change cake recipes (chest) to use sweet dough (similar to cherry cake)
+- [x] add knife + butter to honey and mulberry bread recipes
+- [x] add recipe for forge:syrups to 2 sugar
+- [x] remove minecraft:sugar_from_honey_bottle recipe
+- [ ] add recipes to pressure chamber (1.5bar)
+    - [x] 1x bone -> 6x bone meal
+    - [x] 1x blaze rod -> 4x blaze powder
+    - [x] 1x glowstone block -> 4x glowstone dust
+    - [x] 1x sugar cane -> 3x sugar
+- [x] change fluid mixing obsidian recipe, to use 500mb water and 500mb lava and 3 bar air presure
+- [x] add same recipe for sand (but liquid starlight, instead of water)
 ## Crock pot
 - [ ] look through ingredients and see which ones are missing stuff
 
