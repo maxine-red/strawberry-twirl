@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "botania:blaze_quartz_pillar",
+  "temperature": 759,
+  "thermalResistance": 500,
+  "transformCold": {
+    "block": "minecraft:quartz_pillar"
+  },
+  "heatCapacity": 20000
+}

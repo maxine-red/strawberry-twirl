@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:magma_block",
+    "farmersdelight:stove",
+    "nethers_delight:blackstone_stove",
+    "supplementaries:magma_cream_block",
+    "quark:brimstone",
+    "immersiveengineering:storage_uranium",
+    "druidcraft:fiery_glass_block",
+    "quark:blaze_lantern",
+    "botania:blaze_block",
+    "tconstruct:lavawood",
+    "tconstruct:blazewood",
+    "botania:blaze_quartz",
+    "botania:chiseled_blaze_quartz",
+    "botania:blaze_quartz_pillar"
+	]
+}

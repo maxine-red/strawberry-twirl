@@ -1,0 +1,10 @@
+{
+  "type": "crockpot:food_values",
+  "items": [
+    "neapolitan:ice_cubes",
+    "simplytea:ice_cube"
+  ],
+  "values": {
+    "FROZEN": 0.5
+  }
+}

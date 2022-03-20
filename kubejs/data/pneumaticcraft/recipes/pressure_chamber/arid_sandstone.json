@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "atmospheric:arid_sand"
+    },
+    {
+      "item": "atmospheric:arid_sand"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "atmospheric:arid_sandstone"
+    }
+  ]
+}

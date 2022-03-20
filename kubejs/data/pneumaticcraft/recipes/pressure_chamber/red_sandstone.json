@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:red_sand"
+    },
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "minecraft:red_sandstone"
+    }
+  ]
+}

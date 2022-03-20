@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:heat_properties",
+  "block": "supplementaries:magma_cream_block",
+  "temperature": 1300,
+  "thermalResistance": 600,
+  "transformCold": {
+    "block": "minecraft:slime_block"
+  },
+  "heatCapacity": 40000
+}

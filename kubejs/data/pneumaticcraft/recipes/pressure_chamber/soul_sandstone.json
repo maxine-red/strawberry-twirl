@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "quark:soul_sandstone"
+    }
+  ]
+}

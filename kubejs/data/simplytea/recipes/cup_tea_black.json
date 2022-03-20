@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simplytea:cup"
+    },
+    {
+      "tag": "tea_kettle:black_tea_leaves"
+    },
+    {
+      "item": "simplytea:teapot_hot"
+    }
+  ],
+  "result": {
+    "item": "simplytea:cup_tea_black"
+  }
+}
