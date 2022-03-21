@@ -32,6 +32,7 @@ minecraftinstance.json
 .curseclient
 options.txt
 *.bak
+todo_list.md
 
 # Client configs
 

@@ -282,7 +282,7 @@
 		"Normal Upgrade Cost" = 10
 		#Set to 0 to not generate in Woodland Mansions
 		"Woodland Mansion Weight" = 15
-		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
+		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing", "allurement:shockwave", "allurement:reeling", "allurement:launch", "create:potato_recovery", "create:capacity", "farmersdelight:backstabbing", "ars_nouveau:mana_regen", "ars_nouveau:mana_boost", "ars_nouveau:reactive", "tombstone:curse_of_bones", "tombstone:plague_bringer", "tombstone:magic_siphon", "tombstone:shadow_step", "walljump:speedboost", "walljump:doublejump", "mana-and-artifice:cloudstep", "kobolds:prospector", "allurement:vengeance"]
 		"Item Quality" = 2
 		#Set to 0 to not generate in Dungeons
 		"Dungeon Weight" = 20

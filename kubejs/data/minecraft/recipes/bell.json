@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "GGG",
+    "GNG"
+  ],
+  "key": {
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "G": {
+      "tag": "forge:plates/gold"
+    },
+    "N": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "result": {
+    "item": "minecraft:bell"
+  }
+}

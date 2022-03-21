@@ -1,7 +1,7 @@
 {
   "type": "botania:mana_infusion",
   "input": {
-    "item": "simplytea:tea_leaf"
+    "item": "simplytea:teabag_green"
   },
   "output": {
     "item": "tea_kettle:tea_leaf"

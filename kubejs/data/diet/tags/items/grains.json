@@ -1,4 +1,4 @@
 {
   "replace": false,
-  "values": ["minecraft:pumpkin_pie", "bayou_blues:gooseberry_pie", "kubejs:jam_sandwich", "kubejs:red_jam_sandwich", "kubejs:purple_jam_sandwich", "kubejs:sliced_bread", "kubejs:buttered_bread", "kubejs:magic_buttered_bread"]
+  "values": ["minecraft:pumpkin_pie", "minecraft:bread", "bayou_blues:gooseberry_pie", "kubejs:jam_sandwich", "kubejs:red_jam_sandwich", "kubejs:purple_jam_sandwich", "kubejs:sliced_bread", "kubejs:buttered_bread", "kubejs:magic_buttered_bread"]
 }

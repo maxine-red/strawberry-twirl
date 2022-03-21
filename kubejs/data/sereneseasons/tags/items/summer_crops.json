@@ -54,6 +54,12 @@
   "atmospheric:yucca_branch",
   "bayou_blues:cypress_branch",
   "druidcraft:elderflower",
-  "druidcraft:elderberries"
+  "druidcraft:elderberries",
+  "tea_kettle:tea_leaf",
+  "nethers_exoticism:ramboutan_sapling",
+  "nethers_exoticism:jaboticaba_sapling",
+  "nethers_exoticism:bouddha_s_hand_sapling",
+  "nethers_exoticism:kiwano_sapling",
+  "nethers_exoticism:pitaya_sapling"
   ]
 }

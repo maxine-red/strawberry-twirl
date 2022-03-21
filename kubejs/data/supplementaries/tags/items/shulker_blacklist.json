@@ -1,4 +1,4 @@
 {
-  "replace": false,
-  "values": ["#immersiveengineering:crates", "#sophisticatedbackpacks:backpacks"]
+  "replace": true,
+  "values": ["#forge:shulker_like"]
 }
