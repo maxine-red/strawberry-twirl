@@ -24,7 +24,6 @@ var metals = [
     {metal: 'lead', dust: 'mysticalworld:lead_dust', secondary: {dust: 'mysticalworld:silver_dust', chance: 0.1}, ingot: 'mysticalworld:lead_ingot'},
     {metal: 'nickel', dust: 'immersiveengineering:dust_nickel', ingot: 'immersiveengineering:ingot_nickel'},
     {metal: 'aluminum', dust: 'immersiveengineering:dust_aluminum', ingot: 'immersiveengineering:ingot_aluminum'},
-    {metal: 'lead', dust: 'mysticalworld:lead_dust', secondary: {dust: 'mysticalworld:silver_dust', chance: 0.1}, ingot: 'immersiveengineering:ingot_lead'},
     {metal: 'uranium', dust: 'immersiveengineering:dust_uranium', secondary: {dust: 'mysticalworld:lead_dust', chance: 0.1}, ingot: 'immersiveengineering:ingot_uranium'},
     {metal: 'starmetal', dust: 'astralsorcery:stardust', secondary: {dust: 'mysticalworld:quicksilver_dust', chance: 0.1}, ingot: 'astralsorcery:starmetal_ingot'},
     {metal: 'quicksilver', dust: 'mysticalworld:quicksilver_dust', secondary: {dust: 'astralsorcery:stardust', chance: 0.1}, ingot: 'mysticalworld:quicksilver_ingot'},
@@ -81,19 +80,20 @@ onEvent('recipes', event => {
         event.remove({type: 'immersiveengineering:crusher', input: `#forge:ingots/${metal.metal}`});
         event.remove({type: 'create:crushing', input: `#forge:ores/${metal.metal}`});
         event.remove({type: 'create:milling', input: `#forge:ores/${metal.metal}`});
-            event.remove({type: 'minecraft:smelting', input: `create:crushed_${metal.metal}_ore`});
-            event.remove({type: 'minecraft:blasting', input: `create:crushed_${metal.metal}_ore`});
-            event.remove({type: 'minecraft:smelting', input: `#forge:ores/${metal.metal}`});
-            event.remove({type: 'minecraft:blasting', input: `#forge:ores/${metal.metal}`});
-            event.remove({type: 'minecraft:smelting', input: `#forge:dusts/${metal.metal}`});
-            event.remove({type: 'minecraft:blasting', input: `#forge:dusts/${metal.metal}`});
-            event.smelting(metal.ingot, metal.dust);
-            event.blasting(metal.ingot, metal.dust);
-            event.smelting(metal.ingot, `#forge:ores/${metal.metal}`);
-            event.blasting(metal.ingot, `#forge:ores/${metal.metal}`);
+        event.remove({type: 'minecraft:smelting', input: `create:crushed_${metal.metal}_ore`});
+        event.remove({type: 'minecraft:blasting', input: `create:crushed_${metal.metal}_ore`});
+        event.remove({type: 'minecraft:smelting', input: `#forge:ores/${metal.metal}`});
+        event.remove({type: 'minecraft:blasting', input: `#forge:ores/${metal.metal}`});
+        event.remove({type: 'minecraft:smelting', input: `#forge:dusts/${metal.metal}`});
+        event.remove({type: 'minecraft:blasting', input: `#forge:dusts/${metal.metal}`});
+        event.smelting(metal.ingot, metal.dust);
+        event.blasting(metal.ingot, metal.dust);
+        event.smelting(metal.ingot, `#forge:ores/${metal.metal}`);
+        event.blasting(metal.ingot, `#forge:ores/${metal.metal}`);
         event.custom(hammerCrushingRecipe(metal.dust, metal.metal));
         event.custom(crushingSpiritOreRecipe(metal.dust, metal.metal));
         event.custom(crushingSpiritIngotRecipe(metal.dust, metal.metal));
+        event.custom(crushingPressureChamberRecipe(Item.of(metal.dust, 4), `#forge:ores/${metal.metal}`));
         if (metal.secondary === undefined) {
             event.recipes.immersiveengineering.crusher(Item.of(metal.dust, 2), `#forge:ores/${metal.metal}`);
             event.recipes.create.crushing([Item.of(metal.dust, 2), Item.of('minecraft:cobblestone').withChance(0.125)], `#forge:ores/${metal.metal}`);

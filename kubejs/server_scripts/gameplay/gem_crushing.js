@@ -60,5 +60,6 @@ onEvent('recipes', event => {
             event.recipes.create.crushing([Item.of(gemstone, 2 * gem.count), Item.of(gemstone, gem.count).withChance(0.25)], ore);
         }
         event.custom(starlightInfusionRecipe(ore, Item.of(gemstone, 5 * gem.count)));
+        event.custom(crushingPressureChamberRecipe(Item.of(gemstone, 6 * gem.count), ore));
     });
 });

@@ -16,6 +16,8 @@
 /config/cherishedworlds
 /tconplanner
 /schematics
+/backups
+/local
 
 # File to ignore
 
@@ -33,6 +35,7 @@ minecraftinstance.json
 options.txt
 *.bak
 todo_list.md
+TrashSlotSaveState.json
 
 # Client configs
 
