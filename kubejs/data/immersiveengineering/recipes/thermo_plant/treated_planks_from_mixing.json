@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "item_input": {
+    "tag": "minecraft:planks"
+  },
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "forge:creosote",
+    "amount": 100
+  },
+  "item_output": {
+    "item": "immersiveengineering:treated_wood_horizontal"
+  },
+  "exothermic": false
+}

@@ -2,14 +2,14 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
-      "tag": "forge:ores/coal"
+      "tag": "forge:ores/vinteum"
     }
   ],
   "pressure": 4.0,
   "results": [
     {
-      "item": "minecraft:coal",
-      "count": 8
+      "item": "mana-and-artifice:vinteum_dust",
+      "count": 3
     }
   ]
 }
