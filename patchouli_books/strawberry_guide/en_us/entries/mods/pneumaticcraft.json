@@ -22,6 +22,35 @@
       "type": "patchouli:crafting",
       "advancement": "pneumaticcraft:root",
       "recipe": "pneumaticcraft:patchouli_book_crafting"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "pneumaticcraft:vortex_tube",
+      "text": "Combine these with a heat frame.$(br)JEI shows cooling recipes, but the heat frame takes any furnace recipes and adds them to itself.$(br2)This means, you can smelt anything, with the power of heating!"
+    },
+    {
+      "type": "patchouli:text",
+      "advancement": "pneumaticcraft:refinery",
+      "text": "Combine these with a heat frame.$(br)JEI shows cooling recipes, but the heat frame takes any furnace recipes and adds them to itself.$(br2)This means, you can smelt anything, with the power of heating!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "pneumaticcraft:refinery",
+      "item": "pneumaticcraft:heat_frame",
+      "text": "Put it around any inventory and have fluids be cooled solid. (Put tanks of that fluid in for that)$(br2)You can also use it to smelt items, where any furnace recipe works!"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "advancement": "pneumaticcraft:refinery",
+      "item": "pneumaticcraft:vortex_tube",
+      "text": "A mechanical device to split hot and cold air.$(br2)One side gets cold, so you can cool things.$(br)The other side gets hot.$(br)There are ways to reduce the waste of heat/cold."
+    },
+    {
+      "type": "patchouli:crafting",
+      "advancement": "pneumaticcraft:refinery",
+      "title": "A grand combination",
+      "recipe": "pneumaticcraft:vortex_tube",
+      "recipe2": "pneumaticcraft:heat_frame"
     }
   ]
 }

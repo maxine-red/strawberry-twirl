@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "tea_kettle:tea_leaf"
+  },
+  "output": {
+    "item": "simplytea:teabag_green"
+  },
+  "mana": 35
+}

@@ -64,5 +64,5 @@
 	#If, when the F3 debug menu is open and the player is in creative mode, every Aura spot should be highlighted in the world for debug purposes
 	debugWorld = false
 	#If certain equippable items, like the Environmental Eye, should be rendered on the player
-	renderItemsOnPlayer = true
+	renderItemsOnPlayer = false
 

@@ -2,7 +2,10 @@
   // Wether Fey Flowers particles should spawn.
   "flower_particles": true,
   
-  // Whether Feywild should replace the main menu and music
+  // Whether Glow Layers for the Shroomling and Blacksmith should be used: Optifine Users should always disable this!
+  "mob_glow": true,
+  
+  // Whether Feywild should replace the main menu and creative music in game
   "replace_menu": true,
   
   // Whether tree particles should spawn.

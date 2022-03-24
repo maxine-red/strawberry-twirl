@@ -54,6 +54,7 @@ var recipes = [
     'feywild:schematics_yggdrasil_rune_crafting',
     /feywild:runes\/\w+heim_rune/,
     /feywild:runes\/\w+gard_rune/,
+    /nethers_delight:mimicry\/.+/,
     'feywild:runes/joetunheim',
     'feywild:runes/nidavellir_rune',
     'feywild:smelting/fey_dust',

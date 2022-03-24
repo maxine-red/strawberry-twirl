@@ -85,7 +85,6 @@ onEvent('recipes', event => {
         }
     });
     dyes.forEach(dye => {
-        console.info(dye);
         event.custom(crushingPressureChamberRecipe(dye.output, dye.input, 1.0));
         event.recipes.create.milling([dye.output, dye.secondary], dye.input);
         event.recipes.immersiveengineering.crusher(dye.output, dye.input, dye.secondary);

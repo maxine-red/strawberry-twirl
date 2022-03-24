@@ -2,14 +2,14 @@
   "type": "pneumaticcraft:pressure_chamber",
   "inputs": [
     {
-      "tag": "forge:ores/coal"
+      "tag": "forge:ores/fiery"
     }
   ],
   "pressure": 4.0,
   "results": [
     {
-      "item": "minecraft:coal",
-      "count": 6
+      "item": "druidcraft:fiery_glass",
+      "count": 12
     }
   ]
 }
