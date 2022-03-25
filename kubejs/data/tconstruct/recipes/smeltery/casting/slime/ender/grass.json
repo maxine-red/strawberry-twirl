@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "minecraft:grass_block"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:ender_slime",
+    "amount": 1000
+  },
+  "result": "tconstruct:ender_vanilla_slime_grass",
+  "cooling_time": 65
+}

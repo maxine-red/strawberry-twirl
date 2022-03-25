@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "minecraft:dirt"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "minecraft:lava",
+    "amount": 100
+  },
+  "result": "minecraft:cobblestone",
+  "cooling_time": 65
+}

@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "pneumaticcraft:printed_circuit_board",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 6
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 9,
+      "experience": 15
+    }
+  ]
+}
