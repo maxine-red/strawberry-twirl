@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:ores/netherite_scrap"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "count": 3
+    }
+  ]
+}

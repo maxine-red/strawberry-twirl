@@ -30,6 +30,7 @@ var metals = [
     {metal: 'tin', dust: 'mysticalworld:tin_dust', ingot: 'mysticalworld:tin_ingot'},
     {metal: 'iesnium', dust: 'occultism:iesnium_dust', ingot: 'occultism:iesnium_ingot'},
     {metal: 'zinc', dust: 'create:crushed_zinc_ore', ingot: 'create:zinc_ingot'},
+    {metal: 'platinum', dust: 'create:crushed_platinum_ore', ingot: 'wyrmroost:platinum_ingot'}
 ];
 
 function hammerCrushingRecipe(dust, ore) {

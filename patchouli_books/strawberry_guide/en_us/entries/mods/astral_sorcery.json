@@ -10,6 +10,11 @@
     {
       "type": "patchouli:crafting",
       "recipe": "astralsorcery:shaped/tome"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "astralsorcery:marble_raw",
+      "text": "The marble in this world does not exhibit the properties of old, but an infusion of magic might just do the trick..."
     }
   ]
 }

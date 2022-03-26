@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:iron_ingot",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "create:zinc_ingot",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:trowel",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 3,
+      "experience": 0
+    }
+  ]
+}

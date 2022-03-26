@@ -64,21 +64,22 @@ var wood_types = [
     {type: 'the_afterlight:moonlight', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'},
     {type: 'tconstruct:greenheart', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'tconstruct:skyroot', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
-    {type: 'tconstruct:bloodshroom', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'}
+    {type: 'tconstruct:bloodshroom', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
+    {type: 'feywild:spring', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: true, bark: '_wood', log_attribute: '_tree'},
+    {type: 'feywild:summer', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: true, bark: '_wood', log_attribute: '_tree'},
+    {type: 'feywild:autumn', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: true, bark: '_wood', log_attribute: '_tree'},
+    {type: 'feywild:winter', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: true, bark: '_wood', log_attribute: '_tree'}
 ]
 
 var special_wood_types = [
     {type: 'ars_nouveau:blue_archwood', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'ars_nouveau:purple_archwood', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'ars_nouveau:green_archwood', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', stripping: true, bark: '_wood'},
-    {type: 'ars_nouveau:red_archwood', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', stripping: true, bark: '_wood'},
-    {type: 'feywild:spring_tree', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', bark: '_wood'},
-    {type: 'feywild:summer_tree', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', bark: '_wood'},
-    {type: 'feywild:autumn_tree', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', bark: '_wood'},
-    {type: 'feywild:winter_tree', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', bark: '_wood'}
+    {type: 'ars_nouveau:red_archwood', planks: 'ars_nouveau:archwood_planks', log: true, wood: '_log', stripping: true, bark: '_wood'}
 ]
 
 var sawdust = 'immersiveengineering:dust_wood';
+var bark = 'farmersdelight:tree_bark';
 
 function createFarmersDelightCuttingRecipe(ingredient, planks) {
     return {
@@ -143,16 +144,24 @@ onEvent('recipes', event => {
             event.recipes.immersiveengineeringSawmill(Item.of(planks, 4), type + '_bookshelf', [{stripping: false, output: sawdust},{stripping: false, output: Item.of('minecraft:book', 3)}]);
         }
         if (wood_type.stairs) {
-            event.recipes.immersiveengineeringSawmill(planks, wood_type.type + '_stairs', {stripping: false, output: sawdust});
+            if (wood_type.log_attribute === undefined) {
+                event.recipes.immersiveengineeringSawmill(planks, wood_type.type + '_stairs', {stripping: false, output: sawdust});
+            }
+            else {
+                event.recipes.immersiveengineeringSawmill(planks, wood_type.type + '_planks_stairs', {stripping: false, output: sawdust});
+            }
         }
         if (wood_type.log) {
             if (wood_type.stripping) {
-                secondary = [{stripping: true, output: sawdust}, {stripping: false, output: sawdust}];
+                secondary = [{stripping: true, output: bark}, {stripping: false, output: sawdust}];
                 let stripped = wood_type.type.replace(':', ':stripped_');
-                if (wood_type.bark === '_bark') {
-                    stripped = wood_type.type + '_stripped';
+                if (wood_type.bark === '_bark' || wood_type.log_attribute !== undefined) {
+                    stripped = wood_type.type + '_stripped'
                 }
-                let base_wood = [wood_type.type +  wood_type.wood, wood_type.type +  wood_type.bark];
+                let base_wood = [wood_type.type + wood_type.wood, wood_type.type + wood_type.bark];
+                if (wood_type.log_attribute !== undefined) {
+                    base_wood = [wood_type.type + wood_type.log_attribute + wood_type.wood, wood_type.type + wood_type.log_attribute + wood_type.bark];
+                }
                 if (wood_type.type === 'abundance:redbud') {
                     base_wood.push('abundance:flowering_redbud_log', 'abundance:flowering_redbud_wood');
                 }
@@ -162,10 +171,16 @@ onEvent('recipes', event => {
                 else if (wood_type.type === 'atmospheric:aspen') {
                     base_wood.push('atmospheric:watchful_aspen_log', 'atmospheric:watchful_aspen_wood');
                 }
-                event.recipes.immersiveengineeringSawmill(Item.of(planks, 6), base_wood, [{stripping: true, output: sawdust}, {stripping: false, output: sawdust}], stripped + wood_type.wood);
+                event.recipes.immersiveengineeringSawmill(Item.of(planks, 6), base_wood, [{stripping: true, output: bark}, {stripping: false, output: sawdust}], stripped + wood_type.wood);
                 event.recipes.immersiveengineeringSawmill(Item.of(planks, 6), [stripped +  wood_type.wood, stripped +  wood_type.bark], {stripping: false, output: sawdust});
-                event.custom(createFarmersDelightStrippingRecipe(wood_type.type +  wood_type.wood, stripped + wood_type.wood));
-                event.custom(createFarmersDelightStrippingRecipe(wood_type.type +  wood_type.bark, stripped + wood_type.bark));
+                if (wood_type.log_attribute === undefined) {
+                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.wood, stripped + wood_type.wood));
+                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.bark, stripped + wood_type.bark));
+                }
+                else {
+                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.log_attribute + wood_type.wood, stripped + wood_type.wood));
+                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.log_attribute + wood_type.bark, stripped + wood_type.bark));
+                }
             }
             else {
                 event.recipes.immersiveengineeringSawmill(Item.of(planks, 6), wood_type.type +  wood_type.wood, {stripping: false, output: sawdust});
@@ -174,9 +189,9 @@ onEvent('recipes', event => {
     });
     special_wood_types.forEach(wood_type => {
         if (wood_type.stripping) {
-            secondary = [{stripping: true, output: sawdust}, {stripping: false, output: sawdust}];
+            secondary = [{stripping: true, output: bark}, {stripping: false, output: sawdust}];
             let stripped = wood_type.type.replace(':', ':stripped_');
-            event.recipes.immersiveengineeringSawmill(Item.of(wood_type.planks, 6), [wood_type.type +  wood_type.wood, wood_type.type +  wood_type.bark], [{stripping: true, output: sawdust}, {stripping: false, output: sawdust}], stripped + wood_type.wood);
+            event.recipes.immersiveengineeringSawmill(Item.of(wood_type.planks, 6), [wood_type.type +  wood_type.wood, wood_type.type +  wood_type.bark], [{stripping: true, output: bark}, {stripping: false, output: sawdust}], stripped + wood_type.wood);
             event.recipes.immersiveengineeringSawmill(Item.of(wood_type.planks, 6), [stripped +  wood_type.wood, stripped +  wood_type.bark], {stripping: false, output: sawdust});
             }
             else {

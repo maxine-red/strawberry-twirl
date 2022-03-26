@@ -4,56 +4,58 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "immersiveengineering:blueprint",
-        "nbt": "{blueprint:'electrode'}",
+        "item": "minecraft:ender_pearl",
         "count": 1
       },
       "payment_item": {
         "item": "minecraft:emerald",
-        "count": 48
+        "count": 6
       },
       "price_multiplier": 0.0,
-      "max_trades": 1,
-      "experience": 250
+      "max_trades": 9,
+      "experience": 15
     },
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "artifacts:villager_hat",
+        "item": "botania:monocle",
         "count": 1
       },
       "payment_item": {
-        "item": "artifacts:superstitious_hat",
+        "item": "botania:manasteel_ingot",
         "count": 1
       },
       "price_multiplier": 0.0,
       "max_trades": 1,
-      "experience": 250
+      "experience": 120
     },
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "artifacts:superstitious_hat",
+        "item": "wyrmroost:coin_dragon",
         "count": 1
       },
       "payment_item": {
-        "item": "artifacts:villager_hat",
-        "count": 1
+        "item": "createdeco:gold_coinstack",
+        "count": 8
       },
       "price_multiplier": 0.0,
-      "max_trades": 1,
-      "experience": 250
+      "max_trades": 4,
+      "experience": 30
     },
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "astralsorcery:rock_crystal",
-        "nbt": "{astralsorcery:{}}",
+        "item": "undergarden:catalyst",
         "count": 1
       },
       "payment_item": {
-        "item": "astralsorcery:starmetal_ingot",
-        "count": 36
+        "item": "minecraft:diamond",
+        "count": 1
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:gold_ingot",
+        "count": 6
       },
       "price_multiplier": 0.0,
       "max_trades": 12,
@@ -62,16 +64,16 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:rabbit_foot",
+        "item": "quark:diamond_heart",
         "count": 1
       },
       "payment_item": {
-        "item": "minecraft:emerald",
-        "count": 16
+        "item": "botania:mana_diamond",
+        "count": 1
       },
       "price_multiplier": 0.0,
-      "max_trades": 3,
-      "experience": 20
+      "max_trades": 12,
+      "experience": 60
     }
   ]
 }

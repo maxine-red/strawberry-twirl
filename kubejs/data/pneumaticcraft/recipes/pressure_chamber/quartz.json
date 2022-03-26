@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:ores/quartz"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "minecraft:quartz",
+      "count": 6
+    }
+  ]
+}

@@ -24,11 +24,6 @@
       "type": "block",
       "block": "wyrmroost:red_geode_ore",
       "weight": 2569
-    },
-    {
-      "type": "block",
-      "block": "tconstruct:cobalt_ore",
-      "weight": 697
     }
   ]
 }

@@ -1666,8 +1666,8 @@
 [mobs]
 	Frogs = true
 	Crabs = true
-	Stonelings = false
-	Foxhound = true
+	Stonelings = true
+	Foxhound = false
 	Forgotten = true
 	Wraith = true
 	Toretoise = true
@@ -1736,7 +1736,7 @@
 
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
-		"Tame Chance" = 0.25
+		"Tame Chance" = 0.05
 
 		[mobs.foxhound.lesser_spawn_config]
 			#Allowed values: (0,)
@@ -1760,7 +1760,7 @@
 					"Is Blacklist" = true
 
 				[mobs.foxhound.lesser_spawn_config.biomes.biomes]
-					Biomes = []
+					Biomes = ["minecraft:soul_sand_valley"]
 					"Is Blacklist" = false
 
 		[mobs.foxhound.spawn_config]
@@ -1783,7 +1783,7 @@
 					"Is Blacklist" = true
 
 				[mobs.foxhound.spawn_config.biomes.biomes]
-					Biomes = []
+					Biomes = ["minecraft:nether_wastes", "minecraft:basalt_deltas"]
 					"Is Blacklist" = false
 
 	[mobs.wraith]

@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:ores/aquamarine"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "astralsorcery:aquamarine",
+      "count": 12
+    }
+  ]
+}
