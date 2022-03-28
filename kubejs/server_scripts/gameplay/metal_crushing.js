@@ -33,45 +33,6 @@ var metals = [
     {metal: 'platinum', dust: 'create:crushed_platinum_ore', ingot: 'wyrmroost:platinum_ingot'}
 ];
 
-function hammerCrushingRecipe(dust, ore) {
-    return {
-        type: 'immersiveengineering:hammer_crushing',
-        result: {
-            item: dust
-        },
-        input: {
-            tag: `forge:ores/${ore}`
-        }
-    };
-}
-
-function crushingSpiritOreRecipe(dust, ore) {
-    return  {
-        type: 'occultism:crushing',
-        ingredient: {
-            tag: `forge:ores/${ore}`
-        },
-        result: {
-            item: dust,
-            count: 2
-        },
-        crushing_time: 200
-    }
-}
-
-function crushingSpiritIngotRecipe(dust, ingot) {
-    return  {
-        type: 'occultism:crushing',
-        ingredient: {
-            tag: `forge:ingots/${ingot}`
-        },
-        result: {
-            item: dust
-        },
-        crushing_time: 200
-    }
-}
-
 onEvent('recipes', event => {
     metals.forEach(metal => {
         event.remove({type: 'immersiveengineering:hammer_crushing', input: `#forge:ores/${metal.metal}`});
@@ -91,10 +52,12 @@ onEvent('recipes', event => {
         event.blasting(metal.ingot, metal.dust);
         event.smelting(metal.ingot, `#forge:ores/${metal.metal}`);
         event.blasting(metal.ingot, `#forge:ores/${metal.metal}`);
-        event.custom(hammerCrushingRecipe(metal.dust, metal.metal));
-        event.custom(crushingSpiritOreRecipe(metal.dust, metal.metal));
-        event.custom(crushingSpiritIngotRecipe(metal.dust, metal.metal));
-        event.custom(crushingPressureChamberRecipe(Item.of(metal.dust, 4), `#forge:ores/${metal.metal}`));
+        
+        
+        event.custom(hammerCrushingRecipe(Item.of(metal.dust), Ingredient.of(`#forge:ores/${metal.metal}`)));
+        event.custom(crushingSpiritRecipe(Ingredient.of(`#forge:ores/${metal.metal}`), Item.of(metal.dust, 2)));
+        event.custom(crushingSpiritRecipe(Ingredient.of(`#forge:ingots/${metal.metal}`), Item.of(metal.dust, 1)));
+        event.custom(PressureChamberRecipe(Item.of(metal.dust, 4), Ingredient.of(`#forge:ores/${metal.metal}`)));
         if (metal.secondary === undefined) {
             event.recipes.immersiveengineering.crusher(Item.of(metal.dust, 2), `#forge:ores/${metal.metal}`);
             event.recipes.create.crushing([Item.of(metal.dust, 2), Item.of('minecraft:cobblestone').withChance(0.125)], `#forge:ores/${metal.metal}`);

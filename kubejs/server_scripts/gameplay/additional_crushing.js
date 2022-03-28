@@ -31,61 +31,36 @@ var dyes = [
     {input: 'druidcraft:chitin', output: Item.of('minecraft:blue_dye', 2), secondary: Item.of('minecraft:cyan_dye').withChance(0.25)}
 ]
 
-function crushingSpiritRecipe(input, output, amount) {
-    return  {
-        type: 'occultism:crushing',
-        ingredient: {
-            tag: input
-        },
-        result: {
-            item: output,
-            count: amount
-        },
-        crushing_time: 200 * amount
-    }
-}
-
-function hammerCrushingDustRecipe(input, output) {
-    return {
-        type: 'immersiveengineering:hammer_crushing',
-        result: {
-            item: output
-        },
-        input: {
-            tag: input
-        }
-    };
-}
-
 onEvent('recipes', event => {
     dusts.forEach(dust => {
+        dust.input = `#${dust.input}`;
         if (dust.exclude !== 'immersive') {
-            event.recipes.immersiveengineering.crusher(Item.of(dust.output, dust.amount), `#${dust.input}`);
+            event.recipes.immersiveengineering.crusher(Item.of(dust.output, dust.amount), dust.input);
         }
         if (dust.amount <= 2) {
-            event.custom(hammerCrushingDustRecipe(dust.input, dust.output));
+            event.custom(hammerCrushingRecipe(Item.of(dust.output), Ingredient.of(dust.input)));
         }
         if (dust.exclude !== 'create') {
             if (dust.amount > 1) {
-                event.recipes.create.crushing([Item.of(dust.output, dust.amount)], `#${dust.input}`);
+                event.recipes.create.crushing([Item.of(dust.output, dust.amount)], dust.input);
             }
             else {
-                event.recipes.create.crushing([Item.of(dust.output), Item.of(dust.output).withChance(0.5)], `#${dust.input}`);
-                event.recipes.create.milling([Item.of(dust.output)], `#${dust.input}`);
+                event.recipes.create.crushing([Item.of(dust.output), Item.of(dust.output).withChance(0.5)], dust.input);
+                event.recipes.create.milling([Item.of(dust.output)], dust.input);
             }
         }
         if (dust.exclude !== 'occultism') {
-            event.custom(crushingSpiritRecipe(dust.input, dust.output, dust.amount));
+            event.custom(crushingSpiritRecipe(Ingredient.of(dust.input), Item.of(dust.output, dust.amount)));
         }
         if (dust.amount === 9) {
-            event.custom(crushingPressureChamberRecipe(Item.of(dust.output, dust.amount), `#${dust.input}`, 3.0));
+            event.custom(PressureChamberRecipe(Item.of(dust.output, dust.amount), Ingredient.of(dust.input), 3.0));
         }
         else {
-            event.custom(crushingPressureChamberRecipe(Item.of(dust.output, dust.amount), `#${dust.input}`, 1.5));
+            event.custom(PressureChamberRecipe(Item.of(dust.output, dust.amount), Ingredient.of(dust.input), 1.5));
         }
     });
     dyes.forEach(dye => {
-        event.custom(crushingPressureChamberRecipe(dye.output, dye.input, 1.0));
+        event.custom(PressureChamberRecipe(dye.output, Ingredient.of(dye.input), 1.0));
         event.recipes.create.milling([dye.output, dye.secondary], dye.input);
         event.recipes.immersiveengineering.crusher(dye.output, dye.input, dye.secondary);
         event.custom({type: 'occultism:crushing', ingredient: Ingredient.of(dye.input).toJson(), result: dye.output.toResultJson(), crushing_time: 200})

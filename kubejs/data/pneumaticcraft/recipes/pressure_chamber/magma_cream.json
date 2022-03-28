@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "pressure": -0.75,
+  "results": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ]
+}

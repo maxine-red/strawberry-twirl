@@ -51,16 +51,3 @@ function get_tag_content(tag) {
         return utils.listOf(Ingredient.of(tag).stacks).toArray();
     }
 }
-
-function crushingPressureChamberRecipe(outputs, ore, pressure) {
-    if (pressure === undefined) {
-        pressure = 4.0;
-    }
-    var recipe =  {
-        type: "pneumaticcraft:pressure_chamber",
-        inputs: [Ingredient.of(ore).toJson()],
-        pressure: pressure,
-        results: [outputs.toResultJson()]
-    };
-    return recipe;
-}

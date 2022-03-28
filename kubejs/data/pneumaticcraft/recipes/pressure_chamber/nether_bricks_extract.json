@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:red_nether_bricks"
+    }
+  ],
+  "pressure": -0.75,
+  "results": [
+    {
+      "item": "minecraft:nether_brick",
+      "count": 2
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "count": 2
+    }
+  ]
+}

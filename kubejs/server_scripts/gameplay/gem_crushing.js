@@ -34,20 +34,6 @@ var gems = [
     { gem: 'bloodstone', count: 1}
 ];
 
-function starlightInfusionRecipe(ore, gemstone) {
-    return {
-        type: 'astralsorcery:infuser',
-        fluidInput: 'astralsorcery:liquid_starlight',
-        input: ore,
-        output: gemstone,
-        consumptionChance: 0.1,
-        duration: 100,
-        consumeMultipleFluids: false,
-        acceptChaliceInput: true,
-        copyNBTToOutputs: false
-    }
-}
-
 onEvent('recipes', event => {
     gems.forEach(gem => {
         let ore = `#forge:ores/${gem.gem}`;
@@ -59,7 +45,7 @@ onEvent('recipes', event => {
         else {
             event.recipes.create.crushing([Item.of(gemstone, 2 * gem.count), Item.of(gemstone, gem.count).withChance(0.25)], ore);
         }
-        event.custom(starlightInfusionRecipe(ore, Item.of(gemstone, 5 * gem.count)));
-        event.custom(crushingPressureChamberRecipe(Item.of(gemstone, 6 * gem.count), ore));
+        event.custom(starlightInfusionRecipe(Ingredient.of(ore), Item.of(gemstone, 5 * gem.count)));
+        event.custom(PressureChamberRecipe(Item.of(gemstone, 6 * gem.count), Ingredient.of(ore)));
     });
 });

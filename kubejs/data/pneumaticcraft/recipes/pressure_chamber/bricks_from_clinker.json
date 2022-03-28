@@ -1,0 +1,19 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "engineersdecor:clinker_brick_block",
+      "count": 8
+    }
+  ],
+  "pressure": -0.75,
+  "results": [
+    {
+      "item": "minecraft:brick",
+      "count": 8
+    },
+    {
+      "item": "minecraft:bricks"
+    }
+  ]
+}

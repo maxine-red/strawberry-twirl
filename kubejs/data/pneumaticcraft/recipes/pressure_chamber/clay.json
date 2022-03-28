@@ -1,0 +1,15 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:clay"
+    }
+  ],
+  "pressure": -0.75,
+  "results": [
+    {
+      "item": "minecraft:clay_ball",
+      "count": 4
+    }
+  ]
+}

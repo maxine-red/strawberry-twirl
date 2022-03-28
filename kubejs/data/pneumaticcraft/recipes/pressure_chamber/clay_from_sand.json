@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "pressure": 2.5,
+  "results": [
+    {
+      "item": "minecraft:clay",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bucket"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "pressure": -0.75,
+  "results": [
+    {
+      "item": "minecraft:gravel"
+    }
+  ]
+}
