@@ -12,11 +12,6 @@
     },
     {
       "type": "block",
-      "block": "astralsorcery:starmetal_ore",
-      "weight": 2937
-    },
-    {
-      "type": "block",
       "block": "mysticalworld:quicksilver_ore",
       "weight": 2113
     },

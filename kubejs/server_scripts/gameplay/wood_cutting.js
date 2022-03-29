@@ -81,60 +81,17 @@ var special_wood_types = [
 var sawdust = 'immersiveengineering:dust_wood';
 var bark = 'farmersdelight:tree_bark';
 
-function createFarmersDelightCuttingRecipe(ingredient, planks) {
-    return {
-        type: 'farmersdelight:cutting',
-        ingredients: [
-            {
-                item: ingredient
-            }
-        ],
-        tool: {
-        type: 'farmersdelight:tool',
-        tool: 'axe'
-    },
-    result: [
-    {
-      item: planks
-    }
-  ]
-}
-}
-
-function createFarmersDelightStrippingRecipe(log, stripped) {
-    return {
-        type: 'farmersdelight:cutting',
-        ingredients: [
-            {
-                item: log
-            }
-        ],
-        tool: {
-            type: 'farmersdelight:tool',
-            tool: 'axe'
-        },
-        "result": [
-        {
-            item: stripped
-        },
-        {
-            item: 'farmersdelight:tree_bark'
-        }
-    ],
-    sound: 'minecraft:item.axe.strip'
-}
-}
 
 onEvent('recipes', event => {
     wood_types.forEach(wood_type => {
         let planks = wood_type.type + '_planks';
         if (wood_type.door) {
             event.recipes.immersiveengineeringSawmill(planks, wood_type.type + '_door', {stripping: false, output: sawdust});
-            event.custom(createFarmersDelightCuttingRecipe(wood_type.type + '_door', planks));
+            event.custom(cuttingBoardRecipe(Item.of(planks), 'axe', Ingredient.of(wood_type.type + '_door')));
         }
         if (wood_type.trap_door) {
             event.recipes.immersiveengineeringSawmill(planks, wood_type.type + '_trapdoor', {stripping: false, output: sawdust});
-            event.custom(createFarmersDelightCuttingRecipe(wood_type.type + '_trapdoor', planks));
+            event.custom(cuttingBoardRecipe(Item.of(planks), 'axe', Ingredient.of(wood_type.type + '_trapdoor')));
         }
         if (wood_type.bookshelf) {
             let type = wood_type.type;
@@ -174,12 +131,12 @@ onEvent('recipes', event => {
                 event.recipes.immersiveengineeringSawmill(Item.of(planks, 6), base_wood, [{stripping: true, output: bark}, {stripping: false, output: sawdust}], stripped + wood_type.wood);
                 event.recipes.immersiveengineeringSawmill(Item.of(planks, 6), [stripped +  wood_type.wood, stripped +  wood_type.bark], {stripping: false, output: sawdust});
                 if (wood_type.log_attribute === undefined) {
-                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.wood, stripped + wood_type.wood));
-                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.bark, stripped + wood_type.bark));
+                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.wood), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.wood), 'minecraft:item.axe.strip'));
+                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.bark), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.bark), 'minecraft:item.axe.strip'));
                 }
                 else {
-                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.log_attribute + wood_type.wood, stripped + wood_type.wood));
-                    event.custom(createFarmersDelightStrippingRecipe(wood_type.type + wood_type.log_attribute + wood_type.bark, stripped + wood_type.bark));
+                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.log_attribute + wood_type.wood), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.log_attribute + wood_type.wood), 'minecraft:item.axe.strip'));
+                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.log_attribute + wood_type.bark), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.log_attribute + wood_type.bark), 'minecraft:item.axe.strip'));
                 }
             }
             else {

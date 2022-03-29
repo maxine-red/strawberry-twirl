@@ -233,14 +233,6 @@
     ]
   },
   {
-    "block": "astralsorcery:starmetal_ore",
-    "weight": 2937,
-    "category": [
-      "orechid_ores",
-      "miner-ores"
-    ]
-  },
-  {
     "block": "undergarden:gold_ore",
     "weight": 2647,
     "category": [

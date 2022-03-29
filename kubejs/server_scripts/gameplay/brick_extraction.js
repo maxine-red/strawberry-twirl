@@ -22,5 +22,8 @@ var bricks = ['minecraft:brick', 'minecraft:nether_brick', 'createdeco:worn_bric
 onEvent('recipes', event => {
     bricks.forEach(brick => {
         event.custom(PressureChamberRecipe(Item.of(brick, 4), Ingredient.of(`${brick}s`), -0.75));
+        if (brick !== 'minecraft:brick' && brick !== 'minecraft:nether_brick') {
+            event.custom(cuttingBoardRecipe(Item.of(brick, 4), 'pickaxe', Ingredient.of(`${brick}s`)));
+        }
     });
 });

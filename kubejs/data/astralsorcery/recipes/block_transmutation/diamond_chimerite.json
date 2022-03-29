@@ -1,0 +1,20 @@
+{
+  "type": "astralsorcery:block_transmutation",
+  "input": [
+    {
+      "block": "minecraft:diamond_block",
+      "display": {
+        "item": "minecraft:diamond_block",
+        "count": 1
+      }
+    }
+  ],
+  "output": {
+    "block": "mana-and-artifice:chimerite_block"
+  },
+  "display": {
+    "item": "mana-and-artifice:chimerite_block",
+    "count": 1
+  },
+  "starlight": 900.0
+}

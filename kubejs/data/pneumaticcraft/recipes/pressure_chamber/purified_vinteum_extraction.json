@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "mana-and-artifice:purified_vinteum_coated_iron"
+    }
+  ],
+  "pressure": -0.5,
+  "results": [
+    {
+      "item": "mana-and-artifice:purified_vinteum_dust"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ]
+}

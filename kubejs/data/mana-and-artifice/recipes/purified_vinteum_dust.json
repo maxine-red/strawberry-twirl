@@ -1,0 +1,11 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": [
+    {
+      "tag": "forge:dusts/vinteum"
+    }
+  ],
+  "result": {
+    "item": "mana-and-artifice:purified_vinteum_dust"
+  }
+}

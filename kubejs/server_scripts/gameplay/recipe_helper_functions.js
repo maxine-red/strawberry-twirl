@@ -30,20 +30,7 @@ function inputsConversion(ingredient) {
     }
 }
 
-/**
- * Create pressure chamber recipes
- */
-function PressureChamberRecipe(outputs, ingredients, pressure) {
-    if (pressure === undefined) {
-        pressure = 4.0;
-    }
-    let results;
-    if (Array.isArray(outputs)) {
-        results = outputs.map(o=>{return o.toResultJson();});
-    }
-    else {
-        results = [outputs.toResultJson()];
-    }
+function inputsFromIngredients(ingredients) {
     let inputs;
     if (Array.isArray(ingredients)) {
         inputs = ingredients.map(i=>{inputsConversion(i)});
@@ -54,11 +41,30 @@ function PressureChamberRecipe(outputs, ingredients, pressure) {
             inputs = [inputs];
         }
     }
+    return inputs;
+}
+
+function resultsFromOutputs(outputs) {
+    if (Array.isArray(outputs)) {
+        return outputs.map(o=>{return o.toResultJson();});
+    }
+    else {
+        return [outputs.toResultJson()];
+    }
+}
+
+/**
+ * Create pressure chamber recipes
+ */
+function PressureChamberRecipe(outputs, ingredients, pressure) {
+    if (pressure === undefined) {
+        pressure = 4.0;
+    }
     return {
         type: "pneumaticcraft:pressure_chamber",
-        inputs: inputs,
+        inputs: inputsFromIngredients(ingredients),
         pressure: pressure,
-        results: results
+        results: resultsFromOutputs(outputs)
     };
 }
 
@@ -97,4 +103,20 @@ function crushingSpiritRecipe(ingredient, output) {
         result: output.toResultJson(),
         crushing_time: 200 * output.count
     }
+}
+
+function cuttingBoardRecipe(outputs, tool, ingredients, sound) {
+    let recipe = {
+        type: 'farmersdelight:cutting',
+        ingredients: inputsFromIngredients(ingredients),
+        tool: {
+            type: 'farmersdelight:tool',
+            tool: tool
+        },
+        result: resultsFromOutputs(outputs)
+    }
+    if (sound !== undefined) {
+        recipe.sound = sound;
+    }
+    return recipe;
 }

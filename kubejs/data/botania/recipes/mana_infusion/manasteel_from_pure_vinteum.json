@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "mana-and-artifice:superheated_purified_vinteum_ingot"
+  },
+  "output": {
+    "item": "botania:manasteel_ingot"
+  },
+  "mana": 1500
+}

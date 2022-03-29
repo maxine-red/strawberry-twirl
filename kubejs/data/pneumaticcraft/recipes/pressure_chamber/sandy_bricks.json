@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "quark:sandy_bricks"
+    }
+  ],
+  "pressure": -0.75,
+  "results": [
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:bricks"
+    }
+  ]
+}

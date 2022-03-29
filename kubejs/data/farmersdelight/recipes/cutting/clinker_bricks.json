@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "engineersdecor:clinker_brick_block"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool",
+    "tool": "pickaxe"
+  },
+  "result": [
+    {
+      "item": "minecraft:brick",
+      "count": 1
+    },
+    {
+      "item": "minecraft:brick",
+      "count": 1,
+      "chance": 0.5
+    }
+  ]
+}

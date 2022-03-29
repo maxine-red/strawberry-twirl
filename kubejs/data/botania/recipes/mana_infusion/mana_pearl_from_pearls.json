@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "tag": "forge:gems/pearl"
+  },
+  "output": {
+    "item": "botania:mana_pearl"
+  },
+  "mana": 9000
+}

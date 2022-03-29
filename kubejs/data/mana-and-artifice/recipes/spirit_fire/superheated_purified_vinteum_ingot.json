@@ -1,0 +1,11 @@
+{
+  "type": "occultism:spirit_fire",
+  "ingredient": [
+    {
+      "item": "mana-and-artifice:superheated_vinteum_ingot"
+    }
+  ],
+  "result": {
+    "item": "mana-and-artifice:superheated_purified_vinteum_ingot"
+  }
+}
