@@ -1,0 +1,18 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "item_input": {
+    "tag": "minecraft:logs_that_burn"
+  },
+  "fluid_output": {
+    "fluid": "immersiveengineering:creosote",
+    "amount": 250
+  },
+  "item_output": {
+    "item": "minecraft:charcoal"
+  },
+  "temperature": {
+    "min_temp": 703
+  },
+  "pressure": 2.5,
+  "exothermic": false
+}

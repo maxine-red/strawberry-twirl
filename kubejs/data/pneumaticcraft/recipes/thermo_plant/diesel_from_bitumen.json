@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "minecraft:water",
+    "amount": 250
+  },
+  "item_input": {
+    "tag": "forge:bitumen",
+    "count": 2
+  },
+  "fluid_output": {
+    "fluid": "pneumaticcraft:diesel",
+    "amount": 27
+  },
+  "item_output": {
+    "item": "immersivepetroleum:petcoke"
+  },
+  "temperature": {
+    "min_temp": 523
+  },
+  "pressure": 2.5,
+  "exothermic": false
+}

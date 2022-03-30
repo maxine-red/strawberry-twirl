@@ -6,12 +6,12 @@
       "amount": 1000
     },
     {
-      "tag": "forge:charcoal"
+      "item": "minecraft:coal"
     }
   ],
   "results": [
     {
-      "item": "immersivepetroleum:petcoke"
+      "item": "immersivepetroleum:bitumen"
     }
   ],
   "heatRequirement": "heated"

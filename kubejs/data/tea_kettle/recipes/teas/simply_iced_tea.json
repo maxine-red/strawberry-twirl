@@ -1,0 +1,15 @@
+{
+  "type": "tea_kettle:cup_drink",
+  "catalyst": {
+    "tag": "forge:ice_cubes"
+  },
+  "ingredients": [
+    {
+      "item": "simplytea:teabag_green"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "result": "simplytea:cup_tea_iced"
+}
