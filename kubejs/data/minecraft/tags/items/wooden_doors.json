@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nethers_exoticism:ramboutan_door",
+    "nethers_exoticism:jaboticaba_door",
+    "feywild:spring_door",
+    "feywild:autumn_door",
+    "feywild:summer_door",
+    "feywild:winter_door"
+  ]
+}

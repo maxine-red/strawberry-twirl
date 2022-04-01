@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "feywild:winter_planks_slab",
+    "feywild:autumn_planks_slab",
+    "feywild:summer_planks_slab",
+    "feywild:spring_planks_slab",
+    "nethers_exoticism:ramboutan_slab",
+    "nethers_exoticism:jaboticaba_slab"
+  ]
+}

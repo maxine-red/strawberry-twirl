@@ -22,6 +22,5 @@ var colors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pin
 onEvent('recipes', event => {
     colors.forEach(color => {
         event.custom(PressureChamberRecipe([Item.of('minecraft:string', 4), Item.of(`minecraft:${color}_dye`)], Ingredient.of(`minecraft:${color}_wool`), -0.75));
-        event.custom(PressureChamberRecipe([Item.of('minecraft:sand', 4), Item.of('minecraft:gravel', 4), Item.of(`minecraft:${color}_dye`)], Ingredient.of(`minecraft:${color}_concrete_powder`, 8), -0.75));
     });
 });

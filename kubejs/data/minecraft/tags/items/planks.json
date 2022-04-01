@@ -1,5 +1,11 @@
 {
   "replace": false,
   "values": [
-    "feywild:autumn_planks", "feywild:spring_planks", "feywild:summer_planks", "feywild:winter_planks"]
+    "feywild:autumn_planks",
+    "feywild:spring_planks",
+    "feywild:summer_planks",
+    "feywild:winter_planks",
+    "nethers_exoticism:jaboticaba_planks",
+    "nethers_exoticism:ramboutan_planks"
+  ]
 }

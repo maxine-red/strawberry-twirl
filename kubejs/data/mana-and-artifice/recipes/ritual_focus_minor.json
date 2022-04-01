@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	" N ",
+  	"NGN",
+  	" N "
+  ],
+  "key": {
+  	"N": {
+  		"tag": "forge:nuggets/silver"
+  	},
+  	"G": {
+  		"item": "botania:mana_glass_pane"
+  	}
+  },
+  "result": {
+    "item": "mana-and-artifice:ritual_focus_minor"    
+  }
+}

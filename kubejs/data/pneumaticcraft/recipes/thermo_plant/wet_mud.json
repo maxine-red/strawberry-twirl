@@ -3,14 +3,18 @@
   "fluid_input": {
     "type": "pneumaticcraft:fluid",
     "fluid": "minecraft:water",
-    "amount": 250
+    "amount": 100
+  },
+  "item_input": {
+    "item": "minecraft:dirt"
   },
   "item_output": {
-    "item": "kubejs:salt"
+    "item": "mysticalworld:wet_mud_block"
   },
   "temperature": {
-    "min_temp": 373
+    "max_temp": 313,
+    "min_temp": 273
   },
-  "pressure": 2.0,
+  "pressure": 1.0,
   "exothermic": false
 }

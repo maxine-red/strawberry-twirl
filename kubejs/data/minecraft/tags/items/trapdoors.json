@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nethers_exoticism:ramboutan_trapdoor",
+    "nethers_exoticism:jaboticaba_trapdoor",
+    "feywild:spring_trapdoor",
+    "feywild:autumn_trapdoor",
+    "feywild:summer_trapdoor",
+    "feywild:winter_trapdoor"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "feywild:autumn_stripped_log",
+    "feywild:spring_stripped_log",
+    "feywild:summer_stripped_log",
+    "feywild:winter_stripped_log",
+    "feywild:autumn_stripped_wood",
+    "feywild:spring_stripped_wood",
+    "feywild:summer_stripped_wood",
+    "feywild:winter_stripped_wood",
+    "nethers_exoticism:ramboutan_log",
+    "nethers_exoticism:ramboutan_wood"
+  ]
+}
