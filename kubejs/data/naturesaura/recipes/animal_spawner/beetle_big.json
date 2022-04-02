@@ -1,0 +1,17 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "druidcraft:rockroot"
+        },
+        {
+            "item": "druidcraft:chitin"
+        }
+    ],
+    "entity": "druidcraft:beetle",
+    "aura": 120000,
+    "time": 150
+}

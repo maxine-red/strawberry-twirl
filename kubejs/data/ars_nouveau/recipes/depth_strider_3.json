@@ -1,0 +1,46 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:depth_strider",
+  "level": 3,
+  "mana": 9000,
+  "item_1": [
+    {
+      "item": "ars_nouveau:glyph_aquatic"
+    }
+  ],
+  "item_2": [
+    {
+      "item": "ars_nouveau:glyph_aquatic"
+    }
+  ],
+  "item_3": [
+    {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  ],
+  "item_4": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "item_5": [
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "item_6": [
+    {
+      "item": "botania:dragonstone"
+    }
+  ],
+  "item_7": [
+    {
+      "item": "mana-and-artifice:major_mana_gem"
+    }
+  ],
+  "item_8": [
+    {
+      "item": "naturesaura:calling_spirit"
+    }
+  ]
+}

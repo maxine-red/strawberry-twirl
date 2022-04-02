@@ -1,0 +1,20 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "minecraft:melon_slice"
+        },
+        {
+            "item": "minecraft:melon_seeds"
+        },
+        {
+            "item": "druidcraft:chitin"
+        }
+    ],
+    "entity": "mysticalworld:beetle",
+    "aura": 120000,
+    "time": 150
+}

@@ -1,0 +1,46 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:efficiency",
+  "level": 5,
+  "mana": 8000,
+  "item_1": [
+    {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  ],
+  "item_2": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  ],
+  "item_3": [
+    {
+      "item": "minecraft:diamond_shovel"
+    }
+  ],
+  "item_4": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "item_5": [
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "item_6": [
+    {
+      "item": "botania:dragonstone"
+    }
+  ],
+  "item_7": [
+    {
+      "item": "mana-and-artifice:major_mana_gem"
+    }
+  ],
+  "item_8": [
+    {
+      "item": "naturesaura:calling_spirit"
+    }
+  ]
+}

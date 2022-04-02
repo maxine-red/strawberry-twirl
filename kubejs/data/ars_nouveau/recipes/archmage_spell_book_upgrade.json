@@ -1,0 +1,35 @@
+{
+  "type": "ars_nouveau:book_upgrade",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "tag": "astralsorcery:irradiant_stars"
+    },
+    {
+      "item": "astralsorcery:infused_glass"
+    },
+    {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    },
+    {
+      "item": "mana-and-artifice:major_mana_gem"
+    },
+    {
+      "item": "botania:life_essence"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "item": "naturesaura:calling_spirit"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:archmage_spell_book"
+  }
+}

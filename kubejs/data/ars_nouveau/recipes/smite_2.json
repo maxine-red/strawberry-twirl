@@ -1,0 +1,46 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:smite",
+  "level": 2,
+  "mana": 3500,
+  "item_1": [
+    {
+      "item": "minecraft:bone_block"
+    }
+  ],
+  "item_2": [
+    {
+      "item": "minecraft:bone_block"
+    }
+  ],
+  "item_3": [
+    {
+      "item": "minecraft:bone_block"
+    }
+  ],
+  "item_4": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "item_5": [
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "item_6": [
+    {
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "item_7": [
+    {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    }
+  ],
+  "item_8": [
+    {
+      "item": "naturesaura:tainted_gold"
+    }
+  ]
+}

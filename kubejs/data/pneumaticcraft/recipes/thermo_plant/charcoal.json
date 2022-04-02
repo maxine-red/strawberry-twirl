@@ -13,6 +13,6 @@
   "temperature": {
     "min_temp": 703
   },
-  "pressure": 2.5,
+  "pressure": -0.25,
   "exothermic": false
 }

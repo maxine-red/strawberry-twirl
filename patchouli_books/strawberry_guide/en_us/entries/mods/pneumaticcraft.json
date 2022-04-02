@@ -51,7 +51,7 @@
       "title": "A grand combination",
       "recipe": "pneumaticcraft:vortex_tube",
       "recipe2": "pneumaticcraft:heat_frame"
-    }
+    },
     {
       "type": "patchouli:text",
       "text": "Tip: If you try to make yeast culture in-world, make sure the source block of the yeast gets a block update.$(br)Otherwise it won't spread to adjacent water blocks."

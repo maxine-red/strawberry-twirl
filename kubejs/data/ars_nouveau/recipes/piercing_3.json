@@ -1,0 +1,46 @@
+{
+  "type": "ars_nouveau:enchantment",
+  "enchantment": "minecraft:piercing",
+  "level": 3,
+  "mana": 7500,
+  "item_1": [
+    {
+      "item": "ars_nouveau:glyph_pierce"
+    }
+  ],
+  "item_2": [
+    {
+      "item": "ars_nouveau:glyph_pierce"
+    }
+  ],
+  "item_3": [
+    {
+      "item": "ars_nouveau:glyph_pierce"
+    }
+  ],
+  "item_4": [
+    {
+      "tag": "forge:storage_blocks/mana"
+    }
+  ],
+  "item_5": [
+    {
+      "tag": "forge:storage_blocks/lapis"
+    }
+  ],
+  "item_6": [
+    {
+      "item": "botania:mana_diamond"
+    }
+  ],
+  "item_7": [
+    {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    }
+  ],
+  "item_8": [
+    {
+      "item": "naturesaura:tainted_gold"
+    }
+  ]
+}

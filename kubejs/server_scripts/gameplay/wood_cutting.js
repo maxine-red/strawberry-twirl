@@ -135,8 +135,8 @@ onEvent('recipes', event => {
                     event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.bark), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.bark), 'minecraft:item.axe.strip'));
                 }
                 else {
-                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.log_attribute + wood_type.wood), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.log_attribute + wood_type.wood), 'minecraft:item.axe.strip'));
-                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.log_attribute + wood_type.bark), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.log_attribute + wood_type.bark), 'minecraft:item.axe.strip'));
+                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.wood), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.log_attribute + wood_type.wood), 'minecraft:item.axe.strip'));
+                    event.custom(cuttingBoardRecipe([Item.of(stripped + wood_type.bark), Item.of(bark)], 'axe', Ingredient.of(wood_type.type + wood_type.log_attribute + wood_type.bark), 'minecraft:item.axe.strip'));
                 }
             }
             else {

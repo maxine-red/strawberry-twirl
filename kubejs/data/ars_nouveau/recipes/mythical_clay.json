@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:marvelous_clay"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "botania:mana_diamond"
+    },
+    {
+      "item": "mana-and-artifice:greater_mote_fire"
+    },
+    {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:mythical_clay"
+  }
+}

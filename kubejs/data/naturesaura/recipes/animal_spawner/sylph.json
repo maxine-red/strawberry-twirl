@@ -1,0 +1,20 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "tag": "minecraft:saplings"
+        },
+        {
+            "tag": "minecraft:saplings"
+        },
+        {
+            "item": "ars_nouveau:mana_gem"
+        }
+    ],
+    "entity": "ars_nouveau:sylph",
+    "aura": 120000,
+    "time": 150
+}

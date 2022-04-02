@@ -1,0 +1,17 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "minecraft:gold_block"
+        },
+        {
+            "item": "ars_nouveau:mana_gem"
+        }
+    ],
+    "entity": "ars_nouveau:carbuncle",
+    "aura": 120000,
+    "time": 150
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:magic_clay"
+    },
+    {
+      "tag": "forge:dusts/gold"
+    },
+    {
+      "tag": "forge:gems/mana"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "astralsorcery:stardust"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:marvelous_clay"
+  }
+}

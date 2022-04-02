@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "naturesaura:infused_iron_shovel"
+    },
+    {
+      "item": "naturesaura:infused_iron_axe"
+    },
+    {
+      "item": "naturesaura:infused_iron_hoe"
+    },
+    {
+      "item": "naturesaura:infused_iron_pickaxe"
+    },
+    {
+      "item": "naturesaura:infused_iron_sword"
+    },
+    {
+      "item": "mana-and-artifice:manaweaver_wand"
+    },
+    {
+      "item": "ars_nouveau:mana_gem_block"
+    },
+    {
+      "item": "botania:manasteel_shears"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:novice_spell_book"
+  }
+}

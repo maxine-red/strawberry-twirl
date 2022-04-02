@@ -1,0 +1,17 @@
+{
+    "type": "naturesaura:animal_spawner",
+    "ingredients": [
+        {
+            "item": "naturesaura:birth_spirit"
+        },
+        {
+            "item": "minecraft:bread"
+        },
+        {
+            "item": "minecraft:bone"
+        }
+    ],
+    "entity": "quark:shiba",
+    "aura": 120000,
+    "time": 150
+}

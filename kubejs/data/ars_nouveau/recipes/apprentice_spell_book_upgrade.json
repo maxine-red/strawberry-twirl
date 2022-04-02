@@ -1,0 +1,47 @@
+{
+  "type": "ars_nouveau:book_upgrade",
+  "pattern":
+  [
+    "   ",
+    " y ",
+    "   "
+  ],
+  "key": {
+    "y": {
+      "item": "ars_nouveau:spell_book"
+    }
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:novice_spell_book"
+    },
+    {
+      "item": "botania:terrasteel_ingot"
+    },
+    {
+      "item": "botania:dragonstone"
+    },
+    {
+      "item": "naturesaura:infused_iron"
+    },
+    {
+      "item": "naturesaura:tainted_gold"
+    },
+    {
+      "item": "mana-and-artifice:mote_arcane"
+    },
+    {
+      "item": "mana-and-artifice:ritual_focus_greater"
+    },
+    {
+      "item": "astralsorcery:wand"
+    },
+    {
+      "item": "astralsorcery:stardust"
+    }
+  ],
+  "result":
+  {
+    "item": "ars_nouveau:apprentice_spell_book"
+  }
+}

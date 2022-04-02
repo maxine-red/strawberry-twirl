@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "tag": "forge:gems/mana"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "mana-and-artifice:vinteum_dust"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:magic_clay"
+  }
+}
