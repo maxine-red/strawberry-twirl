@@ -1,15 +1,15 @@
 {
     "type": "naturesaura:altar",
     "input": {
-        "tag": "forge:ingots/platinum"
+        "tag": "forge:storage_blocks/platinum"
     },
     "output": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:iron_block"
     },
     "aura_type": "naturesaura:overworld",
     "catalyst": {
         "item": "naturesaura:conversion_catalyst"
     },
-    "aura": 17000,
-    "time": 40
+    "aura": 150000,
+    "time": 700
 }

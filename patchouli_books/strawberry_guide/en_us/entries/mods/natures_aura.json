@@ -1,7 +1,7 @@
 {
   "name": "Nature's Aura",
   "icon": "patchouli:guide_book{'patchouli:book':'naturesaura:book'}",
-  "turnin": "naturesauda:get_book",
+  "turnin": "naturesaura:get_book",
   "category": "patchouli:mods",
   "pages": [
     {

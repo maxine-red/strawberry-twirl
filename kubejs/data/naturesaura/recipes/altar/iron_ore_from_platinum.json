@@ -6,10 +6,10 @@
     "output": {
         "item": "minecraft:iron_ore"
     },
-    "aura_type": "naturesaura:nether",
+    "aura_type": "naturesaura:overworld",
     "catalyst": {
         "item": "naturesaura:conversion_catalyst"
     },
-    "aura": 400,
+    "aura": 24000,
     "time": 40
 }

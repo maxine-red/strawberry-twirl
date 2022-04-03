@@ -1,0 +1,12 @@
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "botania:terrasteel_ingot"
+    },
+    "output": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "aura_type": "naturesaura:nether",
+    "aura": 16000,
+    "time": 80
+}

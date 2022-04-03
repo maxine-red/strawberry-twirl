@@ -1,7 +1,7 @@
 {
   "name": "Strawberry Guide Book",
   "subtitle": "A guide to Strawberry Minecraft",
-  "landing_text": "Welcome to Strawberry Twirl, a vanilla like mod pack, made by Maxine Red.$(br2)This book will explain a few major changes.$(br2)beware that some recipes are changed, others are added or removed$(br)Experiment or look into JEI, to see alternative ways of making things.",
+  "landing_text": "Welcome to Strawberry Twirl, a vanilla like mod pack, made by Maxine Red.$(br2)This book will explain a few major changes.",
   "model": "patchouli:book_purple",
   "book_texture": "patchouli:textures/gui/book_purple.png",
   "index_icon": "neapolitan:strawberries",

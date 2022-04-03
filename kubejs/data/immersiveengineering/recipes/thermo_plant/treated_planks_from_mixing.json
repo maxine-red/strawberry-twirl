@@ -11,5 +11,6 @@
   "item_output": {
     "item": "immersiveengineering:treated_wood_horizontal"
   },
+  "pressure": 2.0,
   "exothermic": false
 }

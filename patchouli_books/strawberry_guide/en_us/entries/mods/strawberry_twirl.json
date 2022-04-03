@@ -7,6 +7,10 @@
       "type": "patchouli:crafting",
       "recipe": "strawberrytwirl:guide_book",
       "title": "Lost your guide book?"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Beware that some recipes are changed, others are added or removed.$(br2)Experiment or look into JEI, to see alternative ways of making things."
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
     "type": "naturesaura:altar",
     "input": {
-        "tag": "forge:ingots/platinum"
+        "item": "minecraft:cobblestone"
     },
     "output": {
-        "item": "minecraft:iron_ingot"
+        "item": "minecraft:netherrack"
     },
-    "aura_type": "naturesaura:overworld",
+    "aura_type": "naturesaura:nether",
     "catalyst": {
         "item": "naturesaura:conversion_catalyst"
     },
-    "aura": 17000,
+    "aura": 2300,
     "time": 40
 }
