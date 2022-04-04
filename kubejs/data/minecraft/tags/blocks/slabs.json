@@ -42,6 +42,12 @@
     "create:polished_dark_scoria_slab",
     "create:dark_scoria_bricks_slab",
     "create:fancy_dark_scoria_bricks_slab",
-    "create:paved_dark_scoria_slab"
+    "create:paved_dark_scoria_slab",
+    "feywild:winter_planks_slab",
+    "feywild:autumn_planks_slab",
+    "feywild:summer_planks_slab",
+    "feywild:spring_planks_slab",
+    "nethers_exoticism:ramboutan_slab",
+    "nethers_exoticism:jaboticaba_slab"
   ]
 }

@@ -1,15 +1,15 @@
 {
     "type": "naturesaura:altar",
     "input": {
-        "tag": "forge:sand"
+        "item": "mana-and-artifice:vinteum_dust"
     },
     "output": {
-        "item": "minecraft:clay"
+        "item": "immersiveengineering:dust_saltpeter"
     },
     "aura_type": "naturesaura:overworld",
     "catalyst": {
         "item": "naturesaura:conversion_catalyst"
     },
-    "aura": 1200,
-    "time": 20
+    "aura": 600,
+    "time": 25
 }

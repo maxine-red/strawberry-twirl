@@ -25,7 +25,9 @@ var dusts = [
     {input: 'forge:netherrack', output: 'create:cinder_flour', amount: 1, exclude: 'create'},
     {input: 'forge:gems/ender', output: 'betterendforge:ender_dust', amount: 1},
     {input: 'forge:ender_pearls', output: 'betterendforge:ender_dust', amount: 1},
-    {input: 'forge:gems/moon_crystal', output: 'the_afterlight:crushed_moon_crystal_dust', amount: 6}
+    {input: 'forge:ender_pearls', output: 'betterendforge:ender_dust', amount: 1},
+    {input: 'forge:gems/moon_crystal', output: 'the_afterlight:crushed_moon_crystal_dust', amount: 6},
+    {input: 'forge:blackstone', output: 'crockpot:blackstone_dust', amount: 1}
 ];
 var dyes = [
     {input: 'druidcraft:chitin', output: Item.of('minecraft:blue_dye', 2), secondary: Item.of('minecraft:cyan_dye').withChance(0.25)}

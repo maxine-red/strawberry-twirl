@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "feywild:winter_planks_stairs",
+    "feywild:autumn_planks_stairs",
+    "feywild:summer_planks_stairs",
+    "feywild:spring_planks_stairs",
+    "nethers_exoticism:ramboutan_stairs",
+    "nethers_exoticism:jaboticaba_stairs"
+  ]
+}

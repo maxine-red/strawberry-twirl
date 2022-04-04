@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "fluid_input": {
+    "type": "pneumaticcraft:fluid",
+    "tag": "forge:creosote",
+    "amount": 9000
+  },
+  "item_input": {
+    "item": "minecraft:coal_block"
+  },
+  "item_output": {
+    "item": "immersivepetroleum:bitumen",
+    "count": 9
+  },
+  "temperature": {
+    "min_temp": 673,
+    "max_temp": 773
+  },
+  "pressure": 4.0,
+  "exothermic": false
+}

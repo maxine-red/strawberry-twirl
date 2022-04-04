@@ -57,7 +57,7 @@ onEvent('recipes', event => {
         event.custom(hammerCrushingRecipe(Item.of(metal.dust), Ingredient.of(`#forge:ores/${metal.metal}`)));
         event.custom(crushingSpiritRecipe(Ingredient.of(`#forge:ores/${metal.metal}`), Item.of(metal.dust, 2)));
         event.custom(crushingSpiritRecipe(Ingredient.of(`#forge:ingots/${metal.metal}`), Item.of(metal.dust, 1)));
-        event.custom(PressureChamberRecipe(Item.of(metal.dust, 4), Ingredient.of(`#forge:ores/${metal.metal}`)));
+        event.custom(PressureChamberRecipe(Item.of(metal.dust, 3), Ingredient.of(`#forge:ores/${metal.metal}`)));
         if (metal.secondary === undefined) {
             event.recipes.immersiveengineering.crusher(Item.of(metal.dust, 2), `#forge:ores/${metal.metal}`);
             event.recipes.create.crushing([Item.of(metal.dust, 2), Item.of('minecraft:cobblestone').withChance(0.125)], `#forge:ores/${metal.metal}`);

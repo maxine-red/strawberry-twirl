@@ -5,7 +5,7 @@
   },
   "fluid_output": {
     "fluid": "immersiveengineering:creosote",
-    "amount": 500
+    "amount": 200
   },
   "item_output": {
     "item": "immersiveengineering:coal_coke"

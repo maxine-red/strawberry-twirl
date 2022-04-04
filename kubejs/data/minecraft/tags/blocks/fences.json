@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "feywild:winter_planks_fence",
+    "feywild:autumn_planks_fence",
+    "feywild:summer_planks_fence",
+    "feywild:spring_planks_fence",
+    "nethers_exoticism:ramboutan_fence",
+    "nethers_exoticism:jaboticaba_fence"
+  ]
+}
