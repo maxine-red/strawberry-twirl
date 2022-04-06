@@ -2,7 +2,7 @@
   "type": "pneumaticcraft:thermo_plant",
   "fluid_input": {
     "type": "pneumaticcraft:fluid",
-    "tag": "minecraft:water",
+    "fluid": "minecraft:water",
     "amount": 250
   },
   "item_input": {

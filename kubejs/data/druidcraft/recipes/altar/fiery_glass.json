@@ -1,7 +1,7 @@
 {
     "type": "naturesaura:altar",
     "input": {
-        "tag": "forge:glass"
+        "tag": "forge:glass_panes/orange"
     },
     "output": {
         "item": "druidcraft:fiery_glass"
