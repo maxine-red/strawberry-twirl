@@ -1,0 +1,30 @@
+{
+  "name": "Sapience",
+  "icon": "tconstruct:piglin_head",
+  "category": "patchouli:mods",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Piglins are smarter, in this pack!$(br2)Sapience adds a few differences to piglin behavior.$(br)For one, there is a reputation system.$(br2)If you barter or do something for piglins, they like you more and let you mine gold or grab stuff from chests."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Very high reputation, can even make them fight with your, or allow you to walk among them, without gold armor.$(br2)On the other hoof, if you hurt them or do other things, they don't like, your reputation decreases.$(br)Which can even lead to them attacking you, while wearing gold armor.$(br)At least they won't barter with you, if they hate you. (But this takes some doing)"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:gold_nugget",
+      "text": "Bartering is also different. Piglins accept gold nuggets too.$(br)This will increase your chance for common loot, but also reduces stack size, of what you get, by half."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:gold_ingot",
+      "text": "Bartering with gold ingots is unchanged. Loot and quantities are the same as in vanilla. But piglins craft armor from ingots, they receive, and put it on.$(br)They also share crafted armor with others."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:gold_block",
+      "text": "Gold blocks drastically increase the chance for rare loot and double the stack size you get. They are also broken down to ingot and piglins make armor from them."
+    }
+  ]
+}
