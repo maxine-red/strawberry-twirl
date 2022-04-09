@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:nuggets/brass"
+    }
+  },
+  "result": {
+    "item": "createdeco:brass_coin",
+    "count": 2
+  }
+}

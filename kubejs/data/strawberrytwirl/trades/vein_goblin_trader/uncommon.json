@@ -8,8 +8,36 @@
         "count": 2
       },
       "payment_item": {
-        "item": "mysticalworld:copper_ingot",
-        "count": 3
+        "item": "createdeco:copper_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "nethers_exoticism:moloch_in_a_bucket",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "nethers_delight:strider_slice",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 1
       },
       "price_multiplier": 0.0,
       "max_trades": 24,

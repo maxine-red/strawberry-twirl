@@ -1,0 +1,61 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:wheat_seeds",
+        "count": 16
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "createdeco:copper_coin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:sunflower",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 128,
+      "experience": 15
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "mysticalworld:silkworm_egg",
+        "count": 8
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 4,
+      "experience": 0
+    }
+  ]
+}

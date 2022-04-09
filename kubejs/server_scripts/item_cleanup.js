@@ -99,9 +99,9 @@ onEvent('recipes', event => {
 	quark_glass_shards.forEach(color => {
 		let output = "minecraft:" + color + "_stained_glass";
 		let input = "quark:" + color + "_shard";
-		event.recipes.createMixing(output, [input, input, input, input]).heated();
-		event.recipes.createMilling("4x " + input, output);
-		event.recipes.createMixing("quark:" + color + "_stained_planks", ["#minecraft:planks", "#forge:dyes/" + color, Fluid.of("astralsorcery:liquid_starlight", 50)]);
+		event.recipes.create.mixing(output, [input, input, input, input]).heated();
+		event.recipes.create.milling(Item.of(input, 4), output);
+		event.recipes.create.mixing("quark:" + color + "_stained_planks", ["#minecraft:planks", "#forge:dyes/" + color, Fluid.of("astralsorcery:liquid_starlight", 50)]);
 		event.remove({id: "quark:tweaks/crafting/" + color + "_glass"});
 		event.remove({id: "quark:building/crafting/" + color + "_stained_planks"});
 	});

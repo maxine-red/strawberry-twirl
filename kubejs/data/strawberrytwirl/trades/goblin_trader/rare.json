@@ -33,6 +33,440 @@
       "price_multiplier": 0.0,
       "max_trades": 3,
       "experience": 90
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:sweet_berries",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:beetroot_seeds",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:melon_seeds",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:pumpkin_seeds",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "create:sweet_roll",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:scute",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "mysticalworld:lustrous_pearl",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:turquoise_lunar_moth_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:white_lunar_moth_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:lime_lunar_moth_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:yellow_lunar_moth_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:orange_lunar_moth_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:pink_lunar_moth_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:porkchop",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:chicken",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:rabbit",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:mutton",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "autumnity:turkey",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "environmental:duck",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "environmental:venison",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "untamedwilds:food_bear_raw",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "mysticalworld:venison",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:beef",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:crab_leg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "druidcraft:purple_soulfire",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "wyrmroost:raw_lowtier_meat",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "upgrade_aquatic:perch",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:tropical_fish",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "upgrade_aquatic:pike",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "environmental:koi",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "upgrade_aquatic:lionfish",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 60
     }
   ]
 }

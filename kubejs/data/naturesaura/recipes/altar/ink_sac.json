@@ -1,0 +1,15 @@
+{
+    "type": "naturesaura:altar",
+    "input": {
+        "item": "minecraft:black_dye"
+    },
+    "output": {
+        "item": "minecraft:ink_sac"
+    },
+    "aura_type": "naturesaura:overworld",
+    "catalyst": {
+        "item": "naturesaura:conversion_catalyst"
+    },
+    "aura": 300,
+    "time": 30
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:nuggets/netherite"
+    }
+  },
+  "result": {
+    "item": "createdeco:netherite_coin",
+    "count": 2
+  }
+}

@@ -28,6 +28,20 @@
       "price_multiplier": 0.0,
       "max_trades": 24,
       "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "nethers_delight:hoglin_loin",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
     }
   ]
 }

@@ -1,14 +1,220 @@
 {
-  "replace": false,
+  "replace": true,
   "trades": [
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "minecraft:iron_ingot",
+        "item": "quark:trowel",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:iron_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 3,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:ink_sac",
+        "count": 4
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:honeycomb",
         "count": 2
       },
       "payment_item": {
-        "item": "create:zinc_ingot",
+        "item": "createdeco:copper_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:potato",
+        "count": 4
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:carrot",
+        "count": 4
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "create:honeyed_apple",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:gunpowder",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:emerald",
+        "count": 6
+      },
+      "payment_item": {
+        "item": "minecraft:turtle_egg",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "experience": 200
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:emerald",
+        "count": 8
+      },
+      "payment_item": {
+        "item": "minecraft:pufferfish_bucket",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 4,
+      "experience": 200
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:sponge",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:emerald",
+        "count": 8
+      },
+      "price_multiplier": 0.0,
+      "experience": 50
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:chipped_anvil",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:damaged_anvil",
+        "count": 1
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
+      "experience": 50
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:anvil",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:chipped_anvil",
+        "count": 1
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:iron_ingot",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
+      "experience": 50
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:terracotta",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:clay",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:book",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "minecraft:leather",
+        "count": 1
+      },
+      "secondary_payment_item": {
+        "item": "minecraft:paper",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:bacon",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
         "count": 3
       },
       "price_multiplier": 0.0,
@@ -18,16 +224,268 @@
     {
       "type": "goblintraders:basic",
       "offer_item": {
-        "item": "quark:trowel",
-        "count": 1
+        "item": "farmersdelight:mutton_chops",
+        "count": 2
       },
       "payment_item": {
-        "item": "minecraft:iron_ingot",
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "abnormals_delight:duck_fillet",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "abnormals_delight:venison_shanks",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "autumnity:turkey_piece",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:minced_beef",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:chicken_cuts",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:cod_slice",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
         "count": 1
       },
       "price_multiplier": 0.0,
-      "max_trades": 3,
+      "max_trades": 24,
       "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "farmersdelight:salmon_slice",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "abnormals_delight:perch_slice",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "abnormals_delight:pike_slice",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "autumnity:turkey_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "environmental:duck_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:brass_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 16,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "createdeco:copper_coin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:wheat",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "createdeco:brass_coin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:pumpkin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "createdeco:brass_coin",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:melon",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "quark:tallow",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "eidolon:tallow",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "createdeco:copper_coinstack",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:salmon",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:cod",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:gold_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 20
     }
   ]
 }

@@ -63,15 +63,85 @@
       "type": "goblintraders:basic",
       "offer_item": {
         "item": "minecraft:rabbit_foot",
-        "count": 1
+        "count": 2
       },
       "payment_item": {
-        "item": "minecraft:emerald",
-        "count": 16
+        "item": "createdeco:netherite_coin",
+        "count": 1
       },
       "price_multiplier": 0.0,
       "max_trades": 3,
       "experience": 20
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "artifacts:bunny_hoppers",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "artifacts:running_shoes",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 250
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "artifacts:running_shoes",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "artifacts:kitty_slippers",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 250
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "artifacts:kitty_slippers",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "artifacts:bunny_hoppers",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 250
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "artifacts:cloud_in_a_bottle",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:netherite_coinstack",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 250
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "artifacts:mimic_spawn_egg",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:netherite_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "experience": 250
     }
   ]
 }

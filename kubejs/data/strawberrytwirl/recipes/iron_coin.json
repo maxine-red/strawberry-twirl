@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "createdeco:iron_coin",
+    "count": 2
+  }
+}

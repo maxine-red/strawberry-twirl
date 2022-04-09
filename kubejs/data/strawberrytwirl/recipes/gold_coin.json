@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "c c",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "result": {
+    "item": "createdeco:gold_coin",
+    "count": 2
+  }
+}
