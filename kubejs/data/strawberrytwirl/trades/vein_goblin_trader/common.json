@@ -1,0 +1,55 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:shroomlight",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "createdeco:zinc_coinstack",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:warped_roots",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:grass",
+        "count": 2
+      },
+      "secondary_payment_item": {
+        "item": "createdeco:copper_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    },
+    {
+      "type": "goblintraders:basic",
+      "offer_item": {
+        "item": "minecraft:crimson_roots",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "minecraft:grass",
+        "count": 2
+      },
+      "secondary_payment_item": {
+        "item": "createdeco:copper_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "experience": 0
+    }
+  ]
+}
