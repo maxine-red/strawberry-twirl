@@ -1,0 +1,30 @@
+{
+  "name": "Better Fishing",
+  "icon": "minecraft:fishing_rod",
+  "category": "patchouli:utils",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Fishing got a bit better, as you can craft enchanted fishing rods, with special ingredients!"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod_with_lure",
+      "recipe2": "minecraft:fishing_rod_with_lure_and_unbreaking"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod_with_lure_and_luck_of_the_sea",
+      "recipe2": "minecraft:fishing_rod_with_lure_and_unbreaking_and_luck_of_the_sea"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod_with_unbreaking",
+      "recipe2": "minecraft:fishing_rod_with_unbreaking_and_luck_of_the_sea"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "minecraft:fishing_rod_with_luck_of_the_sea"
+    }
+  ]
+}

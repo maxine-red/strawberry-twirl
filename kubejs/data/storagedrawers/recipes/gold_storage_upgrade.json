@@ -5,31 +5,31 @@
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "pentacle_id": "occultism:craft_djinni",
-  "duration": 240,
+  "duration": 120,
   "ritual_dummy": {
-    "item": "kubejs:craft_stack_upgrade_tier_2"
+    "item": "kubejs:craft_gold_storage_upgrade"
   },
   "ingredients": [
     {
-      "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+      "item": "storagedrawers:iron_storage_upgrade"
     },
     {
       "tag": "forge:storage_blocks/gold"
-    },
-    {
-      "tag": "botania:runes/mana"
-    },
-    {
-      "tag": "botania:runes/mana"
     },
     {
       "tag": "botania:runes/greed"
     },
     {
       "tag": "botania:runes/gluttony"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "tag": "botania:runes/mana"
     }
   ],
   "result": {
-    "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    "item": "storagedrawers:gold_storage_upgrade"
   }
 }

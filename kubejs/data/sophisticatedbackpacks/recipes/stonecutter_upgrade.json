@@ -5,31 +5,28 @@
     "item": "occultism:book_of_binding_bound_djinni"
   },
   "pentacle_id": "occultism:craft_djinni",
-  "duration": 240,
+  "duration": 120,
   "ritual_dummy": {
-    "item": "kubejs:craft_stack_upgrade_tier_2"
+    "item": "kubejs:craft_stonecutter_upgrade"
   },
   "ingredients": [
     {
-      "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+      "item": "sophisticatedbackpacks:upgrade_base"
     },
     {
-      "tag": "forge:storage_blocks/gold"
+      "item": "minecraft:stonecutter"
+    },
+    {
+      "tag": "botania:runes/pride"
     },
     {
       "tag": "botania:runes/mana"
     },
     {
-      "tag": "botania:runes/mana"
-    },
-    {
-      "tag": "botania:runes/greed"
-    },
-    {
-      "tag": "botania:runes/gluttony"
+      "item": "occultism:spirit_attuned_gem"
     }
   ],
   "result": {
-    "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    "item": "sophisticatedbackpacks:stonecutter_upgrade"
   }
 }

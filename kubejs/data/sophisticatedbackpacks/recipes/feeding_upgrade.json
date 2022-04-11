@@ -7,23 +7,23 @@
   "pentacle_id": "occultism:craft_foliot",
   "duration": 120,
   "ritual_dummy": {
-    "item": "kubejs:craft_stack_upgrade_tier_1"
+    "item": "kubejs:craft_feeding_upgrade"
   },
   "ingredients": [
     {
       "item": "sophisticatedbackpacks:upgrade_base"
     },
     {
-      "tag": "forge:storage_blocks/iron"
-    },
-    {
-      "tag": "botania:runes/greed"
+      "tag": "forge:ender_pearls"
     },
     {
       "tag": "botania:runes/gluttony"
+    },
+    {
+      "tag": "botania:runes/sloth"
     }
   ],
   "result": {
-    "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    "item": "sophisticatedbackpacks:feeding_upgrade"
   }
 }

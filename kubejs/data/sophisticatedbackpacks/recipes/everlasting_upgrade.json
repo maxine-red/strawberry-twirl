@@ -7,26 +7,26 @@
   "pentacle_id": "occultism:craft_marid",
   "duration": 240,
   "ritual_dummy": {
-    "item": "kubejs:craft_stack_upgrade_tier_4"
+    "item": "kubejs:craft_everlasting_upgrade"
   },
   "ingredients": [
     {
-      "item": "sophisticatedbackpacks:stack_upgrade_tier_3"
+      "item": "sophisticatedbackpacks:upgrade_base"
     },
     {
-      "tag": "forge:storage_blocks/netherite"
+      "tag": "forge:nether_stars"
     },
     {
-      "tag": "botania:runes/mana"
+      "tag": "forge:nether_stars"
     },
     {
-      "tag": "botania:runes/mana"
+      "tag": "botania:runes/pride"
     },
     {
-      "tag": "botania:runes/greed"
+      "item": "minecraft:end_crystal"
     },
     {
-      "tag": "botania:runes/gluttony"
+      "item": "minecraft:end_crystal"
     },
     {
       "item": "occultism:spirit_attuned_crystal"
@@ -36,6 +36,6 @@
     }
   ],
   "result": {
-    "item": "sophisticatedbackpacks:stack_upgrade_tier_4"
+    "item": "sophisticatedbackpacks:everlasting_upgrade"
   }
 }

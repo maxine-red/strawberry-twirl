@@ -5,25 +5,25 @@
     "item": "occultism:book_of_binding_bound_foliot"
   },
   "pentacle_id": "occultism:craft_foliot",
-  "duration": 120,
+  "duration": 60,
   "ritual_dummy": {
-    "item": "kubejs:craft_stack_upgrade_tier_1"
+    "item": "kubejs:craft_compacting_drawers_3"
   },
   "ingredients": [
     {
-      "item": "sophisticatedbackpacks:upgrade_base"
+      "tag": "botania:runes/wrath"
     },
     {
-      "tag": "forge:storage_blocks/iron"
+      "item": "minecraft:piston"
     },
     {
-      "tag": "botania:runes/greed"
+      "tag": "storagedrawers:drawers"
     },
     {
-      "tag": "botania:runes/gluttony"
+      "item": "occultism:spirit_attuned_gem"
     }
   ],
   "result": {
-    "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    "item": "storagedrawers:compacting_drawers_3"
   }
 }

@@ -7,14 +7,14 @@
   "pentacle_id": "occultism:craft_foliot",
   "duration": 120,
   "ritual_dummy": {
-    "item": "kubejs:craft_stack_upgrade_tier_1"
+    "item": "kubejs:craft_obsidian_storage_upgrade"
   },
   "ingredients": [
     {
-      "item": "sophisticatedbackpacks:upgrade_base"
+      "item": "storagedrawers:upgrade_template"
     },
     {
-      "tag": "forge:storage_blocks/iron"
+      "tag": "forge:obsidian"
     },
     {
       "tag": "botania:runes/greed"
@@ -24,6 +24,6 @@
     }
   ],
   "result": {
-    "item": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    "item": "storagedrawers:obsidian_storage_upgrade"
   }
 }

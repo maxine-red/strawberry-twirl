@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " #X",
+    "#LH"
+  ],
+  "key": {
+    "#": {
+      "item": "immersiveengineering:stick_treated"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "item": "kubejs:lure_of_luck"
+    },
+    "L": {
+      "item": "minecraft:tropical_fish"
+    }
+  },
+  "result": {
+    "item": "minecraft:fishing_rod",
+    "nbt": "{Damage:0, Enchantments: [{lvl:1s, id:'minecraft:lure'},{lvl:1s, id:'minecraft:unbreaking'},{lvl:1s, id:'minecraft:luck_of_the_sea'}]}"
+  }
+}

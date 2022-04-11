@@ -35,7 +35,8 @@ let items = [
 	{id: 'butter', texture: 'kubejs:item/butter', name: 'Butter'},
 	{id: 'magic_butter', texture: 'kubejs:item/butter_mystical', name: 'Magic Butter'},
 	{id: 'gelatin', texture: 'kubejs:item/gelatine', name: 'Gelatin'},
-	{id: 'attuned_salt', texture: 'kubejs:item/attuned_salt', name: 'Attuned Salt'}
+	{id: 'attuned_salt', texture: 'kubejs:item/attuned_salt', name: 'Attuned Salt'},
+	{id: 'lure_of_luck', texture: 'kubejs:item/lure_of_luck', name: 'Lure of Luck'}
 ];
 let aefoods = [
 	{id: 'jelly', texture: 'kubejs:item/jelly', hunger: 3, saturation: 0.1666667, name: 'Jelly'},
@@ -50,6 +51,38 @@ let foods = [
 	{id: 'buttered_bread', texture: 'kubejs:item/toast_buttered', hunger: 5, saturation: 0.7, name: 'Buttered Bread Slices'},
 	{id: 'magic_buttered_bread', texture: 'kubejs:item/toast_buttered_mystical', hunger: 5, saturation: 0.7, name: 'Magic Buttered Bread Slices'}
 ];
+
+let rituals = [
+    {id: 'craft_stack_upgrade_tier_4', name: 'Ritual: Craft Backpack Stack Upgrade Tier 4', tooltip: 'Stack upgrades allow your backpack to store more items in every slot.'},
+    {id: 'craft_stack_upgrade_tier_3', name: 'Ritual: Craft Backpack Stack Upgrade Tier 3', tooltip: 'Stack upgrades allow your backpack to store more items in every slot.'},
+    {id: 'craft_stack_upgrade_tier_2', name: 'Ritual: Craft Backpack Stack Upgrade Tier 2', tooltip: 'Stack upgrades allow your backpack to store more items in every slot.'},
+    {id: 'craft_stack_upgrade_tier_1', name: 'Ritual: Craft Backpack Stack Upgrade Tier 1', tooltip: 'Stack upgrades allow your backpack to store more items in every slot.'},
+    {id: 'craft_compacting_upgrade', name: 'Ritual: Craft compacting upgrade', tooltip: 'Compacts items that have a 2x2 recipe'},
+    {id: 'craft_compacting_drawers_3', name: 'Ritual:Craft compacting drawers', tooltip: 'Compacting drawers compact items into storage blocks and store them readily available in nugget, ingot and block form (where applicable)'},
+    {id: 'craft_everlasting_upgrade', name: 'Ritual: Craft Everlasting Upgrade', tooltip: 'An upgrade, that makes your backpack virtually indestructible'},
+    {id: 'craft_controller', name: 'Ritual: Craft Drawer Controller', tooltip: 'Drawer controller provide a nuified interface for all drawers, they connect to.'},
+    {id: 'craft_obsidian_storage_upgrade', name: 'Ritual: Craft Obsidian Storage Upgrade', tooltip: 'Increases storage by 2x its base value'},
+    {id: 'craft_iron_storage_upgrade', name: 'Ritual: Craft Iron Storage Upgrade', tooltip: 'Increases storage by 4x its base value'},
+    {id: 'craft_gold_storage_upgrade', name: 'Ritual: Craft Gold Storage Upgrade', tooltip: 'Increases storage by 8x its base value'},
+    {id: 'craft_diamond_storage_upgrade', name: 'Ritual: Craft Diamond Storage Upgrade', tooltip: 'Increases storage by 16x its base value'},
+    {id: 'craft_emerald_storage_upgrade', name: 'Ritual: Craft Emerald Storage Upgrade', tooltip: 'Increases storage by 32x its base value'},
+    {id: 'craft_void_upgrade', name: 'Ritual: Craft Voiding Upgrade', tooltip: 'Destroy unwanted items, instead of putting them into your backpack'},
+    {id: 'craft_restock_upgrade', name: 'Ritual: Craft Restocking Upgrade', tooltip: 'Refills the stack, you are currently using, from your backpack'},
+    {id: 'craft_refill_upgrade', name: 'Ritual: Craft Refilling Upgrade', tooltip: 'Destroy unwanted items, instead of putting them into your backpack'},
+    {id: 'craft_pickup_upgrade', name: 'Ritual: Craft Pickup Upgrade', tooltip: 'Puts items into your backpack for you'},
+    {id: 'craft_filter_upgrade', name: 'Ritual: Craft Filter Upgrade', tooltip: 'Filters what can be inside backpacks (only piping)'},
+    {id: 'craft_feeding_upgrade', name: 'Ritual: Craft Feeding Upgrade', tooltip: 'Feeds you, edible, items from your backpack'},
+    {id: 'craft_deposit_upgrade', name: 'Ritual: Craft Deposit Upgrade', tooltip: 'Deposits contents of backpack into inventory, you right click'},
+    {id: 'craft_stonecutter_upgrade', name: 'Ritual: Craft Stonecutter Upgrade', tooltip: 'Have a stone cutter in your backpack'},
+    {id: 'craft_crafting_upgrade', name: 'Ritual: Craft Crafting Upgrade', tooltip: 'Have a crafting table, inside of your backpack'},
+    {id: 'craft_advanced_pickup_upgrade', name: 'Ritual: Craft Advanced Pickup Upgrade', tooltip: 'Pickup, with more filter options'},
+    {id: 'craft_advanced_void_upgrade', name: 'Ritual: Craft Advanced Voiding Upgrade', tooltip: 'Voiding, with more filter options'},
+    {id: 'craft_advanced_restock_upgrade', name: 'Ritual: Craft Advanced Restocking Upgrade', tooltip: 'Restocking, with more filter options'},
+    {id: 'craft_advanced_filter_upgrade', name: 'Ritual: Craft Advanced Filter Upgrade', tooltip: 'Bigger filter'},
+    {id: 'craft_advanced_feeding_upgrade', name: 'Ritual: Craft Advanced Feeding Upgrade', tooltip: 'Feeding, with more filter options'},
+    {id: 'craft_advanced_deposit_upgrade', name: 'Ritual: Craft Advanced Deposit Upgrade', tooltip: 'Depositing, with more filter options'},
+    {id: 'craft_advanced_compacting_upgrade', name: 'Ritual: Craft Advanced Compacting Upgrade', tooltip: 'Compacts items that have a 2x2, or 3x3 recipe'}
+]
 events.listen('item.registry', (event) => {
 	items.forEach(item => {
         if (item.id === 'wax') {
@@ -116,4 +149,7 @@ events.listen('item.registry', (event) => {
 			}).displayName(food.name);
 		}
 	});
+    rituals.forEach(ritual => {
+        event.create(ritual.id).texture('occultism:item/pentacle').tooltip(ritual.tooltip).displayName(ritual.name);
+    });
 });

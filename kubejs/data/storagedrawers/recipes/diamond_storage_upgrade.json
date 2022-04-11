@@ -1,0 +1,38 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "pentacle_id": "occultism:craft_afrit",
+  "duration": 120,
+  "ritual_dummy": {
+    "item": "kubejs:craft_diamond_storage_upgrade"
+  },
+  "ingredients": [
+    {
+      "item": "storagedrawers:gold_storage_upgrade"
+    },
+    {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "tag": "botania:runes/gluttony"
+    },
+    {
+      "tag": "botania:runes/envy"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "result": {
+    "item": "storagedrawers:diamond_storage_upgrade"
+  }
+}

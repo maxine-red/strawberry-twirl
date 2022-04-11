@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " #X",
+    "#LH"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "item": "minecraft:iron_nugget"
+    },
+    "L": {
+      "item": "minecraft:tropical_fish"
+    }
+  },
+  "result": {
+    "item": "minecraft:fishing_rod",
+    "nbt": "{Damage:0, Enchantments: [{lvl:1s, id:'minecraft:lure'}]}"
+  }
+}

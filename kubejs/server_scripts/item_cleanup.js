@@ -68,7 +68,8 @@ var recipes = [
     'occultism:miner/ores/ore_nickel',
     'occultism:miner/ores/ore_uranium',
     'create:dough_by_mixing',
-    'create:mixing/dough_by_mixing'
+    'create:mixing/dough_by_mixing',
+    'storagedrawers:controller_slave'
 ];
 
 var create_andesite_alloy = [

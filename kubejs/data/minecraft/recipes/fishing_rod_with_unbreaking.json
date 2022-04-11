@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " #X",
+    "# H"
+  ],
+  "key": {
+    "#": {
+      "item": "immersiveengineering:stick_treated"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:fishing_rod",
+    "nbt": "{Damage:0, Enchantments: [{lvl:1s, id:'minecraft:unbreaking'}]}"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_djinni"
+  },
+  "pentacle_id": "occultism:craft_djinni",
+  "duration": 120,
+  "ritual_dummy": {
+    "item": "kubejs:craft_advanced_void_upgrade"
+  },
+  "ingredients": [
+    {
+      "item": "sophisticatedbackpacks:void_upgrade"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "botania:runes/pride"
+    },
+    {
+      "tag": "botania:runes/wrath"
+    },
+    {
+      "tag": "botania:runes/wrath"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    },
+    {
+      "item": "occultism:spirit_attuned_gem"
+    }
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_void_upgrade"
+  }
+}

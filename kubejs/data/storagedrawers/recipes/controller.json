@@ -1,0 +1,41 @@
+{
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_marid"
+  },
+  "pentacle_id": "occultism:craft_marid",
+  "duration": 240,
+  "ritual_dummy": {
+    "item": "kubejs:craft_controller"
+  },
+  "ingredients": [
+    {
+      "tag": "storagedrawers:drawers"
+    },
+    {
+      "item": "mana-and-artifice:greater_mote_ender"
+    },
+    {
+      "item": "mana-and-artifice:greater_mote_arcane"
+    },
+    {
+      "tag": "forge:gems/dragonstone"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "tag": "botania:runes/pride"
+    },
+    {
+      "tag": "botania:runes/envy"
+    },
+    {
+      "tag": "botania:runes/sloth"
+    }
+  ],
+  "result": {
+    "item": "storagedrawers:controller"
+  }
+}

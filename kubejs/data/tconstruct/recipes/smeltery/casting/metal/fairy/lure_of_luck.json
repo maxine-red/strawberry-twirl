@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "forge:nuggets/manasteel"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_fairy",
+    "amount": 16
+  },
+  "result": {
+    "item": "kubejs:lure_of_luck"
+  },
+  "cooling_time": 60
+}

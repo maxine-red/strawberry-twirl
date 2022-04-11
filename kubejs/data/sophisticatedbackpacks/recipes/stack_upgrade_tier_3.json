@@ -1,35 +1,38 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "conditions": [
-        {
-            "itemRegistryName": "stack_upgrade_tier_2",
-            "type": "sophisticatedbackpacks:item_enabled"
-        }
-    ],
-    "pattern": [
-        "UDG",
-        "DSD",
-        "MDM"
-    ],
-    "key": {
-        "D": {
-            "tag": "forge:storage_blocks/sapphire"
-        },
-        "M": {
-            "tag": "botania:runes/mana"
-        },
-        "G": {
-            "tag": "botania:runes/greed"
-        },
-        "U": {
-            "tag": "botania:runes/gluttony"
-        },
-        "S": {
-            "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
-        }
+  "type": "occultism:ritual",
+  "ritual_type": "occultism:craft",
+  "activation_item": {
+    "item": "occultism:book_of_binding_bound_afrit"
+  },
+  "pentacle_id": "occultism:craft_afrit",
+  "duration": 240,
+  "ritual_dummy": {
+    "item": "kubejs:craft_stack_upgrade_tier_3"
+  },
+  "ingredients": [
+    {
+      "item": "sophisticatedbackpacks:stack_upgrade_tier_2"
     },
-    "result": {
-        "item": "sophisticatedbackpacks:stack_upgrade_tier_3"
+    {
+      "tag": "forge:storage_blocks/sapphire"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "tag": "botania:runes/greed"
+    },
+    {
+      "tag": "botania:runes/gluttony"
+    },
+    {
+      "item": "occultism:spirit_attuned_crystal"
     }
-}
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:stack_upgrade_tier_3"
+  }
 }
