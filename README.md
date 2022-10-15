@@ -23,7 +23,7 @@ though.
 
 ### Included mods
 
-For a full list of most, please visit the [Dependencies](https://www.curseforge.com/minecraft/modpacks/strawberry-twirl/relations/dependencies) page on curseforge.
+For a full list of most, please visit the [file](https://www.curseforge.com/minecraft/modpacks/strawberry-twirl/files/4029475) page on curseforge.
 
 ### Project specific content
 
