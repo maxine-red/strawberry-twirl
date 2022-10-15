@@ -1,7 +1,6 @@
 # Strawberry Twirl - 1.0.0 Mod list
  - Abundance-1.16.5-1.0.5
  - AdvancementPlaques-1.16.5-1.4.1
- - Afterlight v2.0
  - AkashicTome-1.4-16
  - Artifacts-1.16.5-2.10.5
  - Atmospheric Recipes 1.1 - Forge 1.16.5

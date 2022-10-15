@@ -21,7 +21,7 @@
 	#Oil worldgen blacklist by biome category: add biome categories to this list if you don't want oil lake worldgen to happen there. Accepted categories are: beach, desert, extreme_hills, forest, icy, jungle, mesa, mushroom, nether, none, ocean, plains, river, savanna, swamp, taiga, the_end.  This works in conjunction with 'oil_world_gen_blacklist' - if a biome matches either, then no oil lakes will generate there.
 	oil_world_gen_category_blacklist = ["beach", "extreme_hills", "forest", "jungle", "mushroom", "nether", "plains", "river", "swamp", "the_end"]
 	#Oil worldgen blacklist by dimension ID: add dimension ID's to this list if you don't want oil lake worldgen to happen there. You can wildcard this; e.g 'modid:*' blacklists ALL dimensions of namespace 'modid'.
-	oil_world_gen_dimension_blacklist = ["feywild:market_place_dimension", "minecraft:the_end", "minecraft:the_nether", "undergarden:undergarden", "the_afterlight:the_afterlight"]
+	oil_world_gen_dimension_blacklist = ["feywild:market_place_dimension", "minecraft:the_end", "minecraft:the_nether", "undergarden:undergarden", ""]
 	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature.
 	#Range: > 0
 	min_fluid_fuel_temperature = 10000

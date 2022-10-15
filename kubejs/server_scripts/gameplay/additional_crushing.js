@@ -1,5 +1,5 @@
 /**
- * Copyright 2021 Maxine Red 
+ * Copyright 2021,2022 Maxine Red 
  * This file is part of Strawberry Twirl.
  *
  * Foobar is free software: you can redistribute it and/or modify
@@ -26,7 +26,6 @@ var dusts = [
     {input: 'forge:gems/ender', output: 'betterendforge:ender_dust', amount: 1},
     {input: 'forge:ender_pearls', output: 'betterendforge:ender_dust', amount: 1},
     {input: 'forge:ender_pearls', output: 'betterendforge:ender_dust', amount: 1},
-    {input: 'forge:gems/moon_crystal', output: 'the_afterlight:crushed_moon_crystal_dust', amount: 6},
     {input: 'forge:blackstone', output: 'crockpot:blackstone_dust', amount: 1}
 ];
 var dyes = [

@@ -1,5 +1,5 @@
 /**
- * Copyright 2021 Maxine Red 
+ * Copyright 2021,2022 Maxine Red 
  * This file is part of Strawberry Twirl.
  *
  * Foobar is free software: you can redistribute it and/or modify
@@ -61,7 +61,6 @@ var wood_types = [
     {type: 'astralsorcery:infused_wood', stairs: true, log: true, wood: ''},
     {type: 'naturesaura:ancient', stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'},
     {type: 'nethers_exoticism:ramboutan', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_wood'},
-    {type: 'the_afterlight:moonlight', trap_door: true, door: true, stairs: true, log: true, wood: '_log', stripping: false, bark: '_bark'},
     {type: 'tconstruct:greenheart', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'tconstruct:skyroot', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},
     {type: 'tconstruct:bloodshroom', trap_door: true, door: true, log: true, wood: '_log', stripping: true, bark: '_wood'},

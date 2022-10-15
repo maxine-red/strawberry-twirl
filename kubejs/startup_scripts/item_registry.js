@@ -1,5 +1,5 @@
 /**
- * Copyright 2021 Maxine Red 
+ * Copyright 2021,2022 Maxine Red 
  * This file is part of Strawberry Twirl.
  *
  * Foobar is free software: you can redistribute it and/or modify
@@ -87,6 +87,9 @@ events.listen('item.registry', (event) => {
 	items.forEach(item => {
         if (item.id === 'wax') {
             event.create(item.id).texture(item.texture).displayName(item.name).burnTime(200);
+        }
+        else if (item.id.match('jar')) {
+            event.create(item.id).texture(item.texture).displayName(item.name).containerItem('minecraft:glass_bottle');
         }
         else {
             event.create(item.id).texture(item.texture).displayName(item.name);
