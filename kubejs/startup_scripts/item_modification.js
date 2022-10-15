@@ -1,5 +1,5 @@
 /**
- * Copyright 2021 Maxine Red 
+ * Copyright 2021,2022 Maxine Red 
  * This file is part of Strawberry Twirl.
  *
  * Foobar is free software: you can redistribute it and/or modify
